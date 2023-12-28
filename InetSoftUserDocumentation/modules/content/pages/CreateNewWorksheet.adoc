@@ -1,0 +1,87 @@
+= Create a Data Worksheet
+include::ROOT:partial$buttonSnippets.adoc
+:toc:
+
+Visual Composer allows you to create a Data Worksheet by performing data transformation operations such as grouping, post-aggregate filtering, and data mashup.
+
+Follow the steps below to create a Data Worksheet:
+
+1. Open the ‘New Data Worksheet’ dialog box. Use one of the following methods:
+
+* Press the {buttonCreate}  at the top of the User Portal, and select {buttonWorksheet}.
+
+
+
+bPress the top Data button  in the Portal.
+
+
+
+Select ‘Data Worksheet’ in the left panel and press the ‘New Data Worksheet’  button in the toolbar.
+
+
+
+This displays the ‘New Data Worksheet’ dialog box.
+
+
+
+2Choose the desired option for creating your data set: ‘Upload File’, ‘Mashup Data’, or an available data source (e.g., ‘Orders’). NOTE: The ‘Cancel’ button opens a blank Data Worksheet, which is the same as selecting ‘Mashup Data’.
+
+Note: To create a new data block by manually entering data, see Enter Data.
+aTo create your Data Worksheet by uploading a file, select the 'Upload File'  option. This creates a blank Data Worksheet named ‘Untitled’ and opens the ‘Import Data File’ dialog box.
+
+
+
+See Upload Data for information about how to use the upload options.
+
+bTo create your Data Worksheet by defining a query, select a data source (e.g., ‘Orders’). This creates a blank Data Worksheet named ‘Untitled’ and opens the ‘Database Query’ dialog box.
+
+
+
+See Query Data for information about how to use the ‘Database Query’ dialog box.
+
+cTo create your Data Worksheet by mashing up data, select the ‘Mashup Data’  option. This creates a blank Data Worksheet named ‘Untitled-X’.
+
+
+
+3Proceed to add (additional) data blocks to the Data Worksheet. Drag the desired data (queries, fields, or tables) from the left panel.
+
+
+
+You can also drag a data block (or individual columns of a data block) from another Data Worksheet. In this case, the inserted data block remains linked to the original Data Worksheet in which it is defined, and updates automatically in response to changes in the source Data Worksheet. To disable this auto-update behavior, press the ‘Disable Auto Update’ button  in the toolbar of the bottom panel.
+
+
+
+You can then force an update on-demand by right-clicking the data block (or by pressing the ‘Actions’ button ) and selecting the ‘Update Mirror’ option. To restore the original auto-update behavior, press the ‘Enable Auto Update’ button .
+
+Note: Names must be unique without respect to case (e.g., "num1" is the same name as "Num1").
+4Optional: To change a column name, select the data block and double-click the column header in the bottom panel. Warning If there is a Dashboard that uses this Data Worksheet column, renaming the column will cause the Dashboard to lose its reference. To display long column names, press the ‘Wrap Column Headers’ button . Press again to hide long names.
+
+5To change the column data type (if available), press the ‘Type’ button (, , , or ) in the column header to open the ‘Column Type’ dialog box. See Enter Data for more information about the ‘Column Type’ dialog box.
+
+6To add a descriptiuon for a column, press the ‘Actions’ button  in the column header and select ‘Column Description’. See Add a Column Description for more information.
+
+7To reposition a column, simply drag the column within the bottom panel and drop it at the desired position.
+
+8To reposition multiple columns, press the ‘Reorder Table Columns’ button  in the bottom panel toolbar. This opens the ‘Reorder Columns’ dialog box. Select one or more fields and press the ‘Up’, ‘Down’, ‘Move to Top’ and ‘Move to Bottom’ buttons to adjust the order as desired. Press ‘OK’ at the bottom of the panel.
+
+
+
+9To hide a column, press the ‘Visibility’ button  in the column header, or press the ‘Actions’ button  and select ‘Hide Column’ from the menu. To show the column again, press the ‘Visibility’ button  again or press the ‘Actions’ button  and select ‘Show Column’ or ‘Show All Columns’ from the menu. (NOTE: You may need to first press the ‘Change View’ button  and select ‘Meta Data View’  in order to see the column listed.)
+
+10To hide multiple columns, press the ‘Show/Hide Columns’ button  in the bottom panel toolbar. This opens the ‘Show/Hide Columns’ dialog box, where you can choose columns that you want to hide. Type in the ‘Search’ box and press the ‘Search’ button  to list columns that fully or partially match the search string. Press ‘OK’ at the bottom of the panel after making your selection.
+
+
+
+11To search for a column, press the ‘Search Columns’ button  in the bottom panel toolbar, and type the column name or any part of the column name. This will scroll the table to a matching column. If there are multiple matches, press the arrows to cycle through the matches. Press the ‘Clear’ button  to clear the search term.
+
+
+
+12Optional: To view the query represented by the data block, right-click the data block and choose ‘Show Plan’ option. (NOTE: You can also access menu options from the ‘More’ button  in the mini-toolbar.)
+
+
+
+This displays the SQL that will be executed by the database.
+
+
+
+You can now do mashup operations on this data, as described in the following sections (Filter Data, Join Data, etc.), or you can proceed to create Dashboards or reports based on this Data Worksheet. See Visualize Your Data for information about constructing a Dashboard.
