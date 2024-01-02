@@ -1,2 +1,3 @@
 name: InetSoftUserDocumentation
-version: 13.8
+nav:
+  - modules/ROOT/nav.adoc 
