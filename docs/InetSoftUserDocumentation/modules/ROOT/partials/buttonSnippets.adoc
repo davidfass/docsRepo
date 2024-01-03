@@ -1,2 +1,5 @@
-:buttonCreate: '`Create`' button
-:buttonWorksheet: '`Data Worksheet'`
+:buttonCreate: `'Create`' button (image:creation.svg[])
+:buttonWorksheet: `'Data Worksheet`'
+:buttonDataTab: `'Data`' button (image:database.svg[])
+:buttonNewWorksheet: `'New Data Worksheet`' button (image:new-worksheet.svg[])
+:buttonUploadFile: `'Upload File`' button (image:upload.svg[])
