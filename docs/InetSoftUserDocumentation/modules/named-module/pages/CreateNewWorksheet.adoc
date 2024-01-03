@@ -1,6 +1,7 @@
 = Create a Data Worksheet
 
 include::ROOT:partial$buttonSnippets.adoc
+
 :toc:
 
 Visual Composer allows you to create a Data Worksheet by performing data transformation operations such as grouping, post-aggregate filtering, and data mashup.
