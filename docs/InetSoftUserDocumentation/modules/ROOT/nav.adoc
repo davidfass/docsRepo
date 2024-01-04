@@ -1,1 +1,1 @@
-* xref:page$CreateNewWorksheet.adoc
+* xref:page$CreateNewWorksheet.adoc[]]
