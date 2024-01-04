@@ -1,1 +1,3 @@
-* xref:page$CreateNewWorksheet.adoc[]]
+xref:page$CreateNewWorksheet.adoc[]
+xref:page$UploadData.adoc[]
+xref:page$EnterData.adoc[]
