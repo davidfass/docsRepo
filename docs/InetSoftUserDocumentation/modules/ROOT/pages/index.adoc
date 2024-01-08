@@ -1,2 +1,4 @@
 // this is a comment
-= Section
+= InetSoft User Documentation
+
+This is the index page, the site starting page I guess?  So start here?
