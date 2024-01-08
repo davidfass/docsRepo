@@ -17,7 +17,7 @@ image::newWorksheet2.gif[alt=New Data Worksheet,width=440]
 * Press the top {buttonDataTab}  in the Portal.
 +
 [role=bodyImage]
-image::uploadDriver1.gif[link=self, width=440]
+image::uploadDriver1.gif[link=self]
 +
 Select ‘Data Worksheet’ in the left panel and press the {buttonNewWorksheet} in the toolbar.
 +
