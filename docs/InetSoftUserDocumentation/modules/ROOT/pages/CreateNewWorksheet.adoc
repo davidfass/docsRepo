@@ -12,7 +12,7 @@ Follow the steps below to create a Data Worksheet:
 
 * Press the {buttonCreate}  at the top of the User Portal, and select {buttonWorksheet}.
 +
-image:../images/newWorksheet2.gif[link="../images/newWorksheet2.gif",role="popup-link"]
+image:../images/newWorksheet2.gif[role="popup-link"]
 +
 * Press the top {buttonDataTab}  in the Portal.
 +
