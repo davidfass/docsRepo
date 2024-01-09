@@ -2,7 +2,7 @@
 
 include::partial$buttonSnippets.adoc[]
 :toc:
-:docinfo:
+:docinfo: shared,private-header
 
 Visual Composer allows you to create a Data Worksheet by performing data transformation operations such as grouping, post-aggregate filtering, and data mashup.
 
