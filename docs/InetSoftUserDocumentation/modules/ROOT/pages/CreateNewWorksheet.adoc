@@ -1,4 +1,4 @@
-:docinfo: shared
+:docinfo: shared-header
 = Create a Data Worksheet
 
 include::partial$buttonSnippets.adoc[]
