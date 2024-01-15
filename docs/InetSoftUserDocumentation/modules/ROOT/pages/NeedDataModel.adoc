@@ -1,0 +1,15 @@
+= Do You Need a Data Model?
+
+A *data model* is a simplified representation of the underlying database schema. The data model reorganizes the database tables and columns to provide a simplified entity-attribute interface for users who are designing  Dashboards. For example, the sample data model called ‘Order Model’ organizes attributes into a set of five entities, ‘Customer’, ‘Order’, ‘Product’, ‘Salesperson’, and ‘Supplier’.
+
+image::entityAttribute.gif[]
+
+
+You should consider creating a data model if you have the following objectives:
+
+* Reduce the number of individual queries that need to be created and maintained
+* Provide self-service access to business users
+* Provide a simplified view of data that reduces data misrepresentation
+* Allow data to be filtered on fields that are not included in a report or Dashboard
+* Avoid the need for users to perform joins
+* For information on how to create a data model, see XXXXXXXXX.

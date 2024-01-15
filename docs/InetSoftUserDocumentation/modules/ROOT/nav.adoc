@@ -1,3 +1,5 @@
+* xref:NeedDataModel.adoc[]
 * xref:page$CreateNewWorksheet.adoc[]
 * xref:page$UploadData.adoc[]
-* xref:page$EnterData.adoc[]
+* xref:EnterData.adoc[]
+* xref:QueryData.adoc[]
