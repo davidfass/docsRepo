@@ -2,7 +2,7 @@ include::partial$buttonSnippets.adoc[]
 
 This displays the ‘New Data Worksheet’ dialog box.
 +
-image::newWorksheet3.gif[link=self, width=440]
+image::newWorksheet3.gif[width=440]
 +
 . Choose the desired option for creating your data set: ‘Upload File’, ‘Mashup Data’, or an available data source (e.g., ‘Orders’). *NOTE:* The ‘Cancel’ button opens a blank Data Worksheet, which is the same as selecting ‘Mashup Data’.
 +
@@ -12,6 +12,6 @@ image::newWorksheet3.gif[link=self, width=440]
 +
 .. To create your Data Worksheet by *uploading* a file, select the {buttonUploadFile}. This creates a blank Data Worksheet named ‘Untitled’ and opens the ‘Import Data File’ dialog box.
 +
-image::embeddedTable4.gif[link=self, width=440]
+image::embeddedTable4.gif[width=440]
 +
 See xref:UploadData.adoc[] for information about how to use the upload options.
