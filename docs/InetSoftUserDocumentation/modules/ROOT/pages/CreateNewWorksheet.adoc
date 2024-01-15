@@ -19,6 +19,7 @@ image::uploadDriver1.gif[]
 +
 Select ‘Data Worksheet’ in the left panel and press the {buttonNewWorksheet} in the toolbar.
 +
+[role=bodyImage]
 image::PortalCreateWorksheet2.gif[width=440]
 +
 include::partial$newWorksheet2.adoc[]
