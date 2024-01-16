@@ -7,3 +7,5 @@
 :buttonAutoUpdate: `'Disable Auto Update`' button (image:auto-reload.svg[])
 :buttonActions: `'Actions`' button (image:menu-horizontal.svg[])
 :buttonAutoUpdate2: `'Enable Auto Update`'  button (image:reset.svg[])
+:buttonWrapColumnHeaders: `'Wrap Column Headers`' button (image:wrap.svg[])
+:buttonColumnType: `'Type`' button (image:number-field.svg[], image:text-field.svg[], image:datetime-field.svg[], or image:boolean-field.svg[])

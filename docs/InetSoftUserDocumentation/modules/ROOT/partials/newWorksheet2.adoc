@@ -34,13 +34,13 @@ You can then force an update *on-demand* by right-clicking the data block (or by
 +
 NOTE: Names must be unique without respect to case (e.g., "num1" is the same name as "Num1").
 +
-
+include::partial$renameColumn.adoc[]
 +
-To display long column names, press the ‘Wrap Column Headers’ button . Press again to hide long names.
-XXXXXXXX
-5To change the column data type (if available), press the ‘Type’ button (, , , or ) in the column header to open the ‘Column Type’ dialog box. See Enter Data for more information about the ‘Column Type’ dialog box.
-
-6To add a descriptiuon for a column, press the ‘Actions’ button  in the column header and select ‘Column Description’. See Add a Column Description for more information.
+To display long column names, press the {buttonWrapColumnHeaders}. Press again to hide long names.
++
+. To *change the column data type* (if available), press the {buttonColumnType} in the column header to open the ‘Column Type’ dialog box. See xref:EnterData.adoc[] for more information about the ‘Column Type’ dialog box.
++
+. To *add a description for a column*, press the {buttonActions}  in the column header and select ‘Column Description’. See Add a Column Description for more information.
 
 7To reposition a column, simply drag the column within the bottom panel and drop it at the desired position.
 
