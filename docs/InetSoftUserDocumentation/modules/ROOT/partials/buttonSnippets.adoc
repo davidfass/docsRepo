@@ -3,3 +3,7 @@
 :buttonDataTab: `'Data`' button (image:database.svg[])
 :buttonNewWorksheet: `'New Data Worksheet`' button (image:new-worksheet.svg[])
 :buttonUploadFile: `'Upload File`' button (image:upload.svg[])
+:buttonMashupData: `'Mashup Data`' button (image:new-worksheet.svg[])
+:buttonAutoUpdate: `'Disable Auto Update`' button (image:auto-reload.svg[])
+:buttonActions: `'Actions`' button (image:menu-horizontal.svg[])
+:buttonAutoUpdate2: `'Enable Auto Update`'  button (image:reset.svg[])

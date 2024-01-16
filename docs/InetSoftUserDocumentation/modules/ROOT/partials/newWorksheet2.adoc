@@ -20,23 +20,24 @@ image::newWorksheet4.gif[]
 +
 See xref:QueryData.adoc[] for information about how to use the ‘Database Query’ dialog box.
 +
-.. To create your Data Worksheet by mashing up data, select the ‘Mashup Data’  option. This creates a blank Data Worksheet named ‘Untitled-X’.
+.. To create your Data Worksheet by *mashing up data*, select the {buttonMashupData}. This creates a blank Data Worksheet named ‘Untitled-X’.
++
+. Proceed to add (additional) data blocks to the Data Worksheet. Drag the desired data (queries, fields, or tables) from the left panel.
++
+image::transform1.gif[]
++
+You can also drag a data block (or individual columns of a data block) from another *Data Worksheet*. In this case, the inserted data block remains linked to the original Data Worksheet in which it is defined, and updates automatically in response to changes in the source Data Worksheet. To disable this auto-update behavior, press the {buttonAutoUpdate}  in the toolbar of the bottom panel.
++
+image::auto-update1.gif[]
++
+You can then force an update *on-demand* by right-clicking the data block (or by pressing the {buttonActions}) and selecting the ‘Update Mirror’ option. To restore the original auto-update behavior, press the {buttonAutoUpdate2}.
++
+NOTE: Names must be unique without respect to case (e.g., "num1" is the same name as "Num1").
++
 
-
-
-3Proceed to add (additional) data blocks to the Data Worksheet. Drag the desired data (queries, fields, or tables) from the left panel.
-
-
-
-You can also drag a data block (or individual columns of a data block) from another Data Worksheet. In this case, the inserted data block remains linked to the original Data Worksheet in which it is defined, and updates automatically in response to changes in the source Data Worksheet. To disable this auto-update behavior, press the ‘Disable Auto Update’ button  in the toolbar of the bottom panel.
-
-
-
-You can then force an update on-demand by right-clicking the data block (or by pressing the ‘Actions’ button ) and selecting the ‘Update Mirror’ option. To restore the original auto-update behavior, press the ‘Enable Auto Update’ button .
-
-Note: Names must be unique without respect to case (e.g., "num1" is the same name as "Num1").
-4Optional: To change a column name, select the data block and double-click the column header in the bottom panel. Warning If there is a Dashboard that uses this Data Worksheet column, renaming the column will cause the Dashboard to lose its reference. To display long column names, press the ‘Wrap Column Headers’ button . Press again to hide long names.
-
++
+To display long column names, press the ‘Wrap Column Headers’ button . Press again to hide long names.
+XXXXXXXX
 5To change the column data type (if available), press the ‘Type’ button (, , , or ) in the column header to open the ‘Column Type’ dialog box. See Enter Data for more information about the ‘Column Type’ dialog box.
 
 6To add a descriptiuon for a column, press the ‘Actions’ button  in the column header and select ‘Column Description’. See Add a Column Description for more information.
