@@ -1,4 +1,5 @@
 = Add a Column Description
+include::partial$buttonSnippets.adoc[]
 
 To add or edit a column description, follow the steps below:
 
