@@ -14,8 +14,38 @@ To add an expression column to a data block, follow the steps below:
 =====
 .Create a new data field in a data block...
 video::299108619[vimeo,640,400]
-include:
+include::partial$videoVersion.adoc[]
 =====
+. Create the data block to which you want to add an expression column. See xref:CreateNewWorksheet.adoc[]  for information on how to create a data block.
++
+ifdef::testdrive[]
+[NOTE,caption=Test Drive]
+=====
+If you are using Test Drive, instead of the step above, open your data set for editing. See Edit a Data Set XXXXXX.
+=====
+endif::[]
+
+. Click the data block to select it.  If the data block is grouped and aggregated, use the  to switch the view to either  or . (See Preview Data for more information.)
+
+In the bottom panel, press the . This opens the Formula Editor.
+
+
+In the ‘Name’ field, enter the name of the new column that the expression will create.
+At the top of the Formula Editor, select either ‘SQL’ or ‘Script’. Select ‘SQL’ (if available) to write the expression using your database’s SQL syntax. Select ‘Script’ to write the expression using JavaScript.
+From the ‘Return Data Type’ menu, select the appropriate data type for the values that the expression will return.
+Type the desired expression into the script area. To add a field into the expression, click on the field name in the ‘Fields’ listing. To reference the data contained in other cells of the data block, read more…
+
+
+
+Note that Date-type fields supply the following date parts: Year, QuarterOfYear, MonthOfYear,             DayOfMonth, and DayOfWeek. Time-type fields supply the following date parts: HourOfDay, MinuteOfHour,            SecondOfMinute. TimeInstant-type fields supply all of the previous date parts.
+
+Press ‘OK’ to close the Editor and create the new column.
+
+Save the Data Worksheet by pressing the  in the toolbar or press  on the keyboard.
+Close the Visual Composer tab in the browser and return to the Portal.
+
+
+
 
 
 ====

@@ -1,6 +1,9 @@
-* xref:PrepareYourData.adoc[]
-** xref:NeedDataModel.adoc[]
-** xref:page$CreateNewWorksheet.adoc[]
-** xref:page$UploadData.adoc[]
+.xref:PrepareYourData.adoc[]
+[%collapsible]
+====
+* xref:NeedDataModel.adoc[]
+* xref:page$CreateNewWorksheet.adoc[]
+* xref:page$UploadData.adoc[]
 * xref:EnterData.adoc[]
 * xref:QueryData.adoc[]
+====
