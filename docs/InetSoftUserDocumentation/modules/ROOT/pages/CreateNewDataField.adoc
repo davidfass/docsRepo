@@ -1,0 +1,21 @@
+= Create a New Data Field
+
+You can create a new data field with one of the following approaches.
+
+.*Create an expression column in a Data Worksheet…*
+[%collapsible]
+====
+An *expression column* is a data set column that you define using either JavaScript or SQL (for SQL data sources). The expression is evaluated for each row of the data set. Creating an expression column in a Data Worksheet allows you to reference the field in any report or Dashboard that uses the Data Worksheet. SQL expressions can often also be executed more efficiently  (for SQL data sources) than JavaScript expressions.
+
+To add an expression column to a data block, follow the steps below:
+
+.*Watch video…*
+[%collapsible]
+=====
+.Create a new data field in a data block...
+video::299108619[vimeo,640,400]
+include:
+=====
+
+
+====

@@ -40,11 +40,11 @@ To display long column names, press the {buttonWrapColumnHeaders}. Press again t
 +
 . To *change the column data type* (if available), press the {buttonColumnType} in the column header to open the ‘Column Type’ dialog box. See xref:EnterData.adoc[] for more information about the ‘Column Type’ dialog box.
 +
-. To *add a description for a column*, press the {buttonActions}  in the column header and select ‘Column Description’. See Add a Column Description for more information.
-
-7To reposition a column, simply drag the column within the bottom panel and drop it at the desired position.
-
-8To reposition multiple columns, press the ‘Reorder Table Columns’ button  in the bottom panel toolbar. This opens the ‘Reorder Columns’ dialog box. Select one or more fields and press the ‘Up’, ‘Down’, ‘Move to Top’ and ‘Move to Bottom’ buttons to adjust the order as desired. Press ‘OK’ at the bottom of the panel.
+. To *add a description for a column*, press the {buttonActions}  in the column header and select ‘Column Description’. See xref:AddColumnDescription.adoc[] for more information.
++
+. To *reposition a column*, simply drag the column within the bottom panel and drop it at the desired position.
++
+. To *reposition multiple columns*, press the ‘Reorder Table Columns’ button  in the bottom panel toolbar. This opens the ‘Reorder Columns’ dialog box. Select one or more fields and press the ‘Up’, ‘Down’, ‘Move to Top’ and ‘Move to Bottom’ buttons to adjust the order as desired. Press ‘OK’ at the bottom of the panel.
 
 
 

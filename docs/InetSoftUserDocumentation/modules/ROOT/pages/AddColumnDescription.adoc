@@ -3,6 +3,9 @@
 To add or edit a column description, follow the steps below:
 
 . Click the data block to select it. Right-click the desired column header in the bottom panel (or press the {buttonActions}), and select ‘Column Description’ in the context menu.
-
-
++
+image::AddColumnDescription.gif[]
++
 . Add or edit the desired description in the ‘Column Description’ dialog box and press ‘OK’.
++
+image::AddColumnDescription2.gif[]
