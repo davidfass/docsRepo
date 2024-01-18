@@ -1,13 +1,14 @@
-:buttonCreate: `'Create`' button (image:creation.svg[])
+:buttonCreate: `'Create`' button image:creation.svg[]
 :buttonWorksheet: `'Data Worksheet`'
-:buttonDataTab: `'Data`' button (image:database.svg[])
-:buttonNewWorksheet: `'New Data Worksheet`' button (image:new-worksheet.svg[])
-:buttonUploadFile: `'Upload File`' button (image:upload.svg[])
-:buttonMashupData: `'Mashup Data`' button (image:new-worksheet.svg[])
-:buttonAutoUpdate: `'Disable Auto Update`' button (image:auto-reload.svg[])
-:buttonActions: `'Actions`' button (image:menu-horizontal.svg[])
-:buttonAutoUpdate2: `'Enable Auto Update`'  button (image:reset.svg[])
-:buttonWrapColumnHeaders: `'Wrap Column Headers`' button (image:wrap.svg[])
+:buttonDataTab: `'Data`' button image:database.svg[]
+:buttonNewWorksheet: `'New Data Worksheet`' button image:new-worksheet.svg[]
+:buttonUploadFile: `'Upload File`' button image:upload.svg[]
+:buttonMashupData: `'Mashup Data`' button image:new-worksheet.svg[]
+:buttonAutoUpdate: `'Disable Auto Update`' button image:auto-reload.svg[]
+:buttonActions: `'Actions`' button image:menu-horizontal.svg[]
+:buttonAutoUpdate2: `'Enable Auto Update`'  button image:reset.svg[]
+:buttonWrapColumnHeaders: `'Wrap Column Headers`' button image:wrap.svg[]
 :buttonColumnType: `'Type`' button (image:number-field.svg[], image:text-field.svg[], image:datetime-field.svg[], or image:boolean-field.svg[])
-:buttonChangeView: ‘Change View’  button (image:view-summary-meta.svg[])
-:buttonLiveDataView: ‘Live Data View’ button (image:view-summary-live.svg[])
+:buttonChangeView: ‘Change View’  button image:view-summary-meta.svg[]
+:buttonLiveDataView: ‘Live Data View’ button image:view-summary-live.svg[]
+:buttonChangeDataMode: ‘Change Data Mode’ button image:data-partial.svg[]
