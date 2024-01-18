@@ -17,16 +17,12 @@ video::299108619[vimeo,640,400]
 include::partial$videoVersion.adoc[]
 =====
 
-// ifdef::si[]
-// ======
-// . Create the data block to which you want to add an expression column. See xref:CreateNewWorksheet.adoc[]  for information on how to create a data block.
-// ======
-// endif::[]
+ifdef::si[]
+. Create the data block to which you want to add an expression column. See xref:CreateNewWorksheet.adoc[]  for information on how to create a data block.
+endif::[]
 
 ifdef::testdrive[]
-=======
-Open your data set for editing. See Edit a Data Set XXXXXX (test drive).
-=======
+. Open your data set for editing. See Edit a Data Set XXXXXX (test drive).
 endif::[]
 
 . Click the data block to select it.
