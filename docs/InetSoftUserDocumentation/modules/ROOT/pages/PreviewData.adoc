@@ -1,6 +1,14 @@
 = Preview Data
 include::partial$buttonSnippets.adoc[]
 
+== Sec 1
+blah
+
+== Sec 2
+blah
+
+
+
 .*View a sample of the data contained in a data block...*
 [%collapsible]
 ====
