@@ -1,0 +1,15 @@
+= Preview Data
+include::partial$buttonSnippets.adoc[]
+
+.*View a sample of the data contained in a data block...*
+[%collapsible]
+====
+To preview the data that will be returned by a data block, follow the steps below:
+
+ifdef::[testdrive]
+. Open your data set for editing. See Editing a Data Set. XXXX
+endif[]
+. Click on the data block to select it.
+. In the bottom panel, press the , and select . This displays a limited preview of the data in the
+
+====
