@@ -17,7 +17,7 @@ video::299108619[vimeo,640,400]
 include::partial$videoVersion.adoc[]
 =====
 
-ifndef::testdrive[]
+ifdef::si[]
 =====
 . Create the data block to which you want to add an expression column. See xref:CreateNewWorksheet.adoc[]  for information on how to create a data block.
 =====
