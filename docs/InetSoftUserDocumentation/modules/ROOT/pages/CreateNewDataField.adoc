@@ -16,16 +16,22 @@ To add an expression column to a data block, follow the steps below:
 video::299108619[vimeo,640,400]
 include::partial$videoVersion.adoc[]
 =====
-. Create the data block to which you want to add an expression column. See xref:CreateNewWorksheet.adoc[]  for information on how to create a data block.
-+
-ifdef::testdrive[]
-[NOTE,caption=Test Drive]
+
+ifndef::testdrive[]
 =====
-If you are using Test Drive, instead of the step above, open your data set for editing. See Edit a Data Set XXXXXX.
+. Create the data block to which you want to add an expression column. See xref:CreateNewWorksheet.adoc[]  for information on how to create a data block.
 =====
 endif::[]
-
-. Click the data block to select it.  If the data block is grouped and aggregated, use the  to switch the view to either  or . (See Preview Data for more information.)
++
+ifdef::testdrive[]
+=====
+Open your data set for editing. See Edit a Data Set XXXXXX (test drive).
+=====
+endif::[]
++
+. Click the data block to select it.
++
+NOTE: If the data block is grouped and aggregated, use the  to switch the view to either  or . (See Preview Data for more information.)
 
 In the bottom panel, press the . This opens the Formula Editor.
 
