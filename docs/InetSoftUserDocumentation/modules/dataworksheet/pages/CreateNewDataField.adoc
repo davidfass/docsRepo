@@ -2,9 +2,8 @@
 
 You can create a new data field with one of the following approaches.
 
-.*Create an expression column in a Data Worksheet...*
-[%collapsible]
-====
+== Create an expression column in a Data Worksheet
+
 An *expression column* is a data set column that you define using either JavaScript or SQL (for SQL data sources). The expression is evaluated for each row of the data set. Creating an expression column in a Data Worksheet allows you to reference the field in any report or Dashboard that uses the Data Worksheet. SQL expressions can often also be executed more efficiently  (for SQL data sources) than JavaScript expressions.
 
 To add an expression column to a data block, follow the steps below:
@@ -18,7 +17,7 @@ include::partial$videoVersion.adoc[]
 =====
 
 ifdef::si[]
-. Create the data block to which you want to add an expression column. See xref:CreateNewWorksheet.adoc[]  for information on how to create a data block.
+. Create the data block to which you want to add an expression column. See xref:ROOT:CreateNewWorksheet.adoc[]  for information on how to create a data block.
 endif::[]
 
 ifdef::testdrive[]
@@ -50,4 +49,3 @@ Close the Visual Composer tab in the browser and return to the Portal.
 
 
 
-====
