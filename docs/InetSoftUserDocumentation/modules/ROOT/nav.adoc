@@ -5,5 +5,5 @@
 ** xref:page$UploadData.adoc[]
 ** xref:EnterData.adoc[]
 ** xref:QueryData.adoc[]
-** xref:PreviewData.adoc[]
+** xref:dataworksheet:PreviewData.adoc[]
 ** xref:CreateNewDataField.adoc[]

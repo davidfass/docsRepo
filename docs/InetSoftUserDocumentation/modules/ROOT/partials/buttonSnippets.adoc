@@ -9,6 +9,6 @@
 :buttonAutoUpdate2: `'Enable Auto Update`'  button image:reset.svg[]
 :buttonWrapColumnHeaders: `'Wrap Column Headers`' button image:wrap.svg[]
 :buttonColumnType: `'Type`' button (image:number-field.svg[], image:text-field.svg[], image:datetime-field.svg[], or image:boolean-field.svg[])
-:buttonChangeView: ‘Change View’  button image:view-summary-meta.svg[]
-:buttonLiveDataView: ‘Live Data View’ button image:view-summary-live.svg[]
-:buttonChangeDataMode: ‘Change Data Mode’ button image:buttons/data-partial.svg[]
+:buttonChangeView: ‘Change View’  button image:ROOT:view-summary-meta.svg[]
+:buttonLiveDataView: ‘Live Data View’ button image:ROOT:view-summary-live.svg[]
+:buttonChangeDataMode: ‘Change Data Mode’ button image:ROOT:buttons/data-partial.svg[]

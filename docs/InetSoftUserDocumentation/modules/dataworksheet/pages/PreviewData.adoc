@@ -1,0 +1,29 @@
+= Preview Data
+include::ROOT:partial$buttonSnippets.adoc[]
+
+== View a sample of the data in a data block
+To preview the data that will be returned by a data block, follow the steps below:
+
+ifdef::testdrive[]
+. Open your data set for editing. See Editing a Data Set. XXXX
+endif::[]
+
+. Click on the data block to select it.
+. In the bottom panel, press the {buttonChangeView}, and select {buttonLiveDataView}. This displays a limited preview of the data in the  data block.
++
+image::agileTransform8.gif[]
++
+. To suspend the preview limit, press the {buttonChangeDataMode} and uncheck ‘Enable Display Row Limit’.
++
+CAUTION: Removing the preview limit may slow the preview display. Note that even if you suspend the preview limit, the data set returned may still be limited by the administrator.
+
+
+== View the query of a data block
+
+blah
+
+
+
+
+
+
