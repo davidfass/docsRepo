@@ -14,7 +14,7 @@ blah
 ====
 To preview the data that will be returned by a data block, follow the steps below:
 
-ifdef::[testdrive]
+ifdef::testdrive[]
 . Open your data set for editing. See Editing a Data Set. XXXX
 endif::[]
 
