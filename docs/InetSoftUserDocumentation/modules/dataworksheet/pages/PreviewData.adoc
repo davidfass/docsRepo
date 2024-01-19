@@ -2,7 +2,6 @@
 include::ROOT:partial$buttonSnippets.adoc[]
 include::ROOT:partial$rightClickOptions.adoc[]
 
-== View a sample of the data in a data block
 To preview the data that will be returned by a data block, follow the steps below:
 
 ifdef::testdrive[]
@@ -14,32 +13,17 @@ endif::[]
 image::agileTransform8.gif[]
 +
 . To suspend the preview limit, press the {buttonChangeDataMode} and uncheck ‘Enable Display Row Limit’.
-+
-CAUTION: Removing the preview limit may slow the preview display. Note that even if you suspend the preview limit, the data set returned may still be limited by the administrator.
+
 +
 image::agileTransform9.gif[]
 +
+CAUTION: Removing the preview limit may slow the preview display. Note that even if you suspend the preview limit, the data set returned may still be limited by the administrator.
++
 . To limit the data displayed, press {buttonChangeDataMode} again and check ‘Enable Display Row Limit’.
 +
-NOTE: The numerical value of the limit (maximum number of rows) is set by the administrator. The display row limit of a data block does not affect the results of operations, such as joins, in which the data block participates.
-+
 image:agileTransform12.gif[]
-
-== View the query of a data block
-
-To view the SQL statements that a data block will attempt to execute (the query plan), follow the steps below:
-
-ifdef::testdrive[]
-. Open your data set for editing. See Editing a Data Set. XXXX
-endif::[]
-. Click on the data block to select it.
-Right-click the data block, and select ‘Show Plan’ from the context menu. {rightClickOptions}
 +
-image:showPlanMenu.gif[]
-+
-This opens the ‘Query Plan’ panel. The ‘Query Plan’ dialog box displays the queries that will be sent to the database at runtime. Additionally, it shows the data operations that the Data Worksheet will perform in post-processing, after the data is retrieved from the database. The plan also shows the source information for parameterized conditions.
-+
-By default, the Data Worksheet attempts to create a single SQL query that fully generates the table’s data. This is typically the most efficient approach because it allows the database to perform all the needed data operations (joins, filtering, etc.). However, you can override this behavior for a particular table by deselecting the ‘Merge SQL’ option in the ‘Table Properties’ dialog box, and in some cases this may improve performance. See xref:dataworksheet:DataBlockProperties.adoc[] for more information.
+NOTE: The numerical value of the limit (maximum number of rows) is set by the administrator. The display row limit of a data block does not affect the results of operations, such as joins, in which the data block participates.
 
 
 

@@ -6,5 +6,6 @@
 ** xref:EnterData.adoc[]
 ** xref:QueryData.adoc[]
 ** xref:dataworksheet:PreviewData.adoc[]
+** xref:dataworksheet:PreviewQuery.adoc[]
 ** xref:dataworksheet:CreateNewDataField.adoc[]
 ** xref:dataworksheet:DataBlockProperties.adoc[]
