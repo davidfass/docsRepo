@@ -38,7 +38,8 @@ Right-click the data block, and select ‘Show Plan’ from the context menu. {r
 image:showPlanMenu.gif[]
 +
 This opens the ‘Query Plan’ panel. The ‘Query Plan’ dialog box displays the queries that will be sent to the database at runtime. Additionally, it shows the data operations that the Data Worksheet will perform in post-processing, after the data is retrieved from the database. The plan also shows the source information for parameterized conditions.
-By default, the Data Worksheet attempts to create a single SQL query that fully generates the table’s data. This is typically the most efficient approach because it allows the database to perform all the needed data operations (joins, filtering, etc.). However, you can override this behavior for a particular table by deselecting the ‘Merge SQL’ option in the ‘Table Properties’ dialog box, and in some cases this may improve performance. See Data Block Properties for more information.
++
+By default, the Data Worksheet attempts to create a single SQL query that fully generates the table’s data. This is typically the most efficient approach because it allows the database to perform all the needed data operations (joins, filtering, etc.). However, you can override this behavior for a particular table by deselecting the ‘Merge SQL’ option in the ‘Table Properties’ dialog box, and in some cases this may improve performance. See xref:dataworksheet:DataBlockProperties.adoc[] for more information.
 
 
 
