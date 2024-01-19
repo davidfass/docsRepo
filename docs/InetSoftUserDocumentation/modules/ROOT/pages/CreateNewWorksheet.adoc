@@ -1,5 +1,5 @@
 = Create a Data Worksheet
-include::partial$buttonSnippets.adoc[]
+include::ROOT:partial$buttonSnippets.adoc[]
 :toc:
 
 
