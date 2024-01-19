@@ -1,15 +1,15 @@
 // Button names
 :buttonCreate: `'Create`' button image:ROOT:buttons/creation.svg[]
 :buttonWorksheet: `'Data Worksheet`'  XXXXXXXXXXXX??????
-:buttonDataTab: `'Data`' button image:Root:buttons/database.svg[]
-:buttonNewWorksheet: `'New Data Worksheet`' button image:Root:buttons/new-worksheet.svg[]
-:buttonUploadFile: `'Upload File`' button image:Root:buttons/upload.svg[]
-:buttonMashupData: `'Mashup Data`' button image:Root:buttons/new-worksheet.svg[]
-:buttonAutoUpdate: `'Disable Auto Update`' button image:Root:buttons/auto-reload.svg[]
-:buttonActions: `'Actions`' button image:Root:buttons/menu-horizontal.svg[]
-:buttonAutoUpdate2: `'Enable Auto Update`'  button image:Root:buttons/reset.svg[]
-:buttonWrapColumnHeaders: `'Wrap Column Headers`' button image:Root:buttons/wrap.svg[]
-:buttonColumnType: `'Type`' button (image:Root:buttons/number-field.svg[], image:Root:buttons/text-field.svg[], image:Root:datetime-field.svg[], or image:Root:buttons/boolean-field.svg[])
+:buttonDataTab: `'Data`' button image:ROOT:buttons/database.svg[]
+:buttonNewWorksheet: `'New Data Worksheet`' button image:ROOT:buttons/new-worksheet.svg[]
+:buttonUploadFile: `'Upload File`' button image:ROOT:buttons/upload.svg[]
+:buttonMashupData: `'Mashup Data`' button image:ROOT:buttons/new-worksheet.svg[]
+:buttonAutoUpdate: `'Disable Auto Update`' button image:ROOT:buttons/auto-reload.svg[]
+:buttonActions: `'Actions`' button image:ROOT:buttons/menu-horizontal.svg[]
+:buttonAutoUpdate2: `'Enable Auto Update`'  button image:ROOT:buttons/reset.svg[]
+:buttonWrapColumnHeaders: `'Wrap Column Headers`' button image:ROOT:buttons/wrap.svg[]
+:buttonColumnType: `'Type`' button (image:ROOT:buttons/number-field.svg[], image:ROOT:buttons/text-field.svg[], image:ROOT:datetime-field.svg[], or image:ROOT:buttons/boolean-field.svg[])
 :buttonChangeView: ‘Change View’  button image:ROOT:buttons/view-summary-meta.svg[]
 :buttonLiveDataView: ‘Live Data View’ button image:ROOT:buttons/view-summary-live.svg[]
 :buttonChangeDataMode: ‘Change Data Mode’ button image:ROOT:buttons/data-partial.svg[]
