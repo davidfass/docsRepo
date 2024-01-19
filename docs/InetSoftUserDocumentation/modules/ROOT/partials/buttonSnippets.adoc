@@ -9,7 +9,7 @@
 :buttonActions: `'Actions`' button image:ROOT:buttons/menu-horizontal.svg[]
 :buttonAutoUpdate2: `'Enable Auto Update`'  button image:ROOT:buttons/reset.svg[]
 :buttonWrapColumnHeaders: `'Wrap Column Headers`' button image:ROOT:buttons/wrap.svg[]
-:buttonColumnType: `'Type`' button (image:ROOT:buttons/number-field.svg[], image:ROOT:buttons/text-field.svg[], image:ROOT:datetime-field.svg[], or image:ROOT:buttons/boolean-field.svg[])
+:buttonColumnType: `'Type`' button (image:ROOT:buttons/number-field.svg[], image:ROOT:buttons/text-field.svg[], image:ROOT:buttons/datetime-field.svg[], or image:ROOT:buttons/boolean-field.svg[])
 :buttonChangeView: ‘Change View’  button image:ROOT:buttons/view-summary-meta.svg[]
 :buttonLiveDataView: ‘Live Data View’ button image:ROOT:buttons/view-summary-live.svg[]
 :buttonChangeDataMode: ‘Change Data Mode’ button image:ROOT:buttons/data-partial.svg[]
