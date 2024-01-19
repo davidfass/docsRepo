@@ -13,7 +13,7 @@ To add an expression column to a data block, follow the steps below:
 =====
 .Create a new data field in a data block...
 video::299108619[vimeo,640,400]
-include::partial$videoVersion.adoc[]
+include::ROOT:partial$videoVersion.adoc[]
 =====
 
 ifdef::si[]
