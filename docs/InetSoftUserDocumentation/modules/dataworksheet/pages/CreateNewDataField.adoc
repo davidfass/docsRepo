@@ -1,4 +1,6 @@
 = Create a New Data Field
+include::ROOT:partial$buttonSnippets.adoc[]
+
 
 You can create a new data field with one of the following approaches.
 
@@ -26,7 +28,7 @@ endif::[]
 
 . Click the data block to select it.
 +
-NOTE: If the data block is grouped and aggregated, use the  to switch the view to either  or . (See Preview Data for more information.)
+NOTE: If the data block is grouped and aggregated, use the {buttonChangeView} to switch the view to either {buttonMetaDetailView} or {buttonLiveDetailView}. (See xref:PreviewData.adoc[] for more information.)
 
 In the bottom panel, press the . This opens the Formula Editor.
 

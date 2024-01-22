@@ -14,5 +14,7 @@
 :buttonLiveDataView: ‘Live Data View’ button image:ROOT:buttons/view-summary-live.svg[]
 :buttonChangeDataMode: ‘Change Data Mode’ button image:ROOT:buttons/data-partial.svg[]
 :buttonMore: ‘More’ button (image:ROOT:buttons/menu-horizontal.svg[])
+:buttonLiveDetailView: ‘Live Detail View’ (image::ROOT:buttons/view-detail-live.svg[])
+:buttonMetaDetailView: ‘Meta Detail View’ (image::ROOT:buttons/meta-detail-live.svg[])
 
 // Inline Comments
