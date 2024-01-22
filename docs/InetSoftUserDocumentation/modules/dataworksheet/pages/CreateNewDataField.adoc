@@ -30,8 +30,9 @@ endif::[]
 +
 NOTE: If the data block is grouped and aggregated, use the {buttonChangeView} to switch the view to either {buttonMetaDetailView} or {buttonLiveDetailView}. (See xref:PreviewData.adoc[] for more information.)
 
-In the bottom panel, press the . This opens the Formula Editor.
+In the bottom panel, press the {buttonCreateExpression}. This opens the Formula Editor.
 
+image:dataworksheet:agileTransform3.gif[]
 
 In the ‘Name’ field, enter the name of the new column that the expression will create.
 At the top of the Formula Editor, select either ‘SQL’ or ‘Script’. Select ‘SQL’ (if available) to write the expression using your database’s SQL syntax. Select ‘Script’ to write the expression using JavaScript.
