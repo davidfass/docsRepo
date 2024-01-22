@@ -11,11 +11,13 @@
 :buttonWrapColumnHeaders: `'Wrap Column Headers`' button image:ROOT:buttons/wrap.svg[]
 :buttonColumnType: `'Type`' button (image:ROOT:buttons/number-field.svg[], image:ROOT:buttons/text-field.svg[], image:ROOT:buttons/datetime-field.svg[], or image:ROOT:buttons/boolean-field.svg[])
 :buttonChangeView: ‘Change View’  button image:ROOT:buttons/view-summary-meta.svg[]
-:buttonLiveDataView: ‘Live Data View’ button image:ROOT:buttons/view-summary-live.svg[]
+:buttonLiveDataView: ‘Live Data View’  image:ROOT:buttons/view-summary-live.svg[]
 :buttonChangeDataMode: ‘Change Data Mode’ button image:ROOT:buttons/data-partial.svg[]
 :buttonMore: ‘More’ button (image:ROOT:buttons/menu-horizontal.svg[])
-:buttonLiveDetailView: ‘Live Detail View’ image::ROOT:buttons/view-detail-live.svg[]
-:buttonMetaDetailView: ‘Meta Detail View’ image::ROOT:buttons/view-detail-meta.svg[]
-:buttonCreateExpression: ‘Create Expression’ button image::ROOT:buttons/formula.svg[]
+:buttonLiveDetailView: ‘Live Detail View’ image:ROOT:buttons/view-detail-live.svg[]
+:buttonMetaDetailView: ‘Meta Detail View’ image:ROOT:buttons/view-detail-meta.svg[]
+:buttonCreateExpression: ‘Create Expression’ button image:ROOT:buttons/formula.svg[]
+:buttonFormula: ‘Formula’  button image:ROOT:buttons/formula.svg[]
+:buttonSave: ‘Save’ button image:ROOT:buttons/save.svg[]
 
 // Inline Comments
