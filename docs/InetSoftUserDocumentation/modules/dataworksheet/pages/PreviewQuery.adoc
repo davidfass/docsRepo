@@ -1,8 +1,12 @@
 = Preview Data Block Query
 include::ROOT:partial$buttonSnippets.adoc[]
 include::ROOT:partial$rightClickOptions.adoc[]
+:testAttribute:  pass:[*NOTE:*] You can also access menu options from the {buttonMore} in the #mini-toolbar#.
+
 
 To view the SQL statements that a data block will attempt to execute (the query plan), follow the steps below:
+
+{testAttribute}
 
 ifdef::testdrive[]
 . Open your data set for editing. See Editing a Data Set. XXXX
