@@ -1,4 +1,29 @@
 // this is a comment
-= InetSoft User Documentation
+= InetSoft Documentation
 
-This is the index page, the site starting page I guess?  So start here?
+InetSoft Style Intelligence  allows you to explore, analyze, monitor, report, and collaborate on business and operational data, all in real time.
+
+This  Guide explains how to use the User Portal to create data sources, Data Worksheets, Ad Hoc reports, and Dashboards, as well as how to manage the server with Enterprise Manager.
+
+Choose a topic to get started.
+
+[cols="^3,^3,^3"]
+|===
+|xref:dataworksheet:PrepareYourData.adoc[Prepare Your Data] |xref:viewsheet:VisualizeYourData.adoc[Visualize  Your Data] | Self-Service Reporting
+
+|image:ROOT:buttons/worksheet.svg[200,200,xref=dataworksheet:PrepareYourData.adoc]
+
+|image:buttons/viewsheet.svg[200,200, xref=viewsheet:VisualizeYourData.adoc]
+
+| image:buttons/report.svg[200,200]
+
+|===
+
+
+****
+Style Intelligence is produced by InetSoft Technology, the leader in innovative and scalable Business Intelligence software. Please feel free to contact us with any questions!
+
+Phone: +1.888.216.2353 (US) / +1.732.424.0400 (International)
+Email: info@inetsoft.com / Web: https://www.inetsoft.com
+****
+

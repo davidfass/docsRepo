@@ -181,10 +181,9 @@ You can display this calculated field in Output Components (see xref:viewsheet:A
 
 .Explore More...
 ****
-The sample
-Global Visual Analysis Dashboard provides an example of using *calculated fields* to color the regions on a map.
+The sample xref:ROOT:attachment$Global_Visual_Analysis.zip[Global Visual Analysis] Dashboard provides an example of using *calculated fields* to color the regions on a map.
 
-To explore this sample Dashboard, download and import the  Global Visual Analysis Dashboard into your environment. (This requires access to Enterprise Manager.) See xref:administration:ImportAssets.adoc[] for instructions on how to import.
+To explore this sample Dashboard, download and import the  xref:ROOT:attachment$Global_Visual_Analysis.zip[Global Visual Analysis] Dashboard into your environment. (This requires access to Enterprise Manager.) See xref:administration:ImportAssets.adoc[] for instructions on how to import.
 
 image:viewsheet:galleryBubble2.png[]
 ****

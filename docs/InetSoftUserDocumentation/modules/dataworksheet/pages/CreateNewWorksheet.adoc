@@ -1,25 +1,24 @@
 = Create a Data Worksheet
 include::ROOT:partial$buttonSnippets.adoc[]
-:toc:
 
 
 Visual Composer allows you to create a Data Worksheet by performing data transformation operations such as grouping, post-aggregate filtering, and data mashup.
 
 Follow the steps below to create a Data Worksheet:
 
-. Open the ‘New Data Worksheet’ dialog box. Use one of the following methods:
-
-* Press the {buttonCreate}  at the top of the User Portal, and select {buttonWorksheet}.
+. Open the ‘New Data Worksheet’ dialog box.  Press the {buttonCreate}  at the top of the User Portal, and select {buttonWorksheet}.
 +
 image::newWorksheet2.gif[]
 +
-* Press the top {buttonDataTab}  in the Portal.
+Alternatively, press the top {buttonDataTab}  in the Portal.
 +
-image::uploadDriver1.gif[]
+image::user:uploadDriver1.gif[]
 +
-Select ‘Data Worksheet’ in the left panel and press the {buttonNewWorksheet} in the toolbar.
+Then select ‘Data Worksheet’ in the left panel and press the {buttonNewWorksheet} in the toolbar.
 +
-image::PortalCreateWorksheet2.gif[width=440]
+image::user:PortalCreateWorksheet2.gif[]
 +
-include::partial$newWorksheet2.adoc[]
+
++
+include::ROOT:partial$newWorksheet2.adoc[]
 +

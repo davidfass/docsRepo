@@ -1,6 +1,6 @@
 // Button names
 :buttonCreate: `'Create`' button image:ROOT:buttons/creation.svg[]
-:buttonWorksheet: `'Data Worksheet`'  XXXXXXXXXXXX??????
+:buttonWorksheet: `'Data Worksheet`'  image:ROOT:buttons/worksheet.svg[]
 :buttonDataTab: `'Data`' button image:ROOT:buttons/database.svg[]
 :buttonNewWorksheet: `'New Data Worksheet`' button image:ROOT:buttons/new-worksheet.svg[]
 :buttonUploadFile: `'Upload File`' button image:ROOT:buttons/upload.svg[]
@@ -19,5 +19,10 @@
 :buttonCreateExpression: ‘Create Expression’ button image:ROOT:buttons/formula.svg[]
 :buttonFormula: ‘Formula’  button image:ROOT:buttons/formula.svg[]
 :buttonSave: ‘Save’ button image:ROOT:buttons/save.svg[]
-
+:buttonVisibility: ‘Visibility’  button image:ROOT:buttons/eye.svg[]
+:buttonMetaDataView: ‘Meta Data View’   image:ROOT:buttons/view-summary-meta.svg[]
+:buttonShowHideColumns: ‘Show/Hide Columns’  button image:ROOT:buttons/eye.svg[]
+:buttonSearch: ‘Search’  button image:ROOT:buttons/search.svg[]
+:buttonSearchColumns: ‘Search Columns’  button image:ROOT:buttons/search.svg[]
+:buttonClearSearch: ‘Clear’  button image:ROOT:buttons/close-circle.svg[]
 // Inline Comments
