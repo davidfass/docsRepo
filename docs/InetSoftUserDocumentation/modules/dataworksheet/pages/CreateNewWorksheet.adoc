@@ -18,7 +18,4 @@ Then select ‘Data Worksheet’ in the left panel and press the {buttonNewWorks
 +
 image::user:PortalCreateWorksheet2.gif[]
 +
-
-+
 include::ROOT:partial$newWorksheet2.adoc[]
-+

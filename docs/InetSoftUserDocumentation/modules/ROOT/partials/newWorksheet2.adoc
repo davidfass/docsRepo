@@ -18,6 +18,7 @@ See xref:dataworksheet:UploadData.adoc[] for information about how to use the up
 +
 .. *Data Source*: To create your Data Worksheet by *defining a query*, select a data source (e.g., ‘Orders’). This creates a blank Data Worksheet named ‘Untitled’ and opens the ‘Database Query’ dialog box.
 +
+[role=bodyImage]
 image::newWorksheet4.gif[]
 +
 See xref:dataworksheet:QueryData.adoc[] for information about how to use the ‘Database Query’ dialog box.
@@ -26,13 +27,11 @@ See xref:dataworksheet:QueryData.adoc[] for information about how to use the ‘
 +
 image::transform1.gif[]
 +
-You can also drag a data block (or individual columns of a data block) from another *Data Worksheet*. In this case, the inserted data block remains linked to the original Data Worksheet in which it is defined, and updates automatically in response to changes in the source Data Worksheet. To disable this auto-update behavior, press the {buttonAutoUpdate}  in the toolbar of the bottom panel.
+You can also drag a data block (or individual columns of a data block) from another Data Worksheet. In this case, the inserted data block remains linked to the original Data Worksheet in which it is defined, and updates automatically in response to changes in the source Data Worksheet. To disable this auto-update behavior, press the {buttonAutoUpdate}  in the toolbar of the bottom panel.
 +
 image::auto-update1.gif[]
 +
 You can then force an update *on-demand* by right-clicking the data block (or by pressing the {buttonActions}) and selecting the ‘Update Mirror’ option. To restore the original auto-update behavior, press the {buttonAutoUpdate2}.
-+
-NOTE: Names must be unique without respect to case (e.g., "num1" is the same name as "Num1").
 +
 include::partial$renameColumn.adoc[]
 +
@@ -48,7 +47,9 @@ To display long column names, press the {buttonWrapColumnHeaders}. Press again t
 +
 image::reorderColumns.gif[]
 +
-. To *hide a column*, press the {buttonVisibility}  in the column header, or press the {buttonActions}  and select ‘Hide Column’ from the menu. To show the column again, press the {buttonVisibility}  again or press the {buttonActions}  and select ‘Show Column’ or ‘Show All Columns’ from the menu. (#NOTE:# You may need to first press the {buttonChangeView}  and select {buttonMetaDataView}  in order to see the column listed.)
+. To *hide a column*, press the {buttonVisibility}  in the column header, or press the {buttonActions}  and select ‘Hide Column’ from the menu. To show the column again, press the {buttonVisibility}  again or press the {buttonActions}  and select ‘Show Column’ or ‘Show All Columns’ from the menu.
++
+NOTE: You may need to first press the {buttonChangeView}  and select {buttonMetaDataView}  in order to see the column listed.
 +
 . To *hide multiple columns*, press the {buttonShowHideColumns}  in the bottom panel toolbar. This opens the ‘Show/Hide Columns’ dialog box, where you can choose columns that you want to hide. Type in the ‘Search’ box and press the {buttonSearch}  to list columns that fully or partially match the search string. Press btn:[OK] at the bottom of the panel after making your selection.
 +
@@ -56,10 +57,8 @@ image::showHideColumns.png[]
 +
 . To *search for a column*, press the {buttonSearchColumns}  in the bottom panel toolbar, and type the column name or any part of the column name. This will scroll the table to a matching column. If there are multiple matches, press the arrows to cycle through the matches. Press the {buttonClearSearch}  to clear the search term.
 +
-. #Optional:# To view the query represented by the data block, right-click the data block and choose ‘Show Plan’ option.  {rightClickOptions}
+. Optional: To view the query represented by the data block, right-click the data block and choose ‘Show Plan’ option.  {rightClickOptions}
 +
 This displays the SQL that will be executed by the database.
-
-
 
 You can now do mashup operations on this data, as described in the following sections (xref:dataworksheet:FilterData.adoc[], xref:dataworksheet:JoinData.adoc[], etc.), or you can proceed to create Dashboards or reports based on this Data Worksheet. See xref:viewsheet:VisualizeYourData.adoc[] for information about constructing a Dashboard.
