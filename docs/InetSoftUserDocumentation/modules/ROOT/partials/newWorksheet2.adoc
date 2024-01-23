@@ -52,7 +52,7 @@ image::reorderColumns.gif[]
 +
 . To *hide multiple columns*, press the {buttonShowHideColumns}  in the bottom panel toolbar. This opens the ‘Show/Hide Columns’ dialog box, where you can choose columns that you want to hide. Type in the ‘Search’ box and press the {buttonSearch}  to list columns that fully or partially match the search string. Press btn:[OK] at the bottom of the panel after making your selection.
 +
-image::dataworksheet:images/showHideColumns.png[]
+image::showHideColumns.png[]
 +
 . To *search for a column*, press the {buttonSearchColumns}  in the bottom panel toolbar, and type the column name or any part of the column name. This will scroll the table to a matching column. If there are multiple matches, press the arrows to cycle through the matches. Press the {buttonClearSearch}  to clear the search term.
 +
