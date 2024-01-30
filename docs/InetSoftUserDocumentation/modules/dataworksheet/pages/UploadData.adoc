@@ -1,9 +1,49 @@
 = Upload Data
-Firstname Lastname <author@asciidoctor.org>
-3.0, July 29, 2022: AsciiDoc article template
-:toc:
-:icons: font
-:url-quickref: https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/
+include::ROOT:partial$buttonSnippets.adoc[]
+include::ROOT:partial$rightClickOptions.adoc[]
 
-some text
+In most cases, data sources will already be configured for you by an administrator. However, you can also import a plain text file, CSV file, or Excel file into a Data Worksheet.
 
+
+.*Watch video…*
+[%collapsible]
+=====
+.Create a new data field in a data block...
+video::300375356[vimeo,640,400]
+include::ROOT:partial$videoVersion.adoc[]
+=====
+
+Follow the steps below to import a file into a Data Worksheet.
+
+. Create a new Data Worksheet and select the {buttonUploadFile} option. (See xref:CreateNewWorksheet.adoc[].) This opens the ‘Import Data File’ dialog box.
++
+image:dataworksheet:embeddedTable4.gif[]
++
+If a Data Worksheet is already open in Visual Composer, press the {buttonCreateObject} on the toolbar, and select {buttonUploadFile} to open the ‘Import Data File’ dialog box.
++
+image:textSource5_1.gif[]
+
+. Press the btn:[Choose File] button to open the ‘Open File’ dialog box.
+In this example, we will import an Excel file: Select an Excel file type (`.xls`, `*.xlsx`) from the menu next to the ‘File name’ field.
++
+image:uploadFile2.gif[]
+
+. Select the desired Excel file and press btn:[Open]. (Here we use the sample  Excel file.)
+
+. Press ‘OK’ to import the data. (For the sample OrderDataText.xls Excel file, you do not need to change the other settings.) This creates a new data block  named ‘OrderDataText’ with data from the file.
+
+Right-click on the data block, and select ‘Properties’ from the context menu.  This opens the ‘Table Properties’ panel.
+
+In the ‘Name’ field, enter the a name for the data block, and press ‘OK’.
+
+If you want to manually modify the data in the data block, convert the data block into an Embedded Table. See Enter Data for more information.
+Press the  in the toolbar to save the Data Worksheet.
+
+
+
+
+
+[TIP]
+====
+See xref:viewsheet:VisualizeYourData.adoc[] for information on how to create a Dashboard based on a Data Worksheet.
+====

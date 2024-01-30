@@ -1,4 +1,6 @@
 // Button names
+:experimental:
+
 :buttonCreate: `'Create`' button image:ROOT:buttons/creation.svg[]
 :buttonWorksheet: `'Data Worksheet`'  image:ROOT:buttons/worksheet.svg[]
 :buttonDataTab: `'Data`' button image:ROOT:buttons/database.svg[]
@@ -25,4 +27,7 @@
 :buttonSearch: ‘Search’  button image:ROOT:buttons/search.svg[]
 :buttonSearchColumns: ‘Search Columns’  button image:ROOT:buttons/search.svg[]
 :buttonClearSearch: ‘Clear’  button image:ROOT:buttons/close-circle.svg[]
+:buttonRecent: ‘Recent’ button image:ROOT:buttons/recent.svg[]
+:buttonUploadFile: `'Upload File`'  image:ROOT:buttons/upload.svg[]
+:buttonCreateObject: `'Add`' button image:ROOT:buttons/new-objects.svg[]
 // Inline Comments
