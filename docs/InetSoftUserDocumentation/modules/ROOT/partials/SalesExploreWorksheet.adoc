@@ -1,0 +1,7 @@
+ifdef::si[]
+NOTE: The 'Sales Explore' Data Worksheet can be found in the ‘Examples’ folder under ‘Data Worksheet’.
+endif::[]
+
+ifdef::testdrive[]
+NOTE: To create the 'Sales Explore' Data Worksheet, create a new data set by uploading the  Sales Explore file. See Uploading Excel or Text File for more information. XXXXXX
+endif::[]

@@ -1,17 +1,17 @@
 // Button names
 :experimental:
 
-:buttonCreate: `'Create`' button image:ROOT:buttons/creation.svg[]
-:buttonWorksheet: `'Data Worksheet`'  image:ROOT:buttons/worksheet.svg[]
-:buttonDataTab: `'Data`' button image:ROOT:buttons/database.svg[]
-:buttonNewWorksheet: `'New Data Worksheet`' button image:ROOT:buttons/new-worksheet.svg[]
-:buttonUploadFile: `'Upload File`' button image:ROOT:buttons/upload.svg[]
-:buttonMashupData: `'Mashup Data`' button image:ROOT:buttons/new-worksheet.svg[]
-:buttonAutoUpdate: `'Disable Auto Update`' button image:ROOT:buttons/auto-reload.svg[]
-:buttonActions: `'Actions`' button image:ROOT:buttons/menu-horizontal.svg[]
-:buttonAutoUpdate2: `'Enable Auto Update`'  button image:ROOT:buttons/reset.svg[]
-:buttonWrapColumnHeaders: `'Wrap Column Headers`' button image:ROOT:buttons/wrap.svg[]
-:buttonColumnType: `'Type`' button (image:ROOT:buttons/number-field.svg[], image:ROOT:buttons/text-field.svg[], image:ROOT:buttons/datetime-field.svg[], or image:ROOT:buttons/boolean-field.svg[])
+:buttonCreate: ‘Create’ button image:ROOT:buttons/creation.svg[]
+:buttonWorksheet: ‘Data Worksheet’  image:ROOT:buttons/worksheet.svg[]
+:buttonDataTab: ‘Data’ button image:ROOT:buttons/database.svg[]
+:buttonNewWorksheet: ‘New Data Worksheet’ button image:ROOT:buttons/new-worksheet.svg[]
+:buttonUploadFile: ‘Upload File’ button image:ROOT:buttons/upload.svg[]
+:buttonMashupData: ‘Mashup Data’ button image:ROOT:buttons/new-worksheet.svg[]
+:buttonAutoUpdate: ‘Disable Auto Update’ button image:ROOT:buttons/auto-reload.svg[]
+:buttonActions: ‘Actions’ button image:ROOT:buttons/menu-horizontal.svg[]
+:buttonAutoUpdate2: ‘Enable Auto Update’  button image:ROOT:buttons/reset.svg[]
+:buttonWrapColumnHeaders: ‘Wrap Column Headers’ button image:ROOT:buttons/wrap.svg[]
+:buttonColumnType: ‘Type’ button (image:ROOT:buttons/number-field.svg[], image:ROOT:buttons/text-field.svg[], image:ROOT:buttons/datetime-field.svg[], or image:ROOT:buttons/boolean-field.svg[])
 :buttonChangeView: ‘Change View’  button image:ROOT:buttons/view-summary-meta.svg[]
 :buttonLiveDataView: ‘Live Data View’  image:ROOT:buttons/view-summary-live.svg[]
 :buttonChangeDataMode: ‘Change Data Mode’ button image:ROOT:buttons/data-partial.svg[]
@@ -28,6 +28,12 @@
 :buttonSearchColumns: ‘Search Columns’  button image:ROOT:buttons/search.svg[]
 :buttonClearSearch: ‘Clear’  button image:ROOT:buttons/close-circle.svg[]
 :buttonRecent: ‘Recent’ button image:ROOT:buttons/recent.svg[]
-:buttonUploadFile: `'Upload File`'  image:ROOT:buttons/upload.svg[]
-:buttonCreateObject: `'Add`' button image:ROOT:buttons/new-objects.svg[]
+:buttonUploadFile: ‘Upload File’  image:ROOT:buttons/upload.svg[]
+:buttonCreateObject: ‘Add’ button image:ROOT:buttons/new-objects.svg[]
+:buttonEmbeddedTable: ‘Embedded Table’ image:ROOT:buttons/embedded-table.svg[]
+:buttonEditAction: ‘Edit’ image:ROOT:buttons/edit.svg[]
+:buttonImportDataFile: ‘Import Data File’  button image:ROOT:buttons/upload.svg[]
+:buttonChooseCell: ‘Choose Cell’ button image:ROOT:buttons/edit.svg[]
+
+
 // Inline Comments

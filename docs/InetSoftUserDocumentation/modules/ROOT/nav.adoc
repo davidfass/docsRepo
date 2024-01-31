@@ -7,6 +7,7 @@
 ** xref:dataworksheet:EnterData.adoc[]
 ** xref:dataworksheet:QueryData.adoc[]
 ** xref:dataworksheet:MashupData.adoc[]
+** xref:dataworksheet:ModifyColumn.adoc[]
 ** xref:dataworksheet:FilterData.adoc[]
 ** xref:dataworksheet:GroupAggregateData.adoc[]
 ** xref:dataworksheet:CopyData.adoc[]

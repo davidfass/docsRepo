@@ -39,7 +39,7 @@ To display long column names, press the {buttonWrapColumnHeaders}. Press again t
 +
 . To *change the column data type* (if available), press the {buttonColumnType} in the column header to open the ‘Column Type’ dialog box. See xref:dataworksheet:EnterData.adoc[] for more information about the ‘Column Type’ dialog box.
 +
-. To *add a description for a column*, press the {buttonActions}  in the column header and select ‘Column Description’. See xref:dataworksheet:AddColumnDescription.adoc[] for more information.
+. To *add a description for a column*, press the {buttonActions}  in the column header and select ‘Column Description’. See xref:dataworksheet:ModifyColumn.adoc[] for more information.
 +
 . To *reposition a column*, simply drag the column within the bottom panel and drop it at the desired position.
 +

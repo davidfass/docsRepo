@@ -1,0 +1,7 @@
+ifdef::si[]
+For information on how to create a new Data Worksheet, see xref:CreateNewWorksheet.adoc[].
+endif::[]
+
+ifdef::testdrive[]
+For information on how to create a new  Data Worksheet, see Connect to Your Data.XXXX
+endif::[]

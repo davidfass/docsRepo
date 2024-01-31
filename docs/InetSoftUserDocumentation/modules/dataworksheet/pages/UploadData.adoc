@@ -2,8 +2,15 @@
 include::ROOT:partial$buttonSnippets.adoc[]
 include::ROOT:partial$rightClickOptions.adoc[]
 
+
 In most cases, data sources will already be configured for you by an administrator. However, you can also import a plain text file, CSV file, or Excel file into a Data Worksheet.
 
+[TIP]
+====
+If you already have a Data Worksheet and want to create a Dashboard with that data, see xref:viewsheet:VisualizeYourData.adoc[].
+====
+
+Follow the steps below to import a file into a Data Worksheet.
 
 .*Watch video…*
 [%collapsible]
@@ -13,7 +20,7 @@ video::300375356[vimeo,640,400]
 include::ROOT:partial$videoVersion.adoc[]
 =====
 
-Follow the steps below to import a file into a Data Worksheet.
+
 
 . Create a new Data Worksheet and select the {buttonUploadFile} option. (See xref:CreateNewWorksheet.adoc[].) This opens the ‘Import Data File’ dialog box.
 +
@@ -28,22 +35,28 @@ In this example, we will import an Excel file: Select an Excel file type (`.xls`
 +
 image:uploadFile2.gif[]
 
-. Select the desired Excel file and press btn:[Open]. (Here we use the sample  Excel file.)
+. Select the desired Excel file and press btn:[Open]. (Here we use the sample xref:data:attachment$OrderDataText.xls[OrderDataText] Excel file.)
++
+image:uploadFile1.gif[]
 
-. Press ‘OK’ to import the data. (For the sample OrderDataText.xls Excel file, you do not need to change the other settings.) This creates a new data block  named ‘OrderDataText’ with data from the file.
+. Press btn:[OK] to import the data. (For the sample _OrderDataText.xls_ Excel file, you do not need to change the other settings.) This creates a new data block  named ‘OrderDataText’ with data from the file.
++
+image:embeddedTable5.gif[]
 
-Right-click on the data block, and select ‘Properties’ from the context menu.  This opens the ‘Table Properties’ panel.
+. Right-click on the data block, and select ‘Properties’ from the context menu.  {rightClickOptions} This opens the ‘Table Properties’ panel.
 
-In the ‘Name’ field, enter the a name for the data block, and press ‘OK’.
-
-If you want to manually modify the data in the data block, convert the data block into an Embedded Table. See Enter Data for more information.
-Press the  in the toolbar to save the Data Worksheet.
-
-
-
+. In the ‘Name’ field, enter  a name for the data block, and press btn:[OK].
++
+image:embeddedTable7.gif[]
++
+include::ROOT:partial$duplicateNames.adoc[]
 
 
-[TIP]
-====
-See xref:viewsheet:VisualizeYourData.adoc[] for information on how to create a Dashboard based on a Data Worksheet.
-====
+. If you want to manually modify the data in the data block, convert the data block into an Embedded Table. See xref:EnterData.adoc[] for more information.
+
+. Press the {buttonSave} in the toolbar to save the Data Worksheet.
+
+
+
+
+
