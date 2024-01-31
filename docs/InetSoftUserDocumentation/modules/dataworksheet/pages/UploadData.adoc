@@ -35,7 +35,7 @@ In this example, we will import an Excel file: Select an Excel file type (`.xls`
 +
 image:uploadFile2.gif[]
 
-. Select the desired Excel file and press btn:[Open]. (Here we use the sample xref:data:attachment$OrderDataText.xls[OrderDataText] Excel file.)
+. Select the desired Excel file and press btn:[Open]. (Here we use the sample xref:ROOT:attachment$OrderDataText.xls[OrderDataText] Excel file.)
 +
 image:uploadFile1.gif[]
 
