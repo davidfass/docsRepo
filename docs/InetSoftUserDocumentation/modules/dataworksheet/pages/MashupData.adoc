@@ -1,1 +1,4 @@
 = Mashup Data
+include::ROOT:partial$buttonSnippets.adoc[]
+include::ROOT:partial$rightClickOptions.adoc[]
+

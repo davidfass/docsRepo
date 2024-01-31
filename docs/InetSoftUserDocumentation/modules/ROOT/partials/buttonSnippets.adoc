@@ -34,6 +34,6 @@
 :buttonEditAction: ‘Edit’ image:ROOT:buttons/edit.svg[]
 :buttonImportDataFile: ‘Import Data File’  button image:ROOT:buttons/upload.svg[]
 :buttonChooseCell: ‘Choose Cell’ button image:ROOT:buttons/edit.svg[]
-
+:buttonEdit: ‘Edit’ button image:ROOT:buttons/edit.svg[]
 
 // Inline Comments
