@@ -6,7 +6,7 @@
 :buttonDataTab: ‘Data’ button image:ROOT:buttons/database.svg[]
 :buttonNewWorksheet: ‘New Data Worksheet’ button image:ROOT:buttons/new-worksheet.svg[]
 :buttonUploadFile: ‘Upload File’ button image:ROOT:buttons/upload.svg[]
-:buttonMashupData: ‘Mashup Data’ button image:ROOT:buttons/new-worksheet.svg[]
+:buttonMashupData: ‘Mashup Data’ image:ROOT:buttons/new-worksheet.svg[]
 :buttonAutoUpdate: ‘Disable Auto Update’ button image:ROOT:buttons/auto-reload.svg[]
 :buttonActions: ‘Actions’ button image:ROOT:buttons/menu-horizontal.svg[]
 :buttonAutoUpdate2: ‘Enable Auto Update’  button image:ROOT:buttons/reset.svg[]
@@ -35,5 +35,14 @@
 :buttonImportDataFile: ‘Import Data File’  button image:ROOT:buttons/upload.svg[]
 :buttonChooseCell: ‘Choose Cell’ button image:ROOT:buttons/edit.svg[]
 :buttonEdit: ‘Edit’ button image:ROOT:buttons/edit.svg[]
+:buttonDefineCondition: ‘Define Condition’ button image:ROOT:buttons/condition.svg[]
+:buttonVariable: ‘Variable’ image:ROOT:buttons/variable.svg[]
+:buttonVariableIcon: ‘Variable’ icon image:ROOT:buttons/variable.svg[]
+:buttonChangeValueType: 'Change Value Type' button image:ROOT:buttons/value-type-list.svg[]
+:buttonEditFormula: ‘Edit Formula’  button image:ROOT:buttons/formula-edit.svg[]
+:buttonSubquery: sub-query link image:ROOT:buttons/condition-with-query.svg[]
+:buttonGroupAndAggregate: ‘Group and Aggregate’ button image:ROOT:buttons/summary.svg[]
+:buttonSettings: ‘Settings’ button image:ROOT:buttons/setting.svg[]
 
-// Inline Comments
+// Variables
+:productVersion: 2023

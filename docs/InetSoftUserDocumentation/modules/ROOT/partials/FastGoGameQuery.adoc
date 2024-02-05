@@ -1,0 +1,7 @@
+ifdef::si[]
+NOTE: The ‘Fast Go Game’ and ‘Wireless Mouse’ queries can be found in the menu:Examples[Orders > Sample Queries] folder.
+endif::[]
+
+ifdef::testdrive[]
+NOTE: The ‘Fast Go Game’ and ‘Wireless Mouse’ queries can be found in the *Orders Examples* data set folder.
+endif::[]

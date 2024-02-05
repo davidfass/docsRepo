@@ -3,6 +3,7 @@ include::ROOT:partial$buttonSnippets.adoc[]
 include::ROOT:partial$rightClickOptions.adoc[]
 
 
+
 You can change various properties of a data block, such the description, maximum number of rows retrieved and displayed, and the handling of duplicate rows.
 
 To change data block properties, follow these steps:

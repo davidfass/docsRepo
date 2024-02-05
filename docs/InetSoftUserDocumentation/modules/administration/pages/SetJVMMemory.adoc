@@ -1,0 +1,15 @@
+= Set JVM Memory
+include::ROOT:partial$minimumRequirements.adoc[]
+include::ROOT:partial$buttonSnippets.adoc[]
+
+Verify that the minimum system requirements are satisfied: {minimumReq}
+
+To control the amount of memory that the Java JVM assigns to the InetSoft application, edit the *StyleStudio.vmoptions* or *inetsoft-server-{productVersion}.vmoptions* file in the *bin* directory of the installation directory. Use `InitialRAMPercentage` and `MaxRAMPercentage`  to assign a percentage of the machine’s memory, for example:
+
+[source,shellscript]
+-XX:InitialRAMPercentage=25.0
+-XX:MaxRAMPercentage=60.0
+
+You can also use the `-xmx` and `-xms` flags to assign a specific amount of RAM (e.g., `-Xmx6g`, `-Xms6g`).
+
+WARNING: It is *not recommended* to allocate more than 75% of system RAM.

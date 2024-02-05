@@ -1,4 +1,4 @@
-= Preview Data Block Query
+= Preview Query
 include::ROOT:partial$buttonSnippets.adoc[]
 include::ROOT:partial$rightClickOptions.adoc[]
 

@@ -1,0 +1,3 @@
+= Server Environment
+
+The following sections describe options for configuring the server environment, including server type, localization, and performance tuning.

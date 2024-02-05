@@ -1,0 +1,1 @@
+:minimumReq: Style Intelligence and Style Scope require Java Runtime Environment (JRE) 1.8 or later. The minimum hardware requirement for the server is an i5 processor with 8GB RAM. Browsers should have JavaScript enabled.

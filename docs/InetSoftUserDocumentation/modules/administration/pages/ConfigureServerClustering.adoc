@@ -1,0 +1,9 @@
+= Configure Server Clustering
+
+Server clustering is the standard method for improving the scalability of a server system. Clustering uses multiple server instances to process client report requests, thus enhancing performance over the single-server configuration.
+
+Server clustering is transparent to the end-user. The end-user interacts with a single server (the same as in a non-clustered environment), and a load balancer automatically directs the server requests to available cluster nodes to achieve maximum throughput.
+
+NOTE: In most cases you should use a hardware load balancer such as F5.
+
+It is highly recommended that you discuss your clustering needs with an InetSoft technical resource before you install cluster nodes or load balancer. The following sections provide information about managing the cluster once the nodes have been correctly installed.

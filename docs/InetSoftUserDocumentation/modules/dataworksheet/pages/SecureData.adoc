@@ -1,0 +1,3 @@
+= Secure  Data
+
+The fundamental method for securing data is the Virtual Private Model (VPM). A VPM allows you to restrict data based on user, group, role, or any other criteria. See  XXXXXXX for more information about how to create and use a VPM.
