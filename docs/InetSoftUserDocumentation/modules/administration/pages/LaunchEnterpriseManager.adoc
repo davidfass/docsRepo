@@ -18,7 +18,7 @@ If the server is already running, you can access the Enterprise Manager by enter
 
  http://{servername}:{port}/em
 
-In the address, `{servername}` should be the name or IP address of the machine running the administration servlet, and `{port}` should be the application’s assigned port number (default: 8080). For example: http://localhost:8080/em.
+In the address, `\{servername}` should be the name or IP address of the machine running the administration servlet, and `\{port}` should be the application’s assigned port number (default: 8080). For example: http://localhost:8080/em.
 
 Before you begin managing resources and configuring components in Enterprise Manager, verify that you have completed the following steps:
 
