@@ -24,30 +24,30 @@ include::ROOT:partial$videoVersion.adoc[]
 
 . Create a new Data Worksheet and select the {buttonUploadFile} option. (See xref:CreateNewWorksheet.adoc[].) This opens the ‘Import Data File’ dialog box.
 +
-image:dataworksheet:embeddedTable4.gif[]
+image:dataworksheet:embeddedTable4.png[]
 +
 If a Data Worksheet is already open in Visual Composer, press the {buttonCreateObject} on the toolbar, and select {buttonUploadFile} to open the ‘Import Data File’ dialog box.
 +
-image:textSource5_1.gif[]
+image:textSource5_1.png[]
 
 . Press the btn:[Choose File] button to open the ‘Open File’ dialog box.
 In this example, we will import an Excel file: Select an Excel file type (`.xls`, `*.xlsx`) from the menu next to the ‘File name’ field.
 +
-image:uploadFile2.gif[]
+image:uploadFile2.png[]
 
 . Select the desired Excel file and press btn:[Open]. (Here we use the sample xref:ROOT:attachment$OrderDataText.xls[OrderDataText] Excel file.)
 +
-image:uploadFile1.gif[]
+image:uploadFile1.png[]
 
 . Press btn:[OK] to import the data. (For the sample _OrderDataText.xls_ Excel file, you do not need to change the other settings.) This creates a new data block  named ‘OrderDataText’ with data from the file.
 +
-image:embeddedTable5.gif[]
+image:embeddedTable5.png[]
 
 . Right-click on the data block, and select ‘Properties’ from the context menu.  {rightClickOptions} This opens the ‘Table Properties’ panel.
 
 . In the ‘Name’ field, enter  a name for the data block, and press btn:[OK].
 +
-image:embeddedTable7.gif[]
+image:embeddedTable7.png[]
 +
 include::ROOT:partial$duplicateNames.adoc[]
 

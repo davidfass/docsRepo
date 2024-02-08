@@ -32,10 +32,10 @@ endif::[]
 . Click on the data block to select it.
 . In the bottom panel press the {buttonDefineCondition}. This opens the *Condition* panel.
 +
-image:filtering2.gif[]
+image:filtering2.png[]
 . Select the ‘Advanced Conditions’ check box.
 +
-image:AdvancedConditionsBlank.gif[]
+image:AdvancedConditionsBlank.png[]
 +
 The ‘Advanced Conditions’ check box toggles between simple and advanced conditions. (See below for an example of using simple conditions.)
 +
@@ -48,18 +48,18 @@ IMPORTANT: If you switch from the advanced conditions interface to the simple co
 include::ROOT:partial$filterOperators.adoc[]
 ====
 +
-image:filtering3.gif[]
+image:filtering3.png[]
 +
 If the condition you specify references data model attributes that do not already exist in the data block, these attributes are automatically added to the data block as hidden columns.
 . Press btn:[Append] to add the condition.
 . #Optional:# To create a compound condition, repeat the above steps to specify another condition clause, select ‘and’ or ‘or’, and press ‘Insert’. This adds the additional clause into the composite condition.
 +
-image:commonscript:Ad Hoc Filtering10_ws.gif[]
+image:commonscript:Ad Hoc Filtering10_ws.png[]
 
 . #Optional:# Repeat the above steps to add additional clauses into the condition.
 . #Optional:# To specify the order of evaluation for a compound condition, use the ‘Indent’ and ‘Unindent’ buttons. To indent a set of clauses, select the ‘and’ or ‘or’ operator the condition box, and then press ‘Indent’. Use ‘Unindent’ to reverse indentation.
 +
-image:commonscript:Ad Hoc Filtering11_ws.gif[]
+image:commonscript:Ad Hoc Filtering11_ws.png[]
 +
 Clauses are evaluated in order of indentation, the most indented clauses being evaluated first.
 . To delete a clause in the condition, select the clause and press btn:[Delete]. To delete ALL clauses in the condition, press btn:[Clear]. To reposition a clause in the condition, select the clause and press btn:[Up] or btn:[Down].
@@ -88,22 +88,22 @@ include::ROOT:partial$SalesExploreWorksheet.adoc[]
 
 . From the left panel, drag the ‘Sales Explore’ Data Worksheet onto an empty area in the right panel. This creates the data block ‘Sales1’.
 +
-image:importWorksheet_6.gif[]
+image:importWorksheet_6.png[]
 
 . Click the data block to select it.
 . Press the {buttonDefineCondition} in the bottom panel. This opens the ‘Conditions’ panel.
 +
-image:ConditionExp.gif[]
+image:ConditionExp.png[]
 
 . Press the btn:[More] button to create a new condition.
 . Enter the following condition: `[Total] [is] [greater than] [1000]`.
 +
-image:newCondition.gif[]
+image:newCondition.png[]
 
 . #Optional:# To delete a condition, select the condition in the list and press the btn:[Fewer] button. Press btn:[OK].
 . Preview the data. (Click to select the data block, press the {buttonChangeView} in the bottom panel, and select {buttonLiveDataView}.)
 +
-image:previewConditionedtable.gif[]
+image:previewConditionedtable.png[]
 
 Note that only totals greater than $1000 are returned.
 ****
@@ -132,10 +132,10 @@ endif::[]
 . Click on the data block to select it.
 In the bottom panel press the {buttonDefineCondition}. This opens the *Condition* panel.
 +
-image:filterAggregate1.gif[]
+image:filterAggregate1.png[]
 . Select the ‘Advanced Conditions’ check box.
 +
-image:AdvancedConditionsBlank.gif[]
+image:AdvancedConditionsBlank.png[]
 +
 The ‘Advanced Conditions’ check box toggles between simple and advanced conditions. Post-aggregate filtering can only be specified with ‘Advanced Conditions’ enabled.
 +
@@ -148,17 +148,17 @@ IMPORTANT: If you switch from the advanced conditions interface to the simple co
 include::ROOT:partial$filterOperators.adoc[]
 ====
 +
-image:filtering4.gif[]
+image:filtering4.png[]
 
 . Press btn:[Append] to add the condition.
 . #Optional:# To create a compound condition, repeat the above steps to specify another condition clause, select ‘and’ or ‘or’, and press btn:[Insert]. This adds the additional clause into the composite condition.
 +
-image:filterAggregate2.gif[]
+image:filterAggregate2.png[]
 
 . #Optional:# Repeat the above steps to add additional clauses into the condition.
 . #Optional:# To specify the order of evaluation for a compound condition, use the btn:[Indent] and btn:[Unindent] buttons. To indent a set of clauses, select the ‘and’ or ‘or’ operator the condition box, and then press ‘Indent’. Use btn:[Unindent] to reverse indentation.
 +
-image:filterAggregate3.gif[]
+image:filterAggregate3.png[]
 +
 Clauses are evaluated in order of indentation, the most indented clauses being evaluated first.
 . To delete a clause in the condition, select the clause and press btn:[Delete]. To delete ALL clauses in the condition, press btn:[Clear]. To reposition a clause in the condition, select the clause and press btn:[Up] or btn:[Down].
@@ -199,10 +199,10 @@ endif::[]
 . Click on the data block to select it.
 . In the bottom panel press the {buttonDefineCondition}. This opens the *Condition* panel.
 +
-image:filtering2.gif[]
+image:filtering2.png[]
 . Select the ‘Advanced Conditions’ check box.
 +
-image:AdvancedConditionsBlank.gif[]
+image:AdvancedConditionsBlank.png[]
 +
 The ‘Advanced Conditions’ check box toggles between simple and advanced conditions. Ranking filters can only be specified with ‘Advanced Conditions’ enabled.
 +
@@ -211,7 +211,7 @@ NOTE: If you switch from the advanced conditions interface to the simple conditi
 . Press the btn:[Edit] button next to the ‘Ranking Conditions’ panel.
 . Press the btn:[More] button. Then use the menus to specify the desired condition.
 +
-image:RankingCondition2.gif[]
+image:RankingCondition2.png[]
 +
 If the condition you specify references data model attributes that do not already exist in the data block, these attributes are automatically added to the data block as hidden columns.
 . Press btn:[Append] to add the condition.
@@ -274,7 +274,7 @@ A user can modify the  value of a Variable in the Data Worksheet by using a Dash
 . Select the *Data* tab in the ‘Properties’ panel.
 . Open the ‘Target’ menu. Expand the ‘Variable’ node, and select the desired Variable asset in the Data Worksheet.
 +
-image:viewsheet:formControlVariable.gif[]
+image:viewsheet:formControlVariable.png[]
 . Press btn:[OK] to exit the ‘Properties’ panel.
 
 The Form control is now linked to the Data Worksheet Variable, and changes the user makes using the control will alter the values in the  Variable. To set the options displayed by the Form control, see xref:viewsheet:RadioCheckBoxComboProperties.adoc[].
@@ -283,16 +283,16 @@ The Form control is now linked to the Data Worksheet Variable, and changes the u
 . Click to select the data block that you want to filter.
 . Press the {buttonDefineCondition} button in the bottom panel.
 +
-image:ConditionButton_Field.gif[]
+image:ConditionButton_Field.png[]
 +
 This opens the ‘Condition’ panel.
 +
-image:ConditionDialog.gif[]
+image:ConditionDialog.png[]
 
 . Use simple condition mode (press the btn:[More] button) or advanced condition mode (select ‘Advanced Conditions’ and press the btn:[Edit] button for the type of condition you want to create). Advanced conditions allow you to specify both “AND” and “OR” operators, and to perform post-aggregate and ranking filtering.
 . To use a variable in the condition, press the {buttonChangeValueType} and select ‘Variable’. This opens a blank Combo Box on the right side of the condition.
 +
-image:Variable in Condition.gif[]
+image:Variable in Condition.png[]
 +
 In the Combo Box, do one of the following:
 
@@ -300,7 +300,7 @@ In the Combo Box, do one of the following:
 ** Type the name of a new parameter.
 ** Type the name of a Dashboard Form component. (See xref:viewsheet:DynamicallySetProperties.adoc[] for information about using these components.)
 +
-image:Variable in ConditionTyped.gif[]
+image:Variable in ConditionTyped.png[]
 . Press ‘OK’ to close the  ‘Condition’ panel.
 
 === Use Session Data in a Condition
@@ -327,21 +327,21 @@ endif::[]
 . Click to select the data block that you want to filter.
 . Press the {buttonDefineCondition} button in the bottom panel.
 +
-image:ConditionButton_Field.gif[]
+image:ConditionButton_Field.png[]
 +
 This opens the ‘Condition’ panel.
 +
-image:ConditionDialog.gif[]
+image:ConditionDialog.png[]
 
 . Use simple condition mode (press the btn:[More] button) or advanced condition mode (select ‘Advanced Conditions’ and press the btn:[Edit] button for the type of condition you want to create). Advanced conditions allow you to specify both “AND” and “OR” operators, and to perform post-aggregate and ranking filtering.
 
 . Press the {buttonChangeValueType} and select ‘Session Data’. This opens a menu on the right side of the condition.
 +
-image:Session Data in Condition.gif[]
+image:Session Data in Condition.png[]
 
 . In the menu, choose one of ‘User’, ‘Roles’, or ‘Groups’. These parameters return information about the user who is currently accessing the Data Worksheet; respectively, the user name, the array of roles to which the user belongs, and the array of groups to which the user belongs.
 +
-image:SessionData in ConditionChosen.gif[]
+image:SessionData in ConditionChosen.png[]
 +
 Note that the adjacent menu automatically chooses the ‘equal to’ or ‘one of’ operator to match your selection.
 . Press btn:[OK] to close the ‘Condition’ panel.
@@ -369,20 +369,20 @@ endif::[]
 . Click to select the data block that you want to filter.
 . Press the {buttonDefineCondition} button in the bottom panel.
 +
-image:ConditionButton_Field.gif[]
+image:ConditionButton_Field.png[]
 +
 This opens the ‘Condition’ panel.
 +
-image:ConditionDialog.gif[]
+image:ConditionDialog.png[]
 +
 . Use simple condition mode (press the btn:[More] button) or advanced condition mode (select ‘Advanced Conditions’ and press the btn:[Edit] button for the type of condition you want to create). Advanced conditions allow you to specify both “AND” and “OR” operators, and to perform post-aggregate and ranking filtering.
 
 . Press the {buttonChangeValueType} and select ‘Field’. This opens a menu on the right side of the condition.
 +
-image:Field in Condition.gif[]
+image:Field in Condition.png[]
 . Select the column containing the values to test.
 +
-image:Field in Condition2.gif[]
+image:Field in Condition2.png[]
 +
 The condition compares corresponding values in the selected columns (left-most menu and right-most menu), and returns only rows that satisfy the condition.
 . Press btn:[OK] to close the ‘Condition’ panel.
@@ -409,18 +409,18 @@ endif::[]
 . Click to select the data block that you want to filter.
 . Press the {buttonDefineCondition} button in the bottom panel.
 +
-image:ConditionButton_Field.gif[]
+image:ConditionButton_Field.png[]
 +
 This opens the ‘Condition’ panel.
 +
-image:ConditionDialog.gif[]
+image:ConditionDialog.png[]
 +
 . Use simple condition mode (press the btn:[More] button) or advanced condition mode (select ‘Advanced Conditions’ and press the btn:[Edit] button for the type of condition you want to create). Advanced conditions allow you to specify both “AND” and “OR” operators, and to perform post-aggregate and ranking filtering.
 
 
 . Press the {buttonChangeValueType} and select ‘Expression’. This displays a blank text field on the right side of the condition.
 +
-image:Expression in Condition.gif[]
+image:Expression in Condition.png[]
 
 . Press the ‘SQL’ or ‘JS’ button at the left of the text field to choose the expression type.
 +
@@ -430,7 +430,7 @@ NOTE: Use SQL expressions whenever possible.
 
 . Press the {buttonEditFormula} to launch the Formula Editor and enter your expression.
 +
-image:Expression in Condition2.gif[]
+image:Expression in Condition2.png[]
 +
 For example, to retrieve orders placed before today, you can use one of the following conditions:
 +
@@ -458,20 +458,20 @@ endif::[]
 . Click to select the data block that you want to filter.
 . Press the {buttonDefineCondition} button in the bottom panel.
 +
-image:ConditionButton_Field.gif[]
+image:ConditionButton_Field.png[]
 +
 This opens the ‘Condition’ panel.
 +
-image:ConditionDialog.gif[]
+image:ConditionDialog.png[]
 +
 . Use simple condition mode (press the btn:[More] button) or advanced condition mode (select ‘Advanced Conditions’ and press the btn:[Edit] button for the type of condition you want to create). Advanced conditions allow you to specify both “AND” and “OR” operators, and to perform post-aggregate and ranking filtering.
 
 . Press the {buttonChangeValueType} and select ‘Subquery’. This displays the ‘Subquery’ button.
 +
-image:SubQueryMenu.gif[]
+image:SubQueryMenu.png[]
 . Press the ‘Subquery’ button to open the ‘Subquery’ dialog box.
 +
-image:SubQueryDialog.gif[]
+image:SubQueryDialog.png[]
 . In the ‘Subquery’ menu, specify the desired sub-query data block. (This is the data block created when you dragged the query from the *Asset* panel to the right panel.)
 . Select options in the lower three menus, as needed. You do not need to make a selection in every menu; this depends on how you want to use the sub-query result. The ‘In column’ menu specifies the sub-query column that contains the result set to use in the condition. The bottom two menus control table synchronization for row-dependent conditions.
 +
@@ -513,7 +513,7 @@ include::ROOT:partial$FastGoGameQuery.adoc[]
 
 . Drag the ‘Wireless Mouse’ query from the left panel into the right panel. This creates a new data block named ‘Wireless Mouse1’.
 +
-image:twoDWSQueries_3.gif[]
+image:twoDWSQueries_3.png[]
 
 . In the ‘Fast Go Game1’ data block, rename the ‘Customers’ column to ‘Customers_FGG’.  This will make the next steps more clear.  See xref:ModifyColumn.adoc[] for how to rename a column.
 +
@@ -522,11 +522,11 @@ include::ROOT:partial$duplicateNames.adoc[]
 . Click the ‘Wireless Mouse1’ data block to select it.
 . Press the {buttonDefineCondition} button in the bottom panel.
 +
-image:SubQueryConditionButton.gif[]
+image:SubQueryConditionButton.png[]
 +
 This opens the ‘Condition’ panel.
 +
-image:ConditionDialog.gif[]
+image:ConditionDialog.png[]
 . Press the btn:[More] button.
 . Use the menus to specify the following expression:
 +
@@ -534,19 +534,19 @@ image:ConditionDialog.gif[]
 
 . To use a sub-query in the condition, press the {buttonChangeValueType} and select ‘Subquery’. This displays the ‘Subquery’ button.
 +
-image:SubQueryExampleList.gif[]
+image:SubQueryExampleList.png[]
 
 . Press the btn:[Subquery] button to open the ‘Subquery’ dialog box.
 . Select ‘Fast Go Game1’ from the ‘Subquery’ menu. This is the name of the sub-query data block.
 . Select ‘Customers_FGG’ from the ‘In column’ menu. This is the column of the sub-query that contains the list of values to use in the condition expression.
 +
-image:SubQueryExampleDialog.gif[]
+image:SubQueryExampleDialog.png[]
 
 . Press ‘OK’ to close the ‘Subquery’ dialog box. (You do not need to make selections from the bottom two menus.)
 . Press ‘OK’ to exit the ‘Condition’ panel. The data blocks are now linked by a {buttonSubquery} to indicate that the ‘Fast Go Game1’ data block provides a sub-query result to the ‘Wireless Mouse1’ data block.
 . Preview the data returned by the ‘Wireless Mouse1’ data block. (Click the data block to select it. Then press the {buttonChangeView} in the bottom panel and select {buttonLiveDataView}.)
 +
-image:SubQueryExampleResult.gif[]
+image:SubQueryExampleResult.png[]
 
 The ‘Wireless Mouse1’ data is filtered to display only the companies that did not purchase the ‘Fast Go Game’.
 =====
@@ -563,19 +563,19 @@ include::ROOT:partial$CreateNewWorksheetNote.adoc[]
 . Create the ‘Sales this week’ data block:
 .. Expand the sample Order Model, and drag the ‘Category’ and ‘Total’ columns from the ‘Product’ entity to create a new data block. (The ‘Order Model’ data model can be found in the menu:Examples[Orders] folder.)
 +
-image:SubQueryExampleRowDep1.gif[]
+image:SubQueryExampleRowDep1.png[]
 
 .. Double click the data block title bar, and rename the data block ‘Sales this week’.
 .. Press the {buttonDefineCondition} in the bottom panel to open the Condition panel.
 +
-image:SubQueryExampleRowDep2.gif[]
+image:SubQueryExampleRowDep2.png[]
 .. Press the btn:[More] button and enter the following condition: `[Order Date] [is] [in range] [This week]`.
 +
-image:SubQueryExampleRowDep3.gif[]
+image:SubQueryExampleRowDep3.png[]
 .. Press ‘OK’.
 .. Press the {buttonGroupAndAggregate} in the bottom panel to open the *Group and Aggregate* panel.
 +
-image:SubQueryExampleRowDep5.gif[]
+image:SubQueryExampleRowDep5.png[]
 .. Set the data block to group by ‘Category’ and aggregate by ‘Total’. Then press btn:[OK].
 . Create the ‘Sales last week’ data block:
 .. Make a copy of the ‘Sales this week’ data block. (See xref:CopyData.adoc[] for more information.)
@@ -586,29 +586,29 @@ image:SubQueryExampleRowDep5.gif[]
 +
 . Click the ‘Sales this week’ data block to select it. Press the {buttonDefineCondition} in the bottom panel. This opens the *Condition* panel again.
 +
-image:SubQueryConditionRDButton.gif[]
+image:SubQueryConditionRDButton.png[]
 . Press the btn:[More] button.
 . Use the menus to specify the following expression: `[Product.Total] [is] [greater than]`.
 . Press the {buttonChangeValueType} and select ‘Subquery’.
 +
-image:SubQueryExampleDialog2.gif[]
+image:SubQueryExampleDialog2.png[]
 . Press the ‘Subquery’ button. This opens the ‘Subquery’ dialog box.
 . Select ‘Sales last week’ from the ‘Subquery’ menu.
 . Select ‘Total_LW’ from the ‘In column’ menu. This is the column of the sub-query containing the values to be used in the condition test.
 . Select ‘Category_LW’ from ‘Subquery column’. This is the sub-query column that will be matched up against the ‘Current table column’ in the filtered data block. (It is the “join column” of the sub-query data block.)
 . Select ‘Product.Category’ from the ‘Current table column’ menu. This is the filtered data block column that will be matched up against the ‘Subquery column’ in the sub-query data block. (It is the “join column” of the filtered data block.)
 +
-image:changeSubQuerySettings.gif[]
+image:changeSubQuerySettings.png[]
 . Press btn:[OK] to close the ‘Subquery’ dialog box to return to the *Condition* panel.
 +
-image:SubQueryExampleRowDep4.gif[]
+image:SubQueryExampleRowDep4.png[]
 
 . Press btn:[OK] in the *Condition* panel. The two data blocks are now shown with a {buttonSubquery}, indicating that the ‘Sales this week’ data block relies on sub-query data from the ‘Sales last week’ data block.
 +
-image:TablewithSubQuery.gif[]
+image:TablewithSubQuery.png[]
 . Preview the data in the ‘Sales this week’ data block. (Select the data block. Then press the {buttonChangeView} button in the bottom panel, and select {buttonLiveDataView}.)
 +
-image:SubQueryExampleRowDep6.gif[]
+image:SubQueryExampleRowDep6.png[]
 
 Note that the filtered ‘Sales this week’ data block now contains only the categories for which sales were higher than the previous week. (In this example, only the category of ‘Hardware’ had higher sales this week.)
 =====
@@ -627,7 +627,7 @@ To specify the materialized view update conditions for a data block, follow the 
 . Click the data block to select it.
 . Press the  button in the bottom panel. This opens the ‘Condition’ panel.
 +
-image:ConditionButton.gif[]
+image:ConditionButton.png[]
 
 . Select the *MV Update* tab.
 . In the special case where you are using an *unmergeable query*, enable the ‘Always append updates’ option. Otherwise, leave it disabled. See xref:administration:IncrementalUpdate.adoc[] for information about using this property for unmergeable queries.
@@ -643,10 +643,10 @@ When you press the desired btn:[Edit] button, this opens the ‘Conditions’ di
 +
 NOTE: To prevent a delete condition from being applied on the initial materialized view generation, add the following special tag into the expression script: `//@incrementalOnly`.
 +
-image:ConditionDialogMV.gif[]
+image:ConditionDialogMV.png[]
 If you select the ‘Expression’ option for the right side of the condition, follow the additional steps below:
 +
-image:MVUpdateExpressionOption.gif[]
+image:MVUpdateExpressionOption.png[]
 
 .. For append operations, press the btn:[SQL/JS] button to select the desired expression language, SQL or JavaScript.
 +
@@ -661,7 +661,7 @@ MV.LastUpdatedTime:: This represents the time at which the materialized view for
 
 MV.MaxValue:: This represents the maximum value of the field specified in the left-side menu of the materialized view condition. For example, in the condition below, `MV.MaxValue` represents the maximum value of the ‘Total’ field.
 +
-image:MVUpdateMaxValue.gif[]
+image:MVUpdateMaxValue.png[]
 
 MV.MinValue:: This represents the minimum value in the field specified in the left-side menu of the materialized view condition.
 .. Press btn:[OK] to close the Formula Editor.

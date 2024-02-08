@@ -8,7 +8,7 @@ The procedure for setting object permissions (actions) is the same for all compo
 
 . Select the *Security* page in the left panel, and select the *Actions* tab.
 +
-image:securityActions.gif[]
+image:securityActions.png[]
 
 . Click to select the desired action or object in the tree. For example, select the ‘Open and Create Bookmarks’ item in the tree.
 +
@@ -42,7 +42,7 @@ Profile:: Permission to profile the performance of a dashboard or report via the
 Upload Drivers:: Permission to upload database drivers when creating a new data source using the {buttonDataSource} option under the Portal {buttonCreate} and on the *Drivers and Plugins* page in Enterprise Manager. (See xref:ROOT:ConnectToData.adoc[] and xref:administration:ManageDriversPlugins.adoc[] for more information.)
 ====
 +
-image:server7.gif[]
+image:server7.png[]
 +
 . If the ‘Grant access to all users’ check-box is checked, uncheck it.
 +
@@ -59,10 +59,10 @@ include::ROOT:partial$ParentPermissions.adoc[]
 
 . Press the {buttonEMAdd} button. This opens the ‘Add Permission’ dialog box.
 +
-image:server7a.gif[]
+image:server7a.png[]
 . {buttonCtrl}-click to select the desired users, groups, or roles, and press {buttonEMAdd}.
 +
-image:Report Permissions.gif[]
+image:Report Permissions.png[]
 . Select ‘Access requires both User and Role permission’ to specify that access to the object or component is granted only if the current user has *both* user *and* role permissions; i.e., both the user’s name (or group) and at least one of the user’s roles appear in the ‘Selected Entities’ table.
 +
 Select ‘Access requires either User or Role permission’ to specify that access to the object or component is granted if the current user has *either* user *or* role permissions; i.e., either the user’s name (or group) or at least one of the user’s roles appear in the ‘Selected Entities’ table.

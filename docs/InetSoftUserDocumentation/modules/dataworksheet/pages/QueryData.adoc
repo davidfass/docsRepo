@@ -7,54 +7,54 @@ To create a data set by defining a new query in the User Portal, follow the step
 . Log into the User Portal.
 . Press the {buttonCreate} at the top  of the User Portal, and select the {buttonWorksheet} option.
 +
-image:newWorksheet2.gif[]
+image:newWorksheet2.png[]
 +
 This opens Visual Composer in a separate browser tab and displays the ‘New Data Worksheet’ dialog box.
 +
-image:newWorksheet3.gif[]
+image:newWorksheet3.png[]
 
 . Choose the query option for the desired data source (e.g., ‘Orders Query’) and press btn:[OK].  This creates a blank Data Worksheet named ‘Untitled’ and opens the ‘Database Query’ dialog box.
 . In the data source menu, choose the database that you want to supply data to the data set. (This menu is only available when there is more than one data source defined.)
 +
-image:agileData11_1.gif[]
+image:agileData11_1.png[]
 
 . Select the database fields that you want to retrieve by dragging them from the left panel into the ‘Columns’ area.
 +
-image:agileData12_1.gif[]
+image:agileData12_1.png[]
 . Define any required joins. To do this, follow the steps below:
 .. Press the btn:[New] button next to the ‘Joins’ area to open the ‘Add Join’ dialog box.
 .. Select a table from the top-left menu, and select the join field for that table from the bottom-left menu. Select a table from the top-right menu, and select the join field for that table from the bottom-right menu. From the center menu, select the join operator (equi-join or inequality join).
 +
-image:agileData13_1.gif[]
+image:agileData13_1.png[]
 +
 NOTE: For full information about specifying joins, see xref:JoinData.adoc[].
 .. #Optional:#  Select the ‘All’ option on the left side to retain all records from the left table, even those for which there is no match in the right table (left outer join). Select the ‘All’ option on the right side to retain all records from the right table, even those for which there is no match in the left table (right outer join). Select both ‘All’ options to retain all rows from both tables (full outer join).
 .. Press btn:[OK] to add the join. The join is now displayed in the ‘Joins’ area.
 +
-image:agileData20_1.gif[]
+image:agileData20_1.png[]
 +
 
 .. To add an additional join, press the btn:[New] button again to open the ‘Add Join’ dialog box. Repeat as necessary to add all desired joins.
 +
-image:agileData21_1.gif[]
+image:agileData21_1.png[]
 
 .. To change an existing join, press the ‘Edit’ button next to the join.
 +
-image:agileData22_1.gif[]
+image:agileData22_1.png[]
 .. To delete an existing join, press the ‘Delete’ button next to the join.
 +
-image:agileData23_1.gif[]
+image:agileData23_1.png[]
 
 . #Optional:#  Press the btn:[Edit] button next to the ‘Conditions’ area to open the ‘Conditions’ dialog box. Use the menus to enter a desired filter condition and press btn:[Insert]. Then press btn:[OK].
 +
-image:agileData14_1.gif[]
+image:agileData14_1.png[]
 +
 NOTE: For full information about specifying conditions, see xref:FilterData.adoc[].
 
 
 . #Optional:#  To make manual edits to the SQL string that will be sent to the database, press the btn:[Edit] button next to the ‘SQL’ area to open the ‘SQL’ panel for editing. Make the desired edits.
 +
-image:agileData15_1.gif[]
+image:agileData15_1.png[]
 +
 Press the btn:[Parse Now] button to parse the SQL string. Note, however, that due to database variations, the parser may not be able to parse all valid SQL statements.
 +
@@ -62,14 +62,14 @@ IMPORTANT: If you make manual edits to the SQL string, you will no longer be abl
 
 . Press btn:[OK] to close the ‘Database Query’ dialog box. This creates a new data block based on the specified query.
 +
-image:databaseQuery2.gif[]
+image:databaseQuery2.png[]
 
 . To edit the query further, press the {buttonEdit} in the bottom panel. This reopens the ‘Database Query’ dialog box.
 +
-image:databaseQuery3_1.gif[]
+image:databaseQuery3_1.png[]
 
 include::ROOT:partial$mashupBlurb.adoc[]
 
 If a Data Worksheet is already open, you can add a query-based data block by pressing the {buttonCreateObject} in the toolbar and selecting ‘_Database_ Query’. (The name  ‘_Database_’ is the name of the particular data source.) This opens the ‘Database Query’ dialog box described above.
 
-image:databaseQuery1.gif[]
+image:databaseQuery1.png[]

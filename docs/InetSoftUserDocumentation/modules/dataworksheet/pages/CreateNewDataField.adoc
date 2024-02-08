@@ -32,7 +32,7 @@ NOTE: If the data block is grouped and aggregated, use the {buttonChangeView} to
 +
 In the bottom panel, press the {buttonCreateExpression}. This opens the Formula Editor.
 +
-image:dataworksheet:agileTransform3.gif[]
+image:dataworksheet:agileTransform3.png[]
 +
 . In the ‘Name’ field, enter the name of the new column that the expression will create.
 +
@@ -44,7 +44,7 @@ include::ROOT:partial$duplicateNames.adoc[]
 
 . Type the desired expression into the script area. To add a field into the expression, click on the field name in the ‘Fields’ listing. To reference the data contained in other cells of the data block, see xref:dataworksheet:AccessDataInExpression.adoc[].
 +
-image:dataworksheet:agileTransform5.gif[]
+image:dataworksheet:agileTransform5.png[]
 +
 NOTE:  *Date*-type fields supply the following date parts: Year, QuarterOfYear, MonthOfYear,             DayOfMonth, and DayOfWeek. *Time*-type fields supply the following date parts: HourOfDay, MinuteOfHour,            SecondOfMinute. *TimeInstant*-type fields supply all of the previous date parts.
 +
@@ -52,7 +52,7 @@ image:dataworksheet:DateParts2.png[]
 +
 . Press btn:[OK] to close the Editor and create the new column.
 +
-image:dataworksheet:agileTransform6.gif[]
+image:dataworksheet:agileTransform6.png[]
 +
 . Save the Data Worksheet by pressing the {buttonSave} in the toolbar or press kbd:[Ctrl + S] on the keyboard.
 . Close the Visual Composer tab in the browser and return to the Portal.
@@ -80,11 +80,11 @@ endif::[]
 . In the *Toolbox* panel, right-click on the data block, data model, or query to which you want to add the calculated field. Select ‘New Calculated Field’ from the context menu.
 +
 ifdef::si[]
-image:viewsheet:NewCalculatedField1.gif[]
+image:viewsheet:NewCalculatedField1.png[]
 endif::[]
 
 ifdef::testdrive[]
-image:testdrive:agileDash60.gif
+image:testdrive:agileDash60.png
 endif::[]
 +
 This opens the ‘Calculated Field’ panel. #Note:# Your choice of 'Detail' or 'Aggregate' cannot be changed later.
@@ -97,7 +97,7 @@ The following special characters are *permitted* in the name of a calculated fie
 
 . Select the ‘Detail’ option to perform calculations on the data directly provided by the data block, or click 'Aggregate' to perform calculations on the data after it has been aggregated (for example in a Chart or a Crosstab).
 +
-image:viewsheet:NewCalculatedField2.gif[]
+image:viewsheet:NewCalculatedField2.png[]
 +
 . In the ‘Return Data Type’ menu, select the data type that the calculated field will return.
 +
@@ -112,7 +112,7 @@ In general, SQL expressions perform better than JavaScript expressions because S
 ====
 The available fields are listed in the top-left panel. Click on an available field in the panel to add it to the expression.
 
-image:viewsheet:NewCalculatedField3.gif[]
+image:viewsheet:NewCalculatedField3.png[]
 
 NOTE:  *Date*-type fields supply the following date parts: Year, QuarterOfYear, MonthOfYear,             DayOfMonth, and DayOfWeek. *Time*-type fields supply the following date parts: HourOfDay, MinuteOfHour,            SecondOfMinute. *TimeInstant*-type fields supply all of the previous date parts.
 +
@@ -140,13 +140,13 @@ To add a new aggregate to the list, follow the steps below:
 
 .. Press the ‘New Aggregate’ link in the top-left panel.
 +
-image:viewsheet:CalcFieldExample8.gif[]
+image:viewsheet:CalcFieldExample8.png[]
 +
 This opens the ‘Aggregate’ dialog box.
 +
 .. In the ‘Field’ menu of the ‘Aggregate’ dialog box, select the field that you wish to aggregate for purposes of the calculation.
 +
-image:viewsheet:CalcFieldExample9.gif[]
+image:viewsheet:CalcFieldExample9.png[]
 +
 In the ‘Aggregate’ menu, select the desired aggregation method. Read more about the available methods below:
 +
@@ -158,23 +158,23 @@ include::ROOT:partial$AggregationMethods.adoc[]
 .. For a bivariate aggregation method, select the second field from the ‘With’ menu.
 .. Press btn[OK] to close the ‘Aggregate’ dialog box. The Formula Editor now displays the newly defined aggregate quantity in the top-left panel.
 +
-image:viewsheet:CalcFieldExample10.gif[]
+image:viewsheet:CalcFieldExample10.png[]
 +
 .. #Optional#  Press the ‘New Aggregate’ button again, and repeat the above steps to add as many additional aggregates as desired.
 .. Once you have defined the required aggregates in the top-left panel, enter the desired calculation (using the aggregate fields) in the formula field at the bottom of the dialog box.
 +
-image:viewsheet:CalcFieldExample11.gif[]]
+image:viewsheet:CalcFieldExample11.png[]]
 +
 #Note:# Click an aggregate field in the top-left panel to add it to the expression.
 ====
 . Press btn:[OK] to close the Formula Editor. This adds the new calculated field to the data source at the top of the *Toobox* panel.
 +
 ifdef::si[]
-image:viewsheet:NewCalculatedField4.gif[]
+image:viewsheet:NewCalculatedField4.png[]
 endif::[]
 +
 ifdef::testdrive[]
-image:testdrive:agileDash61.gif[]
+image:testdrive:agileDash61.png[]
 endif::[]
 
 You can display this calculated field in Output Components (see xref:viewsheet:AddAKPI.adoc[]) or Data View Components (see xref:viewsheet:AddAChart.adoc[] and xref:viewsheet:AddTableOrCrosstab.adoc[]) in the same way that would display any other data field. #NOTE:# You cannot bind an aggregate-based calculated field to Filter Components.

@@ -29,11 +29,11 @@ include::ROOT:partial$CreateNewWorksheetNote.adoc[]
 
 . Press the {buttonCreateObject}, and select {buttonEmbeddedTable}.
 +
-image:newEmbeddedTableToobar.gif[]
+image:newEmbeddedTableToobar.png[]
 
 . In the ‘Embedded Table’ dialog box provide a ‘Name’ for the Embedded Table and enter a number for ‘Rows’ and ‘Columns’. Then press btn:[OK].
 +
-image:EmbeddedTableCreate.gif[]
+image:EmbeddedTableCreate.png[]
 
 . To edit a column header, double-click on the header in the bottom panel and enter the desired text.
 
@@ -41,7 +41,7 @@ image:EmbeddedTableCreate.gif[]
 
 . To edit a data cell, click in the cell in the bottom panel and enter text directly. You can enter both numeric and non-numeric values.
 +
-image:embeddedTableEnterData.gif[]
+image:embeddedTableEnterData.png[]
 . Press the {buttonSave} in the toolbar to save the Data Worksheet with the embedded data.
 
 .Example: Create Embedded Table
@@ -54,19 +54,19 @@ include::ROOT:partial$CreateNewWorksheetNote.adoc[]
 
 . Press the {buttonCreateObject}, and select {buttonEmbeddedTable}. Use the ‘Embedded Table’ dialog box to create an Embedded Table with three rows and three columns.
 +
-image:EmbeddedTableCreate2.gif[]
+image:EmbeddedTableCreate2.png[]
 
 . Press btn:[OK] to close the dialog box and create the Embedded Table.
 
 . In the bottom panel, double-click on the ‘col0’ header cell. The cell switches to editing mode, and you can now type in the cell to change the text.
 +
-image:EditableEmbeddedTable.gif[]
+image:EditableEmbeddedTable.png[]
 
 . Change the column names for ‘col0’, ‘col1’ and ‘col2’ to ‘A’, ‘B’ and ‘C’, respectively.
 
 . Enter any values in the nine data cells. Note that both numeric and non-numeric values can be entered in the table.
 +
-image:filledEmbeddedTable.gif[]
+image:filledEmbeddedTable.png[]
 ****
 
 == Add/Remove Rows from an Embedded Table
@@ -78,7 +78,7 @@ To *add a new row* to an Embedded Table, follow these steps:
 
 . Right-click a table row in the bottom panel, and choose ‘Insert Row’ or ‘Append Row’ from the context menu. This inserts a blank row above the row you clicked or appends a blank row below the row you clicked, respectively.
 +
-image:insertRowEmbedded.gif[]
+image:insertRowEmbedded.png[]
 +
 All cells in the new row can be edited.
 
@@ -109,21 +109,21 @@ include::ROOT:partial$SalesExploreWorksheet.adoc[]
 include::ROOT:partial$CreateNewWorksheetNote.adoc[]
 . From the left panel, drag the ‘Sales Explore’ Data Worksheet into the right panel. This creates the data block ‘Sales1’.
 +
-image:importWorksheet_1.gif[]
+image:importWorksheet_1.png[]
 . Press the {buttonChangeView} in the bottom panel, and select {buttonLiveDataView}.
 
 . Right-click the data block and select ‘Convert to Embedded Table’. {rightClickOptions}
 +
-image:SalesbyCategoryLiveData.gif[]
+image:SalesbyCategoryLiveData.png[]
 +
 A new data block is created with name ‘Query1’.
 . Select the ‘Query1’ data block. Press the {buttonChangeView} in the bottom panel and select {buttonEditAction}.
 +
-image:converttoEmbedded2.gif[]
+image:converttoEmbedded2.png[]
 
 . Click on any of the cells in the bottom panel. Notice that all of the cells are now editable.
 +
-image:EmbeddedTableEditable.gif[]
+image:EmbeddedTableEditable.png[]
 ****
 
 == Import Data into an Embedded Table
@@ -148,11 +148,11 @@ include::ROOT:partial$videoVersion.adoc[]
 . Select an existing Embedded Table.
 . In the bottom panel, Press the {buttonImportDataFile}.
 +
-image:importCSVButton.gif[]
+image:importCSVButton.png[]
 +
 This opens the ‘Import Data File’ dialog box.
 +
-image:importCSV.gif[]
+image:importCSV.png[]
 
 . Press ‘Choose File’, and choose the desired text file. (By default, only files with the extension `.csv` are shown. To view all file types, enter `\*.*` in the ‘File Name’ field, and press kbd:[Enter].)
 
@@ -199,7 +199,7 @@ NOTE: Multiple controls can be linked to the same Embedded Table.
 * To access a Variable, expand the ‘Variable’ node, and select the desired Variable asset in the Data Worksheet. Skip to the final step below.
 . For an Embedded Table, press the {buttonChooseCell} next to the ‘Target’ field. This displays a representation of the Embedded Table.
 +
-image:viewsheet:Input Browse Embedded Table.gif[]
+image:viewsheet:Input Browse Embedded Table.png[]
 
 . In the displayed Embedded Table, click to select the table cell into which form values should be passed. This automatically populates the ‘Column’ and ‘Row’ menus with the corresponding cell indices. Alternatively, specify the target cell directly from the provided menus:
 * From the ‘Column’ menu, select the appropriate field of the Embedded Table data block.
@@ -230,7 +230,7 @@ endif::[]
 . Press btn:[OK] to close the panel.
 . #Optional:# By default, user-modifications to the table are individually submitted immediately upon entry. To batch-submit modifications, right-click on the Table and select ‘Properties’. Select the *General* tab and disable the ‘Submit on Change’ option. Note that this option is only available when the ‘Embedded Table’ option is enabled on the *Advanced* tab.
 +
-image:viewsheet:TableSubmitOnChange.gif[]
+image:viewsheet:TableSubmitOnChange.png[]
 +
 If ‘Submit On Change’ is disabled, the user can batch-submit changes by pressing the  in the Table mini-toolbar.
 +

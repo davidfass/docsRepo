@@ -12,7 +12,7 @@ To change data block properties, follow these steps:
 
 . Change the desired properties, and press ‘OK’ to exit the panel.
 +
-image:dataworksheet:TableProps.gif[]
+image:dataworksheet:TableProps.png[]
 
 The  properties are described below.
 

@@ -81,7 +81,7 @@ This example illustrates how you can reference the cells of another data block f
  PRODUCT_NAME
  CATEGORY_ID
 +
-image:dataworksheet:ReferenceCellExampleMakeTable6.gif[]
+image:dataworksheet:ReferenceCellExampleMakeTable6.png[]
 +
 This creates a new data block named ‘PRODUCTS1’.
 +
@@ -101,11 +101,11 @@ This formula says: _“Look in the ‘CATEGORIES1’ data block, and return the 
 +
 . Select the ‘Script’ button at the top-right of the Formula Editor.
 +
-image:dataworksheet:ReferenceCellExampleMakeTableNoSQL.gif[]
+image:dataworksheet:ReferenceCellExampleMakeTableNoSQL.png[]
 +
 . Press btn:[OK] to close the Formula Editor. The two data blocks are now connected by a graphical link to indicate that the ‘PRODUCTS1’ data block references the ‘CATEGORIES1’ data block.
 +
-image:dataworksheet:ReferenceCellExampleMakeTable7.gif[]
+image:dataworksheet:ReferenceCellExampleMakeTable7.png[]
 +
 . Preview the ‘PRODUCTS1’ data block. (Click the  data block to select it. Then press the {buttonChangeView} in the bottom panel and select {buttonLiveDataView}.)
 +

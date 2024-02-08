@@ -9,7 +9,7 @@ To create a scheduled task, follow the steps below:
 . Press the {buttonSettings} at the top of Enterprise Manager.
 . Select the *Schedule* page in the left panel, and select the *Tasks* tab at the top.
 +
-image:schedulerTasksTab.gif[]
+image:schedulerTasksTab.png[]
 . Press the btn:[New Task] button under the table. This creates a new task, with the default name ‘Task n’ (e.g., Task1, Task2, Task3, etc.).
 . Select the *Conditions* tab and specify a condition to determine when the task will execute. See xref:SchedulerConditions.adoc[] for details.
 . Select the *Actions* tab and specify the type of action to take when the scheduled task executes. See xref:SchedulerActions.adoc[] for details.

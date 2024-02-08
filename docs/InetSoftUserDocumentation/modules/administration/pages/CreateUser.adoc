@@ -12,15 +12,15 @@ To create a new user in Enterprise Manager , follow the steps below.
 . Press the {buttonSettings} at the top of Enterprise Manager.
 . Select the *Security* page in the left panel.
 +
-image:Figure 23_1.gif[]
+image:Figure 23_1.png[]
 . Select the *Users* tab.
 +
-image:securityDefineUsers.gif[]
+image:securityDefineUsers.png[]
 
 . From the ‘Provider Name’ menu, select the security provider under which to define users.
 . Press the ‘New User’ link below the tree. This creates a user with the default name ‘userN’ (user0, user1, etc.).
 +
-image:server1.gif[]
+image:server1.png[]
 
 . Type in the ‘Name’ field to change the name of the user.
 +
@@ -33,7 +33,7 @@ IMPORTANT: To allow users to log in as  “guest”, create a user with name ‘
 . Select the ‘Change Password’ option to change the user’s password.
 . #Optional#: To add the user to a group, press the btn:[Add] button in the ‘Member Of’ area. Choose the desired group(s) in the ‘Add Group’ dialog box (kbd:[Ctrl]-click to select multiple groups), and press btn:[Add]. Then click the {buttonEnable} next to the group to make it active for the user.
 +
-image:securityDefineUsers2.gif[]
+image:securityDefineUsers2.png[]
 . #Optional:# To add a role for the user, press the btn:[Add] button in the ‘Roles’ area. Choose the desired role(s) in the ‘Add Role’ dialog box (kbd:[Ctrl]-click to select multiple roles), and press btn:[Add]. Then click the {buttonEnable} next to the role to make it active for the user.
 . #Optional:# To add administrative permission for the user, press the btn:[Add] button in the ‘Administrator Permissions’ area. Choose the desired user(s), groups(s), or role(s) in the ‘Add Permission’ dialog box (kbd:[Ctrl]-click to select multiple items), and press btn:[Add]. Then click the {buttonEnable} next to the user(s), groups(s), or role(s) to grant those users, groups, or roles administrative privileges over the user you are defining. Users, groups, or roles granted such administrative privileges will be able to use Enterprise Manager to remove the defined user or reassign groups and roles to the user.
 . To select a Portal theme for the user, choose the desired theme from the ‘Theme’ menu. (See xref:Themes.adoc[] for information about how to create a theme.)
@@ -53,7 +53,7 @@ Note that if any security provider defines more than the allowed number of users
 
 For a “Named Session” license key (which enables Visual Composer), you should specify which particular users have permission to access Visual Composer. To do this, assign the ‘Designer’ role to users who need Visual Composer access.
 
-image:NamedSessionDesignerRole.gif[]
+image:NamedSessionDesignerRole.png[]
 
 You can assign the ‘Designer’ role to more users than the maximum number allowed by the license. If the maximum number of licensed users is reached, the next named user who attempts to open Visual Composer will receive a notification that all licenses are in use.
 ====

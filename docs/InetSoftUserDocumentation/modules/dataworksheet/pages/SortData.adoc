@@ -32,7 +32,7 @@ endif::[]
 . Click the data block to select it.
 . In the bottom panel, press the {buttonSort} in the column header of the column on which you want to sort the data. Press once to sort the column in ascending order. Press again to sort the column in descending order. Press a third time to return the column to its original order.
 +
-image:sortColumnsBig.gif[]
+image:sortColumnsBig.png[]
 +
 When a column is sorted, its sort order is indicated by a {buttonAscSort} or {buttonDescSort} next to the column header in the bottom panel.
 . Save the Data Worksheet by pressing the {buttonSave} in the toolbar or press kbd:[Ctrl+S] on the keyboard.
@@ -63,10 +63,10 @@ endif::[]
 . Click the data block to select it.
 . Press the {buttonSort} in the bottom panel. This opens the ‘Sort Column’ panel.
 +
-image:sortColumnsBig2.gif[]
+image:sortColumnsBig2.png[]
 . From the menus, select the data block columns by which you want to sort the results.
 +
-image:sortColumnsBig3.gif[]
+image:sortColumnsBig3.png[]
 +
 The hierarchical sort order of a column is determined by the vertical position of the menu. The column specified in the top menu is sorted first, the column specified in the second-to-top menu is sorted second, and so on.
 . For each column, select the ‘Ascending’ or ‘Descending’ button to determine the sorting direction.

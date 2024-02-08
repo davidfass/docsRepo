@@ -2,7 +2,7 @@
 
 A *data model* is a simplified representation of the underlying database schema. The data model reorganizes the database tables and columns to provide a simplified entity-attribute interface for users who are designing  Dashboards. For example, the sample data model called ‘Order Model’ organizes attributes into a set of five entities, ‘Customer’, ‘Order’, ‘Product’, ‘Salesperson’, and ‘Supplier’.
 
-image::entityAttribute.gif[]
+image::entityAttribute.png[]
 
 
 You should consider creating a data model if you have the following objectives:

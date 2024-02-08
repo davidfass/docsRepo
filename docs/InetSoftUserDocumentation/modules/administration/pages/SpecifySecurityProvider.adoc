@@ -15,7 +15,7 @@ To specify a security provider, follow the steps below:
 . Select the Security page in the left panel.
 . Select ‘Enable Security’ to activate security settings.
 +
-image:Figure 23_1.gif[]
+image:Figure 23_1.png[]
 +
 NOTE: See XXXXXXX for an explanation of how to cascade multiple security providers.
 

@@ -36,21 +36,21 @@ endif::[]
 . Click on the data block to select it.
 . In the bottom panel, press the {buttonGroupAndAggregate}. This opens the *Group and Aggregate* panel.
 +
-image:Grouping_WS1.gif[]
+image:Grouping_WS1.png[]
 
 . Use the menus to select grouping fields and summary fields.  For summary fields, select the desired method of aggregation (‘Sum’, ‘Average’, etc.). For date-type fields, select the desired level of date grouping (‘Year’, ‘Month’, etc.).  #Optional:# Select ‘As time series’ to force the display of date groups even when the group has no data (null).
 +
-image:grouping2_1.gif[]
+image:grouping2_1.png[]
 
 . #Optional:#  To display the measure as a percentage, use the ‘Percentage’ menu to specify either ‘Grand Total’ or ‘Subtotal’, to compute the percentages based on global total or group totals, respectively.
 
 . Press btn:[OK] to close the dialog box. The data block is now grouped, and only the grouping and summary columns are returned in the result set.
 +
-image:grouping3.gif[]
+image:grouping3.png[]
 
 . To view the grouped and aggregated data, press the {buttonChangeView} in bottom panel, and choose {buttonLiveDataView}.
 +
-image:grouping4.gif[]
+image:grouping4.png[]
 
 . Save the Data Worksheet by pressing the {buttonSave} in the toolbar or press kbd:[Ctrl+S] on the keyboard.
 ifdef::testdrive[]
@@ -76,22 +76,22 @@ endif::[]
 . Click on the data block to select it.
 . In the bottom panel, press the {buttonGroupAndAggregate}.
 +
-image:groupAndAggregateButton_1.gif[]
+image:groupAndAggregateButton_1.png[]
 +
 This opens the *Group and Aggregate* panel.
 
 . In the ‘Group and Aggregate’ panel, press ‘Switch to Crosstab’.
 +
-image:CrosstabDialog2.gif[]
+image:CrosstabDialog2.png[]
 +
 The ‘Group and Aggregate’ panel changes to the crosstab view.
 +
-image:CrosstabDialog.gif[]
+image:CrosstabDialog.png[]
 
 . In the ‘Row Header’ panel, select one or more fields from the left menus. For date-type fields, select the desired level of date grouping (‘Year’, ‘Month’, etc.). #Optional:# Select ‘As time series’ to force the display of date groups even when the group has no data (null).
 . In the ‘Column Header’ panel, select a field from the left menu. For date-type fields, select the desired level of date grouping (‘Year’, ‘Month’, etc.).  #Optional:# Select ‘As time series’ to force the display of date groups even when the group has no data (null).
 +
-image:CrosstabDialog3.gif[]
+image:CrosstabDialog3.png[]
 
 . #Optional:#  For each selected field in the ‘Row Header’ and ‘Column Header’ panels, select a named grouping (user-defined grouping) from the corresponding right menu.  See xref:NamedGrouping[] for  information on how to create a new named grouping.
 
@@ -141,16 +141,16 @@ include::ROOT:partial$CreateNewWorksheetNote.adoc[]
 +
 include::ROOT:partial$SalesExploreWorksheet.adoc[]
 +
-image:importWorksheet_2.gif[]
+image:importWorksheet_2.png[]
 +
 You will use this table to create a crosstab.
 . Press the {buttonGroupAndAggregate} in the bottom panel. This opens the ‘Group and Aggregate’ panel.
 +
-image:groupAndAggregateButtonExp.gif[]
+image:groupAndAggregateButtonExp.png[]
 
 . Press the btn:[Switch to Crosstab] button at the bottom of the panel.
 +
-image:groupAndAggregateButtonExp2.gif[]
+image:groupAndAggregateButtonExp2.png[]
 +
 This displays the crosstab binding interface.
 . In the ‘Row Header’ region, select the following two fields: ‘Category’ and ‘Company’.
@@ -158,12 +158,12 @@ This displays the crosstab binding interface.
 . In the menu next to the ‘Date’ field, select ‘Year’.
 . In the ‘Measure’ region, select the ‘Total’ field.
 +
-image:Unpivot Crosstab1.gif[]
+image:Unpivot Crosstab1.png[]
 
 . Press btn:[OK]. This converts the data block to a crosstab.
 . In the bottom panel, press the {buttonChangeView} and select {buttonLiveDataView} from the menu. (See xref:PreviewData.adoc[].)
 +
-image:dragCrosstab.gif[]
+image:dragCrosstab.png[]
 
 This crosstab has two levels of row headers (‘Category’ and ‘Company’), and one level of column headers (‘Order Date’, broken out by year).
 
@@ -171,16 +171,16 @@ You will now *_unpivot_* the crosstab to create a flat table that contains the s
 
 . Right-click the data block and select ‘Unpivot’ from the context menu. {rightClickOptions} This opens the ‘Unpivot Data’ dialog box.
 +
-image:Unpivot Crosstab3.gif[]
+image:Unpivot Crosstab3.png[]
 
 . In the ‘Unpivot Data’ dialog box, enter a value of “2” for the ‘Levels of row headers’ value. (The two levels are ‘Category’ and ‘Company’.)
 +
-image:Unpivot Crosstab5.gif[]
+image:Unpivot Crosstab5.png[]
 
 . Press btn:[OK]. This creates a new data block containing the unpivoted (flattened) data.
 . In the bottom panel, press the {buttonChangeView} and select {buttonLiveDataView} from the menu. (See xref:PreviewData.adoc[].)
 +
-image:Unpivot Crosstab4.gif[]
+image:Unpivot Crosstab4.png[]
 
 Observe that the unpivoting operation transforms the values of the column header in the crosstab (‘Date’) into a new column called ‘Dimension’. The new unpivoted table retains the row headers of the original crosstab in the first two columns (‘Category’ and ‘Company’), but now repeats each combination of ‘Category’ and ‘Company’ for each value of ‘Date’.
 
@@ -202,11 +202,11 @@ You can create a range column for any numeric column in a data block. To create 
 
 . Click the data block in the top panel to select it.In the bottom panel, right-click the header of the column (*numeric-type column only*) for which you want to create a range column, and select the ‘New Range Column’ option from the context menu. {rightClickOptions}
 +
-image:numericRangeDialog_2.gif[]
+image:numericRangeDialog_2.png[]
 +
 This opens the ‘Numeric Range Option’ panel. Here you can specify the different benchmarks defining the range.
 +
-image:numericRangeDialog.gif[]
+image:numericRangeDialog.png[]
 
 . Enter a name for the new range column.
 +
@@ -247,31 +247,31 @@ include::ROOT:partial$ProductSalesWorksheet.adoc[]
 . Click on the ‘SalesByDate1’ data block to select it.
 . In the bottom panel, right-click the ‘Total’ column, and select ‘New Range Column’. {rightClickOptions} This opens the ‘Numeric Range Option’ dialog box, which allows you to specify the desired thresholds.
 +
-image:rangeColumnExp1.gif[]
+image:rangeColumnExp1.png[]
 . Enter the name “Revenue Range”.
 . Deselect the ‘Less Than Min’ and ‘Greater Than Max’ options.
 . Enter the first threshold, 0, into the ‘Value Range’ field and press btn:[Add].
 . Enter the next three thresholds, pressing ‘Add’ after each one: 10000, 50000, 100000.
 +
-image:numericRangeDialogFilled.gif[]
+image:numericRangeDialogFilled.png[]
 +
 This creates the three ranges: 0-10,000, 10,000-50,000, and 50,000-100,000.
 
 . In the field to the left of the ‘0-10,000’ range, enter the new label “Low”. Repeat to relabel the 10,000-50,000 range as “Medium” and the 50,000-100,000 range as “High”.
 +
-image:numericRangeDialogRelable.gif[]
+image:numericRangeDialogRelable.png[]
 
 . Press btn:[OK] to close the panel.
 . Press the {buttonChangeView} and select {buttonLiveDataView} to preview the data block. (See xref:PreviewData.adoc[] for instructions.) Note that each cell in the ‘Total’ column has a corresponding range in the ‘Revenue Range’ column. The values that lie outside the specified ranges are labeled ‘Others’.
 +
-image:numericRangeDialogResult.gif[]
+image:numericRangeDialogResult.png[]
 . #Optional:#  Instead of defining a fixed minimum and maximum value (750,000-10,000,000), you can keep the numeric range open-ended. Follow the steps below:
 .. Open the ‘Numeric Range Option’ dialog box by pressing the {buttonNumericRange} in the range column header in the bottom panel.
 +
-image:numericRangeDialogReopen.gif[]
+image:numericRangeDialogReopen.png[]
 .. Select the ‘Greater than Max’ option, enter a label, and press btn:[OK].
 +
-image:numericRangeDialogLessThanMin.gif[]
+image:numericRangeDialogLessThanMin.png[]
 .. Preview the data block and note that the values outside the specified range (formerly labeled ‘Others’) are now labeled ‘Insane’.
 ****
 
@@ -284,10 +284,10 @@ To create a *date range* column, follow these steps:
 . Click the data block in the top panel to select it.
 In the bottom panel, right-click the header of the column (*date-type column only*) for which you want to create a range column, and select the ‘New Range Column’ option from the context menu. {rightClickOptions}
 +
-image:dateRangeDialog1.gif[]
+image:dateRangeDialog1.png[]
 This opens the ‘Date Range Option’ panel. Here you can specify the date grouping.
 +
-image:dateRangeDialog2.gif[]
+image:dateRangeDialog2.png[]
 . Enter a name for the new range column.
 +
 include::ROOT:partial$duplicateNames.adoc[]
@@ -314,7 +314,7 @@ To create a named grouping, follow these steps:
 . Press the {buttonCreateObject} in the toolbar, and select {buttonGrouping}.
 This opens the ‘Grouping’ dialog box.
 +
-image:newObjectGrouping.gif[]
+image:newObjectGrouping.png[]
 
 . In the ‘Name’ field, enter a name for the grouping assembly. This is the title of the grouping object in the Data Worksheet.
 +
@@ -353,17 +353,17 @@ include::ROOT:partial$CreateNewWorksheetNote.adoc[]
 . Press the {buttonCreateObject} in the toolbar, and select {buttonGrouping}.
 
 +
-image:newObjectGrouping.gif[]
+image:newObjectGrouping.png[]
 +
 This opens the ‘Grouping’ dialog box.
 +
-image:NewGroupingDialog.gif[]
+image:NewGroupingDialog.png[]
 
 . Enter “Geographic Grouping” in the ‘Name’ field.
 . For the ‘Type’, select ‘String’.
 . Press the {buttonEMAdd} button to specify the group conditions. This opens the ‘Add Condition List’ dialog box.
 +
-image:AddConditionList.gif[]
+image:AddConditionList.png[]
 
 .Specify ‘WestCoast’ as the Group Name.
 
@@ -371,20 +371,20 @@ image:AddConditionList.gif[]
 
  [this][is][one of][WA,OR,CA]
 +
-image:WestCoastConditions.gif[]
+image:WestCoastConditions.png[]
 . Press  btn:[OK]  to exit the ‘Add Condition List’ dialog box and return to the ‘Grouping’ dialog.
 +
-image:WestCoastGroupingDialog.gif[]
+image:WestCoastGroupingDialog.png[]
 . Press ‘OK’.
 . Right-click on the ‘Geographic Grouping’ group and select ‘Set as Primary’. {rightClickOptions}
 +
-image:WestCoastSetPrimary.gif[]
+image:WestCoastSetPrimary.png[]
 . Press the {buttonSave} in the toolbar or press kbd:[Ctrl+S] on the keyboard. This opens the ‘Save as Data Worksheet’ dialog box.
 . Specify “Geographic Grouping” as the name of the asset.
 +
-image:saveWestCoast.gif[]
+image:saveWestCoast.png[]
 
 . Press btn:[OK] to save the newly created user-defined grouping. Notice that the grouping is shown in the left panel with a {buttonGroupIcon}, indicating that the asset a named group.
 +
-image:WestCoastinTree.gif[]
+image:WestCoastinTree.png[]
 ****

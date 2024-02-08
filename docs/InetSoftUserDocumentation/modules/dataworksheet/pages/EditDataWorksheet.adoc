@@ -6,18 +6,18 @@ To edit a Data Worksheet in the User Portal, follow the steps below…
 
 . Press the top {buttonDataTab} in the Portal.
 +
-image:user:uploadDriver1.gif[]
+image:user:uploadDriver1.png[]
 . Expand the folder containing the Data Worksheet that you want to edit.
 +
-image:user:PortalEditWorksheet1.gif[]
+image:user:PortalEditWorksheet1.png[]
 . Click the name of the Data Worksheet that you want to edit.
 +
-image:user:PortalEditWorksheet2.gif[]
+image:user:PortalEditWorksheet2.png[]
 +
 This opens the Data Worksheet for editing in Visual Composer. You can now proceed to edit the Data Worksheet. See xref:CreateNewWorksheet.adoc[] for more information about how to create a data block.
 
 If Visual Composer is already open, you can open a Data Worksheet for editing by locating the Data Worksheet in the left panel. Double-click the Data Worksheet, or right-click and select ‘Open Sheet’ from the menu. Alternatively, you can drag the Data Worksheet into the canvas on the right side.
 
-image:dataworksheet:editWorksheetPortal.gif[]
+image:dataworksheet:editWorksheetPortal.png[]
 
 You can press the {buttonRecent} at the top of the left panel to display Dashboards and Data Worksheets you have used recently. Press the button again to return to the full asset listing.

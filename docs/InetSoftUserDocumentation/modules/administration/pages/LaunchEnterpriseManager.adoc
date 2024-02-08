@@ -6,11 +6,11 @@ Enterprise Manager is a web-based tool that allows you to administer the InetSof
 . In the Windows _Start_ menu, select the _Start InetSoft Server_  link. This launches the default Tomcat web server on the local machine.
 . Point a web browser to the Style Intelligence webapp homepage with default URL `http://localhost:8080/`.
 +
-image:InetSoft Home Screen.gif[]
+image:InetSoft Home Screen.png[]
 . Click the ‘Enterprise Manager’ link. This opens the Enterprise Manager login screen.
 . Enter your login credentials, and press ‘Login’.
 +
-image:Enterprise Manager Login Screen.gif[]
+image:Enterprise Manager Login Screen.png[]
 +
 The default login/password is `admin/admin`. For security reasons, login information expires after five minutes. If you receive a ‘Login Expired’ warning, simply re-enter your credentials to log in.
 

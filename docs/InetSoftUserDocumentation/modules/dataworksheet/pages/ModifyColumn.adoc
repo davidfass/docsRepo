@@ -13,7 +13,7 @@ By default, all manually created columns in an Embedded Table are of type ‘Str
 . Click the Embedded Table data block to select it.
 In the bottom panel, right-click the column header and select ‘Column Type’ from the context menu. {rightClickOptions} This opens the ‘Column Type’ panel.
 +
-image:embeddedTableColumnType2.gif[]
+image:embeddedTableColumnType2.png[]
 
 . Select the desired data type from the ‘Type’ menu. If you select a numeric or date type, a secondary ‘Parse Format’ menu appears below.
 . #Optional:#  In the ‘Parse Format’ menu, select the format in which you have entered your data. This allows the Embedded Table to convert the data to a standard representation. For example, if you have entered dates in the form “1/13/1995,” select or type “MM/d/yyyy” as the parse format. Note: The ‘Parse Format’ menu is available only for _manually-created_ Embedded Table columns. It is not available for data converted from a regular data block.
@@ -36,10 +36,10 @@ include::ROOT:partial$CreateNewWorksheetNote.adoc[]
 
 . Right-click a header cell in the bottom panel and select ‘Column Type’ from the context menu. {rightClickOptions} This opens the ‘Column Type’ panel.
 +
-image:embeddedTableColumnType.gif[]
+image:embeddedTableColumnType.png[]
 . Select ‘Integer’ from the ‘Type’ menu and press btn:[OK].
 +
-image:selectIntegerColumnType.gif[]
+image:selectIntegerColumnType.png[]
 ****
 
 == Change Column Description
@@ -47,8 +47,8 @@ To add or edit a column description, follow the steps below:
 
 . Click the data block to select it. Right-click the desired column header in the bottom panel (or press the {buttonActions}), and select ‘Column Description’ in the context menu.
 +
-image::AddColumnDescription.gif[]
+image::AddColumnDescription.png[]
 +
 . Add or edit the desired description in the ‘Column Description’ dialog box and press ‘OK’.
 +
-image::AddColumnDescription2.gif[]
+image::AddColumnDescription2.png[]

@@ -16,22 +16,22 @@ include::ROOT:partial$videoVersion.adoc[]
 
 . Press the {buttonCreate} at the top  of the User Portal, and select the {buttonWorksheet} option.
 +
-image:newWorksheet2.gif[]
+image:newWorksheet2.png[]
 +
 This opens Visual Composer in a separate browser tab and displays the ‘New Data Worksheet’ dialog box.
 +
-image:newWorksheet3.gif[]
+image:newWorksheet3.png[]
 
 . Choose the {buttonMashupData} option. This creates a blank Data Worksheet named ‘Untitled-X’, where X is an auto-incremented integer.
 +
-image:visualComposer.gif[]
+image:visualComposer.png[]
 . Proceed to add  data blocks to the Data Worksheet. Drag the desired data (queries, fields, or tables) from the left panel.
 +
-image:transform1.gif[]
+image:transform1.png[]
 +
 You can also drag a data block (or individual columns of a data block) from another *Data Worksheet*. In this case, the inserted data block remains linked to the original Data Worksheet in which it is defined, and updates automatically in response to changes in the source Data Worksheet. To disable this auto-update behavior, press the {buttonAutoUpdate} in the toolbar of the bottom panel.
 +
-image:auto-update1.gif[]
+image:auto-update1.png[]
 +
 You can then force an update *on-demand* by right-clicking the data block (or by pressing the {buttonActions}) and selecting the ‘Update Mirror’ option. To restore the original auto-update behavior, press the {buttonAutoUpdate2}.
 
@@ -40,11 +40,11 @@ include::ROOT:partial$renameColumn.adoc[]
 . To *reposition a column*, simply drag the column within the bottom panel and drop it at the desired position.
 . To view the query represented by the data block, right-click the data block and choose ‘Show Plan’ option. {rightClickOptions}
 +
-image:showPlanMenu.gif[]
+image:showPlanMenu.png[]
 +
 This displays the SQL that will be executed by the database.
 +
-image:showPlanOption2.gif[]
+image:showPlanOption2.png[]
 +
 include::ROOT:partial$mashupBlurb.adoc[]
 +

@@ -10,11 +10,11 @@ To create a new Variable, follow these steps:
 
 . Press the {buttonCreateObject} in the toolbar and select {buttonVariable}.
 +
-image:variableButtonToolbar.gif[]
+image:variableButtonToolbar.png[]
 +
 This opens the ‘Variable Properties’ dialog box.
 +
-image:parameterDialog.gif[]
+image:parameterDialog.png[]
 
 . Enter a ‘Name’ for the new Variable asset. This is the name that appears in the title bar of the Variable asset.
 +
@@ -25,12 +25,12 @@ include::ROOT:partial$duplicateNames.adoc[]
 ** Select ‘*None*’ to prompt the user with an empty text field (no choices).
 ** Select ‘*Embedded*’ to enter a fixed list of choices. Press the ‘Edit’ button to open the ‘Embedded List Values’ dialog box.
 +
-image:SelectionList_2.gif[]
+image:SelectionList_2.png[]
 +
 Press btn:[Add] to create a new label/value pair. A label/value pair defines a particular choice that will be shown to the user in the input dialog box. In the ‘Label’ field, enter the text that should be displayed to the user for this particular choice. In the corresponding ‘Value’ field, enter the text that should be used in the filtering condition for this particular choice. (If the ‘Type’ option in the ‘Variable Properties’ dialog box specifies a numeric type, you can only enter numerical values.) Repeat to add all the choices that should be presented to the user. To change the position of a item in the list, select the item, and press the btn:[Move Up] or btn:[Move Down]. Press btn:[OK] to exit the ‘Embedded List Values’ dialog box.
 ** Select ‘Query’ to populate the list of choices with the data in an existing table column. Press the ‘Select’ button to open the ‘Table’ dialog box.
 +
-image:querySelectionList.gif[]
+image:querySelectionList.png[]
 +
 From the list box on the left side, select the table that contains the data you want to use. From the ‘Value Column’ menu, select the column that contains the data to be used in the filtering condition. Each row of the ‘Value Column’ represents a possible value of the Variable. In the ‘Label Column’ menu, select the column that contains the labels to be displayed to the user. Each row of the ‘Label Column’ should contain the label for the corresponding row of the ‘Value Column’. Press btn:[OK] to exit the ‘Table’ dialog box.
 . In the ‘Display Style’ panel, select the type of list to display to the user.
@@ -52,29 +52,29 @@ include::ROOT:partial$CreateNewWorksheetNote.adoc[]
 
 . Press the {buttonCreateObject} in the toolbar and select {buttonVariable}.
 +
-image:variableButtonToolbar.gif[]
+image:variableButtonToolbar.png[]
 +
 This opens the ‘Variable Properties’ dialog box.
 +
-image:parameterDialog.gif[]
+image:parameterDialog.png[]
 . Specify “state” as the name of the Variable.
 . Specify “State” as the Label.
 . Select ‘String’ from the drop-down list for Type.
 . Uncheck the ‘None’ check box next to ‘Default Value’, and enter “CA” as the default value.
 . Ensure that ‘None’ is selected for the Selection List.
 +
-image:parameterCA.gif[]
+image:parameterCA.png[]
 . Press btn:[OK].
 . Right-click on the new Variable in the Data Worksheet and select ‘Set as Primary’. {rightClickOptions}
 +
-image:statePrimary.gif[]
+image:statePrimary.png[]
 Press the {buttonSave} in the top toolbar. This opens the ‘Save as Data Worksheet’ dialog.
 . Specify “State” as the asset name.
 +
-image:saveStateWorksheet.gif[]
+image:saveStateWorksheet.png[]
 . Press btn:[OK] to add the ‘State’ Variable to the left panel. Notice that the name of the asset in the left panel is shown with a {buttonVariableIcon} indicating that the asset is a Variable.
 +
-image:StateinTree.gif[]
+image:StateinTree.png[]
 This example is continued in xref:_using_a_variable[] below, where the ‘state’ Variable is used in another Data Worksheet.
 
 ====
@@ -92,28 +92,28 @@ include::ROOT:partial$CreateNewWorksheetNote.adoc[]
 
 . From the left panel, drag the ‘Sales Explore’ Data Worksheet into the new Data Worksheet. This creates the data block ‘Sales1’.
 +
-image:importWorksheet.gif[]
+image:importWorksheet.png[]
 +
 include::ROOT:partial$SalesExploreWorksheet.adoc[]
 
 . From the left panel, drag the ‘State’ Variable into the right panel. This imports the variable into the Data Worksheet as ‘state.`'
 +
-image:DragStateWorksheet.gif[]
+image:DragStateWorksheet.png[]
 +
 . Select the ‘Sales1’ data block, and press the {buttonDefineCondition} in the bottom panel to open the ‘Condition’ dialog box.
 . Press the btn:[More] button to add a new condition.
 . Create the condition `[State] [is] [equal to]`.
 . Press the {buttonChangeValueType} and select ‘Variable`'.
 +
-image:SwitchtoVariableCondition.gif[]
+image:SwitchtoVariableCondition.png[]
 . From the ‘Variable Name’ menu, select ‘state’.
 +
-image:Stateequaltostate.gif[]
+image:Stateequaltostate.png[]
 . Press btn:[OK]. You will be prompted for the value of the ‘state’ Variable.
 . Enter “FL” and press btn:[OK].
 +
-image:specifyStateParameter.gif[]
+image:specifyStateParameter.png[]
 . Preview the data block (see xref:PreviewData.adoc[]), and note that only the sales for the state of Florida are now shown.
 +
-image:Variable in Condition End.gif[]
+image:Variable in Condition End.png[]
 ====

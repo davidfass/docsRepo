@@ -9,18 +9,18 @@ NOTE: Repository folders are logical groupings, and do not represent file system
 . Press the {buttonSettings} at the top of Enterprise Manager.
 . Select the *Content* page in the left panel, and select the *Repository* tab.
 +
-image:Figure 15.gif[]
+image:Figure 15.png[]
 . Click to select the desired repository asset (report, Dashboard, folder, etc.) in the tree.
 . Select the *Security* tab.
 +
-image:dashboardSecurityTab.gif[]
+image:dashboardSecurityTab.png[]
 . Uncheck ‘Derive permissions from Parent’.
 . Press the {buttonEMAdd} button. This opens the ‘Add Permission’ dialog box.
 +
-image:dashboardSecurityTab2.gif[]
+image:dashboardSecurityTab2.png[]
 . {buttonCtrl}-click to select the desired users, groups, or roles, and press {buttonEMAdd}.
 +
-image:Report Permissions.gif[]
+image:Report Permissions.png[]
 . Select ‘Access requires both User and Role permission’ to specify that access to the Dashboard, report, or folder is granted only if the current user has *both* user *and* role permissions; i.e., both the user’s name (or group) and at least one of the user’s roles appear in the ‘Selected Entities’ table. Select ‘Access requires either User or Role permission’ to specify that access to the Dashboard, report, or folder is granted if the current user has *either* user *or* role permissions; i.e., either the user’s name (or group) or at least one of the user’s roles appear in the ‘Selected Entities’ table.
 . Select the desired permission (READ, WRITE, DELETE, SHARE, ADMIN) by checking the boxes next to the users, roles, or groups. Note that ADMIN permission provides privileges for administering the corresponding asset within Enterprise Manager, and therefore implies the  other permissions. The SHARE setting controls access to social sharing options in the Portal.
 . Press {buttonEMApply} to save your changes.

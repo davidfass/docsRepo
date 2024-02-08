@@ -6,19 +6,19 @@ You can profile the execution of your Dashboards and reports to determine which 
 
 . Press the {buttonAccount} at the top of the Portal and select {buttonProfile}.
 +
-image:user:Profiling1.gif[]
+image:user:Profiling1.png[]
 +
 When this option is enabled, Dashboards and reports will display a ‘Profiling...’ link below the toolbar.
 +
-image:Profiling2.gif[]
+image:Profiling2.png[]
 
 . Press the ‘Profiling...’ link to open the ‘Profile’ dialog box. The *Summary* tab displays a break-down of execution time by process area.
 +
-image:Profiling3.gif[]
+image:Profiling3.png[]
 . Enable ‘Show Detail Records’ link to view a tabular display of the execution information.
 +
-image:Profiling4.gif[]
+image:Profiling4.png[]
 . Select the *Query Detail* tab to view query execution times for the dashboard.
 +
-image:Profiling5.gif[]
+image:Profiling5.png[]
 . Press btn:[OK] to dismiss the dialog box.

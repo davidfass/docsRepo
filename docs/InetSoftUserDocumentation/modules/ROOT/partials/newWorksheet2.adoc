@@ -1,8 +1,8 @@
-
 :experimental:
+
 This displays the ‘New Data Worksheet’ dialog box.
 +
-image::newWorksheet3.gif[width=440]
+image::newWorksheet3.png[width=440]
 +
 . Choose the desired option for creating your data set: ‘Upload File’, ‘Mashup Data’, or an available data source (e.g., ‘Orders’). Note: The btn:[Cancel] button opens a blank Data Worksheet, which is the same as selecting ‘Mashup Data’.
 +
@@ -10,7 +10,7 @@ NOTE: To create a new data block by manually entering data, see xref:dataworkshe
 +
 .. *Upload File*: To create your Data Worksheet by *uploading* a file, select the {buttonUploadFile}. This creates a blank Data Worksheet named ‘Untitled’ and opens the ‘Import Data File’ dialog box.
 +
-image::embeddedTable4.gif[width=440]
+image::embeddedTable4.png[width=440]
 +
 See xref:dataworksheet:UploadData.adoc[] for information about how to use the upload options.
 +
@@ -19,17 +19,17 @@ See xref:dataworksheet:UploadData.adoc[] for information about how to use the up
 .. *Data Source*: To create your Data Worksheet by *defining a query*, select a data source (e.g., ‘Orders’). This creates a blank Data Worksheet named ‘Untitled’ and opens the ‘Database Query’ dialog box.
 +
 [role=bodyImage]
-image::newWorksheet4.gif[]
+image::newWorksheet4.png[]
 +
 See xref:dataworksheet:QueryData.adoc[] for information about how to use the ‘Database Query’ dialog box.
 +
 . Proceed to add (additional) data blocks to the Data Worksheet. Drag the desired data (queries, fields, or tables) from the left panel.
 +
-image::transform1.gif[]
+image::transform1.png[]
 +
 You can also drag a data block (or individual columns of a data block) from another Data Worksheet. In this case, the inserted data block remains linked to the original Data Worksheet in which it is defined, and updates automatically in response to changes in the source Data Worksheet. To disable this auto-update behavior, press the {buttonAutoUpdate}  in the toolbar of the bottom panel.
 +
-image::auto-update1.gif[]
+image::auto-update1.png[]
 +
 You can then force an update *on-demand* by right-clicking the data block (or by pressing the {buttonActions}) and selecting the ‘Update Mirror’ option. To restore the original auto-update behavior, press the {buttonAutoUpdate2}.
 +
@@ -45,7 +45,7 @@ To display long column names, press the {buttonWrapColumnHeaders}. Press again t
 +
 . To *reposition multiple columns*, press the ‘Reorder Table Columns’ button  in the bottom panel toolbar. This opens the ‘Reorder Columns’ dialog box. Select one or more fields and press the ‘Up’, ‘Down’, ‘Move to Top’ and ‘Move to Bottom’ buttons to adjust the order as desired. Press btn:[OK] at the bottom of the panel.
 +
-image::reorderColumns.gif[]
+image::reorderColumns.png[]
 +
 . To *hide a column*, press the {buttonVisibility}  in the column header, or press the {buttonActions}  and select ‘Hide Column’ from the menu. To show the column again, press the {buttonVisibility}  again or press the {buttonActions}  and select ‘Show Column’ or ‘Show All Columns’ from the menu.
 +
