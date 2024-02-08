@@ -63,6 +63,7 @@
 :buttonDescSort: descending-sort arrow image:ROOT:buttons/sort-descending.svg[]
 :buttonGrouping: ‘Grouping’  image:ROOT:buttons/grouping.svg[24,24]
 :buttonGroupIcon: ‘Group’ icon image:ROOT:buttons/grouping.svg[24,24]
+:buttonNumericRange: ‘Numeric Range’  button image:ROOT:buttons/num-range.svg[]
 
 // Macros
 :buttonEMApply: btn:[Apply]

@@ -222,7 +222,85 @@ This creates a new column with values representing the specified ranges.
 
 .Example: Numeric Range Column
 ****
+Consider the sample ‘ProductSales’ Data Worksheet, which contains a data block ‘SalesByDate’ that returns month-by-month sales. You can define a range column for the ‘Total’ field that places each amount into a predefined range or bin.
 
+. Open the ‘ProductSales’ Data Worksheet in Visual Composer.
++
+include::ROOT:partial$ProductSalesWorksheet.adoc[]
++
+ifdef::si[]
+For information on how to open a Data Worksheet, see xref:EditDataWorksheet.adoc[].
+endif::[]
+ifdef::testdrive[]
+For information on how to open a Data Worksheet, see  Edit a Data Set.
+endif::[]
+
+. Right-click the ‘SalesByDate’ data block and select ‘Set as Primary’ from the context menu. {rightClickOptions} This makes the ‘SalesByDate’ data block visible to other Data Worksheets.
+
+. Press the {buttonSave} to save  the ‘ProductSales’ Data Worksheet.
+
+. Create a new Data Worksheet.
++
+include::ROOT:partial$ProductSalesWorksheet.adoc[]
+
+. Select the ‘ProductSales’ Data Worksheet in the left panel, and drag it into the new Data Worksheet. This adds the ‘SalesByDate’ data block to the new Data Worksheet, and renames it to ‘SalesByDate1’.
+. Click on the ‘SalesByDate1’ data block to select it.
+. In the bottom panel, right-click the ‘Total’ column, and select ‘New Range Column’. {rightClickOptions} This opens the ‘Numeric Range Option’ dialog box, which allows you to specify the desired thresholds.
++
+image:rangeColumnExp1.gif[]
+. Enter the name “Revenue Range”.
+. Deselect the ‘Less Than Min’ and ‘Greater Than Max’ options.
+. Enter the first threshold, 0, into the ‘Value Range’ field and press btn:[Add].
+. Enter the next three thresholds, pressing ‘Add’ after each one: 10000, 50000, 100000.
++
+image:numericRangeDialogFilled.gif[]
++
+This creates the three ranges: 0-10,000, 10,000-50,000, and 50,000-100,000.
+
+. In the field to the left of the ‘0-10,000’ range, enter the new label “Low”. Repeat to relabel the 10,000-50,000 range as “Medium” and the 50,000-100,000 range as “High”.
++
+image:numericRangeDialogRelable.gif[]
+
+. Press btn:[OK] to close the panel.
+. Press the {buttonChangeView} and select {buttonLiveDataView} to preview the data block. (See xref:PreviewData.adoc[] for instructions.) Note that each cell in the ‘Total’ column has a corresponding range in the ‘Revenue Range’ column. The values that lie outside the specified ranges are labeled ‘Others’.
++
+image:numericRangeDialogResult.gif[]
+. #Optional:#  Instead of defining a fixed minimum and maximum value (750,000-10,000,000), you can keep the numeric range open-ended. Follow the steps below:
+.. Open the ‘Numeric Range Option’ dialog box by pressing the {buttonNumericRange} in the range column header in the bottom panel.
++
+image:numericRangeDialogReopen.gif[]
+.. Select the ‘Greater than Max’ option, enter a label, and press btn:[OK].
++
+image:numericRangeDialogLessThanMin.gif[]
+.. Preview the data block and note that the values outside the specified range (formerly labeled ‘Others’) are now labeled ‘Insane’.
+****
+
+== Group Data by Date Range
+
+You can group date data (without aggregating) by applying common labels to a specified date range using a _date range column_. A date range column groups dates into a fixed set of date bins. You can create a range column for any date column in a data block.
+
+To create a *date range* column, follow these steps:
+
+. Click the data block in the top panel to select it.
+In the bottom panel, right-click the header of the column (*date-type column only*) for which you want to create a range column, and select the ‘New Range Column’ option from the context menu. {rightClickOptions}
++
+image:dateRangeDialog1.gif[]
+This opens the ‘Date Range Option’ panel. Here you can specify the date grouping.
++
+image:dateRangeDialog2.gif[]
+. Enter a name for the new range column.
++
+include::ROOT:partial$duplicateNames.adoc[]
+. Select the desired partitioning (year, month, quarter, etc.), and press btn:[OK].
+
+There are five date ranges available for the date range column:
+
+****
+* ‘Year’: A number in the range 0000-9999
+* ‘Quarter’: A number in the range 1-4
+* ‘Month’: A number in the range 0-11
+* ‘Day of Week’: A number in the range 1-7
+* ‘Day of Month’: A number in the range 1-31
 ****
 
 [id=NamedGrouping]

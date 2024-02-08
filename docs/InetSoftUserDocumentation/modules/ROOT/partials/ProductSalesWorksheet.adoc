@@ -1,0 +1,7 @@
+ifdef::si[]
+NOTE: The 'ProductSales' Data Worksheet can be found in menu:Examples[Data Worksheet].
+endif::[]
+
+ifdef::testdrive[]
+NOTE: To create the 'Product Sales' Data Worksheet, create a new data set by uploading the  Product Sales file. See Uploading Excel or Text File for more information. XXXXXX
+endif::[]
