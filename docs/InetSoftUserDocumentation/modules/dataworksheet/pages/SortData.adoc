@@ -1,1 +1,80 @@
 = Sort Data
+%experimental%
+include::ROOT:partial$buttonSnippets.adoc[]
+
+To sort data in a Data Worksheet, see the sections below. You can sort data on a single column or multiple columns. Sorting in a Data Worksheet may be most efficient when you want to use the sorted data across many Dashboards or reports. Otherwise, you can simply allow the user to  sort at the presentation level (Dashboard or report).
+
+[NOTE]
+====
+* To sort data at the query level, see xref:QueryData.adoc[].
+* To sort data in a Dashboard, see xref:viewsheet:SortData.adoc[].
+// XXXXXX report links go here too
+====
+
+== Sort on Single Column
+To sort a data block on a single column, follow the steps below:
+
+.*Watch video…*
+[%collapsible]
+=====
+.Sort on a single column...
+video::300553188[vimeo,640,400]
+include::ROOT:partial$videoVersion.adoc[]
+=====
+
+ifdef::si[]
+. Create the data block that you want to sort. See xref:CreateNewWorksheet.adoc[] for information on how to create a data block.
+endif::[]
+ifdef::testdrive[]
+. Open your data set for editing. See Editing a Data Set. XXXXXX
+endif::[]
+
+. Click the data block to select it.
+. In the bottom panel, press the {buttonSort} in the column header of the column on which you want to sort the data. Press once to sort the column in ascending order. Press again to sort the column in descending order. Press a third time to return the column to its original order.
++
+image:sortColumnsBig.gif[]
++
+When a column is sorted, its sort order is indicated by a {buttonAscSort} or {buttonDescSort} next to the column header in the bottom panel.
+. Save the Data Worksheet by pressing the {buttonSave} in the toolbar or press kbd:[Ctrl+S] on the keyboard.
+ifdef::testdrive[]
+. Close the Visual Composer tab in the browser and return to the Portal.
+endif::[]
+
+include::ROOT:partial$CreateDashboard.adoc[]
+
+== Sort on Multiple Columns
+To sort a data block on multiple columns, follow the steps below:
+
+.*Watch video…*
+[%collapsible]
+=====
+.Sort on a single column...
+video::300540111[vimeo,640,400]
+include::ROOT:partial$videoVersion.adoc[]
+=====
+
+ifdef::si[]
+. Create the data block that you want to sort. See xref:CreateNewWorksheet.adoc[] for information on how to create a data block.
+endif::[]
+ifdef::testdrive[]
+. Open your data set for editing. See Editing a Data Set. XXXXXX
+endif::[]
+
+. Click the data block to select it.
+. Press the {buttonSort} in the bottom panel. This opens the ‘Sort Column’ panel.
++
+image:sortColumnsBig2.gif[]
+. From the menus, select the data block columns by which you want to sort the results.
++
+image:sortColumnsBig3.gif[]
++
+The hierarchical sort order of a column is determined by the vertical position of the menu. The column specified in the top menu is sorted first, the column specified in the second-to-top menu is sorted second, and so on.
+. For each column, select the ‘Ascending’ or ‘Descending’ button to determine the sorting direction.
+. Press btn:[OK] to close the panel and apply the sorting. When a column is sorted, its sort order is indicated by a {buttonAscSort} or {buttonDescSort} next to the column header in the bottom panel.
+. Save the Data Worksheet by pressing the {buttonSave} in the toolbar or press kbd:[Ctrl+S] on the keyboard.
+ifdef::testdrive[]
+. Close the Visual Composer tab in the browser and return to the Portal.
+endif::[]
+
+include::ROOT:partial$CreateDashboard.adoc[]
+

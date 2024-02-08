@@ -1,0 +1,2 @@
+You can now use this Data Worksheet as the data source for a Dashboard or report. See xref:viewsheet:VisualizeYourData.adoc[] to create a Dashboard.
+// See [%=System.Title%] to create a report. XXXXX

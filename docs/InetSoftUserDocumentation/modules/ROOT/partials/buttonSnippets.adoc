@@ -43,6 +43,37 @@
 :buttonSubquery: sub-query link image:ROOT:buttons/condition-with-query.svg[]
 :buttonGroupAndAggregate: ‘Group and Aggregate’ button image:ROOT:buttons/summary.svg[]
 :buttonSettings: ‘Settings’ button image:ROOT:buttons/setting.svg[]
+:buttonUserOptions: ‘User Options’ button image:ROOT:buttons/account.svg[]
+:buttonAddBookmark: ‘Add Bookmark’  button image:ROOT:buttons/star-outline.svg[]
+:buttonDelete: ‘Delete’  button image:ROOT:buttons/trash.svg[]
+:buttonDuplicateContent: ‘Duplicate Content’ button image:ROOT:buttons/content-duplicate.svg[24,24]
+:buttonLogin: ‘Log In’ image:ROOT:buttons/logout.svg[]
+:buttonAccount: ‘Setting’ button image:ROOT:buttons/account.svg[]
+:buttonEnable: ‘Enable’ option image:ROOT:buttons/checkbox.svg[]
+:buttonFilterField: ‘Filter’  field image:ROOT:buttons/search.svg[]
+:buttonReport: ‘Report’ image:ROOT:buttons/report.svg[]
+:buttonBookmarks: ‘Bookmarks’ button image:ROOT:buttons/bookmark.svg[]
+:buttonSocialSharing: ‘Social Sharing’ button image:ROOT:buttons/share.svg[]
+:buttonCreateDashboard: ‘Dashboard’ image:ROOT:buttons/viewsheet.svg[]
+:buttonDataSource: ‘Data Source’ image:ROOT:buttons/database-plus.svg[]
+:buttonCrossJoin: ‘Cross Join’ image:ROOT:buttons/cross-join.svg[]
+:buttonProfile: ‘Open with Profiling’ image:ROOT:buttons/profile.svg[24,24]
+:buttonSort: ‘Sort’ button image:ROOT:buttons/sort.svg[]
+:buttonAscSort: ascending-sort arrow image:ROOT:buttons/sort-ascending.svg[]
+:buttonDescSort: descending-sort arrow image:ROOT:buttons/sort-descending.svg[]
+:buttonGrouping: ‘Grouping’  image:ROOT:buttons/grouping.svg[24,24]
+:buttonGroupIcon: ‘Group’ icon image:ROOT:buttons/grouping.svg[24,24]
+
+// Macros
+:buttonEMApply: btn:[Apply]
+:buttonEMAdd: btn:[Add]
+:buttonCtrl: kbd:[Ctrl]
+:buttonShift: kbd:[Shift]
+
+// Short snippets
+:rightClickOptions:  Note: You can also access menu options from the {buttonMore} in the mini-toolbar.
+
+
 
 // Variables
 :productVersion: 2023

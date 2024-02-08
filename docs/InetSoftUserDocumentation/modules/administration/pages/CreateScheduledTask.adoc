@@ -1,0 +1,26 @@
+= Create a Scheduled Task
+%experimental%
+include::ROOT:partial$buttonSnippets.adoc[]
+
+The following sections explain how to create a task by defining scheduler conditions and actions.
+
+To create a scheduled task, follow the steps below:
+
+. Press the {buttonSettings} at the top of Enterprise Manager.
+. Select the *Schedule* page in the left panel, and select the *Tasks* tab at the top.
++
+image:schedulerTasksTab.gif[]
+. Press the btn:[New Task] button under the table. This creates a new task, with the default name ‘Task n’ (e.g., Task1, Task2, Task3, etc.).
+. Select the *Conditions* tab and specify a condition to determine when the task will execute. See xref:SchedulerConditions.adoc[] for details.
+. Select the *Actions* tab and specify the type of action to take when the scheduled task executes. See xref:SchedulerActions.adoc[] for details.
+. #Optional:# Select the *Options* tab to set advanced properties.
++
+.Scheduler Options
+****
+Enabled:: A task can be temporarily enabled or disabled by selecting or deselecting this option.
+Delete if not scheduled to run again:: If a task is scheduled to run once, this option will delete it from the system once it runs.
+Start From and Stop On:: A task will only execute within the specified date range.
+Execute As:: A task can be executed as a user, in which case user permissions will influence the execution of the task. For example, if VPMs (data-level security) are set up, different users will see different data. All of the existing users who have permission to use the scheduler will be included in the drop down list.
+Locale:: A different locale can be specified for each individual task by using this option.
+****
+. Press the ‘Save’ button at the bottom to save the task.

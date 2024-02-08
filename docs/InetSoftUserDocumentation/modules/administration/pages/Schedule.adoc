@@ -1,0 +1,3 @@
+= Schedule
+
+Style Intelligence, Style Scope, and Style Report include a Scheduler application that allows you to automatically generate and email Dashboards and reports, and to define cycles for materialized views. The following sections explain how to use the Scheduler.

@@ -1,0 +1,13 @@
+= Configure Security
+
+
+There are three steps to setting up security:
+
+. Specify the mechanism for authentication and authorization.  See
+xref:SpecifySecurityProvider.adoc[].
+
+. Define users, groups, and roles: See xref:CreateUser.adoc[], xref:CreateGroup.adoc[], and xref:CreateRole.adoc[].
+
+. Set permissions: See xref:SetRepositoryPermissions.adoc[] and xref:SetSecurityActions.adoc[].
+
+The following sections discuss these steps in order.

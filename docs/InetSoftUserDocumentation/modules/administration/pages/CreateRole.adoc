@@ -1,0 +1,29 @@
+= Create a Role
+%experimental%
+include::ROOT:partial$buttonSnippets.adoc[]
+
+A role (e.g., Manager, Developer, Analyst, etc.) can be used to assign permissions to a set of users who perform a similar set of functions. You can create and edit roles in Enterprise Manager only when using the ‘Default’ authentication provider.
+
+To add a new role, follow the steps below:
+
+. Press the {buttonSettings} at the top of Enterprise Manager.
+. Select the *Security* page in the left panel.
++
+image:Figure 23_1.gif[]
+. Select the *Users* tab.
++
+image:securityDefineUsers.gif[]
+
+. From the ‘Provider Name’ menu, select the security provider under which to define roles.
+. Press the ‘New Role’ link below the navigation tree. This creates a role with a default name ‘roleN’ (role0, role1, etc.).
++
+image:server5.gif[]
+. #Optional#: Type in the ‘Name’ field to change the name of the role. To add the users or groups to a role, press the btn:[Add] button in the ‘Assigned to’ area. Choose the desired users(s) or group(s) in the ‘Add Group/User’ dialog box (kbd:[Ctrl]-click to select multiple groups or users), and press btn:[Add]. Then click the {buttonEnable} next to the groups or users to make them active as possessors of the role.
++ image:securityDefineRole.gif[]
+. #Optional:# To inherit permission from another role, press the {buttonEMAdd} button in the ‘Inherit from’ area. Choose the desired role(s) in the ‘Add Role’ dialog box ({buttonCtrl}-click to select multiple roles), and press {buttonEMAdd}. Then click the {buttonEnable} next to the role to make it active for inheritance. The new role will inherit all permissions from the roles selected in this list.
+. #Optional:# To add administrative permission for the role, press the {buttonEMAdd} button in the ‘Administrator Permissions’ area. Choose the desired user(s), groups(s), or role(s) in the ‘Add Permission’ dialog box ({buttonCtrl}-click to select multiple items), and press {buttonEMAdd}. Then click the {buttonEnable} next to the user(s), groups(s), or role(s) to grant those users, groups, or roles administrative privileges over the role you are defining. Users, groups, or roles granted such administrative privileges will be able to use Enterprise Manager to remove the role or reassign users and groups to the role.
+. #Optional:# To select a Portal theme for the role, choose the desired theme from the ‘Theme’ menu. (See xref:Themes.adoc[] for information about how to create a theme.)
+. Press {buttonEMApply} to save your changes.
+. Repeat the above steps to add additional roles.
+
+To edit a role, expand the ‘Roles’ node on the tree, and select the desired role. Make any desired edits and press {buttonEMApply}.

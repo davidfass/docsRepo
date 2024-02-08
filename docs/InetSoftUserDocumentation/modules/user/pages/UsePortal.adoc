@@ -1,0 +1,5 @@
+= Use the Portal
+
+The User Portal provides features for accessing and managing existing assets, such as reports and Dashboards, and allows you to create new assets as well. The User Portal is a web-based interface, so you do not need to install any special software on your computer. Your system administrator will tell you the correct address to use in your web browser.
+
+The following sections explain the basic operations you can do in the User Portal.
