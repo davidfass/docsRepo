@@ -15,7 +15,7 @@
 :buttonChangeView: ‘Change View’  button image:ROOT:buttons/view-summary-meta.svg[]
 :buttonLiveDataView: ‘Live Data View’  image:ROOT:buttons/view-summary-live.svg[]
 :buttonChangeDataMode: ‘Change Data Mode’ button image:ROOT:buttons/data-partial.svg[]
-:buttonMore: ‘More’ button (image:ROOT:buttons/menu-horizontal.svg[])
+:buttonMore: ‘More’ button (image:ROOT:buttons/menu-horizontal.svg[role=button])
 :buttonLiveDetailView: ‘Live Detail View’ image:ROOT:buttons/view-detail-live.svg[]
 :buttonMetaDetailView: ‘Meta Detail View’ image:ROOT:buttons/view-detail-meta.svg[]
 :buttonCreateExpression: ‘Create Expression’ button image:ROOT:buttons/formula.svg[]
