@@ -26,7 +26,7 @@ image:server1.png[]
 +
 IMPORTANT: To allow users to log in as  “guest”, create a user with name ‘anonymous’.  This will allow all users to log in without entering credentials and be governed by the permissions assigned to the ‘anonymous’ user (see xref:SetRepositoryPermissions.adoc[] and xref:SetSecurityActions.adoc[]). If  a user wants to log in under their own name, they will need to press the {buttonAccount} and select {buttonLogin}.
 
-. #Optional:# Enter an ‘Alias’ for the user. This is the name that will be displayed in the Portal for the user.
+. *_Optional:_* Enter an ‘Alias’ for the user. This is the name that will be displayed in the Portal for the user.
 
 . Select ‘Active’ from the right-side menu to allow the user to log into the Portal.
 . Specify an email address for the user in the ‘Email’ field.
@@ -34,8 +34,8 @@ IMPORTANT: To allow users to log in as  “guest”, create a user with name ‘
 . #Optional#: To add the user to a group, press the btn:[Add] button in the ‘Member Of’ area. Choose the desired group(s) in the ‘Add Group’ dialog box (kbd:[Ctrl]-click to select multiple groups), and press btn:[Add]. Then click the {buttonEnable} next to the group to make it active for the user.
 +
 image:securityDefineUsers2.png[]
-. #Optional:# To add a role for the user, press the btn:[Add] button in the ‘Roles’ area. Choose the desired role(s) in the ‘Add Role’ dialog box (kbd:[Ctrl]-click to select multiple roles), and press btn:[Add]. Then click the {buttonEnable} next to the role to make it active for the user.
-. #Optional:# To add administrative permission for the user, press the btn:[Add] button in the ‘Administrator Permissions’ area. Choose the desired user(s), groups(s), or role(s) in the ‘Add Permission’ dialog box (kbd:[Ctrl]-click to select multiple items), and press btn:[Add]. Then click the {buttonEnable} next to the user(s), groups(s), or role(s) to grant those users, groups, or roles administrative privileges over the user you are defining. Users, groups, or roles granted such administrative privileges will be able to use Enterprise Manager to remove the defined user or reassign groups and roles to the user.
+. *_Optional:_* To add a role for the user, press the btn:[Add] button in the ‘Roles’ area. Choose the desired role(s) in the ‘Add Role’ dialog box (kbd:[Ctrl]-click to select multiple roles), and press btn:[Add]. Then click the {buttonEnable} next to the role to make it active for the user.
+. *_Optional:_* To add administrative permission for the user, press the btn:[Add] button in the ‘Administrator Permissions’ area. Choose the desired user(s), groups(s), or role(s) in the ‘Add Permission’ dialog box (kbd:[Ctrl]-click to select multiple items), and press btn:[Add]. Then click the {buttonEnable} next to the user(s), groups(s), or role(s) to grant those users, groups, or roles administrative privileges over the user you are defining. Users, groups, or roles granted such administrative privileges will be able to use Enterprise Manager to remove the defined user or reassign groups and roles to the user.
 . To select a Portal theme for the user, choose the desired theme from the ‘Theme’ menu. (See xref:Themes.adoc[] for information about how to create a theme.)
 . Press btn:[Apply] to save your changes.
 . Repeat the above steps to add additional users. If you are using a “Named Viewer Session” license, the number of users you can add is limited by the license.  See note below.

@@ -38,11 +38,11 @@ endif::[]
 +
 image:Grouping_WS1.png[]
 
-. Use the menus to select grouping fields and summary fields.  For summary fields, select the desired method of aggregation (‘Sum’, ‘Average’, etc.). For date-type fields, select the desired level of date grouping (‘Year’, ‘Month’, etc.).  #Optional:# Select ‘As time series’ to force the display of date groups even when the group has no data (null).
+. Use the menus to select grouping fields and summary fields.  For summary fields, select the desired method of aggregation (‘Sum’, ‘Average’, etc.). For date-type fields, select the desired level of date grouping (‘Year’, ‘Month’, etc.).  *_Optional:_* Select ‘As time series’ to force the display of date groups even when the group has no data (null).
 +
 image:grouping2_1.png[]
 
-. #Optional:#  To display the measure as a percentage, use the ‘Percentage’ menu to specify either ‘Grand Total’ or ‘Subtotal’, to compute the percentages based on global total or group totals, respectively.
+. *_Optional:_*  To display the measure as a percentage, use the ‘Percentage’ menu to specify either ‘Grand Total’ or ‘Subtotal’, to compute the percentages based on global total or group totals, respectively.
 
 . Press btn:[OK] to close the dialog box. The data block is now grouped, and only the grouping and summary columns are returned in the result set.
 +
@@ -88,17 +88,17 @@ The ‘Group and Aggregate’ panel changes to the crosstab view.
 +
 image:CrosstabDialog.png[]
 
-. In the ‘Row Header’ panel, select one or more fields from the left menus. For date-type fields, select the desired level of date grouping (‘Year’, ‘Month’, etc.). #Optional:# Select ‘As time series’ to force the display of date groups even when the group has no data (null).
-. In the ‘Column Header’ panel, select a field from the left menu. For date-type fields, select the desired level of date grouping (‘Year’, ‘Month’, etc.).  #Optional:# Select ‘As time series’ to force the display of date groups even when the group has no data (null).
+. In the ‘Row Header’ panel, select one or more fields from the left menus. For date-type fields, select the desired level of date grouping (‘Year’, ‘Month’, etc.). *_Optional:_* Select ‘As time series’ to force the display of date groups even when the group has no data (null).
+. In the ‘Column Header’ panel, select a field from the left menu. For date-type fields, select the desired level of date grouping (‘Year’, ‘Month’, etc.).  *_Optional:_* Select ‘As time series’ to force the display of date groups even when the group has no data (null).
 +
 image:CrosstabDialog3.png[]
 
-. #Optional:#  For each selected field in the ‘Row Header’ and ‘Column Header’ panels, select a named grouping (user-defined grouping) from the corresponding right menu.  See xref:NamedGrouping[] for  information on how to create a new named grouping.
+. *_Optional:_*  For each selected field in the ‘Row Header’ and ‘Column Header’ panels, select a named grouping (user-defined grouping) from the corresponding right menu.  See xref:NamedGrouping[] for  information on how to create a new named grouping.
 
 . In the ‘Aggregate’ panel, select a measure column from the left menu. This is the column whose values will be summarized. Select the aggregation method from the right menu.
 +
 If you select a bivariate aggregation measure (e.g., ‘Correlation’, ‘Weighted Average’, etc.), select the second operand (column) from the ‘with’ menu.
-. #Optional:#  To display the measure as a percentage of the grand total, select the ‘Percentage’ option. Press btn:[OK] to create the crosstab.
+. *_Optional:_*  To display the measure as a percentage of the grand total, select the ‘Percentage’ option. Press btn:[OK] to create the crosstab.
 
 
 . Save the Data Worksheet by pressing the {buttonSave} in the toolbar or press kbd:[Ctrl+S] on the keyboard.
@@ -265,7 +265,7 @@ image:numericRangeDialogRelable.png[]
 . Press the {buttonChangeView} and select {buttonLiveDataView} to preview the data block. (See xref:PreviewData.adoc[] for instructions.) Note that each cell in the ‘Total’ column has a corresponding range in the ‘Revenue Range’ column. The values that lie outside the specified ranges are labeled ‘Others’.
 +
 image:numericRangeDialogResult.png[]
-. #Optional:#  Instead of defining a fixed minimum and maximum value (750,000-10,000,000), you can keep the numeric range open-ended. Follow the steps below:
+. *_Optional:_*  Instead of defining a fixed minimum and maximum value (750,000-10,000,000), you can keep the numeric range open-ended. Follow the steps below:
 .. Open the ‘Numeric Range Option’ dialog box by pressing the {buttonNumericRange} in the range column header in the bottom panel.
 +
 image:numericRangeDialogReopen.png[]

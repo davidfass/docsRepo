@@ -46,7 +46,7 @@
 :buttonUserOptions: ‘User Options’ button image:ROOT:buttons/account.svg[role=button]
 :buttonAddBookmark: ‘Add Bookmark’  button image:ROOT:buttons/star-outline.svg[role=button]
 :buttonDelete: ‘Delete’  button image:ROOT:buttons/trash.svg[role=button]
-:buttonDuplicateContent: ‘Duplicate Content’ button image:ROOT:buttons/content-duplicate.svg[24,24]
+:buttonDuplicateContent: ‘Duplicate Content’ button image:ROOT:buttons/content-duplicate.svg[24,24,role=button]
 :buttonLogin: ‘Log In’ image:ROOT:buttons/logout.svg[role=button]
 :buttonAccount: ‘Setting’ button image:ROOT:buttons/account.svg[role=button]
 :buttonEnable: ‘Enable’ option image:ROOT:buttons/checkbox.svg[role=button]

@@ -16,8 +16,8 @@ In the bottom panel, right-click the column header and select ‘Column Type’ 
 image:embeddedTableColumnType2.png[]
 
 . Select the desired data type from the ‘Type’ menu. If you select a numeric or date type, a secondary ‘Parse Format’ menu appears below.
-. #Optional:#  In the ‘Parse Format’ menu, select the format in which you have entered your data. This allows the Embedded Table to convert the data to a standard representation. For example, if you have entered dates in the form “1/13/1995,” select or type “MM/d/yyyy” as the parse format. Note: The ‘Parse Format’ menu is available only for _manually-created_ Embedded Table columns. It is not available for data converted from a regular data block.
-. #Optional:#  Enable ‘Set nonconvertible values to empty’ to assign a null value to numbers and dates that cannot be converted. Otherwise, you will be prompted to choose an action when nonconvertible values are detected.
+. *_Optional:_*  In the ‘Parse Format’ menu, select the format in which you have entered your data. This allows the Embedded Table to convert the data to a standard representation. For example, if you have entered dates in the form “1/13/1995,” select or type “MM/d/yyyy” as the parse format. Note: The ‘Parse Format’ menu is available only for _manually-created_ Embedded Table columns. It is not available for data converted from a regular data block.
+. *_Optional:_*  Enable ‘Set nonconvertible values to empty’ to assign a null value to numbers and dates that cannot be converted. Otherwise, you will be prompted to choose an action when nonconvertible values are detected.
 . Press btn:[OK] to close the ‘Column Type’ panel.
 
 After you have specified a data type for a column of an Embedded Table, any additional data you enter into the column must match this specified type.

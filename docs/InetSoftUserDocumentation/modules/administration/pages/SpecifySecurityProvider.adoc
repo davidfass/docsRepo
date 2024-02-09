@@ -21,7 +21,7 @@ NOTE: See XXXXXXX for an explanation of how to cascade multiple security provide
 
 . In the ‘Authentication’ menu, press the {buttonEdit} next to ‘Primary Provider’ or press ‘Add Provider’ and enter a provider name. Select the desired provider type for verifying user login credentials (‘Default’, ‘LDAP’, ‘Database’, or ‘Custom’).
 . In the ‘Authorization’ menu, press the {buttonEdit} next to ‘Primary Provider’ or press ‘Add Provider’ and enter a provider name. Select the desired provider type for assigning asset and activity permissions (‘Default’ or ‘Custom’).
-. #Optional:# Add any additional authentication or authorization providers by repeating the above steps. Press the {buttonDuplicateContent} for an existing provider to copy those settings to the new provider, if desired.
+. *_Optional:_* Add any additional authentication or authorization providers by repeating the above steps. Press the {buttonDuplicateContent} for an existing provider to copy those settings to the new provider, if desired.
 +
 [NOTE]
 .For Chaining Security Providers:

@@ -5,7 +5,7 @@ include::ROOT:partial$rightClickOptions.adoc[]
 
 You can filter data at the query level, data preparation/mashup level (Data Worksheet) or presentation level (Dashboard).
 
-When you perform filtering in a query or Data Worksheet, *only* the filtered data will be available for further manipulation and presentation (although the filter itself can be parameterized and controlled from a Dashboard or report; see xref:_filter_using_dynamic_conditions[] below). This approach may be most efficient when you want to use the filtered data across many Dashboards or reports. To provide the user with the greatest flexibility to adjust the filtering, it is often more effective to perform filtering at the presentation level (Dashboard).
+When you perform filtering in a query or Data Worksheet, *only* the filtered data will be available for further manipulation and presentation (although the filter itself can be parameterized and controlled from a Dashboard or report; see xref:FilterUsingDynamicConditions[] below). This approach may be most efficient when you want to use the filtered data across many Dashboards or reports. To provide the user with the greatest flexibility to adjust the filtering, it is often more effective to perform filtering at the presentation level (Dashboard).
 
 To filter at the dashboard level, see xref:viewsheet:FilterDashboard.adoc[].  To filter at the query level, see xref:QueryData.adoc[].  To filter at the Data Worksheet level, see the sections below:
 
@@ -52,12 +52,12 @@ image:filtering3.png[]
 +
 If the condition you specify references data model attributes that do not already exist in the data block, these attributes are automatically added to the data block as hidden columns.
 . Press btn:[Append] to add the condition.
-. #Optional:# To create a compound condition, repeat the above steps to specify another condition clause, select ‘and’ or ‘or’, and press ‘Insert’. This adds the additional clause into the composite condition.
+. *_Optional:_* To create a compound condition, repeat the above steps to specify another condition clause, select ‘and’ or ‘or’, and press ‘Insert’. This adds the additional clause into the composite condition.
 +
 image:commonscript:Ad Hoc Filtering10_ws.png[]
 
-. #Optional:# Repeat the above steps to add additional clauses into the condition.
-. #Optional:# To specify the order of evaluation for a compound condition, use the ‘Indent’ and ‘Unindent’ buttons. To indent a set of clauses, select the ‘and’ or ‘or’ operator the condition box, and then press ‘Indent’. Use ‘Unindent’ to reverse indentation.
+. *_Optional:_* Repeat the above steps to add additional clauses into the condition.
+. *_Optional:_* To specify the order of evaluation for a compound condition, use the ‘Indent’ and ‘Unindent’ buttons. To indent a set of clauses, select the ‘and’ or ‘or’ operator the condition box, and then press ‘Indent’. Use ‘Unindent’ to reverse indentation.
 +
 image:commonscript:Ad Hoc Filtering11_ws.png[]
 +
@@ -65,7 +65,7 @@ Clauses are evaluated in order of indentation, the most indented clauses being e
 . To delete a clause in the condition, select the clause and press btn:[Delete]. To delete ALL clauses in the condition, press btn:[Clear]. To reposition a clause in the condition, select the clause and press btn:[Up] or btn:[Down].
 . To modify  a clause in the condition, select the clause and then specify the clause using the menus at the top (as described above). Press btn:[Modify] to change the existing condition to a new condition matching the menu selections.
 . Press  btn:[OK] to close the dialog box. The selected data set is now filtered to return only data matching the specified condition.
-. #Optional:# To view the filtered data, enable ‘Live Data View’. (See xref:PreviewData.adoc[].)
+. *_Optional:_* To view the filtered data, enable ‘Live Data View’. (See xref:PreviewData.adoc[].)
 . Save the Data Worksheet by pressing the {buttonSave} in the toolbar, or press kbd:[Ctrl+S] on the keyboard.
 ifdef::testdrive[]
 . Close the Visual Composer tab in the browser and return to the Portal.
@@ -100,7 +100,7 @@ image:ConditionExp.png[]
 +
 image:newCondition.png[]
 
-. #Optional:# To delete a condition, select the condition in the list and press the btn:[Fewer] button. Press btn:[OK].
+. *_Optional:_* To delete a condition, select the condition in the list and press the btn:[Fewer] button. Press btn:[OK].
 . Preview the data. (Click to select the data block, press the {buttonChangeView} in the bottom panel, and select {buttonLiveDataView}.)
 +
 image:previewConditionedtable.png[]
@@ -151,12 +151,12 @@ include::ROOT:partial$filterOperators.adoc[]
 image:filtering4.png[]
 
 . Press btn:[Append] to add the condition.
-. #Optional:# To create a compound condition, repeat the above steps to specify another condition clause, select ‘and’ or ‘or’, and press btn:[Insert]. This adds the additional clause into the composite condition.
+. *_Optional:_* To create a compound condition, repeat the above steps to specify another condition clause, select ‘and’ or ‘or’, and press btn:[Insert]. This adds the additional clause into the composite condition.
 +
 image:filterAggregate2.png[]
 
-. #Optional:# Repeat the above steps to add additional clauses into the condition.
-. #Optional:# To specify the order of evaluation for a compound condition, use the btn:[Indent] and btn:[Unindent] buttons. To indent a set of clauses, select the ‘and’ or ‘or’ operator the condition box, and then press ‘Indent’. Use btn:[Unindent] to reverse indentation.
+. *_Optional:_* Repeat the above steps to add additional clauses into the condition.
+. *_Optional:_* To specify the order of evaluation for a compound condition, use the btn:[Indent] and btn:[Unindent] buttons. To indent a set of clauses, select the ‘and’ or ‘or’ operator the condition box, and then press ‘Indent’. Use btn:[Unindent] to reverse indentation.
 +
 image:filterAggregate3.png[]
 +
@@ -164,7 +164,7 @@ Clauses are evaluated in order of indentation, the most indented clauses being e
 . To delete a clause in the condition, select the clause and press btn:[Delete]. To delete ALL clauses in the condition, press btn:[Clear]. To reposition a clause in the condition, select the clause and press btn:[Up] or btn:[Down].
 . To modify  a clause in the condition, select the clause and then specify the clause using the menus at the top (as described above). Press btn:[Modify] to change the existing condition to a new condition matching the menu selections.
 . Press  btn:[OK] to close the dialog box. The selected data set is now filtered to return only data matching the specified condition.
-. #Optional:# To view the filtered data, enable ‘Live Data View’. (See xref:PreviewData.adoc[].)
+. *_Optional:_* To view the filtered data, enable ‘Live Data View’. (See xref:PreviewData.adoc[].)
 . Save the Data Worksheet by pressing the {buttonSave} in the toolbar, or press kbd:[Ctrl+S] on the keyboard.
 ifdef::testdrive[]
 . Close the Visual Composer tab in the browser and return to the Portal.
@@ -215,7 +215,7 @@ image:RankingCondition2.png[]
 +
 If the condition you specify references data model attributes that do not already exist in the data block, these attributes are automatically added to the data block as hidden columns.
 . Press btn:[Append] to add the condition.
-. #Optional:# To create a compound condition, press the btn:[More] button again and repeat the above steps to specify another condition clause.
+. *_Optional:_* To create a compound condition, press the btn:[More] button again and repeat the above steps to specify another condition clause.
 +
 To delete a clause in the condition, select the clause and press the btn:[Fewer] button. To modify  a clause in the condition, select the clause and then specify the clause using the menus (as described above).
 . Press  btn:[OK] to close the dialog box. The selected data set is now filtered to return only the top or bottom records or groups according to the specified measure.
@@ -229,7 +229,7 @@ endif::[]
 
 You can now use this Data Worksheet as the data source for a Dashboard. See xref:viewsheet:VisualizeYourData.adoc[] to create a Dashboard.
 
-
+[id=FilterUsingDynamicConditions]
 == Filter Using Dynamic Conditions
 There are several different ways to make a data block filtering condition more dynamic by incorporating user input, session data, and so on. The following sections explain these approaches.
 
@@ -256,11 +256,11 @@ ifdef::testdrive[]
 . Open your data set for editing. See Edit a Data Set. XXXX
 endif::[]
 
-. #Optional:#  To reference a  _Variable_ object in the condition,  create a new Variable or drag an existing Variable from the *Asset* panel into the right panel.  See xref:CreateNewVariable.adoc[] for more about how to create the Variable object.
+. *_Optional:_*  To reference a  _Variable_ object in the condition,  create a new Variable or drag an existing Variable from the *Asset* panel into the right panel.  See xref:CreateNewVariable.adoc[] for more about how to create the Variable object.
 +
 NOTE: You do not need to use a Variable object in order to parametrize a condition, but a using Variable object gives you more control over the parameter’s properties and prompting.
 
-. #Optional:#  To control the value of a  _Variable_ object from a Dashboard,  link a Dashboard Form component to the variable.
+. *_Optional:_*  To control the value of a  _Variable_ object from a Dashboard,  link a Dashboard Form component to the variable.
 +
 .Expand to read how to link a Form component to a Variable...
 [%collapsible]

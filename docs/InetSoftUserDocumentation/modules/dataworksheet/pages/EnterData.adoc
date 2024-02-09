@@ -160,11 +160,11 @@ image:importCSV.png[]
 . In the ‘Delimiter’ field, enter the character that is used in the text file to separate entries. The default delimiter character is a comma. For tab-delimited files, select the ‘Tab’ option.
 . Adjust any of the following optional settings to modify the way the file data is interpreted:
 .. Select ‘First Row as Header (Regular Table)’ to use the entries in the first row of the text file as the column header text. Otherwise, default column names are used (“col0,” “col1,” etc.).
-.. #Optional:#  Select ‘Unpivot Data (Crosstab Table)’ if the data in the file is in crosstab table form, and you wish to convert the crosstab table into a regular table within the Data Worksheet. This option will convert the column header row into a “dimension” column and convert the crosstab cells into a “measure” column. If the crosstab table in the file contains multiple levels of row headers, enter the number of levels in the ‘Header Columns’ field.
+.. *_Optional:_*  Select ‘Unpivot Data (Crosstab Table)’ if the data in the file is in crosstab table form, and you wish to convert the crosstab table into a regular table within the Data Worksheet. This option will convert the column header row into a “dimension” column and convert the crosstab cells into a “measure” column. If the crosstab table in the file contains multiple levels of row headers, enter the number of levels in the ‘Header Columns’ field.
 +
 NOTE: You can only unpivot a crosstab that has a single level of column headers.
 
-.. #Optional:#  Select ‘Remove Quotation Marks’ to strip quotation marks out of the text file upon import.
+.. *_Optional:_*  Select ‘Remove Quotation Marks’ to strip quotation marks out of the text file upon import.
 .. Press btn:[OK]. The delimited text is imported into the existing Embedded Table, replacing any previous data.
 .. Press the  in the toolbar to save the Data Worksheet with the embedded data.
 
@@ -207,7 +207,7 @@ image:viewsheet:Input Browse Embedded Table.png[]
 +
 NOTE: The ‘Row’ menu displays the format “row: row value.” For example, “1:25” indicates that form values are passed to the second row of the Embedded Table, which currently contains the value “25.”
 
-. #Optional:# If you want the modified data to persist across sessions, enable the ‘Write Back to Storage’ option. This will save the modified data together with the Data Worksheet.
+. *_Optional:_* If you want the modified data to persist across sessions, enable the ‘Write Back to Storage’ option. This will save the modified data together with the Data Worksheet.
 
 . Press btn:[OK] to exit the ‘Properties’ panel.
 
@@ -228,7 +228,7 @@ endif::[]
 . Right-click on the Table in the Dashboard, and select ‘Properties’.
 . Select the *Advanced* tab in the ‘Properties’ panel. Enable the ‘Embedded Table’ option, and the ‘Enable Table Editing’ option.
 . Press btn:[OK] to close the panel.
-. #Optional:# By default, user-modifications to the table are individually submitted immediately upon entry. To batch-submit modifications, right-click on the Table and select ‘Properties’. Select the *General* tab and disable the ‘Submit on Change’ option. Note that this option is only available when the ‘Embedded Table’ option is enabled on the *Advanced* tab.
+. *_Optional:_* By default, user-modifications to the table are individually submitted immediately upon entry. To batch-submit modifications, right-click on the Table and select ‘Properties’. Select the *General* tab and disable the ‘Submit on Change’ option. Note that this option is only available when the ‘Embedded Table’ option is enabled on the *Advanced* tab.
 +
 image:viewsheet:TableSubmitOnChange.png[]
 +
