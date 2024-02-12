@@ -12,4 +12,5 @@ You should consider creating a data model if you have the following objectives:
 * Provide a simplified view of data that reduces data misrepresentation
 * Allow data to be filtered on fields that are not included in a report or Dashboard
 * Avoid the need for users to perform joins
-* For information on how to create a data model, see XXXXXXXXX.
+
+For information on how to create a data model, see xref:user:CreateDataModel.adoc[].

@@ -4,6 +4,8 @@
 ** xref:user:UseDashboard.adoc[]
 ** xref:user:ScheduleDashboard.adoc[]
 ** xref:user:UseRepository.adoc[]
+** xref:user:ConfigureSelfService.adoc[]
+*** xref:user:CreateDataModel.adoc[]
 ** xref:user:ProfileDashboard.adoc[]
 * xref:dataworksheet:PrepareYourData.adoc[]
 ** xref:NeedDataModel.adoc[]

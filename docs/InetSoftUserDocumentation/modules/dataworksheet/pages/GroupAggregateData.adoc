@@ -200,7 +200,8 @@ You can group numerical data (without aggregating) by applying common labels to 
 
 You can create a range column for any numeric column in a data block. To create a numeric range column, follow these steps:
 
-. Click the data block in the top panel to select it.In the bottom panel, right-click the header of the column (*numeric-type column only*) for which you want to create a range column, and select the ‘New Range Column’ option from the context menu. {rightClickOptions}
+. Click the data block in the top panel to select it.
+. In the bottom panel, right-click the header of the column (*numeric-type column only*) for which you want to create a range column, and select the ‘New Range Column’ option from the context menu. {rightClickOptions}
 +
 image:numericRangeDialog_2.png[]
 +
@@ -241,7 +242,7 @@ endif::[]
 
 . Create a new Data Worksheet.
 +
-include::ROOT:partial$ProductSalesWorksheet.adoc[]
+include::ROOT:partial$CreateNewWorksheetNote.adoc[]
 
 . Select the ‘ProductSales’ Data Worksheet in the left panel, and drag it into the new Data Worksheet. This adds the ‘SalesByDate’ data block to the new Data Worksheet, and renames it to ‘SalesByDate1’.
 . Click on the ‘SalesByDate1’ data block to select it.
@@ -282,7 +283,7 @@ You can group date data (without aggregating) by applying common labels to a spe
 To create a *date range* column, follow these steps:
 
 . Click the data block in the top panel to select it.
-In the bottom panel, right-click the header of the column (*date-type column only*) for which you want to create a range column, and select the ‘New Range Column’ option from the context menu. {rightClickOptions}
+. In the bottom panel, right-click the header of the column (*date-type column only*) for which you want to create a range column, and select the ‘New Range Column’ option from the context menu. {rightClickOptions}
 +
 image:dateRangeDialog1.png[]
 This opens the ‘Date Range Option’ panel. Here you can specify the date grouping.
