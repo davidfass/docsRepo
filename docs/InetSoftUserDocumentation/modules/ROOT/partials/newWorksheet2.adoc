@@ -18,7 +18,6 @@ See xref:dataworksheet:UploadData.adoc[] for information about how to use the up
 +
 .. *Data Source*: To create your Data Worksheet by *defining a query*, select a data source (e.g., ‘Orders’). This creates a blank Data Worksheet named ‘Untitled’ and opens the ‘Database Query’ dialog box.
 +
-[role=bodyImage]
 image::newWorksheet4.png[]
 +
 See xref:dataworksheet:QueryData.adoc[] for information about how to use the ‘Database Query’ dialog box.
