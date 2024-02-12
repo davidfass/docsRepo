@@ -1,5 +1,5 @@
 ifdef::si[]
-NOTE: The 'Sales Explore' Data Worksheet can be found in menu:[Data Worksheet > Examples].
+NOTE: The 'Sales Explore' Data Worksheet can be found in menu::[Data Worksheet > Examples].
 endif::[]
 
 ifdef::testdrive[]

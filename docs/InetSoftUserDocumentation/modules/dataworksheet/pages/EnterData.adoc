@@ -105,8 +105,9 @@ include::ROOT:partial$videoVersion.adoc[]
 In the following example, the ‘Sales’ data block of the ‘Sales Explore’ Data Worksheet is converted to an editable Embedded Table.
 
 include::ROOT:partial$SalesExploreWorksheet.adoc[]
-
++
 . Create a new Data Worksheet.
+
 include::ROOT:partial$CreateNewWorksheetNote.adoc[]
 
 . From the left panel, drag the ‘Sales Explore’ Data Worksheet into the right panel. This creates the data block ‘Sales1’.
