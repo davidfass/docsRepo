@@ -1,2 +1,4 @@
 = Radio Button/Check Box/Combo Box Properties
 
+The ‘Properties’ panel for Radio Button, Check Box, or Combo Box provides *General* and *Data* tabs. The next sections discuss the form-specific properties available under these tabs.
+

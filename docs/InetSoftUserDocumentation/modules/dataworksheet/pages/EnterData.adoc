@@ -24,7 +24,6 @@ include::ROOT:partial$videoVersion.adoc[]
 =====
 
 . If a Data Worksheet is not already open, create a new Data Worksheet.
-+
 include::ROOT:partial$CreateNewWorksheetNote.adoc[]
 
 . Press the {buttonCreateObject}, and select {buttonEmbeddedTable}.
@@ -49,7 +48,6 @@ image:embeddedTableEnterData.png[]
 Assume that you want to create a table of values to be used in a formula for some other table in the Data Worksheet.  In the following example you will create an Embedded Table with three rows and three columns of data.
 
 . Create a new Data Worksheet.
-+
 include::ROOT:partial$CreateNewWorksheetNote.adoc[]
 
 . Press the {buttonCreateObject}, and select {buttonEmbeddedTable}. Use the ‘Embedded Table’ dialog box to create an Embedded Table with three rows and three columns.
@@ -142,7 +140,7 @@ Note: Any existing data and column names in the Embedded Table will be overwritt
 .*Watch video…*
 [%collapsible]
 =====
-.Import Data into an Embedded Table...
+.Upload  data into an Embedded Table...
 video::300562831[vimeo,640,400]
 include::ROOT:partial$videoVersion.adoc[]
 =====
@@ -168,17 +166,18 @@ NOTE: You can only unpivot a crosstab that has a single level of column headers.
 
 .. *_Optional:_*  Select ‘Remove Quotation Marks’ to strip quotation marks out of the text file upon import.
 .. Press btn:[OK]. The delimited text is imported into the existing Embedded Table, replacing any previous data.
-.. Press the  in the toolbar to save the Data Worksheet with the embedded data.
+.. Press the {buttonSave} in the toolbar to save the Data Worksheet with the embedded data.
 
 == Modify Embedded Data from a Dashboard
 A user can modify the values in an Embedded Table (or the value of a Variable) in the Data Worksheet by using a Dashboard Form component  or Dashboard Embedded Table (a Table with the ‘Embedded Table’ option enabled).
 
+=== Control from Dashboard Form Component
 To configure a Dashboard *Form component* to control  a Data Worksheet Embedded Table (or Variable), follow these steps:
 
 .*Watch video…*
 [%collapsible]
 =====
-.Modify Embedded Data from a Dashboard...
+.Modify embedded data from a dashboard...
 video::300402540[vimeo,640,400]
 include::ROOT:partial$videoVersion.adoc[]
 =====
@@ -213,9 +212,9 @@ NOTE: The ‘Row’ menu displays the format “row: row value.” For example, 
 
 . Press btn:[OK] to exit the ‘Properties’ panel.
 
-The control is now linked to the Data Worksheet’s Embedded Table or Variable, and changes you make using the control will alter the values in the specified Embedded Table cells or Variable. To set the options displayed by the Form control, see XXXXX Radio Button/Check Box/Combo Box Properties in Dashboard Reference.
+The control is now linked to the Data Worksheet’s Embedded Table or Variable, and changes you make using the control will alter the values in the specified Embedded Table cells or Variable. To set the options displayed by the Form control, see xref:viewsheet:RadioCheckBoxComboProperties.adoc[]  Dashboard Reference.
 
-
+=== Control from Dashboard Embedded Table
 To configure Dashboard *Table* to control of a Data Worksheet Embedded Table (or Variable), follow these steps:
 
 

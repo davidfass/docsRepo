@@ -38,6 +38,8 @@
 **** xref:viewsheet:BookmarkDashboard.adoc[]
 ** xref:viewsheet:SortData.adoc[]
 ** xref:viewsheet:ImprovePerformance.adoc[]
+** xref:viewsheet:DashboardReference.adoc[]
+*** xref:viewsheet:RadioCheckBoxComboProperties.adoc[]
 * xref:administration:ManageServer.adoc[]
 ** xref:administration:SetJVMMemory.adoc[]
 ** xref:administration:GetStartedWithEnterpriseManager.adoc[]
