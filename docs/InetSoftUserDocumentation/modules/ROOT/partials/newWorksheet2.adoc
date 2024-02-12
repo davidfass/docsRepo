@@ -33,32 +33,8 @@ image::auto-update1.png[]
 +
 You can then force an update *on-demand* by right-clicking the data block (or by pressing the {buttonActions}) and selecting the ‘Update Mirror’ option. To restore the original auto-update behavior, press the {buttonAutoUpdate2}.
 +
-include::partial$renameColumn.adoc[]
+. *_Optional_*: To modify the properties of a column, such as name, visibility, position, sort order, see xref:dataworksheet:ModifyColumn.adoc[].
 +
-To display long column names, press the {buttonWrapColumnHeaders}. Press again to hide long names.
-+
-. To *change the column data type* (if available), press the {buttonColumnType} in the column header to open the ‘Column Type’ dialog box. See xref:dataworksheet:EnterData.adoc[] for more information about the ‘Column Type’ dialog box.
-+
-. To *add a description for a column*, press the {buttonActions}  in the column header and select ‘Column Description’. See xref:dataworksheet:ModifyColumn.adoc[] for more information.
-+
-. To *reposition a column*, simply drag the column within the bottom panel and drop it at the desired position.
-+
-. To *reposition multiple columns*, press the ‘Reorder Table Columns’ button  in the bottom panel toolbar. This opens the ‘Reorder Columns’ dialog box. Select one or more fields and press the ‘Up’, ‘Down’, ‘Move to Top’ and ‘Move to Bottom’ buttons to adjust the order as desired. Press btn:[OK] at the bottom of the panel.
-+
-image::reorderColumns.png[]
-+
-. To *hide a column*, press the {buttonVisibility}  in the column header, or press the {buttonActions}  and select ‘Hide Column’ from the menu. To show the column again, press the {buttonVisibility}  again or press the {buttonActions}  and select ‘Show Column’ or ‘Show All Columns’ from the menu.
-+
-NOTE: You may need to first press the {buttonChangeView}  and select {buttonMetaDataView}  in order to see the column listed.
-+
-. To *hide multiple columns*, press the {buttonShowHideColumns}  in the bottom panel toolbar. This opens the ‘Show/Hide Columns’ dialog box, where you can choose columns that you want to hide. Type in the ‘Search’ box and press the {buttonSearch}  to list columns that fully or partially match the search string. Press btn:[OK] at the bottom of the panel after making your selection.
-+
-image::showHideColumns.png[]
-+
-. To *search for a column*, press the {buttonSearchColumns}  in the bottom panel toolbar, and type the column name or any part of the column name. This will scroll the table to a matching column. If there are multiple matches, press the arrows to cycle through the matches. Press the {buttonClearSearch}  to clear the search term.
-+
-. Optional: To view the query represented by the data block, right-click the data block and choose ‘Show Plan’ option.  {rightClickOptions}
-+
-This displays the SQL that will be executed by the database.
+. *_Optional_*: To view the query represented by the data block, see xref:dataworksheet:PreviewQuery.adoc[].  To preview the data returned by the data block, see xref:dataworksheet:PreviewData.adoc[].
 
 You can now do mashup operations on this data, as described in the following sections (xref:dataworksheet:FilterData.adoc[], xref:dataworksheet:JoinData.adoc[], etc.), or you can proceed to create Dashboards or reports based on this Data Worksheet. See xref:viewsheet:VisualizeYourData.adoc[] for information about constructing a Dashboard.
