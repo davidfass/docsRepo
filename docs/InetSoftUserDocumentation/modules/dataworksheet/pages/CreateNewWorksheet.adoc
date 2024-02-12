@@ -6,7 +6,7 @@ Visual Composer allows you to create a Data Worksheet by performing data transfo
 
 Follow the steps below to create a Data Worksheet:
 
-. Open the ‘New Data Worksheet’ dialog box.  Press the {buttonCreate}  at the top of the User Portal, and select {buttonWorksheet}.
+. Press the {buttonCreate}  at the top of the User Portal, and select {buttonWorksheet}.
 +
 [role=bodyImage]
 image::newWorksheet2.png[]
