@@ -15,7 +15,7 @@ Follow the steps below to import a file into a Data Worksheet.
 .*Watch video…*
 [%collapsible]
 =====
-.Create a new data field in a data block...
+.Upload data into a new data block...
 video::300375356[vimeo,640,400]
 include::ROOT:partial$videoVersion.adoc[]
 =====

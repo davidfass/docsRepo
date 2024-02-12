@@ -18,7 +18,7 @@ To create a new Embedded Table, follow the steps below:
 .*Watch video…*
 [%collapsible]
 =====
-.Create a new data field in a data block...
+.Manually enter data  into a data block...
 video::299093804[vimeo,640,400]
 include::ROOT:partial$videoVersion.adoc[]
 =====
@@ -69,7 +69,7 @@ image:EditableEmbeddedTable.png[]
 image:filledEmbeddedTable.png[]
 ****
 
-== Add/Remove Rows from an Embedded Table
+== Add  Rows to an Embedded Table
 To *add a new row* to an Embedded Table, follow these steps:
 
 . Click the Embedded Table data block in the top panel to select it.
@@ -82,6 +82,7 @@ image:insertRowEmbedded.png[]
 +
 All cells in the new row can be edited.
 
+== Remove Rows from an Embedded Table
 To *remove an existing row* from an Embedded Table, follow these steps:
 
 . Click the Embedded Table data block in the top panel to select it.
@@ -94,7 +95,7 @@ To convert a regular data block to an Embedded Table, right-click the title bar 
 .*Watch video…*
 [%collapsible]
 =====
-.Convert a Data Block to an Embedded Table...
+.Convert a data block to an Embedded Table...
 video::299081891[vimeo,640,400]
 include::ROOT:partial$videoVersion.adoc[]
 =====
@@ -102,11 +103,12 @@ include::ROOT:partial$videoVersion.adoc[]
 .Example: Convert Data Block to Embedded Table
 ****
 In the following example, the ‘Sales’ data block of the ‘Sales Explore’ Data Worksheet is converted to an editable Embedded Table.
+
 include::ROOT:partial$SalesExploreWorksheet.adoc[]
 
 . Create a new Data Worksheet.
-+
 include::ROOT:partial$CreateNewWorksheetNote.adoc[]
+
 . From the left panel, drag the ‘Sales Explore’ Data Worksheet into the right panel. This creates the data block ‘Sales1’.
 +
 image:importWorksheet_1.png[]
