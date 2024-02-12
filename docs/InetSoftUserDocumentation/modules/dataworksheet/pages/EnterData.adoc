@@ -107,7 +107,6 @@ In the following example, the ‘Sales’ data block of the ‘Sales Explore’ 
 include::ROOT:partial$SalesExploreWorksheet.adoc[]
 
 . Create a new Data Worksheet.
-+
 include::ROOT:partial$CreateNewWorksheetNote.adoc[]
 
 . From the left panel, drag the ‘Sales Explore’ Data Worksheet into the right panel. This creates the data block ‘Sales1’.
