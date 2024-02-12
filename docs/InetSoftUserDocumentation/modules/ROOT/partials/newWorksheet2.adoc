@@ -26,13 +26,15 @@ See xref:dataworksheet:QueryData.adoc[] for information about how to use the ‘
 +
 image::transform1.png[]
 +
+NOTE: You can drag fields from the _same_ query, _same_ data model, or _same_ table into a single data block. For example, you can drag any attributes from the sample ‘Order Model’ into a single data block.  However, to add fields from _different_ sources (different models, different queries, etc.) into a single data block, you must perform a join.  See xref:dataworksheet:JoinData.adoc[] for more details.
++
 You can also drag a data block (or individual columns of a data block) from another Data Worksheet. In this case, the inserted data block remains linked to the original Data Worksheet in which it is defined, and updates automatically in response to changes in the source Data Worksheet. To disable this auto-update behavior, press the {buttonAutoUpdate}  in the toolbar of the bottom panel.
 +
 image::auto-update1.png[]
 +
 You can then force an update *on-demand* by right-clicking the data block (or by pressing the {buttonActions}) and selecting the ‘Update Mirror’ option. To restore the original auto-update behavior, press the {buttonAutoUpdate2}.
 +
-. *_Optional_*: To modify the properties of a column, such as name, visibility, position, sort order, see xref:dataworksheet:ModifyColumn.adoc[].
+. *_Optional_*: To modify the properties of a column in a data block, such as its name, visibility, position, sort order, see xref:dataworksheet:ModifyColumn.adoc[].
 +
 . *_Optional_*: To view the query represented by the data block, see xref:dataworksheet:PreviewQuery.adoc[].  To preview the data returned by the data block, see xref:dataworksheet:PreviewData.adoc[].
 
