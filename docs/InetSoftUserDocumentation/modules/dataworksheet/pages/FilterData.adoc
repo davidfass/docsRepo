@@ -514,6 +514,7 @@ The ‘Subquery column’ and ‘Current table column’ link the subquery data 
 Assume that you have a data block returning companies that purchased a ‘Wireless Mouse’ product, and a second data block returning companies that purchased a ‘Fast Go Game’ product. You would like to filter the ‘Wireless Mouse’ data to show only the companies that _did not_ purchased the ‘Fast Go Game.’ To do this, define a condition on the ‘Wireless Mouse’ data bock that uses the ‘Fast Go Game’ data as a subquery.
 
 Follow the steps below:
+
 . Create a new Data Worksheet.
 include::ROOT:partial$CreateNewWorksheetNote.adoc[]
 
@@ -542,7 +543,7 @@ image:ConditionDialog.png[]
 +
  [Customers] [is not] [one of]
 
-. To use a subquery in the condition, press the {buttonChangeValueType} and select ‘Subquery’. This displays the ‘Subquery’ button.
+. To use a subquery in the condition, press the {buttonChangeValueType} and select ‘Subquery’. This displays the btn:[Subquery] button.
 +
 image:SubQueryExampleList.png[]
 
@@ -552,8 +553,8 @@ image:SubQueryExampleList.png[]
 +
 image:SubQueryExampleDialog.png[]
 
-. Press ‘OK’ to close the ‘Subquery’ dialog box. (You do not need to make selections from the bottom two menus.)
-. Press ‘OK’ to exit the ‘Condition’ panel. The data blocks are now linked by a {buttonSubquery} to indicate that the ‘Fast Go Game1’ data block provides a subquery result to the ‘Wireless Mouse1’ data block.
+. Press btn:[OK] to close the ‘Subquery’ dialog box. (You do not need to make selections from the bottom two menus.)
+. Press btn:[OK] to exit the ‘Condition’ panel. The data blocks are now linked by a {buttonSubquery} to indicate that the ‘Fast Go Game1’ data block provides a subquery result to the ‘Wireless Mouse1’ data block.
 . Preview the data returned by the ‘Wireless Mouse1’ data block. (Click the data block to select it. Then press the {buttonChangeView} in the bottom panel and select {buttonLiveDataView}.)
 +
 image:SubQueryExampleResult.png[]
@@ -566,6 +567,8 @@ The ‘Wireless Mouse1’ data is filtered to display only the companies that di
 [example]
 =====
 This example illustrates how to use a row-dependent subquery. Suppose you have the total sales for all product categories, both for this week and last week. However, you want to display only those product categories that have yielded more sales revenue this week than last week. To do this, you can use last week’s total sales as a subquery to provide the data for the condition you place on this week’s sales table.
+
+Follow the steps below:
 
 . Create a new Data Worksheet.
 include::ROOT:partial$CreateNewWorksheetNote.adoc[]
@@ -582,7 +585,7 @@ image:SubQueryExampleRowDep2.png[]
 .. Press the btn:[More] button and enter the following condition: `[Order Date] [is] [in range] [This week]`.
 +
 image:SubQueryExampleRowDep3.png[]
-.. Press ‘OK’.
+.. Press btn:[OK].
 .. Press the {buttonGroupAndAggregate} in the bottom panel to open the *Group and Aggregate* panel.
 +
 image:SubQueryExampleRowDep5.png[]
@@ -602,7 +605,7 @@ image:SubQueryConditionRDButton.png[]
 . Press the {buttonChangeValueType} and select ‘Subquery’.
 +
 image:SubQueryExampleDialog2.png[]
-. Press the ‘Subquery’ button. This opens the ‘Subquery’ dialog box.
+. Press the btn:[Subquery] button. This opens the ‘Subquery’ dialog box.
 . Select ‘Sales last week’ from the ‘Subquery’ menu.
 . Select ‘Total_LW’ from the ‘In column’ menu. This is the column of the subquery containing the values to be used in the condition test.
 . Select ‘Category_LW’ from ‘Subquery column’. This is the subquery column that will be matched up against the ‘Current table column’ in the filtered data block. (It is the “join column” of the subquery data block.)
@@ -635,11 +638,13 @@ You can create conditions for a data block that determine how and when the data 
 To specify the materialized view update conditions for a data block, follow the steps below:
 
 . Click the data block to select it.
-. Press the  button in the bottom panel. This opens the ‘Condition’ panel.
+. Press the {buttonDefineCondition} button in the bottom panel. This opens the ‘Condition’ panel.
 +
 image:ConditionButton.png[]
 
 . Select the *MV Update* tab.
++
+image:MVUpdateTab.png[]
 . In the special case where you are using an *unmergeable query*, enable the ‘Always append updates’ option. Otherwise, leave it disabled. See xref:administration:IncrementalUpdate.adoc[] for information about using this property for unmergeable queries.
 . Press the btn:[Edit] button corresponding to the type of update condition you wish to create. The available options are as follows:
 Append Records Matching Pre-aggregate Condition:: Create a condition which selects records to add to the existing materialized view based on the pre-aggregate values of data (prior to grouping and summarization).

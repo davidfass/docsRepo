@@ -1,5 +1,5 @@
 ifdef::si[]
-NOTE: The 'ProductSales' Data Worksheet can be found in menu:Examples[Data Worksheet].
+NOTE: The 'ProductSales' Data Worksheet can be found in menu:Data Worksheet[Examples].
 endif::[]
 
 ifdef::testdrive[]

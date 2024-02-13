@@ -21,7 +21,7 @@ To group and aggregate data in a regular data block, follow the steps below:
 .*Watch video…*
 [%collapsible]
 =====
-.Create a new data field in a data block...
+.Group and aggregate in a regular data block...
 video::300361890[vimeo,640,400]
 include::ROOT:partial$videoVersion.adoc[]
 =====
@@ -80,7 +80,7 @@ image:groupAndAggregateButton_1.png[]
 +
 This opens the *Group and Aggregate* panel.
 
-. In the ‘Group and Aggregate’ panel, press ‘Switch to Crosstab’.
+. In the ‘Group and Aggregate’ panel, press btn:[Switch to Crosstab].
 +
 image:CrosstabDialog2.png[]
 +
@@ -134,7 +134,6 @@ To *change the level* of row headers at a later time, right-click the data block
 To understand how to unpivot a crosstab, first create a crosstab by following the steps below:
 
 . Create a new Data Worksheet.
-+
 include::ROOT:partial$CreateNewWorksheetNote.adoc[]
 
 . From the left panel, drag the ‘Sales Explore’ Data Worksheet onto an empty region in the right panel. This creates the data block ‘Sales1’.
