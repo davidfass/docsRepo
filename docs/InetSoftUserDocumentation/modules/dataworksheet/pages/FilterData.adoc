@@ -309,7 +309,7 @@ image:Variable in ConditionTyped.png[]
 
 The Data Worksheet will now prompt for the value of the variable/parameter, and will continue to do so each time the Data Worksheet is freshly  accessed.  The user will also be prompted for the parameter value by any Dashboard that utilizes the Data Worksheet, _unless_ the Dashboard contains a Form component that sets the value of the parameter.
 
-NOTE: If you need to *suppress* the parameter prompt (for example, if you are setting the parameter using script), use the ‘Prompt for Parameters’ property in the xref:viewsheet:DashboardOptions.adoc[] dialog box.
+NOTE: If you need to *suppress* the parameter prompt in a Dashboard (for example, if you are setting the parameter using script), use the ‘Prompt for Parameters’ property in the xref:viewsheet:DashboardOptions.adoc[] dialog box.
 
 
 === Use Session Data in a Condition
@@ -463,7 +463,9 @@ ifdef::testdrive[]
 . Open your data set for editing. See Edit a Data Set. XXXX
 endif::[]
 
-. In the *Asset* panel, find the query that you want to use as a sub-query in the condition. Drag it from the *Asset* panel into the Data Worksheet. This creates a new data bock with the name of the query.
+. In the *Asset* panel, find the query that you want to use as a subquery in the condition. Drag it from the *Asset* panel into the Data Worksheet. This creates a new data bock with the name of the query.
++
+IMPORTANT: If you do not add an appropriate subquery data block to the Data Worksheet as described above, you will not be able to create the subquery condition.
 . Click to select the data block that you want to filter.
 . Press the {buttonDefineCondition} button in the bottom panel.
 +
@@ -482,16 +484,16 @@ image:SubQueryMenu.png[]
 +
 image:SubQueryDialog.png[]
 . In the ‘Subquery’ menu, specify the desired sub-query data block. (This is the data block created when you dragged the query from the *Asset* panel to the right panel.)
-. Select options in the lower three menus, as needed. You do not need to make a selection in every menu; this depends on how you want to use the sub-query result. The ‘In column’ menu specifies the sub-query column that contains the result set to use in the condition. The bottom two menus control table synchronization for row-dependent conditions.
+. Select options in the lower three menus, as needed. You do not need to make a selection in every menu; this depends on how you want to use the subquery result. The ‘In column’ menu specifies the subquery column that contains the result set to use in the condition. The bottom two menus control table synchronization for row-dependent conditions.
 +
-.Expand to see different ways to use a sub-query...
+.How to use the menus to create different kinds of subqueries...
 [%collapsible]
 ====
 You do not need to specify every setting in the ‘Subquery’ dialog box. The required menu choices depend on how you wish to use the sub-query result set. This section explains three different ways that you can use a sub-query.
 
 Subquery Returns a Fixed Value:: If the sub-query returns a single fixed value (i.e., the sub-query data block in the Data Worksheet contains a single data cell), then in the ‘Subquery’ dialog box you only need to specify the _name_ of the sub-query. No further settings are required.
 
-Subquery Returns a Fixed List:: If you want to use a particular column from the sub-query as a fixed list in the condition, you need to specify the query name in the ‘Subquery’ dialog box, and then select the desired sub-query column from the ‘In column’ menu. A sub-query that returns a column is typically used in conjunction with the ‘one of’ condition operator to filter values that are members (or non-members) of the returned list. For this usage, you do not need to make selections in the ‘Subquery column’ and ‘Current table column’ menus.  See Example 1 below.
+Subquery Returns a Fixed List:: If you want to use a particular column from the sub-query as a fixed list in the condition, you need to specify the query name in the ‘Subquery’ dialog box, and then select the desired sub-query column from the ‘In column’ menu. A sub-query that returns a column is typically used in conjunction with the ‘one of’ condition operator to filter values that are members (or non-members) of the returned list. For this usage, you do not need to make selections in the ‘Subquery column’ and ‘Current table column’ menus.  See the xref:exampleFixedList[] example below.
 
 Subquery Returns a Row-Dependent Value:: A sub-query can return a value that is dependent on the *row* of the filtered data block. Such a row-dependent sub-query is useful when you want to filter rows of a data block based on  comparison with corresponding rows of the sub-query.
 +
@@ -502,10 +504,10 @@ To configure a row-dependent sub-query, follow these steps:
 . Select the desired sub-query column from the ‘In column’ menu. This is the column of the sub-query containing the actual values to be tested in the condition. (In the example above, this would be the ‘sales’ column of the CA data block, since this column contains the values that the condition will test.)
 . From the ‘Subquery column’ menu, select the column in the _subquery data block_ that indexes the sub-query condition column (selected in the previous step). The ‘Subquery column’ is the sub-query join column; it will be used to look up the condition values corresponding to a particular row in the filtered data block. (In the example above, the ‘Subquery column’ would be the ‘year’ column of the CA data block, since this is the column that indexes the ‘sales’ column of the CA data block.)
 . From the ‘Current table column’ menu, select the column in the _filtered data block_ that contains the indexing values corresponding to those in the ‘Subquery column’ of the sub-query data block. (In the example above, the ‘Current table column’ would be the ‘year’ column of the NY data block, since this is the column that corresponds to the CA ‘year’ column.)
-
 +
-The ‘Subquery column’ and ‘Current table column’ link the sub-query data block and filtered data block. For each row in filtered data block, the value in the ‘Current table column’ is matched against the values in the ‘Subquery column’. The results returned by the sub-query for each row are the values of the condition ‘In column’ in the rows where the ‘Subquery column’ value is matched. See Example 2 below.
+The ‘Subquery column’ and ‘Current table column’ link the sub-query data block and filtered data block. For each row in filtered data block, the value in the ‘Current table column’ is matched against the values in the ‘Subquery column’. The results returned by the sub-query for each row are the values of the condition ‘In column’ in the rows where the ‘Subquery column’ value is matched. See the xref:exampleRowDependent[] example below.
 
+[id=exampleFixedList]
 .Subquery Returns a Fixed List
 [example]
 =====
@@ -560,6 +562,7 @@ image:SubQueryExampleResult.png[]
 The ‘Wireless Mouse1’ data is filtered to display only the companies that did not purchase the ‘Fast Go Game’.
 =====
 
+[id=exampleRowDependent]
 .Subquery returns a row-dependent value
 [example]
 =====
