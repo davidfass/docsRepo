@@ -1,0 +1,3 @@
+= Dashboard Object Script Reference
+
+This reference describes all objects in the Dashboard environment.

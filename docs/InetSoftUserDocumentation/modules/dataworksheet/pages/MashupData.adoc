@@ -35,17 +35,11 @@ image:auto-update1.png[]
 +
 You can then force an update *on-demand* by right-clicking the data block (or by pressing the {buttonActions}) and selecting the ‘Update Mirror’ option. To restore the original auto-update behavior, press the {buttonAutoUpdate2}.
 
-include::ROOT:partial$renameColumn.adoc[]
 
-. To *reposition a column*, simply drag the column within the bottom panel and drop it at the desired position.
-. To view the query represented by the data block, right-click the data block and choose ‘Show Plan’ option. {rightClickOptions}
+. *_Optional_*: To modify the properties of a column in a data block, such as its name, visibility, position, sort order, see xref:dataworksheet:ModifyColumn.adoc[].
 +
-image:showPlanMenu.png[]
-+
-This displays the SQL that will be executed by the database.
-+
-image:showPlanOption2.png[]
-+
-include::ROOT:partial$mashupBlurb.adoc[]
-+
+. *_Optional_*: To view the query represented by the data block, see xref:dataworksheet:PreviewQuery.adoc[].  To preview the data returned by the data block, see xref:dataworksheet:PreviewData.adoc[].
+
 . Mark your final result as the *primary data block*. To do this, right-click the data block and select ‘Set as Primary’ from the context menu.  {rightClickOptions} This makes the data block visible to reports and other Data Worksheets, and places it first in the list of data blocks available to any Dashboard that uses this Data Worksheet as its data source.
+
+include::ROOT:partial$mashupBlurb.adoc[]

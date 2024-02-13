@@ -38,10 +38,10 @@ image:agileData20_1.png[]
 +
 image:agileData21_1.png[]
 
-.. To change an existing join, press the ‘Edit’ button next to the join.
+.. To change an existing join, press the {buttonEdit} next to the join.
 +
 image:agileData22_1.png[]
-.. To delete an existing join, press the ‘Delete’ button next to the join.
+.. To delete an existing join, press the {buttonDelete} button next to the join.
 +
 image:agileData23_1.png[]
 

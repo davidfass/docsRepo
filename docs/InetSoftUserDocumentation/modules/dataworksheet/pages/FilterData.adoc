@@ -5,9 +5,13 @@ include::ROOT:partial$rightClickOptions.adoc[]
 
 You can filter data at the query level, data preparation/mashup level (Data Worksheet) or presentation level (Dashboard).
 
-When you perform filtering in a query or Data Worksheet, *only* the filtered data will be available for further manipulation and presentation (although the filter itself can be parameterized and controlled from a Dashboard or report; see xref:FilterUsingDynamicConditions[] below). This approach may be most efficient when you want to use the filtered data across many Dashboards or reports. To provide the user with the greatest flexibility to adjust the filtering, it is often more effective to perform filtering at the presentation level (Dashboard).
+* To filter at the Dashboard level, see xref:viewsheet:FilterDashboard.adoc[]. This provides the user with the greatest flexibility to adjust the filtering,
+* To filter at the query level, see xref:QueryData.adoc[].
+* To filter at the Data Worksheet level, see the sections below.
 
-To filter at the dashboard level, see xref:viewsheet:FilterDashboard.adoc[].  To filter at the query level, see xref:QueryData.adoc[].  To filter at the Data Worksheet level, see the sections below:
+When you perform filtering in a query or Data Worksheet, *only* the filtered data will be available for further manipulation and presentation (although the filter itself can be parameterized and controlled from a Dashboard or report; see xref:FilterUsingDynamicConditions[] below). Filtering at the query or Data Worksheet level  may be most efficient when you want to use the filtered data set across many Dashboards or reports.
+
+
 
 == Filter Detail Data
 To filter the detail (pre-aggregate) data in a data block, follow the steps below. Note: If you want Dashboard users to dynamically filter the data in a Dashboard, see xref:viewsheet:FilterDashboard.adoc[] instead.
@@ -37,7 +41,7 @@ image:filtering2.png[]
 +
 image:AdvancedConditionsBlank.png[]
 +
-The ‘Advanced Conditions’ check box toggles between simple and advanced conditions. (See below for an example of using simple conditions.)
+The ‘Advanced Conditions’ check box toggles between simple and advanced conditions. (See xref:SimpleConditions[] below for an example of using simple conditions.)
 +
 IMPORTANT: If you switch from the advanced conditions interface to the simple conditions interface, any advanced condition features that you have specified (for example, “OR” operators)  are permanently lost.
 . Press the btn:[Edit] button next to the ‘Pre-aggregate Conditions’ panel. Use the menus to specify the desired condition.
@@ -52,12 +56,12 @@ image:filtering3.png[]
 +
 If the condition you specify references data model attributes that do not already exist in the data block, these attributes are automatically added to the data block as hidden columns.
 . Press btn:[Append] to add the condition.
-. *_Optional:_* To create a compound condition, repeat the above steps to specify another condition clause, select ‘and’ or ‘or’, and press ‘Insert’. This adds the additional clause into the composite condition.
+. *_Optional:_* To create a compound condition, repeat the above steps to specify another condition clause, select ‘and’ or ‘or’, and press btn:[Insert]. This adds the additional clause into the composite condition.
 +
 image:commonscript:Ad Hoc Filtering10_ws.png[]
 
 . *_Optional:_* Repeat the above steps to add additional clauses into the condition.
-. *_Optional:_* To specify the order of evaluation for a compound condition, use the ‘Indent’ and ‘Unindent’ buttons. To indent a set of clauses, select the ‘and’ or ‘or’ operator the condition box, and then press ‘Indent’. Use ‘Unindent’ to reverse indentation.
+. *_Optional:_* To specify the order of evaluation for a compound condition, use the btn:[Indent] and btn:[Unindent] buttons. To indent a set of clauses, select the ‘and’ or ‘or’ operator the condition box, and then press btn:[Indent]. Use btn:[Unindent] to reverse indentation.
 +
 image:commonscript:Ad Hoc Filtering11_ws.png[]
 +
@@ -76,12 +80,12 @@ You can now use this Data Worksheet as the data source for a Dashboard. See xref
 
 If your condition requires only the “AND” operator and does not require the “OR” operator, or if it requires no logical operators at all, you can use the simple condition interface (without selecting the ‘Advanced Conditions’ check box).  See the example below.
 
+[id=SimpleConditions]
 .Example: Simple Conditions
 ****
 In the sample ‘Sales Explore’ Data Worksheet, retrieve only orders with sales of at least $1,000.
 
 . Create a new Data Worksheet.
-+
 include::ROOT:partial$CreateNewWorksheetNote.adoc[]
 +
 include::ROOT:partial$SalesExploreWorksheet.adoc[]
@@ -156,7 +160,7 @@ image:filtering4.png[]
 image:filterAggregate2.png[]
 
 . *_Optional:_* Repeat the above steps to add additional clauses into the condition.
-. *_Optional:_* To specify the order of evaluation for a compound condition, use the btn:[Indent] and btn:[Unindent] buttons. To indent a set of clauses, select the ‘and’ or ‘or’ operator the condition box, and then press ‘Indent’. Use btn:[Unindent] to reverse indentation.
+. *_Optional:_* To specify the order of evaluation for a compound condition, use the btn:[Indent] and btn:[Unindent] buttons. To indent a set of clauses, select the ‘and’ or ‘or’ operator the condition box, and then press btn:[Indent]. Use btn:[Unindent] to reverse indentation.
 +
 image:filterAggregate3.png[]
 +
@@ -174,7 +178,7 @@ endif::[]
 You can now use this Data Worksheet as the data source for a Dashboard. See xref:viewsheet:VisualizeYourData.adoc[] to create a Dashboard.
 
 == Filter Top and Bottom Data
-A condition that filters the top-N or bottom-N records or groups based on a specified measure is called a ranking condition.
+A condition that filters the top-N or bottom-N records or groups based on a specified measure is called a _ranking condition_.
 
 NOTE: If you want to configure ranking in a specific Chart or Crosstab, see xref:viewsheet:FilterDashboard.adoc[] instead.
 

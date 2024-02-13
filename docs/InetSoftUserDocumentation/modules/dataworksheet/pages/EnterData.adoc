@@ -191,7 +191,7 @@ endif::[]
 
 . Right-click on the Form control in the Dashboard, and select ‘Properties’.
 
-. Select the Data tab in the ‘Properties’ panel.
+. Select the *Data* tab in the ‘Properties’ panel.
 
 . Open the ‘Target’ menu:
 * To access an Embedded Table, expand the ‘Table’ node, and select the desired Embedded Table data block of the Data Worksheet.
@@ -212,10 +212,10 @@ NOTE: The ‘Row’ menu displays the format “row: row value.” For example, 
 
 . Press btn:[OK] to exit the ‘Properties’ panel.
 
-The control is now linked to the Data Worksheet’s Embedded Table or Variable, and changes you make using the control will alter the values in the specified Embedded Table cells or Variable. To set the options displayed by the Form control, see xref:viewsheet:RadioCheckBoxComboProperties.adoc[]  Dashboard Reference.
+The control is now linked to the Data Worksheet’s Embedded Table or Variable, and changes you make using the control will alter the values in the specified Embedded Table cells or Variable. To set the options displayed by the Form control, see xref:viewsheet:RadioCheckBoxComboProperties.adoc[] in  xref:viewsheet:DashboardReference.adoc[].
 
 === Control from Dashboard Embedded Table
-To configure Dashboard *Table* to control of a Data Worksheet Embedded Table (or Variable), follow these steps:
+To configure a Dashboard *Table* to control of a Data Worksheet Embedded Table (or Variable), follow these steps:
 
 
 ifdef::si[]
@@ -233,6 +233,6 @@ endif::[]
 +
 image:viewsheet:TableSubmitOnChange.png[]
 +
-If ‘Submit On Change’ is disabled, the user can batch-submit changes by pressing the  in the Table mini-toolbar.
+If ‘Submit On Change’ is disabled, the user can batch-submit changes by pressing the {buttonApply} in the Table mini-toolbar.
 +
-NOTE: You can also batch-submit user modifications using script. See  Viewsheet_Table_applyChanges in  XXXXXX
+NOTE: You can also batch-submit user modifications using script. See xref:viewsheetscript:DashboardTableApplyChanges.adoc[] in xref:viewsheetscript:DashboardObjectReference.adoc[].
