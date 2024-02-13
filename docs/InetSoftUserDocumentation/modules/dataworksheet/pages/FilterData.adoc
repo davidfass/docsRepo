@@ -266,7 +266,7 @@ NOTE: You do not need to use a Variable object in order to parametrize a conditi
 
 . *_Optional:_*  To control the value of a  _Variable_ object from a Dashboard,  link a Dashboard Form component to the variable.
 +
-.Expand to read how to link a Form component to a Variable...
+.How to link a Form component to a Variable...
 [%collapsible]
 ====
 A user can modify the  value of a Variable in the Data Worksheet by using a Dashboard Form component. To configure Dashboard control of a Variable, follow these steps:
@@ -306,6 +306,11 @@ In the Combo Box, do one of the following:
 +
 image:Variable in ConditionTyped.png[]
 . Press ‘OK’ to close the  ‘Condition’ panel.
+
+The Data Worksheet will now prompt for the value of the variable/parameter, and will continue to do so each time the Data Worksheet is freshly  accessed.  The user will also be prompted for the parameter value by any Dashboard that utilizes the Data Worksheet, _unless_ the Dashboard contains a Form component that sets the value of the parameter.
+
+NOTE: If you need to *suppress* the parameter prompt (for example, if you are setting the parameter using script), use the ‘Prompt for Parameters’ property in the xref:viewsheet:DashboardOptions.adoc[] dialog box.
+
 
 === Use Session Data in a Condition
 To use a session variable (user, group, or role) as the test value in a filter condition, follow the steps below.

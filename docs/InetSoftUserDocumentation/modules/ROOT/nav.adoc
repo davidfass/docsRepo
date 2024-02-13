@@ -40,6 +40,7 @@
 ** xref:viewsheet:SortData.adoc[]
 ** xref:viewsheet:ImprovePerformance.adoc[]
 ** xref:viewsheet:DashboardReference.adoc[]
+*** xref:viewsheet:DashboardOptions.adoc[]
 *** xref:viewsheet:RadioCheckBoxComboProperties.adoc[]
 ** xref:viewsheetscript:AdvancedDashboardScripting.adoc[]
 *** xref:viewsheetscript:DashboardObjectReference.adoc[]
