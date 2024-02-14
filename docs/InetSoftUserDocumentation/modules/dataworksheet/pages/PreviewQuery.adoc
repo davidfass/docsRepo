@@ -39,7 +39,7 @@ The ‘Query Plan’ dialog box displays the query that the table will send to t
 To override the default single-query behavior, follow the steps below:
 
 . Right-click the ‘Query1’ table again, and select ‘Properties’ from the context menu. This opens the ‘Table Properties’ panel.
-. Deselect ‘Merge SQL’ and press ‘OK’ to exit the panel.
+. Deselect ‘Merge SQL’ and press btn:[OK] to exit the panel.
 +
 image:dataworksheet:showPlanOption.png[]
 +

@@ -25,6 +25,7 @@
 ** xref:dataworksheet:PreviewData.adoc[]
 ** xref:dataworksheet:PreviewQuery.adoc[]
 ** xref:dataworksheet:CreateNewDataField.adoc[]
+** xref:dataworksheet:AccessDataInExpression.adoc[]
 ** xref:dataworksheet:CreateNewVariable.adoc[]
 ** xref:dataworksheet:PivotData.adoc[]
 ** xref:dataworksheet:SecureData.adoc[]

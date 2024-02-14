@@ -2,9 +2,9 @@
 include::ROOT:partial$buttonSnippets.adoc[]
 :experimental:
 
-You can create a new data field with one of the following approaches.
+You can create a new data field with one of the following two approaches.
 
-== Create an expression column in a Data Worksheet
+== Create an Expression Column in a Data Worksheet
 
 An *expression column* is a data set column that you define using either JavaScript or SQL (for SQL data sources). The expression is evaluated for each row of the data set. Creating an expression column in a Data Worksheet allows you to reference the field in any report or Dashboard that uses the Data Worksheet. SQL expressions can often also be executed more efficiently  (for SQL data sources) than JavaScript expressions.
 
@@ -29,8 +29,8 @@ endif::[]
 . Click the data block to select it.
 +
 NOTE: If the data block is grouped and aggregated, use the {buttonChangeView} to switch the view to either {buttonMetaDetailView} or {buttonLiveDetailView}. (See xref:PreviewData.adoc[] for more information.)
-+
-In the bottom panel, press the {buttonCreateExpression}. This opens the Formula Editor.
+
+. In the bottom panel, press the {buttonCreateExpression}. This opens the Formula Editor.
 +
 image:dataworksheet:agileTransform3.png[]
 +
