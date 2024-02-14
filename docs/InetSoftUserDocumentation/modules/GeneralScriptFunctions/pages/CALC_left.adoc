@@ -1,0 +1,1 @@
+= CALC.left(string, num_chars)

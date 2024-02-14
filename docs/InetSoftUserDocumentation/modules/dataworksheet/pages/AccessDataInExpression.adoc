@@ -1,4 +1,4 @@
-= Access Data with an Expression
+= Access Data in Expression
 include::ROOT:partial$buttonSnippets.adoc[]
 :experimental:
 
