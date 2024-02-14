@@ -77,7 +77,7 @@ CALC.left(field['Category'], 4);
 xref:GeneralScriptFunctions:CALC_iif.adoc[]:: Test a condition to determine a return value:
 +
 [source,javascript]
-CALC.iif(field['Total']&gt;500,'big sale','small sale')
+CALC.iif(field['Total']>500,'big sale','small sale')
 // Return ”big sale” if Total > $500, otherwise “small sale”
 // Or use the JavaScript ternary operator:
 field['Total']>500 ? 'big sale' : 'small sale'

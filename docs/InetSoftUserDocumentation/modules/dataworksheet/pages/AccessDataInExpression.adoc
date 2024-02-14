@@ -70,7 +70,8 @@ Customers["CompanyName? customer_id == field.local_id"]
 This formula says: _“Look in the ‘Customers’ data block, and return the value in the column ‘CompanyName’ where the ‘customer_id’ key is equal to the value of the current cell in the ‘local_id’ column.”_
 
 
-== Example: Reference Data from a Data Block
+.Example: Value Look-Up
+****
 This example illustrates how you can reference the cells of another data block from within a formula column. You will use the tables in the menu:TABLE[SA] folder of the ‘Orders’ data source to create a data block that has columns for product ID, product name, category ID, and category name.
 
 . In the left panel, expand  menu:Data Source[Orders,TABLE].
@@ -85,7 +86,7 @@ image:dataworksheet:ReferenceCellExampleMakeTable6.png[]
 +
 This creates a new data block named ‘PRODUCTS1’.
 +
-. Rename the ‘CATEGORY_ID’ column as ‘CAT_ID’. This will help to distinguish it from the data block you will add next. (See xref:dataworksheet:CreateNewWorksheet.adoc[] for instructions on how to rename a column.)
+. Rename the ‘CATEGORY_ID’ column as ‘CAT_ID’. This will help to distinguish it from the data block you will add next. (See xref:dataworksheet:ModifyColumn.adoc[] for instructions on how to rename a column.)
 . Drag the menu:TABLE[SA,CATEGORIES] table to the right panel. This creates a new data block named ‘CATEGORIES1’.
 
 Let’s say that you want to add a column to the ‘PRODUCTS1’ data block that will contain the category name corresponding to each entry in the ‘CAT_ID’ column. The best way to do this is to join the data blocks together (see xref:dataworksheet:JoinData.adoc[]), but to practice using cell references, in this case you will create this new column as a formula column.
@@ -108,8 +109,9 @@ image:dataworksheet:ReferenceCellExampleMakeTableNoSQL.png[]
 image:dataworksheet:ReferenceCellExampleMakeTable7.png[]
 +
 . Preview the ‘PRODUCTS1’ data block. (Click the  data block to select it. Then press the {buttonChangeView} in the bottom panel and select {buttonLiveDataView}.)
-+
+
 The formula column in the ‘PRODUCTS1’ data bock now displays the category name corresponding to each entry in the ‘CAT_ID’ column.
+****
 
 
 
