@@ -40,9 +40,9 @@ This creates a new joined data block and opens the Join Editor.
 image:JoiningTablesActionResult.png[]
 .. Proceed to define the joins in the Join Editor as explained below.
 
-. To create an inner join with the *{buttonJoin}*, first follow these steps:
+. To  join data blocks by using  the *{buttonJoin}*, first follow these steps:
 +
-.. Select the data blocks you want to join together. (You can hold the kbd:[Shift] and click on the data blocks to select both, or drag with the mouse to “lasso” the data blocks.)
+.. Select the data blocks you want to join together. (You can hold the {buttonShift} key and click on the data blocks to select both, or drag with the mouse to “lasso” the data blocks.)
 .. Press the {buttonJoin} in the toolbar, and select  {buttonInnerOuterJoin}.
 +
 image:mashup2_1.png[]
@@ -56,13 +56,13 @@ image:JoiningTablesActionResult.png[]
 +
 image:mashup3_1.png[]
 +
-NOTE: Some joins may have been created by default.
+NOTE: Some joins may have been created by default. To delete a join, click  the join symbol in the link and select ‘Remove Join Condition’ from the context menu.
 +
 In the example below, the first join condition specifies that the values in the ‘Name’ column from the ‘Orders’ data block should be matched to the values in the ‘Name’ column from the ‘Returns’ data block. The second join condition specifies that the values in the ‘Order Num’ column from the ‘Orders’ data block should be matched to the values in the ‘Order Num’ column from the ‘Returns’ data block.
 +
 image:mashup3_2.png[]
 +
- By default, an “equality” join condition is used, producing the so-called inner join or “equi-join,” and is indicated by an “equals” (=) symbol.
+By default, an “equality” join condition is used, producing the so-called inner join or “equi-join,” and is indicated by an “equals” (=) symbol.
 
 . *_Optional:_* To change an inner join to an outer join, right-click on the join link and choose the desired outer join.
 +
@@ -365,7 +365,7 @@ image:ChangeJoinTypeAction2.png[]
 
 include::ROOT:partial$CreateDashboard.adoc[]
 
-== Locate the Source of a Joined Column
+== Locate the Source of a Join Column
 In a Data Worksheet that includes many joins, you may sometimes need help to find the original *source* data block of a particular column. To do this, follow the steps below:
 
 . Click to select the data block that contains the column that you want to trace. (Usually this data block is the result of one or more joins.)
