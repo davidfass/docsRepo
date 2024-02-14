@@ -58,6 +58,7 @@ image:dataworksheet:agileTransform6.png[]
 
 include::ROOT:partial$CreateDashboard.adoc[]
 
+[id=CreateCalcField]
 == Create a Calculated Field in a Dashboard
 If your data source does not provide data in the correct form for display on the Dashboard, use a *calculated field* to create the desired data field. Unlike the expression column described above, a calculated field is available only to the Dashboard in which defined, and it can operate both on detail data and on data that is being aggregated within the Dashboard (for example, in charts and crosstabs).
 
@@ -96,7 +97,7 @@ This opens the ‘Calculated Field’ panel.
 .Name restrictions
 The following special characters are *permitted* in the name of a calculated field: Period ("."), comma (","), question mark ("?"), parentheses ("()"), exclamation point ("!"), at sign ("@"), ampersand ("&"), single quote (" ' ").  Slash("/") is *not permitted*.
 
-. Select the ‘Detail’ option to perform calculations on the data directly provided by the data block, or click ‘Aggregate’ to perform calculations on the data after it has been aggregated (for example in a Chart or a Crosstab).
+. Select the ‘Detail’ option to perform calculations on the data directly provided by the data block, or click ‘Aggregate’ to perform calculations on the data after it has been aggregated (for example in a Chart or a Crosstab). See below for examples of detail and aggregate calculations.
 +
 NOTE: Your choice of ‘Detail’ or ‘Aggregate’ *cannot* be changed later.
 +
@@ -119,10 +120,10 @@ In general, SQL expressions perform better than JavaScript expressions because S
 ifdef::si[]
 image:viewsheet:NewCalculatedField4.png[]
 endif::[]
-+
 ifdef::testdrive[]
 image:testdrive:agileDash61.png[]
 endif::[]
+
 
 You can display this calculated field in Output Components (see xref:viewsheet:AddAKPI.adoc[]) or Data View Components (see xref:viewsheet:AddAChart.adoc[] and xref:viewsheet:AddTableOrCrosstab.adoc[]) in the same way that would display any other data field.
 
@@ -130,7 +131,7 @@ NOTE: You cannot bind an aggregate-based calculated field to Filter components.
 
 [id=DetailLevelCalculation]
 == Detail-Level Calculation
-The available fields are listed in the top-left panel. Click on an available field in the panel to add it to the expression.
+See xref:CreateCalcField[] to open the ‘Edit Calculated Field’ dialog box, and select the ‘Detail’ option. The available detail fields are listed in the top-left panel. Click on an available field in the panel to add it to the expression.
 
 image:viewsheet:NewCalculatedField3.png[]
 
@@ -152,7 +153,7 @@ sum('Sales Amount')/count('Order Number')
 
 When you bind this ‘Average Sales Amount’ field to a Gauge that summarizes the whole dataset, it will present the average sales amount for all orders. On the other hand, when you use this ‘Average Sales Amount’ field as the measure for a Chart that has a ‘Product’ dimension, the Chart will display the average sales amount for each product.
 ****
-The Formula Editor may already contain the desired aggregate fields in the top-left panel. Click on an available field in the panel to add it to the expression.
+See xref:CreateCalcField[] to open the ‘Edit Calculated Field’ dialog box, and select the ‘Aggregate’ option.  The Formula Editor may already contain the desired aggregate fields in the top-left panel. Click on an available field in the panel to add it to the expression.
 
 To add a new aggregate to the list, follow the steps below:
 
