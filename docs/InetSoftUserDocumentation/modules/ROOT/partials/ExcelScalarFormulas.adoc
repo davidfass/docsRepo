@@ -85,8 +85,8 @@ field['Total']>500 ? 'big sale' : 'small sale'
 xref:GeneralScriptFunctions:CALC_and.adoc[]:: Return “true” if two or more conditions are simultaneously true. Often used together with a conditional operator such as iif.
 +
 [source,javascript]
-CALC.and(field['Total']&gt;200, field['Quantity Purchased']&lt;10)
+CALC.and(field['Total']>200, field['Quantity Purchased']<10)
 // Return true if Total > $200 AND Quantity is less than 10
 // Or use the JavaScript “and” operator:
-(field['Total']&gt;200) &amp;&amp; (field['Quantity Purchased']&lt;10)
+(field['Total']>200) && (field['Quantity Purchased']<10)
 =====
