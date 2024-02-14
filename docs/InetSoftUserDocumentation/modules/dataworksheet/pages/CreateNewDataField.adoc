@@ -157,30 +157,30 @@ See xref:CreateCalcField[] to open the ‘Edit Calculated Field’ dialog box, a
 
 To add a new aggregate to the list, follow the steps below:
 
-.. Press the ‘New Aggregate’ link in the top-left panel.
+. Press the ‘New Aggregate’ link in the top-left panel.
 +
 image:viewsheet:CalcFieldExample8.png[]
 +
 This opens the ‘Aggregate’ dialog box.
 +
-.. In the ‘Field’ menu of the ‘Aggregate’ dialog box, select the field that you wish to aggregate for purposes of the calculation.
+. In the ‘Field’ menu of the ‘Aggregate’ dialog box, select the field that you wish to aggregate for purposes of the calculation.
 +
 image:viewsheet:CalcFieldExample9.png[]
 +
-In the ‘Aggregate’ menu, select the desired aggregation method.
+. In the ‘Aggregate’ menu, select the desired aggregation method.
 +
 .Read about the available aggregation methods...
 [%collapsible]
 ====
 include::ROOT:partial$AggregationMethods.adoc[]
 ====
-.. For a bivariate aggregation method, select the second field from the ‘With’ menu.
-.. Press btn:[OK] to close the ‘Aggregate’ dialog box. The Formula Editor now displays the newly defined aggregate quantity in the top-left panel.
+. For a bivariate aggregation method, select the second field from the ‘With’ menu.
+. Press btn:[OK] to close the ‘Aggregate’ dialog box. The Formula Editor now displays the newly defined aggregate quantity in the top-left panel.
 +
 image:viewsheet:CalcFieldExample10.png[]
 +
-.. *_Optional:_*  Press the ‘New Aggregate’ button again, and repeat the above steps to add as many additional aggregates as desired.
-.. Once you have defined the required aggregates in the top-left panel, enter the desired calculation (using the aggregate fields) in the formula field at the bottom of the dialog box.
+. *_Optional:_*  Press the ‘New Aggregate’ button again, and repeat the above steps to add as many additional aggregates as desired.
+. Once you have defined the required aggregates in the top-left panel, enter the desired calculation (using the aggregate fields) in the formula field at the bottom of the dialog box.
 +
 NOTE: Click an aggregate field in the top-left panel to add it to the expression.
 +

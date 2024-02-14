@@ -16,13 +16,13 @@ xref:GeneralScriptFunctions:dateDiff.adoc[]:: Return the difference in days, mon
 +
 [source,javascript]
 dateDiff('d',field['Date'],CALC.now())
-// Return the number of days elapsed from the Date field value until today
+// Return the days elapsed from the Date value until today
 +
 xref:GeneralScriptFunctions:CALC_now.adoc[]:: Return the current date and time. Often used with a date operator such as dateDiff() or dateAdd().
 +
 [source,javascript]
 dateDiff('d',field['Date'],CALC.now())
-// Return the number of days elapsed from the Date field value until today
+// Return the days elapsed from the Date value until today
 =====
 .Excel-style Math functions
 [example]
@@ -78,7 +78,7 @@ xref:GeneralScriptFunctions:CALC_iif.adoc[]:: Test a condition to determine a re
 +
 [source,javascript]
 CALC.iif(field['Total']&gt;500,'big sale','small sale')
-// Return ”big sale” if Total is greater than $500, otherwise return “small sale”
+// Return ”big sale” if Total > $500, otherwise “small sale”
 // Or use the JavaScript ternary operator:
 field['Total']>500 ? 'big sale' : 'small sale'
 
@@ -86,7 +86,7 @@ xref:GeneralScriptFunctions:CALC_and.adoc[]:: Return “true” if two or more c
 +
 [source,javascript]
 CALC.and(field['Total']&gt;200, field['Quantity Purchased']&lt;10)
-// Return true if Total is greater than $200 AND Quantity is less than 10
+// Return true if Total > $200 AND Quantity is less than 10
 // Or use the JavaScript “and” operator:
 (field['Total']&gt;200) &amp;&amp; (field['Quantity Purchased']&lt;10)
 =====
