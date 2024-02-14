@@ -1,5 +1,5 @@
 ifdef::si[]
-NOTE: The ‘Fast Go Game’ and ‘Wireless Mouse’ queries can be found in the menu:Examples[Orders > Sample Queries] folder.
+NOTE: The ‘Fast Go Game’ and ‘Wireless Mouse’ queries can be found in the menu:Data Source[Examples > Orders > Sample Queries] folder.
 endif::[]
 
 ifdef::testdrive[]

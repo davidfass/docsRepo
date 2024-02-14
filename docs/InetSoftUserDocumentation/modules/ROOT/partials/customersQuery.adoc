@@ -1,5 +1,5 @@
 ifdef::si[]
-NOTE: The 'customers' query can be found in  menu:Examples[Orders > Sample Queries].
+NOTE: The 'customers' query can be found in  menu:Data Source[Examples > Orders > Sample Queries].
 endif::[]
 
 ifdef::testdrive[]

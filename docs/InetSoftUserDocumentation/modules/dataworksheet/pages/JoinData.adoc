@@ -92,11 +92,11 @@ image:mashup5.png[]
 +
 image:mashup6_1.png[]
 
-. To change column names, double-click the column header and edit the text.
+. To change column names, double-click the column header and edit the text.  See xref:ModifyColumn.adoc[] for more details.
 +
 include::ROOT:partial$duplicateNames.adoc[]
 
-. To rename the joined data block, right-click the title bar and select ‘Properties’ from the context menu. {rightClickOptions} This opens the ‘Table Properties’ panel. Enter the desired name in the ‘Name’ field, and press btn:[OK].
+. To rename the joined data block, double-click the title bar and type a new name, or right-click the title bar and select ‘Properties’ from the context menu. {rightClickOptions} This opens the ‘Table Properties’ panel. Enter the desired name in the ‘Name’ field, and press btn:[OK].
 +
 image:mashup7.png[]
 
@@ -146,14 +146,14 @@ image:JoinedPreview.png[]
 ****
 
 == Cross Join
-Data blocks that do not share the same data model or query can be joined together with a cross join. A cross-joined data block contains the cross-product (Cartesian product) of the data in the base tables. This means that every row in the first table is paired together with every row in the second table. The length of the new joined data block is the product of the two base data bock lengths.
+Data blocks that do not share the same data model or query can be joined together with a cross join. A cross-joined data block contains the cross-product (Cartesian product) of the data in the base tables. This means that every row in the first table is paired together with every row in the second table. The length of the new joined data block is the product of the two base data block lengths.
 
 To cross-join two data blocks in a Data Worksheet, follow these steps:
 
 .*Watch video…*
 [%collapsible]
 =====
-.Create an inner join, outer join, inequality join...
+.Create a cross join...
 video::300389967[vimeo,640,400]
 include::ROOT:partial$videoVersion.adoc[]
 =====
@@ -197,7 +197,7 @@ image:CrossJoinExp3.png[]
 .. In the table cells below the columns headers, enter the following names:
 +
 image:CrossJoinExp4.png[]
-. Join the two data blocks using a cross-join: Hold the {buttonCtrl} and click both data blocks to select them. Then press the {buttonJoin} in the toolbar and select {buttonCrossJoin}.
+. Join the two data blocks using a cross-join: Hold the {buttonCtrl} key and click both data blocks to select them. Then press the {buttonJoin} in the toolbar and select {buttonCrossJoin}.
 +
 image:CrossJoining.png[]
 +
@@ -219,7 +219,7 @@ To create a merge join, follow these steps:
 .*Watch video…*
 [%collapsible]
 =====
-.Create an inner join, outer join, inequality join...
+.Create a merge join...
 video::300398343[vimeo,640,400]
 include::ROOT:partial$videoVersion.adoc[]
 =====
@@ -259,7 +259,7 @@ include::ROOT:partial$FastGoGameQuery.adoc[]
 +
 image:twoDWSQueries_2.png[]
 
-. Hold down the {buttonCtrl} and click the data blocks to select both. (Alternatively, drag across the data blocks to “lasso” them.)
+. Hold down the {buttonCtrl} key and click the data blocks to select both. (Alternatively, drag across the data blocks to “lasso” them.)
 . Press the {buttonJoin} button on the toolbar and select {buttonMergeJoin}.
 +
 image:MergeJoinButton.png[]
@@ -267,8 +267,6 @@ image:MergeJoinButton.png[]
 This creates a new data block, ‘Query1’.
 +
 image:MergeJoin.png[]
-+
-NOTE: Since the merge join does not create any relationship between the tables, there is no connector shown. This join type, therefore, cannot be changed.
 
 . To preview ‘Query1’, first click the data block to select it. Then press the {buttonChangeView} in the bottom panel and select {buttonLiveDataView}.
 +
@@ -277,6 +275,7 @@ image:previewMergeJoin.png[]
 Notice that since the ‘Wireless Mouse1’ table has more rows than the ‘Fast Go Game1’ table, the number of rows of the ‘Query1’ table is equal to the number of rows of the ‘Wireless Mouse1’ table. The ‘Fast Go Game1’ data is padded with an empty row.
 ****
 
+[id=ChangeJoinType]
 == Change the Join Type
 To change the join type of a joined data block, follow these steps. (You can change the join type for all joined data blocks *_except_* for merge-joins, because merge-joins do not define a relationship.)
 
@@ -342,7 +341,7 @@ Note that the right outer join returns all of the records from the ‘All Sales1
 == Change the Join Order
 To change the order in which the tables are joined (for example, which table is considered the “left” table in a “left outer join”), follow the steps below:
 
-. Open the Join Editor as described above.
+. Open the Join Editor as described above in xref:ChangeJoinType[].
 . Press the btn:[Reorder Tables] button at the bottom of the left panel. This opens the ‘Reorder Tables’ dialog box.
 +
 image:Join Reorder Tables.png[]
@@ -369,7 +368,7 @@ include::ROOT:partial$CreateDashboard.adoc[]
 In a Data Worksheet that includes many joins, you may sometimes need help to find the original *source* data block of a particular column. To do this, follow the steps below:
 
 . Click to select the data block that contains the column that you want to trace. (Usually this data block is the result of one or more joins.)
-. Hold down the {buttonShift} and {buttonCtrl} buttons and hover the mouse over the desired column in the bottom panel. This highlights the corresponding join with a dashed line to indicate the origin of the column.
+. Hold down the {buttonShift} and {buttonCtrl} keys and hover the mouse over the desired column in the bottom panel. This highlights the corresponding join with a dashed line to indicate the origin of the column.
 +
 image:worksheetNavigation.png[]
 

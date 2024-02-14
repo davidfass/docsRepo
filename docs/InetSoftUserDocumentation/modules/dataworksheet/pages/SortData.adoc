@@ -48,7 +48,7 @@ To sort a data block on multiple columns, follow the steps below:
 .*Watch video…*
 [%collapsible]
 =====
-.Sort on a single column...
+.Sort on multiple columns...
 video::300540111[vimeo,640,400]
 include::ROOT:partial$videoVersion.adoc[]
 =====
@@ -69,7 +69,7 @@ image:sortColumnsBig2.png[]
 image:sortColumnsBig3.png[]
 +
 The hierarchical sort order of a column is determined by the vertical position of the menu. The column specified in the top menu is sorted first, the column specified in the second-to-top menu is sorted second, and so on.
-. For each column, select the ‘Ascending’ or ‘Descending’ button to determine the sorting direction.
+. For each column, select  ‘Ascending’ or ‘Descending’  to determine the sorting direction.
 . Press btn:[OK] to close the panel and apply the sorting. When a column is sorted, its sort order is indicated by a {buttonAscSort} or {buttonDescSort} next to the column header in the bottom panel.
 . Save the Data Worksheet by pressing the {buttonSave} in the toolbar or press kbd:[Ctrl+S] on the keyboard.
 ifdef::testdrive[]

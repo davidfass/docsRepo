@@ -11,7 +11,7 @@ To create a union, intersection, or difference (minus) between two data blocks, 
 .*Watch video…*
 [%collapsible]
 =====
-.Create an inner join, outer join, inequality join...
+.Create a concatenation...
 video::298278750[vimeo,640,400]
 include::ROOT:partial$videoVersion.adoc[]
 =====
@@ -38,7 +38,6 @@ image:ConcatenateTableButton2.png[]
 * {buttonUnion}: See xref:Union[] for an example.
 * {buttonMinus}: See xref:Minus[] for an example.
 
-+
 include::ROOT:partial$CreateDashboard.adoc[]
 
 
@@ -71,7 +70,7 @@ Only those customers who purchased more than 100 pieces of both ‘Wireless Mous
 
 [id=Union]
 == Create a Union
-By default, the union of two data blocks contains all of the unique rows from the two data blocks. The first data blocks you select is the data blocks whose distinct rows will appear first in the result. By default, no duplicate rows are retained in the union data blocks .
+By default, the union of two data blocks contains all of the unique rows from the two data blocks. The first data blocks you select is the data block whose distinct rows will appear first in the result. By default, no duplicate rows are retained in the union data blocks.  To retain duplicates, see xref:ChangeConcatenationType[].
 
 .Example: Union
 ****
@@ -92,8 +91,7 @@ include::ROOT:partial$FastGoGameQuery.adoc[]
 image:DragQueryforUnion_1.png[]
 +
 This creates a new data block, ‘Query1’.
-+
-NOTE: You can also drag the ‘Fast Go Game’ block immediately above or below the ‘Wireless Mouse’ block. Release when you see the ‘union’ symbol appear.
+
 . Click the ‘Query1’ data block to select it. In the bottom panel, press the {buttonChangeView} and choose {buttonLiveDataView}.
 +
 image:UnionConcatPreview.png[]
@@ -104,7 +102,7 @@ The data block returns all customers who purchased more than 100 pieces of eithe
 
 [id=Minus]
 == Create a Minus (Difference)
-Minus: The difference (minus) of two data blocks is the set of distinct rows found in one data block but not in the other. The first data block that you select is the data block whose unique rows are retained in the result.
+The difference (minus) of two data blocks is the set of distinct rows found in one data block but not in the other. The first data block that you select is the data block whose unique rows are retained in the result.
 
 .Example: Minus (Difference)
 ****
