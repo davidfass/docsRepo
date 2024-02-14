@@ -1,0 +1,7 @@
+ifdef::si[]
+NOTE: The ‘All Sales’ query can be found in the menu:Examples[Orders > Sample Queries] folder.
+endif::[]
+
+ifdef::testdrive[]
+NOTE: To create the 'All Sales' dataset, upload the   All Sales file. See Uploading Excel or Text File for more information. XXXXXXXX
+endif::[]

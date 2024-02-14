@@ -66,6 +66,17 @@
 :buttonNumericRange: ‘Numeric Range’  button image:ROOT:buttons/num-range.svg[role=button]
 :buttonReorderTableColumns: ‘Reorder Table Columns’ button image:ROOT:buttons/order-column.svg[role=button]
 :buttonApply:  ‘Apply’  button image:ROOT:buttons/submit.svg[role=button]
+:buttonJoinHandle: join handle image:ROOT:buttons/join.svg[role=button]
+:buttonJoin: ‘Join’ button image:ROOT:buttons/join.svg[role=button]
+:buttonInnerOuterJoin: ‘Inner/Outer Join’ image:ROOT:buttons/inner-join.svg[role=button]
+:buttonShowHide: ‘Show/Hide’  button image:ROOT:buttons/eye.svg[role=button]
+:buttonCrossJoin: ‘Cross Join’ image:ROOT:buttons/cross-join.svg[role=button]
+:buttonMergeJoin: ‘Merge Join’ image:ROOT:buttons/merge-join.svg[role=button]
+:buttonConcatenate: ‘Concatenate’ button image:ROOT:buttons/concat.svg[role=button]
+:buttonUnion: ‘Union’  image:ROOT:buttons/union-tables.svg[role=button]
+:buttonIntersect: ‘Intersect’  image:ROOT:buttons/intersect-tables.svg[role=button]
+:buttonMinus: ‘Minus’  image:ROOT:buttons/minus-tables.svg[role=button]
+
 
 // Macros
 :buttonEMApply: btn:[Apply]

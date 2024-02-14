@@ -240,7 +240,6 @@ endif::[]
 . Press the {buttonSave} to save  the ‘ProductSales’ Data Worksheet.
 
 . Create a new Data Worksheet.
-+
 include::ROOT:partial$CreateNewWorksheetNote.adoc[]
 
 . Select the ‘ProductSales’ Data Worksheet in the left panel, and drag it into the new Data Worksheet. This adds the ‘SalesByDate’ data block to the new Data Worksheet, and renames it to ‘SalesByDate1’.
@@ -251,7 +250,7 @@ image:rangeColumnExp1.png[]
 . Enter the name “Revenue Range”.
 . Deselect the ‘Less Than Min’ and ‘Greater Than Max’ options.
 . Enter the first threshold, 0, into the ‘Value Range’ field and press btn:[Add].
-. Enter the next three thresholds, pressing ‘Add’ after each one: 10000, 50000, 100000.
+. Enter the next three thresholds, pressing btn:[Add] after each one: 10000, 50000, 100000.
 +
 image:numericRangeDialogFilled.png[]
 +
@@ -285,16 +284,15 @@ To create a *date range* column, follow these steps:
 . In the bottom panel, right-click the header of the column (*date-type column only*) for which you want to create a range column, and select the ‘New Range Column’ option from the context menu. {rightClickOptions}
 +
 image:dateRangeDialog1.png[]
++
 This opens the ‘Date Range Option’ panel. Here you can specify the date grouping.
 +
 image:dateRangeDialog2.png[]
 . Enter a name for the new range column.
 +
 include::ROOT:partial$duplicateNames.adoc[]
-. Select the desired partitioning (year, month, quarter, etc.), and press btn:[OK].
-
-There are five date ranges available for the date range column:
-
+. Select the desired partitioning. There are five date ranges available for the date range column:
++
 ****
 * ‘Year’: A number in the range 0000-9999
 * ‘Quarter’: A number in the range 1-4
@@ -302,6 +300,8 @@ There are five date ranges available for the date range column:
 * ‘Day of Week’: A number in the range 1-7
 * ‘Day of Month’: A number in the range 1-31
 ****
+
+. Press btn:[OK].
 
 [id=NamedGrouping]
 == Create a Named Grouping
@@ -347,7 +347,6 @@ Suppose you want to create a group for all the states on the west coast, so that
 Follow these steps to create the ‘WestCoast’ group.
 
 . Create a new Data Worksheet.
-+
 include::ROOT:partial$CreateNewWorksheetNote.adoc[]
 +
 . Press the {buttonCreateObject} in the toolbar, and select {buttonGrouping}.
@@ -365,7 +364,7 @@ image:NewGroupingDialog.png[]
 +
 image:AddConditionList.png[]
 
-.Specify ‘WestCoast’ as the Group Name.
+. Specify ‘WestCoast’ as the Group Name.
 
 . Specify the following condition, and press btn:[Append].
 
@@ -375,7 +374,7 @@ image:WestCoastConditions.png[]
 . Press  btn:[OK]  to exit the ‘Add Condition List’ dialog box and return to the ‘Grouping’ dialog.
 +
 image:WestCoastGroupingDialog.png[]
-. Press ‘OK’.
+. Press btn:[OK].
 . Right-click on the ‘Geographic Grouping’ group and select ‘Set as Primary’. {rightClickOptions}
 +
 image:WestCoastSetPrimary.png[]

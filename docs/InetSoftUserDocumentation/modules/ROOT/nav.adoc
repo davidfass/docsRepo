@@ -20,6 +20,7 @@
 ** xref:dataworksheet:GroupAggregateData.adoc[]
 ** xref:dataworksheet:CopyData.adoc[]
 ** xref:dataworksheet:JoinData.adoc[]
+
 ** xref:dataworksheet:SortData.adoc[]
 ** xref:dataworksheet:PreviewData.adoc[]
 ** xref:dataworksheet:PreviewQuery.adoc[]

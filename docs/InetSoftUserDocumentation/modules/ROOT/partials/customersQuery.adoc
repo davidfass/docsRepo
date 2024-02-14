@@ -1,0 +1,7 @@
+ifdef::si[]
+NOTE: The 'customers' query can be found in  menu:Examples[Orders > Sample Queries].
+endif::[]
+
+ifdef::testdrive[]
+NOTE: To create the 'customers' data set, upload the customers  file. See Uploading Excel or Text File for more information. XXXXXX
+endif::[]
