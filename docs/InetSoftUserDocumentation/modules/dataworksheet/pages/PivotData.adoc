@@ -43,7 +43,7 @@ Follow the steps below:
 +
 image:pivotMeasure6.png[]
 
-. In the ‘Group and Aggregate’ panel, press ‘Switch to Crosstab’.
+. In the ‘Group and Aggregate’ panel, press btn:[Switch to Crosstab].
 +
 image:pivotMeasure7.png[]
 . Select as the ‘Row Header’ the dimensions that you want to retain as dimensions. Select as ‘Column Header’ the dimension whose values you want to  use as the new measure labels. Select as ‘Measure’ the measure that you want to convert into multiple measures.
