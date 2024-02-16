@@ -1,1 +1,82 @@
 = Group Data by Dimension
+%experimental%
+include::ROOT:partial$buttonSnippets.adoc[]
+
+To group data on a chart by using chart axis labels or color, shape, size, or text, see xref:BasicChartingSteps.adoc[]. The following sections explain some special ways of grouping chart data.
+
+.*Watch video…*
+[%collapsible]
+=====
+.Group data by dimension...
+video::359390270[vimeo,640,400]
+include::ROOT:partial$videoVersion.adoc[]
+=====
+
+== Group by Color
+To group using color, follow the steps below:
+
+
+. Drag the *dimension* that you want to group from the data source panel to the ‘Color’ field in the bottom left panel.
++
+include::ROOT:partial$dimensionTip.adoc[]
++
+image:VS Group Visual2.png[]
++
+
++
+This distinguishes the different values by color and adds a color legend to the chart. (See xref:BasicChartingSteps.adoc#ModifyChartLegend[Modify  Chart Legend] for information about modifying the legend.) Set the ‘Stack’ option for the chart if you want to display the groups stacked vertically. See xref:BasicChartingSteps.adoc[] for more information.
+
+. *_Optional:_* Press the ‘Edit’ button next to the ‘Color’ field.This opens the color panel.
++
+image:VS Group Visual3.png[]
+
+. Optional Press the {buttonSelectPalette} to open the ‘Select Palette’ dialog box.
++
+image:VS Group Visual4.png[]
+
+
+
+. Optional Choose the desired palette from the ‘Select Palette’ menu. If desired, select the ‘Reverse’ option to reverse the order of the palette colors. Press btn:[OK].
++
+image:SelectPalette.png[]
++
+If the selected palette does not contain enough colors to represent all the distinct data groups, additional groups will be represented by colors from previously selected palettes or from the default palette.
+
+. Click on the color chips to create the desired color order. (Colors are assigned to values from left to right.) To reset the color order, press the {buttonReset} on the color menu.
++
+image:VS Group Visual6.png[]
+
+. *_Optional:_* Synchronize the color mapping with other charts, or create a custom color mapping. Follow the steps below:
+
+.. To ensure that this chart assigns the same colors to values as other charts in the Dashboard, enable the  ‘Share Colors’ option.
++
+image:fixedColorMapping3.png[]
++
+--
+All charts that have ‘Share Colors’ enabled will apply the same colors to values in the following cases:
+
+... The values are drawn from columns having the same column name (from any data source).
+... The values are drawn from data model attributes having the same name (from any entity in any data model).
++
+--
+For example, colors for values taken from attribute ‘Customer:State’ will be synchronized with values taken from attribute ‘Company:State’ across all charts.
++
+NOTE: Colors remain synchronized across all charts when any filtering or sorting is applied.
+
+.. *_Optional:_* To manually assign custom colors to values, press the {buttonAssignFixedMapping} to open the ‘Color Mapping’ dialog box.
++
+image:fixedColorMapping1.png[]
+
+.. In the ‘Color Mapping’ dialog box, press the ‘Add Row’ btn:[+] button to add a new value, and use the color swatch to set a fixed color for that value. Press the ‘Delete Row’ btn:[-] button to remove a mapping.
++
+image:fixedColorMapping2.png[]
+
+. Press ‘OK’.
+
+. Press the {buttonApply} to apply the color setting.
+
+== Group by Shape
+
+To group using shape, follow the steps below:
+
+. Drag the  that you want to group from the data source panel to the ‘Shape’ field in the bottom left panel. This distinguishes the different values by shape and adds a shape legend to the chart.  (See Legend Properties for information about modifying the legend.)  Set the ‘Stack’ option for the chart if you want to display the groups stacked vertically. See Create a Basic Chart for more information.Optional Press the ‘Edit’ button next to the ‘Shape’ field. This opens the shape panel.Note: The available shape options vary depending on the Chart type.Click on the shape chips to create the desired shape order. (Shapes are assigned to values from left to right.) To reset the shape order, press the  on the shape menu.  To upload a custom image to use as a shape, press the , and select the desired file. The icons are sorted alphabetically by file name. Custom shape images can be any size, and are scaled according to the ‘Size’ setting in the Chart Editor. An administrator can make custom shapes available by placing the image files (png, gif, jpg) in the portal/shapes directory of SREE Home. Press the  to apply the shape setting.

@@ -76,7 +76,40 @@
 :buttonUnion: ‘Union’  image:ROOT:buttons/union-tables.svg[role=button]
 :buttonIntersect: ‘Intersect’  image:ROOT:buttons/intersect-tables.svg[role=button]
 :buttonMinus: ‘Minus’  image:ROOT:buttons/minus-tables.svg[role=button]
-
+:buttonHelp: ‘Help’ button image:ROOT:buttons/help-question-mark.svg[role=button]
+:buttonHome: ‘Home’ button image:ROOT:buttons/home.svg[role=button]
+:buttonDashboard: ‘Dashboard’ button image:ROOT:buttons/viewsheet-book.svg[role=button]
+:buttonRepository: ‘Repository’ button image:ROOT:buttons/field-tree.svg[role=button]
+:buttonSchedule: ‘Schedule’ button image:ROOT:buttons/datetime-field.svg[role=button]
+:buttonData: ‘Data’ button image:ROOT:buttons/database.svg[role=button]
+:buttonPreferences: ‘Preferences’  image:ROOT:buttons/account.svg[role=button]
+:buttonLogout: ‘Logout’  image:ROOT:buttons/logout.svg[role=button]
+:buttonValueType: ‘Value Type’ button image:ROOT:buttons/function-and-variable.svg[role=button]
+:buttonOptions: ‘Options’  button image:ROOT:buttons/setting.svg[role=button]
+:buttonCreateDashboard: ‘Dashboard’ image:ROOT:buttons/viewsheet.svg[role=button]
+:buttonChart: ‘Chart’ button image:ROOT:buttons/chart.svg[role=button]
+:buttonConvertToMeasure: ‘Convert to Measure ’ button image:ROOT:buttons/dimension.svg[role=button]
+:buttonConvertToDimension: ‘Convert to Dimension’ button image:ROOT:buttons/measure.svg[role=button]
+:buttonFormatWizard: ‘Format’ button image:ROOT:buttons/setting.svg[role=button]
+:buttonDeleteWizard: Delete’ button image:ROOT:buttons/close.svg[role=button]
+:buttonFullEditor: ‘Full Editor’ button image:ROOT:buttons/edit.svg[role=button]
+:buttonFinish: ‘Finish’ button image:ROOT:buttons/submit.svg[role=button]
+:buttonToWizard: ‘To Wizard’ button image:ROOT:buttons/edit.svg[role=button]
+:buttonMoreAdd: ‘More’ button image:ROOT:buttons/add.svg[role=button]
+:buttonCrosstabButton: ‘Crosstab’ button image:ROOT:buttons/crosstab.svg[role=button]
+:buttonTableButton: ‘Table’ button image:ROOT:buttons/table.svg[role=button]
+:buttonGaugeButton: ‘Gauge’ button image:ROOT:buttons/gauge.svg[role=button]
+:buttonFilter: ‘Filter’ button image:ROOT:buttons/condition.svg[role=button]
+:buttonTextButton: ‘Text’ button image:ROOT:buttons/text-box.svg[role=button]
+:buttonAddButton: ‘Add’ button image:ROOT:buttons/add.svg[role=button]
+:buttonInsertTextImage: ‘Insert Text/Image’ button image:ROOT:buttons/menu-vertical.svg[role=button]
+:buttonSelectChartStyle: ‘Select Chart Style’ button image:ROOT:buttons/auto-chart-type.svg[role=button]
+:buttonAddShape: ‘Add Shape’ button image:ROOT:buttons/add.svg[role=button]
+:buttonEditDimension: 'Edit Dimension' button image:ROOT:buttons/dimension-setting.svg[role=button]
+:buttonEditMeasure: 'Edit Measure' button image:ROOT:buttons/measure-setting.svg[role=button]
+:buttonSelectPalette: ‘Select Palette’ button image:ROOT:buttons/palette.svg[role=button]
+:buttonReset: ‘Reset’ button image:ROOT:buttons/reset.svg[role=button]
+:buttonAssignFixedMapping: ‘Assign Fixed Mapping’ button image:ROOT:buttons/color-fill.svg[role=button]
 
 // Macros
 :buttonEMApply: btn:[Apply]
@@ -86,6 +119,8 @@
 
 // Short snippets
 :rightClickOptions:  Note: You can also access menu options from the {buttonMore} in the mini-toolbar.
+:dynamicProperties:  Properties that offer the {buttonValueType} can also be set by the user (‘Variable’) or by scripted logic (‘Expression’). See xref:viewsheet:DynamicallySetProperties.adoc[] for more information.
+:finishEditing: Press the  {buttonFinish} to close the Editor.
 
 
 

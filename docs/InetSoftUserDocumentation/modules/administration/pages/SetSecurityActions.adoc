@@ -30,7 +30,7 @@ Report Toolbar:: Access to various buttons on the report toolbar.
 Schedule Options:: Access to various Scheduler options when scheduling reports or Dashboards in the Portal.  See xref:user:ScheduleDashboard.adoc[] or xref:administration:Schedule.adoc[] for more details.
 Social Sharing:: Access to the various options under the {buttonSocialSharing} in the Portal. (See xref:viewsheet:ShareToSocialNetwork.adoc[] for more information.)
 Visual Composer:: Access to Visual Composer, for example via the {buttonWorksheet} or {buttonCreateDashboard} options under the Portal {buttonCreate}. Visual Composer permission is required to edit Dashboards and Data Worksheets.
-Create New Data Source:: Permission to select {buttonDataSource} from the {buttonCreate} in the Portal. Requires also permission for the Portal Data tab (see ‘Portal Tabs’ above). (See xref:ROOT:ConnectToData.adoc[] for more information.)
+Create New Data Source:: Permission to select {buttonDataSource} from the {buttonCreate} in the Portal. Requires also permission for the Portal Data tab (see ‘Portal Tabs’ above). (See xref:user:ConnectToData.adoc[] for more information.)
 Cross Join:: Permission to create cross joins via the {buttonCrossJoin} option in a Data Worksheet and to create cross-joins in a physical view. Restricting access to cross joins may help prevent the accidental creation of large queries that impact performance.
 Edit Mobile Devices:: Permission to edit mobile device screen layouts. (See xref:viewsheet:CreateDeviceLayout.adoc[] for more information about device layouts.)
 Free Form SQL:: Permission to create a data set by entering a SQL string in the ‘Database Query’ dialog box of a Data Worksheet. (See xref:dataworksheet:QueryData.adoc[] for more information.)
@@ -39,7 +39,7 @@ My Reports:: Access to the ‘My Reports’ folder in the Portal Repository tree
 Physical Table:: Access to database tables via the ‘TABLE’ folder of the ‘Data Source’ tree in a Data Worksheet.
 Portal Repository Tree - Drag and Drop:: Permission to drag-and-drop assets in the Portal Repository tree. (See xref:user:UseRepository.adoc[] for more information.)
 Profile:: Permission to profile the performance of a dashboard or report via the Portal {buttonProfile} action. (See xref:user:ProfileDashboard.adoc[] for more information.)
-Upload Drivers:: Permission to upload database drivers when creating a new data source using the {buttonDataSource} option under the Portal {buttonCreate} and on the *Drivers and Plugins* page in Enterprise Manager. (See xref:ROOT:ConnectToData.adoc[] and xref:administration:ManageDriversPlugins.adoc[] for more information.)
+Upload Drivers:: Permission to upload database drivers when creating a new data source using the {buttonDataSource} option under the Portal {buttonCreate} and on the *Drivers and Plugins* page in Enterprise Manager. (See xref:user:ConnectToData.adoc[] and xref:administration:ManageDriversPlugins.adoc[] for more information.)
 ====
 +
 image:server7.png[]

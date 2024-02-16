@@ -1,0 +1,13 @@
+= Log into the Portal
+%experimental%
+include::ROOT:partial$buttonSnippets.adoc[]
+
+If the server is running, simply enter the server URL in any browser. Your administrator can provide this URL. (The default URL for User Portal on a local server is `http://localhost:8080/app/portal/`.)
+
+If security is enabled on the server, you must log in before you can use the Portal. Enter your username and password in the provided ‘User’ and ‘Password’ fields. (Ask your system administrator if you don’t know your username and password.) If you are prompted to enter a ‘Locale’, select the correct option for your location.
+
+image:user:DefaultUserLogin.png[]
+
+After you log in, select the desired Portal tab for the features you want to access or press the {buttonHelp} to get information about using the Portal. See xref:UsePortal.adoc[] for more information about the available features.
+
+IMPORTANT: For security reasons, login information expires after five minutes. If you receive a ‘Login Expired’ warning, simply re-enter your credentials.

@@ -1,0 +1,25 @@
+= Configure the Portal
+%experimental%
+include::ROOT:partial$buttonSnippets.adoc[]
+
+To manage user preferences in the Portal, press the {buttonAccount} at the top of the Portal and select {buttonPreferences}.
+
+image:Preferences Link.png[]
+
+This opens the ‘Preferences’ dialog box.
+
+image:Preferences Dialog.png[]
+
+The following preferences are available:
+
+Change Password:: Press the ‘Change Password’ link to open the ‘Change Password’ dialog box. Enter your current password and a new password and press ‘OK’.
++
+image:ChangePassword.png[]
+
+Email:: Enter the email address to which queued reports and notifications should be sent.
+Email Subject:: Enter the subject line to be used for queued report emails sent to the address specified in the ‘Email’ field. If nothing is specified for the ‘Email Subject’ field, the report name will be used as the subject text.
+Default Format:: Select the default format in which queued reports should be emailed or saved.
+Queued Report:: Select ‘Send Email to User’ to have queued reports delivered by email to the address specified in the ‘Email’ field. Select ‘Save in My Reports’ to save an archived version of the report in the ‘My Reports’ repository folder. (This requires archiving to be enabled by an administrator.) Enable ‘Send a Notification Email’ to receive a notification email when the report has finished generating.
+Message:: Enter a message to be displayed in the body of the email delivered to the address specified in the ‘Email’ field.
+Load all Dashboards on initialization:: Forces all enabled Dashboards to reload when any Dashboard is accessed. This is only needed when you have multiple Dashboards that share a filter. (See xref:ModularizeDashboard.adoc[]   for more information.) For all other cases, this option should remain disabled.
+Enable History Bar:: Displays the Portal history bar, which shows recently accessed report and Dashboards.

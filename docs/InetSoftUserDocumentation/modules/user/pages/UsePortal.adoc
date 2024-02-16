@@ -1,5 +1,19 @@
 = Use the Portal
+%experimental%
+include::ROOT:partial$buttonSnippets.adoc[]
 
 The User Portal provides features for accessing and managing existing assets, such as reports and Dashboards, and allows you to create new assets as well. The User Portal is a web-based interface, so you do not need to install any special software on your computer. Your system administrator will tell you the correct address to use in your web browser.
 
-The following sections explain the basic operations you can do in the User Portal.
+The specific options available will depend on what permissions you have been granted by the administrator.
+
+image:InetSoft Portal Tabs.png[]
+
+
+{buttonHome}:: Return to the InetSoft landing page.
+{buttonDashboard}:: Access your important Dashboards. See xref:DeployDashboard.adoc[] for information on configuring Dashboards.
+{buttonRepository}:: View all available Dashboards and reports in the repository.
+{buttonCreate}:: Create data sources, Data Worksheets, and Dashboards. See xref:ConnectToData.adoc[], xref:dataworksheet:CreateNewWorksheet.adoc[], and xref:viewsheet:CreateNewDashboard.adoc[] for more information.
+{buttonSchedule}:: Schedule Dashboards and reports to generate automatically, and monitor queued and completed scheduled tasks. See xref:user:ScheduleDashboard.adoc[]  for more details.
+{buttonData}:: Create and manage data sources. See xref:ConnectToData.adoc[] for more information.
+{buttonHelp}:: Open this documentation.
+{buttonAccount}:: Provides access to {buttonPreferences}, where you can change personal settings and configure private Dashboards, and provides the option to {buttonLogout} of the Portal (when security is enabled). See xref:ConfigurePortal.adoc[] for more information.

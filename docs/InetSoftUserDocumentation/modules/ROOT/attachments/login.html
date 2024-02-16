@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title data-th-text="#{login.pageTitle}">Login</title>
+  <meta name="description" content="Style Intelligence">
+  <meta name="author" content="InetSoft Technology Corp">
+  <!-- Mobile Specific Metas					     ================================================== -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- CSS					     ================================================== -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+  <link rel="stylesheet" type="text/css" href="app/global.css"/>
+  <link rel="stylesheet" type="text/css" href="css/login.css"/>
+
+  <!-- Favicons				     ================================================== -->
+  <link rel="shortcut icon" href="images/favicon.png">
+</head>
+<body>
+  <div class="d-flex align-items-center bg-navbar-top">
+    <img class="custom-logo" src="portal/logo">
+    <i class="inetsoft-logo inetsoft-icon icon-size-logo txt-primary"></i>
+    <span class="inetsoft-logo txt-light"> InetSoft </span>
+  </div>
+  <div class="container-fluid login-root">
+    <div class="card">
+      <div class="card-header" data-th-text="#{login.title}">
+        Please sign in
+      </div>
+      <div class="card-body">
+        <form novalidate>
+          <div id="userNameGroup" class="form-group">
+            <label class="required-field" for="loginUserName"
+                   data-th-text="#{login.username.label}">User name</label>
+            <input type="text" class="form-control form-control-danger" id="loginUserName"
+                   name="loginUserName" autofocus/>
+            <div id="userNameError" class="form-control-feedback" style="display: none;"
+                 data-th-text="#{login.username.required}">
+              Please enter your user name.
+            </div>
+          </div>
+          <div id="passwordGroup" class="form-group">
+            <label class="required-field" for="loginPassword"
+                   data-th-text="#{login.password.label}">Password</label>
+            <input type="password" class="form-control form-control-danger" id="loginPassword"
+                   name="loginPassword"/>
+            <div id="passwordError" class="form-control-feedback" style="display: none;"
+                 data-th-text="#{login.password.required}">
+              Please enter your password.
+            </div>
+          </div>
+          <div id="loginAsGroup" class="form-group" data-th-if="${loginAs}"
+               style="display: none">
+            <label for="loginAsName" data-th-text="#{Login as}">Login as</label>
+            <input type="text" class="form-control form-control-danger" id="loginAsName"
+                   name="loginAsName"/>
+          </div>
+          <div class="form-group" data-th-if="${locales != null}">
+            <label for="loginLocale" data-th-text="#{login.locale.label}">Locale</label>
+            <select id="loginLocale" name="loginLocale" class="form-control">
+              <option value="My Locale"></option>
+              <option data-th-each="locale : ${locales}" data-th-value="${locale.value()}"
+                      data-th-text="${locale.label()}"></option>
+            </select>
+          </div>
+        </form>
+      </div>
+      <div class="card-footer">
+        <button id="loginButton" class="btn btn-primary btn-block"
+                data-th-text="#{login.signIn}">
+          Sign in
+        </button>
+      </div>
+    </div>
+    <div class="card loginBanner" data-th-if="${loginBanner != null and loginBanner.type == 1}"
+         data-th-utext="${loginBanner.bannerText}"></div>
+    <div class="card loginBanner" data-th-if="${loginBanner != null and loginBanner.type == 0}"
+         data-th-text="${loginBanner.bannerText}"></div>
+    <div id="notifications" class="alert alert-danger" style="display: none"></div>
+  </div>
+  <div class="loading-indicator">
+    <div>
+      <i class="loading-icon fa-spin icon-4x fa-fw" aria-hidden="true"></i>
+      <span class="sr-only" data-th-text="#{login.loading}">Loading</span>
+    </div>
+  </div>
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/login.js"></script>
+  <script data-th-inline="javascript">
+    /*<![CDATA[*/
+    $(document).ready(function() {
+       var requestedUrl = /*[[${requestedUrl}]]*/ "app/portal";
+       var defaultErrorMessage = /*[[#{login.error.authenticationFailed}]]*/ "Authentication failed";
+       var customLogo = /*[[${customLogo}]]*/ "false";
+
+       initLoginView(requestedUrl, defaultErrorMessage);
+
+       if(customLogo == "true") {
+          $(".inetsoft-logo").hide();
+       }
+       else {
+          $(".custom-logo").hide();
+       }
+    });
+    /*]]>*/
+  </script>
+</body>
+</html>
