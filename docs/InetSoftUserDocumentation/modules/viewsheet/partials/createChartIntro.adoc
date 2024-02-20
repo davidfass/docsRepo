@@ -1,5 +1,8 @@
 include::ROOT:partial$buttonSnippets.adoc[]
 
+.Open a Chart for Editing...
+[%collapsible]
+====
 . If necessary, create a new Dashboard.
 include::ROOT:partial$CreateNewDashboardNote.adoc[]
 
@@ -20,3 +23,4 @@ include::ROOT:partial$CreateNewDashboardNote.adoc[]
 . To bypass the Recommender, press the {buttonFullEditor} at the top right to open the Chart Editor.
 +
 image:ChartEditorIntro.png[]
+====

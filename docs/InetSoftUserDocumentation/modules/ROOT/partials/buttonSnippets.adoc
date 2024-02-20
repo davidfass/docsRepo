@@ -110,6 +110,9 @@
 :buttonSelectPalette: ‘Select Palette’ button image:ROOT:buttons/palette.svg[role=button]
 :buttonReset: ‘Reset’ button image:ROOT:buttons/reset.svg[role=button]
 :buttonAssignFixedMapping: ‘Assign Fixed Mapping’ button image:ROOT:buttons/color-fill.svg[role=button]
+:buttonEditText: ‘Edit Text’  button image:ROOT:buttons/format.svg[role=button]
+:buttonZoom: ‘Zoom Chart’  button image:ROOT:buttons/zoom-in.svg[role=button]
+:buttonClose: ‘Close’  button image:ROOT:buttons/close.svg[role=button]
 
 // Macros
 :buttonEMApply: btn:[Apply]
@@ -121,6 +124,10 @@
 :rightClickOptions:  Note: You can also access menu options from the {buttonMore} in the mini-toolbar.
 :dynamicProperties:  Properties that offer the {buttonValueType} can also be set by the user (‘Variable’) or by scripted logic (‘Expression’). See xref:viewsheet:DynamicallySetProperties.adoc[] for more information.
 :finishEditing: Press the  {buttonFinish} to close the Editor.
+:multipleMeasure: You can add additional measures to the Chart if desired. See xref:viewsheet:MultipleMeasureChart.adoc[] for more information about adding multiple measures to a chart axis. See xref:viewsheet:BasicChartingSteps.adoc[] for information on how to add measures using color, shape, or size representation.
+:multipleDimensionNoColor: You can add additional dimensions to the Chart if desired. See xref:viewsheet:TrellisChartGrid.adoc[] for information about adding multiple dimensions to a chart axis.
+:convertToDimension: To convert a measure to a dimension, right-click the measure in the data source and select ‘Convert to Dimension’.
+:convertToMeasure: To convert a dimension to a measure, right-click the dimension in the data source and select ‘Convert to Measure’.
 
 
 
