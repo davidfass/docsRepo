@@ -113,6 +113,16 @@
 :buttonEditText: ‘Edit Text’  button image:ROOT:buttons/format.svg[role=button]
 :buttonZoom: ‘Zoom Chart’  button image:ROOT:buttons/zoom-in.svg[role=button]
 :buttonClose: ‘Close’  button image:ROOT:buttons/close.svg[role=button]
+:buttonLocationIcon: location icon image:ROOT:buttons/geo-field.svg[role=button]
+:buttonUnmappedLocationIcon: unmapped location icon image:ROOT:buttons/geo-not-mapped.svg[role=button]
+:buttonPanMap: ‘Pan’ button image:ROOT:buttons/move.svg[role=button]
+:buttonZoomIn: ‘Zoom In’  button image:ROOT:buttons/zoom-in.svg[role=button]
+:buttonZoomOut: ‘Zoom Out’  button image:ROOT:buttons/zoom-out.svg[role=button]
+:buttonClearMapZoom: ‘Clear’ button image:ROOT:buttons/home.svg[role=button]
+:buttonSwitchSingleGraph: ‘Switch to Single Graph’ button image:ROOT:buttons/multi-chart.svg[role=button]
+:buttonSwitchSeparateGraph: ‘Switch to Separate Graph’ button image:ROOT:buttons/single-chart.svg[role=button]
+:buttonEditColor: ‘Edit Color’ button image:ROOT:buttons/palette.svg[role=button]
+
 
 // Macros
 :buttonEMApply: btn:[Apply]
@@ -124,7 +134,7 @@
 :rightClickOptions:  Note: You can also access menu options from the {buttonMore} in the mini-toolbar.
 :dynamicProperties:  Properties that offer the {buttonValueType} can also be set by the user (‘Variable’) or by scripted logic (‘Expression’). See xref:viewsheet:DynamicallySetProperties.adoc[] for more information.
 :finishEditing: Press the  {buttonFinish} to close the Editor.
-:multipleMeasure: You can add additional measures to the Chart if desired. See xref:viewsheet:MultipleMeasureChart.adoc[] for more information about adding multiple measures to a chart axis. See xref:viewsheet:BasicChartingSteps.adoc[] for information on how to add measures using color, shape, or size representation.
+:multipleMeasure: You can add additional measures to the Chart if desired. See xref:viewsheet:MultipleMeasureChart.adoc[] for more information about adding multiple measures to a chart axis.
 :multipleDimensionNoColor: You can add additional dimensions to the Chart if desired. See xref:viewsheet:TrellisChartGrid.adoc[] for information about adding multiple dimensions to a chart axis.
 :convertToDimension: To convert a measure to a dimension, right-click the measure in the data source and select ‘Convert to Dimension’.
 :convertToMeasure: To convert a dimension to a measure, right-click the dimension in the data source and select ‘Convert to Measure’.

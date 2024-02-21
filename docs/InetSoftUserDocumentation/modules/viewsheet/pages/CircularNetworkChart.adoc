@@ -14,12 +14,7 @@ To create a circular network chart, follow the basic steps below:
 The chart should be based on a data set containing peer relationships such as that below, with optional relationship weighting (e.g., ‘Years’ below). See xref:dataworksheet:PrepareYourData.adoc[] for information on how to manipulate your data, if it is not currently in this form.
 
 image:commonscript:networkChart2.png[]
-
-
 ====
-
-
-
 
 [TIP]
 =====
