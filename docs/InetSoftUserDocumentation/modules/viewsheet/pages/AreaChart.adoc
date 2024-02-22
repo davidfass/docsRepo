@@ -49,7 +49,7 @@ TIP: {convertToMeasure}
 
 . Press the {buttonEditMeasure} next to the measure, and select the desired aggregation method for the measure.
 +
-image:commonscript:Report_LineChart Edit Y Axis_1.png[]
+image:Chart Edit Y Axis_1.png[]
 
 . To represent a measure by using tooltip information, drag the measure to the ‘Break By/Tooltip’ region.
 
@@ -61,11 +61,11 @@ include::partial$addTitlesLegend.adoc[]
 
 .Explore More...
 ****
-The sample xref:ROOT:attachment$Financial_Client_Demographics.zip.zip[Financial Client Demographics] Dashboard provides an example of an area chart.
+The sample xref:ROOT:attachment$Financial_Client_Demographics.zip[Financial Client Demographics] Dashboard provides an example of an area chart.
 
 image:viewsheet:galleryWaterfall2.png[]
 
-To explore this sample Dashboard, download and import the  xref:ROOT:attachment$Financial_Client_Demographics.zip.zip[Financial Client Demographics] Dashboard into your environment. (This requires access to Enterprise Manager.) See xref:administration:ImportExportAssets.adoc[] for instructions on how to import.
+To explore this sample Dashboard, download and import the  xref:ROOT:attachment$Financial_Client_Demographics.zip[Financial Client Demographics] Dashboard into your environment. (This requires access to Enterprise Manager.) See xref:administration:ImportExportAssets.adoc[] for instructions on how to import.
 ****
 
 

@@ -3,6 +3,8 @@ include::ROOT:partial$buttonSnippets.adoc[]
 .Open a Chart for Editing...
 [%collapsible]
 ====
+Follow the steps below to get started with a new Chart.  See xref:viewsheet:BasicChartingSteps.adoc[] for more details.
+
 . If necessary, create a new Dashboard.
 include::ROOT:partial$CreateNewDashboardNote.adoc[]
 

@@ -55,18 +55,31 @@
 *** xref:viewsheet:FunnelChart.adoc[]
 *** xref:viewsheet:GanttChart.adoc[]
 *** xref:viewsheet:HeatMapChart.adoc[]
-
+*** xref:viewsheet:HybridTableChart.adoc[]
+*** xref:viewsheet:IcicleChart.adoc[]
+*** xref:viewsheet:IntervalChart.adoc[]
+*** xref:viewsheet:JumpLineChart.adoc[]
 *** xref:viewsheet:LineChart.adoc[]
 *** xref:viewsheet:MapChart.adoc[]
-
+*** xref:viewsheet:MarimekkoChart.adoc[]
 *** xref:viewsheet:MultipleMeasureChart.adoc[]
 *** xref:viewsheet:MultipleStyleChart.adoc[]
 *** xref:viewsheet:NetworkChart.adoc[]
+*** xref:viewsheet:ParetoChart.adoc[]
 *** xref:viewsheet:PieChart.adoc[]
 *** xref:viewsheet:PointChart.adoc[]
+*** xref:viewsheet:PercentChangeChart.adoc[]
+*** xref:viewsheet:RadarChart.adoc[]
+*** xref:viewsheet:ScatterChart.adoc[]
 *** xref:viewsheet:ScatterContourChart.adoc[]
+*** xref:viewsheet:StepLineChart.adoc[]
 *** xref:viewsheet:StockChart.adoc[]
+*** xref:viewsheet:SunburstChart.adoc[]
+*** xref:viewsheet:TreemapChart.adoc[]
 *** xref:viewsheet:TrellisChartGrid.adoc[]
+
+
+
 
 ** xref:viewsheet:FilterDashboard.adoc[]
 *** xref:viewsheet:AddFilterComponents.adoc[]
@@ -74,6 +87,8 @@
 
 ** xref:viewsheet:SortData.adoc[]
 ** xref:viewsheet:DrillDownIntoData.adoc[]
+*** xref:viewsheet:CompareDataByDate.adoc[]
+*** xref:viewsheet:AddAKPI.adoc[]
 ** xref:viewsheet:ImprovePerformance.adoc[]
 ** xref:viewsheet:EnhanceVisualization.adoc[]
 *** xref:viewsheet:VisualFormat.adoc[]

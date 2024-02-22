@@ -1,30 +1,38 @@
-= Point Chart
+= Radar Chart
 %experimental%
 include::ROOT:partial$buttonSnippets.adoc[]
 
-[WARNING,caption= see also]
-====
-* xref:BubbleChart.adoc[], to use point size to represent a measure.
-* xref:ScatterChart.adoc[], to place measures on both axes.
-* xref:DotPlotChart.adoc[], to displays individual values as points.
-====
+A Radar Chart (also called a spider chart or web chart) allows you to visualize a dimension along several dimensions.
 
+image:commonscript:radarChartExp8.png[]
 
-
-
-A Point Chart displays a measure as a collection of points.
-
-image:commonscript:pointChartExp5.png[]
-
-To create a point chart, follow the basic steps below:
+To create a radar chart, follow the basic steps below:
 
 include::partial$chartNewbieTip.adoc[]
 
-. Press the {buttonSelectChartStyle}. Choose the ‘Point’  style.  (To create a stacked point chart, enable the ‘Stack’ option at the bottom of the panel.)  Press the {buttonApply}.
+. Press the {buttonSelectChartStyle}.  Choose the ‘Radar’  or ‘Filled Radar’ style.     Press the {buttonApply}.
 +
-image:commonscript:pointChartExp1.png[]
+image:commonscript:radarChartExp1.png[]
+
+. Determine whether your data contains a *single measure* or *multiple measures*.
 +
-NOTE: ‘Point’ is the default chart style when numerical dimensions are used.
+include::ROOT:partial$measureTip.adoc[]
+
+. If you have *multiple measures*, and want each measure to be represented by an axis, follow the steps below:
+
++
+****
+
+.. From the ‘Measures’ folder of the *Data Source* panel, drag two or more measures (typically, three or more) to the ‘Y’ region. This places the selected fields onto the chart as measures.
++
+image:commonscript:radarChartExp2.png[]
+
+****
+
+
+
+
+
 
 . From the ‘Dimensions’ folder of the *Data Source* panel, drag a desired *dimension* to the ‘X’ or ‘Y’ region.
 +

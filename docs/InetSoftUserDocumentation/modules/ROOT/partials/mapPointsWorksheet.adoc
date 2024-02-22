@@ -1,0 +1,7 @@
+ifdef::si[]
+NOTE: The 'Map Points' Data Worksheet can be found in menu:Data Worksheet[Examples].
+endif::[]
+
+ifdef::testdrive[]
+NOTE: To create the 'Map Points' Data Worksheet, create a new data set by uploading the  Map Points file. See Uploading Excel or Text File for more information. XXXXXX
+endif::[]

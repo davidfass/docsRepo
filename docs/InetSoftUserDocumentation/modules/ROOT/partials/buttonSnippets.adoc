@@ -138,6 +138,9 @@
 :multipleDimensionNoColor: You can add additional dimensions to the Chart if desired. See xref:viewsheet:TrellisChartGrid.adoc[] for information about adding multiple dimensions to a chart axis.
 :convertToDimension: To convert a measure to a dimension, right-click the measure in the data source and select ‘Convert to Dimension’.
 :convertToMeasure: To convert a dimension to a measure, right-click the dimension in the data source and select ‘Convert to Measure’.
+:addDimensionsUsingVisual: See xref:viewsheet:BasicChartingSteps.adoc[] for information on how to add dimensions using color, shape, or size representation.
+:addMeasuresUsingVisual: See xref:viewsheet:BasicChartingSteps.adoc[] for information on how to add measures using color, shape, or size representation.
+
 
 
 

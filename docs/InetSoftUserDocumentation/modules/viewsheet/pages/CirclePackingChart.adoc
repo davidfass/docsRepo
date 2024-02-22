@@ -2,7 +2,9 @@
 %experimental%
 include::ROOT:partial$buttonSnippets.adoc[]
 
-A  circle packing chart displays a measure by using circles in a hierarchical display.
+A  circle packing chart displays a *measure* by using circles in a hierarchical display.
+
+include::ROOT:partial$measureAndDimensionTip.adoc[]
 
 image:commonscript:circlePackingConfig1.png[]
 
@@ -16,7 +18,7 @@ NOTE: To create a grid of charts, place dimensions into the ‘X’ and/or ‘Y�
 
 .Walkthrough: Circle Packing Chart
 ****
-This example illustrates how to create a circle packing that displays total broken down by state, city, and product name.
+This example illustrates how to create a circle packing that displays total broken down by state, city, and company.
 
 . Create a new Dashboard based on the ‘Sales Explore’ Data Worksheet.
 include::ROOT:partial$CreateNewWorksheetNote.adoc[]
@@ -37,7 +39,9 @@ image:commonscript:circlePackingConfig2.png[]
 +
 image:commonscript:circlePackingConfig3.png[]
 
-. *_Optional:_* Press the ‘Edit Color’ button next to the ‘State’ dimension, and choose the desired colors to represent the state values. Press the {buttonClose}.
+. *_Optional:_* Press the ‘Edit Color’ button next to the ‘State’ dimension, and choose the desired colors to represent the state values. Press the {buttonApply}.
++
+image:commonscript:EditColorButton.png[]
 
 . *_Optional:_* To fill any of the larger circles with static color (in this example, the ‘State’ and ‘City’ circles, or the outermost containing circle), click a circle to select it, and use the ‘Background’ property on the *Format* tab to apply a color. See xref:VisualFormat.adoc[] for more information about formatting.
 

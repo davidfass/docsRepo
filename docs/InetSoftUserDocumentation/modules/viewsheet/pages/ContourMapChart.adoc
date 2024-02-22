@@ -28,7 +28,7 @@ include::partial$webMapResize.adoc[]
 ****
 .. Right-click the Chart and select ‘Properties’. This opens the ‘Chart Properties’ dialog box.
 +
-image:Report_Ad Hoc Chart Map3.png[]
+image:webMap1.png[]
 
 .. Under the *Advanced* tab, enable ‘Use Web Map as Background’ and press btn:[OK]. (If this option is not available, ask your administrator  to enable the Web Map feature.)
 +
@@ -53,7 +53,9 @@ The chart updates to display the locations contained in the geographic field.
 +
 image:commonscript:contourMapChartExp3.png[]
 
-. *_Optional:_* To weight the data points according to a specified measure, drag a measure representing the weights to the ‘Size’ region. A larger weight assigns greater density to the point.
+. *_Optional:_* To weight the data points according to a specified *measure*, drag a measure representing the weights to the ‘Size’ region. A larger weight assigns greater density to the point.
++
+include::ROOT:partial$measureTip.adoc[]
 +
 image:commonscript:contourMapExp6.png[]
 
@@ -78,7 +80,7 @@ image:commonscript:contourMapChartExp4.png[]
 
 == Display Data by Latitude and Longitude
 
-To display a contour on a map by latitude and longitude, follow the steps in the walkthrough below.
+To learn how to display a contour on a map by latitude and longitude, follow the steps in the walkthrough below.
 
 .Walkthrough: Latitude and Longitude
 ****
@@ -139,7 +141,9 @@ IMPORTANT: If you are using a Web Map background with latitude and longitude dat
 image:commonscript:contourMapChartExp7.png[]
 
 
-. *_Optional:_* Drag the ‘wind’ field to the ‘Size’ region to weight the points by wind speed.
+. *_Optional:_* Drag the ‘wind’ *measure* to the ‘Size’ region to weight the points by wind speed.
++
+include::ROOT:partial$measureTip.adoc[]
 +
 image:commonscript:contourMapChartExp11.png[]
 +
