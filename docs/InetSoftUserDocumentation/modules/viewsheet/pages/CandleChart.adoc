@@ -7,15 +7,16 @@ A candle chart displays four different measures (low, high, open, close) against
 
 image:commonscript:CandleChartType8.png[]
 
-To create a candle chart that displays the averaged high, low, opening, and closing prices by quarter, follow the steps below.
+To create a candle chart that displays the averaged high, low, opening, and closing prices by week, follow the steps below.
 
 include::partial$chartNewbieTip.adoc[]
 
-. Drag a date field from the ‘Dimensions’ folder of the *Data Source* panel to the ‘X’ region.
-+
-image:commonscript:CandleChartType9.png[]
+. Drag a *dimension* from the ‘Dimensions’ folder of the *Data Source* panel to the ‘X’ region. For a candle chart, the dimension is usually a date field.
 +
 include::ROOT:partial$dimensionTip.adoc[]
++
+image:commonscript:CandleChartType9.png[]
+
 +
 TIP: {convertToDimension}
 
@@ -47,12 +48,13 @@ image:commonscript:Report_CandleChartType7b.png[]
 . {finishEditing}
 +
 image:commonscript:CandleChartType5.png[]
-+
-Note that for each week, the high and low measures are represented by the extremes of the candle “wick,” and the open and close measures are represented by the extremes of the candle “body.” Candles for which the open exceeds the close are shown filled. Candles for which the close exceeds the open are shown empty.
 
 . To observe the structure of the chart more closely, use the {buttonZoom} to view a more limited date range. (See xref:DrillDownIntoData.adoc[] for more information.)
 +
 image:commonscript:CandleChartType8.png[]
++
+Note that for each week, the high and low measures are represented by the extremes of the candle “wick,” and the open and close measures are represented by the extremes of the candle “body.” Candles for which the open exceeds the close are shown filled. Candles for which the close exceeds the open are shown empty.
+
 
 include::partial$addTitlesLegend.adoc[]
 

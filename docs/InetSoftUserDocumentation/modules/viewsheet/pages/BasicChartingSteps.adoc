@@ -182,9 +182,11 @@ image:Change Chart Spacing2.png[]
 ****
 The sample xref:ROOT:attachment$Census.zip[Census] Dashboard (in the ‘Examples’ folder) provides an example of using provides an example of a chart that uses color and fill to represent dimensions and measures.
 
+image:viewsheet:galleryMultipleMeasure3.png[]
+
 To explore this sample Dashboard, download and import the  xref:ROOT:attachment$Census.zip[Census] Dashboard into your environment. (This requires access to Enterprise Manager.) See xref:administration:ImportExportAssets.adoc[] for instructions on how to import.
 
-image:viewsheet:galleryMultipleMeasure3.png[]
+
 ****
 
 

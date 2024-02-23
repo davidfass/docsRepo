@@ -1,0 +1,7 @@
+ifdef::si[]
+NOTE: The 'Stock Prices' query can be found in  menu:Data Source[Examples > Stock History].
+endif::[]
+
+ifdef::testdrive[]
+NOTE: To create the 'Stock Prices' data set, upload the customers  file. See Uploading Excel or Text File for more information. XXXXXX
+endif::[]
