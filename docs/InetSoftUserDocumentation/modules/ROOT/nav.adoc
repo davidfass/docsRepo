@@ -82,8 +82,9 @@
 *** xref:viewsheet:TreeChart.adoc[]
 *** xref:viewsheet:TreemapChart.adoc[]
 *** xref:viewsheet:TrellisChartGrid.adoc[]
-
-
+*** xref:viewsheet:WaterfallChart.adoc[]
+*** xref:viewsheet:WordcloudChart.adoc[]
+** xref:viewsheet:EndUserChartControl.adoc[]
 
 
 ** xref:viewsheet:FilterDashboard.adoc[]
