@@ -1,1 +1,263 @@
 = Drill Down into Data
+%experimental%
+include::ROOT:partial$buttonSnippets.adoc[]
+
+include::viewsheet:partial$availableToEndUsers.adoc[]
+
+There are a variety of ways that you can drill down into your data. The following sections explain the basic different approaches.
+
+== Brush a Chart
+Brushing is a powerful tool that helps you to quickly detect and understand relationships your data. This feature is available both to designers and end-users.
+
+
+
+Consider the following charts. (See xref:BasicChartingSteps.adoc[] for instructions on how to create a chart.)
+
+image:brushing0.png[]
+
+Use brushing to answer the following questions. (Expand the sections to see the answers.)
+
+****
+.In what month did salesperson Sue Marston have peak sales?
+[%collapsible]
+====
+. Double-click the ‘Sue’ label in the legend to brush Sue Marston’s sales in both charts.
++
+image:brushing1.png[]
++
+It is now obvious that Sue’s greatest sales month was April of 2019, when she sold almost $277,000.
+
+. Press the {buttonChartClearBrush} to return to the normal view.
++
+image:brushing2.png[]
+====
+
+.Overall sales were high in August 2020. Which state saw the greatest sales during this month?
+[%collapsible]
+====
+. In the second chart, click to select the data point for August 2020.
++
+image:brushing3.png[]
+
+. Press the {buttonChartBrush} on the chart toolbar to highlight all the data corresponding to this month.
+
++
+image:brushing4.png[]
+
+It is clear that Texas had the majority of sales in August 2020.
+====
+.A majority of Sue Marston’s sales are in New Jersey and New York. During which month were Sue’s combined sales in NJ and NY the greatest?
+[%collapsible]
+====
+. In the first chart, hold the {buttonCtrl} and click to select Sue’s sales both in NJ and NY.
++
+image:brushing5.png[]
+
+. Press the {buttonChartBrush} on the chart toolbar to highlight all of Sue’s sales corresponding to these states.
++
+image:brushing6.png[]
+It is clear that Sue’s sales in NJ and NY reached a peak in June 2018.
+====
+****
+
+== Zoom a Chart
+The Zoom feature allows you focus in on a selected set of groups by specifying the groups to include or exclude from the zoomed view.
+
+=== Select Groups to Include
+To zoom in by selecting the groups you want to view, follow the steps below:
+
+. Select the data on the chart that you wish to zoom.
++
+include::viewsheet:partial$selectChartData.adoc[]
+
+
+. Press the {buttonZoom} in the mini-toolbar. This zooms the chart to display only the data selected.
++
+image:Chart Zoom Basic.png[]
+
+. Repeat the above steps to zoom in further.
+
+. To return to the original chart view, press the {buttonChartClearZoom}.
++
+image:Chart Zoom Clear.png[]
+
+=== Select Groups to Exclude
+In some cases,  you might find it easier to create the desired view by specifying particular groups to _exclude_ from the zoomed view.
+
+. Select the data on the chart that you wish to exclude from the zoomed view.
++
+include::viewsheet:partial$selectChartData.adoc[]
+
+Press the {buttonChartExclude} in the toolbar. This removes the selected data from the chart.
++
+image:ExcludeData.png[]
+
+. Repeat the above steps to exclude further data.
+
+. To return to the original chart view, press the {buttonChartClearZoom}.
++
+image:ExcludeData2.png[]
+
+== Drilling Through a Chart
+When a chart axis displays a date field or a cube dimension, the chart automatically provides the user with the ability to drill down to finer levels of resolution of the date or dimension.
+
+To drill down into a date or cube dimension on a chart axis, follow these steps:
+
+. Hover the mouse over the chart axis that you want to display at greater resolution. For axes that represent date or cube dimension data, this will display a {buttonDrillDown} at the left side of the axis.
++
+IMPORTANT: The {buttonDrillDown} is only visible when you hover over the axis.
++
+image:DrillDown.png[]
+
+. Press the {buttonDrillDown} to drill down to the next level of the date or dimension.
+
+. Repeat the above steps to drill down to deeper levels of the hierarchy.
++
+image:DrillDown2.png[]
+
+. To drill up to a higher level of the date or dimension hierarchy, hover the mouse over the chart axis that you want to display at reduced resolution. This displays a {buttonDrillUp} at the left side of the axis.
++
+image:DrillDown3.png[]
+
+. Press the {buttonDrillUp} to drill up to the higher level of the date or dimension hierarchy.
+
+
+
+[NOTE]
+====
+When you drill down into a discretely grouped date axis (e.g., date grouping level set to ‘Quarter of Year’, ‘Month of Year’, etc.), this creates a facet chart by repeatedly adding the date field as an additional dimension with a finer grouping level.
+
+image:DrillDown4.png[]
+
+However, when you drill down into  a continuously grouped date axis (e.g.,  date grouping level set to ‘Quarter’, ‘Month’, etc.), this changes the grouping level of the existing dimension rather than adding an additional dimension.
+
+image:DrillDown5.png[]
+
+The exception to this rule is the ‘Year’ level, which behaves as a discrete grouping and generates a facet chart upon drill down (as illustrated in the steps above).
+
+====
+To disable the drilling feature for a particular chart, deselect the ‘Enable Drilling’ option in the *Advanced* tab of the ‘Chart Properties’ panel. To specify a custom drill hierarchy, including custom date levels, see xref:ChartProperties.adoc[].
+
+
+== Drill Through a Crosstab
+When a Crosstab header displays a date field or a cube dimension, the Crosstab automatically provides the user with the ability to drill down to finer levels of resolution of the date or dimension.
+
+To drill down into a date or cube dimension on a Crosstab header, follow these steps:
+
+
+. Hover the mouse over the Crosstab. For headers that represent date or cube dimension data, this will display an {buttonDrillDown} at the left side of the header.
++
+IMPORTANT: The {buttonDrillDown} is only visible when you hover over the Crosstab.
++
+image:DrillDownCross.png[]
+
+. Press the {buttonDrillDown} to drill down to the next level of the date or dimension.
+
+. Repeat the above steps to drill down to deeper levels of the hierarchy.
++
+image:DrillDownCross2.png[]
+
+. To drill up to a higher level of the date or dimension hierarchy, hover the mouse over the crosstab. This displays a {buttonDrillUp} at the left side of expanded headers.
++
+image:DrillDownCross3.png[]
+
+. Press the {buttonDrillUp} to drill up to the higher level of the date or dimension hierarchy.
+
+. To fully expand the hierarchy for a dimension value, right-click the value and select the appropriate ‘Expand Hierarchy’ option. To collapse an expanded hierarchy, select ‘Collapse Hierarchy’.
++
+image:expandHierarchy1.png[]
+
+. To fully expand all of the hierarchies for a dimension (column or row header), right-click a value of the dimension and select the appropriate ‘Expand Field’ option. To collapse an expanded hierarchy, select ‘Collapse Field’.
++
+image:expandHierarchy2.png[]
+
+. To fully expand *_all_*   hierarchies in the entire crosstab, right-click the table title and select ‘Expand Hierarchy’. To collapse all hierarchies in an expanded table, select ‘Collapse Hierarchy’.
++
+image:expandHierarchy3.png[]
+
+To disable the drilling feature for a particular crosstab, deselect the ‘Enable Drilling’ option in the *Advanced* tab of the ‘Crosstab Properties’ dialog box. To specify a custom drill hierarchy, including custom date levels, see xref:CrosstabProperties.adoc[].
+
+== Drill to Crosstab Detail Data
+To drill-down into the data in a Crosstab table, follow the steps below:
+
+. Select the aggregated data into which you want to drill.
++
+[TIP]
+====
+You can select data in a Crosstab in the following ways:
+
+* Click to select individual cells.
+* Hold down the {buttonShift} key and click to select a contiguous ranges of cells.
+* Hold down the {buttonCtrl} key and click to select discontiguous ranges of cells.
+====
+
+. Press the {buttonShowDetails} in the title bar.
++
+image:CrosstabDetails.png[]
++
+This displays the detail data in the *Data* panel.
++
+image:CrosstabDetails3.png[]
++
+You can continue to select different cells without clicking ‘Show Details’ again. (You may need to collapse the *Data* panel to resume making selections on the Crosstab.)
+
+. *_Optional:_* To format values in the data panel, press the {buttonFormat} in the column header that you want to format.
++
+image:show Summary Format1.png[]
++
+This opens the ‘Format’ dialog box, which allows you to set the format for the column. See xref:DataFormat.adoc[] for information about the available options.
++
+image:Show Details Format Dialog_1.png[]
++
+Formatting that you specify is saved with the Dashboard, and is automatically applied to the column whenever the ‘Show Details’ option is used, both in Visual Composer and the User Portal.
+
+. To apply a global table style, press the {buttonTableStyle}.
++
+image:Show Details Format_2.png[]
++
+This opens the ‘Table Style’ dialog box. Select a table style, and press btn:[OK].
++
+image:Show Details Format_3.png[]
+
+. *_Optional:_* To export the data to Excel, press the {buttonExport} at the top left.
++
+image:CrosstabDetails2.png[]
+
+== Drill to Chart Detail Data
+To display the detail records corresponding to a chart’s summarized data, follow the steps below:
+
+. Select the data to display by clicking the appropriate element(s) in the chart.
++
+include::viewsheet:partial$selectChartData.adoc[]
+
+
+. Press the {buttonShowDetails} at the top-right of the chart.
++
+image:Chart Show Chart Details.png[]
++
+This opens the *Data* panel.
++
+image:Chart Show Chart Details2.png[]
+
+. *_Optional:_* To format values in the data panel, press the {buttonFormat} in the column header that you want to format.
++
+image:show Summary Format1.png[]
++
+This opens the ‘Format Type’ panel. Select the desired format for the column and press the {buttonApply}. See xref:DataFormat.adoc[] for information about the available options.
++
+image:Show Details Format Dialog_1.png[]
++
+Formatting that you specify is saved with the Dashboard, and is automatically applied to the column whenever the ‘Show Details’ option is used, both in Visual Composer and the User Portal.
+
+. To apply a global table style, press the {buttonTableStyle}.
++
+image:Show Details Format_2.png[]
++
+This opens the ‘Table Style’ dialog box. Select a table style, and press btn:[OK].
++
+image:Show Details Format_3.png[]
+
+. *_Optional:_*  To export the data, press the {buttonExport} in the *Data* panel.
++
+image:Chart Show Chart Details Export.png[]
+

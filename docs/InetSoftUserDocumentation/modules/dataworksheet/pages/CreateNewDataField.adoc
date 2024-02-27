@@ -125,7 +125,7 @@ image:testdrive:agileDash61.png[]
 endif::[]
 
 
-You can display this calculated field in Output Components (see xref:viewsheet:AddAKPI.adoc[]) or Data View Components (see xref:viewsheet:AddAChart.adoc[] and xref:viewsheet:AddTableOrCrosstab.adoc[]) in the same way that would display any other data field.
+You can display this calculated field in Output Components (see xref:viewsheet:AddAKPI.adoc[]) or Data View Components (see xref:viewsheet:AddAChart.adoc[] and xref:viewsheet:AddTable.adoc[]) in the same way that would display any other data field.
 
 NOTE: You cannot bind an aggregate-based calculated field to Filter components.
 

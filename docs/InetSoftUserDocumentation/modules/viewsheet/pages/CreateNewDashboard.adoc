@@ -100,7 +100,7 @@ image:wizard8.png[]
 .. To change the sort order of a row or column header, move the pointer over the header and press the {buttonSort}.
 +
 image:wizard9.png[]
-.. *_Optional:_* To make more detailed adjustments to the component, press the {buttonFullEditor} in the top toolbar.  See xref:AddTableOrCrosstab.adoc[] for more information about how to use the Crosstab Editor.
+.. *_Optional:_* To make more detailed adjustments to the component, press the {buttonFullEditor} in the top toolbar.  See xref:AddTable.adoc[] for more information about how to use the Crosstab Editor.
 +
 NOTE: After you make modifications to the crosstab using the full Crosstab Editor, you should press the {buttonFinish} in the top toolbar. You can also return to the Wizard by pressing the {buttonToWizard}, but you will lose any changes that you made in the Crosstab Editor.
 ====
@@ -123,7 +123,7 @@ image:wizard11.png[]
 .. To delete a selected field, press the {buttonDeleteWizard} next to the field.
 .. To change the sort order of a column, move the pointer over the header and press the {buttonSort}.
 
-.. *_Optional:_* To make more detailed adjustments to the component, press the {buttonFullEditor} in the top toolbar.  See xref:AddTableOrCrosstab.adoc[] for more information about how to use the Table Editor.
+.. *_Optional:_* To make more detailed adjustments to the component, press the {buttonFullEditor} in the top toolbar.  See xref:AddTable.adoc[] for more information about how to use the Table Editor.
 +
 NOTE: After you make modifications to the crosstab using the full Table Editor, you should press the {buttonFinish} in the top toolbar. You can also return to the Wizard by pressing the {buttonToWizard}, but you will lose any changes that you made in the Table Editor.
 ====

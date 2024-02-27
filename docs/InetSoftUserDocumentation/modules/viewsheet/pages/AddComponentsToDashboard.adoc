@@ -17,7 +17,7 @@ include::ROOT:partial$CreateNewDashboardNote.adoc[]
 +
 image:addingChart.png[]
 +
-See the following sections (xref:AddAChart.adoc[], xref:AddTableOrCrosstab.adoc[], etc.) for more details on building the Dashboard.
+See the following sections (xref:AddAChart.adoc[], xref:AddTable.adoc[], etc.) for more details on building the Dashboard.
 
 . *_Optional:_* Group components together into larger units. See xref:GroupComponents[] below.
 

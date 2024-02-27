@@ -64,18 +64,19 @@ include::ROOT:partial$SREEHome.adoc[]
 . *_Optional:_*  For a date dimension, press the {buttonEditDimension} next to the field name in the Chart Editor, and set the ‘Level’ to the desired date grouping. Then press the .
 +
 image:viewsheetExp34.png[]
-. From the ‘Measures’ folder of the data source panel, drag measure the ‘Y’ region. This places the selected field onto the chart as a measure.
+. From the ‘Measures’ folder of the data source panel, drag measure the ‘Y’ region. This places the selected field onto the chart as a measure. You can add multiple measures to a chart. (See xref:MultipleMeasureChart.adoc[].)
 +
 image:addingChart4.png[]
 +
-You can add multiple measures to a chart. To convert a dimension to a measure, right-click the dimension in the data source and select ‘Convert to Measure’.
+TIP: {convertToMeasure}
 
 . To represent a measure using color, shape, size, or labeling, drag the desired measure field from the data source to the ‘Color’, ‘Shape’, ‘Size’, or ‘Text’ region.
 +
 image:addingChart5.png[]
 +
 Note that the effect of color, shape, and size coding varies by chart style. For example, in a bar-type chart the ‘Shape’ representation affects the density of the fill pattern, whereas in a point-type chart the ‘Shape’ representation affects the geometry of the point or the fraction filled.
-. Press the {buttonEditMeasure} next to the measure, and select the desired aggregation method for the measure.
+
+. Press the {buttonEditMeasure} next to any measure, and select the desired aggregation method for the measure.
 +
 .Read more about the available aggregation methods…
 [%collapsible]
@@ -84,6 +85,8 @@ include::ROOT:partial$AggregationMethods.adoc[]
 ====
 +
 image:Chart Edit Y Axis_1.png[]
++
+Use the ‘Trend and Comparison’ menu to perform calculations based on chart aggregates, such as running total or percent change.  See xref:TrendCompareData.adoc[] for full details.
 
 . To represent a measure by using tooltip information, drag the measure to the ‘Break By/Tooltip’ region.
 . {finishEditing}

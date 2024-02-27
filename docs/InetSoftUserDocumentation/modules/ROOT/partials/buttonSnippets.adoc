@@ -91,7 +91,7 @@
 :buttonConvertToMeasure: ‘Convert to Measure ’ button image:ROOT:buttons/dimension.svg[role=button]
 :buttonConvertToDimension: ‘Convert to Dimension’ button image:ROOT:buttons/measure.svg[role=button]
 :buttonFormatWizard: ‘Format’ button image:ROOT:buttons/setting.svg[role=button]
-:buttonDeleteWizard: Delete’ button image:ROOT:buttons/close.svg[role=button]
+:buttonDeleteWizard: ‘Delete’ button image:ROOT:buttons/close.svg[role=button]
 :buttonFullEditor: ‘Full Editor’ button image:ROOT:buttons/edit.svg[role=button]
 :buttonFinish: ‘Finish’ button image:ROOT:buttons/submit.svg[role=button]
 :buttonToWizard: ‘To Wizard’ button image:ROOT:buttons/edit.svg[role=button]
@@ -122,6 +122,22 @@
 :buttonSwitchSingleGraph: ‘Switch to Single Graph’ button image:ROOT:buttons/multi-chart.svg[role=button]
 :buttonSwitchSeparateGraph: ‘Switch to Separate Graph’ button image:ROOT:buttons/single-chart.svg[role=button]
 :buttonEditColor: ‘Edit Color’ button image:ROOT:buttons/palette.svg[role=button]
+:buttonSelectDate: ‘Select a Date’ button image:ROOT:buttons/calendar.svg[role=button]
+:buttonRemove: ‘Remove’  button image:ROOT:buttons/trash.svg[role=button]
+:buttonDateCompare: ‘Compare’ button image:ROOT:buttons/compare.svg[role=button]
+:buttonHideMiniToolbar: ‘Hide MiniToolbar’  button image:ROOT:buttons/close.svg[role=button]
+:buttonChartClearBrush: ‘Clear Brushing’  button image:ROOT:buttons/brush-no.svg[role=button]
+:buttonChartBrush: ‘Brush Chart’  button image:ROOT:buttons/brush.svg[role=button]
+:buttonChartClearZoom: ‘Clear Zoom’  button image:ROOT:buttons/zoom-no.svg[role=button]
+:buttonChartExclude: ‘Exclude Data’  button image:ROOT:buttons/eye-off.svg[role=button]
+:buttonDrillDown: ‘Drill Down’ button image:ROOT:buttons/plus-box-outline.svg[role=button]
+:buttonDrillUp: ‘Drill Up’ button image:ROOT:buttons/minus-box-outline.svg[role=button]
+:buttonShowDetails: ‘Show Details’ button image:ROOT:buttons/show-detail.svg[role=button]
+:buttonFormat: ‘Format’ button image:ROOT:buttons/format.svg[role=button]
+:buttonTableStyle: ‘Table Style’ button image:ROOT:buttons/color-fill.svg[role=button]
+:buttonExport: ‘Export’  button image:ROOT:buttons/export.svg[role=button]
+
+
 
 
 // Macros
@@ -132,6 +148,7 @@
 
 // Short snippets
 :rightClickOptions:  Note: You can also access menu options from the {buttonMore} in the mini-toolbar.
+:rightClickFormat: (Or right-click the component and select ‘Format’ from the menu.)
 :dynamicProperties:  Properties that offer the {buttonValueType} can also be set by the user (‘Variable’) or by scripted logic (‘Expression’). See xref:viewsheet:DynamicallySetProperties.adoc[] for more information.
 :finishEditing: Press the  {buttonFinish} to close the Editor.
 :multipleMeasure: You can add additional measures to the Chart if desired. See xref:viewsheet:MultipleMeasureChart.adoc[] for more information about adding multiple measures to a chart axis.
@@ -140,6 +157,7 @@
 :convertToMeasure: To convert a dimension to a measure, right-click the dimension in the data source and select ‘Convert to Measure’.
 :addDimensionsUsingVisual: See xref:viewsheet:BasicChartingSteps.adoc[] for information on how to add dimensions using color, shape, or size representation.
 :addMeasuresUsingVisual: See xref:viewsheet:BasicChartingSteps.adoc[] for information on how to add measures using color, shape, or size representation.
+:dateCompareDetails: Hover the pointer over {buttonDateCompare} in the top left or right corner of the Chart or Crosstab to display the comparison details. Press the {buttonDateCompare} to reopen the ‘Date Comparison’ dialog box.
 
 
 
