@@ -1,5 +1,5 @@
 ifdef::si[]
-For information on how to create a new Data Worksheet, see xref:CreateNewWorksheet.adoc[].
+For information on how to create a new Data Worksheet, see xref:dataworksheet:CreateNewWorksheet.adoc[].
 endif::[]
 
 ifdef::testdrive[]
