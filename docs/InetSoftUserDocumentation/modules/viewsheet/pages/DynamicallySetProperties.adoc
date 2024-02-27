@@ -165,7 +165,8 @@ image:Right Click Properties.png[]
 +
 image:Expression Option.png[]
 . Press the {buttonEditFormula} to open the Formula Editor.
-+image:Edit Expression Button.png[]
++
+image:Edit Expression Button.png[]
 
 . In the Formula Editor, enter the desired script. For example, the following script hides the component if the user has selected ‘Hide’ from a RadioButton control, and the current month is March (i.e., the third month).
 [source,javascript]

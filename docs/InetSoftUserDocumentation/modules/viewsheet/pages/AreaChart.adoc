@@ -6,7 +6,7 @@ include::ROOT:partial$buttonSnippets.adoc[]
 
 An area chart displays a measure as a filled region. It is functionally the same as a xref:LineChart.adoc[].
 
-image:commonscript:areaChartExp5.png[]
+image:commonscript:areaChartExp5b.png[]
 
 To create an area chart, follow the basic steps below:
 

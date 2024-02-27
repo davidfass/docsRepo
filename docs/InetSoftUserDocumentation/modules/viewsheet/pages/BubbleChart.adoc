@@ -4,7 +4,7 @@ include::ROOT:partial$buttonSnippets.adoc[]
 
 A bubble chart is a xref:PointChart.adoc[] in which the size of the points represents a second measure.
 
-image:commonscript:bubbleChartExp4.png[]
+image:commonscript:bubbleChartExp4b.png[]
 
 To create a bubble chart, follow the basic steps below:
 

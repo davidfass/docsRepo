@@ -20,7 +20,7 @@ image:commonscript:boxChartExp1.png[]
 +
 include::ROOT:partial$dimensionTip.adoc[]
 +
-image:commonscript:BoxChartExp5.png[]
+image:commonscript:BoxChartExp5b.png[]
 +
 TIP: {convertToDimension}
 
