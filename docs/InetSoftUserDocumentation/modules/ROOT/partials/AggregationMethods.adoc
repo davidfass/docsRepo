@@ -1,5 +1,5 @@
 
-The list below describes the available crosstab and chart aggregation measures. You can choose to display univariate aggregations (e.g., ‘Sum’, ‘Count’) as a percentage value by selecting the percentage basis (e.g., ‘Group’, ‘GrandTotal’) from the accompanying ‘Percentage of’ menu. For the bivariate aggregation methods (e.g., ‘Correlation’, ‘Weighted Average’), you will need to select a variable (column) to use as the second operand in the computation. Make this selection in the menu labeled ‘with’.
+The list below describes the available Crosstab and Chart aggregation measures. You can choose to display univariate aggregations (e.g., ‘Sum’, ‘Count’) as a percentage value by selecting the percentage basis (e.g., ‘Group’, ‘GrandTotal’) from the accompanying ‘Percentage of’ menu. For the bivariate aggregation methods (e.g., ‘Correlation’, ‘Weighted Average’), you will need to select a variable (column) to use as the second operand in the computation. Make this selection in the menu labeled ‘with’.
 
 Sum:: Displays the sum of the measure values for the given row and column headings.
 Average:: Displays the average of the measure values for the given row and column headings.

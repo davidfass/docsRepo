@@ -1,7 +1,7 @@
-.How to select chart data:
+.How to select Chart data:
 [TIP]
 ====
-You can select contiguous or discontiguous data in a chart:
+You can select contiguous or discontiguous data in a Chart:
 
 * Drag the mouse across the data you wish to select. Hold the   {buttonCtrl} key and drag to add additional regions to the selection.
 * Hold the  {buttonCtrl} key and click the data you wish to select.

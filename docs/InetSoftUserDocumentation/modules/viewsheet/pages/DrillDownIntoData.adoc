@@ -7,17 +7,23 @@ include::viewsheet:partial$availableToEndUsers.adoc[]
 There are a variety of ways that you can drill down into your data. The following sections explain the basic different approaches.
 
 == Brush a Chart
-Brushing is a powerful tool that helps you to quickly detect and understand relationships your data. This feature is available both to designers and end-users.
+Brushing is a powerful tool that helps you to quickly detect and understand relationships your data. To brush a Chart, follow the steps below:
 
+. Select the data that you want to highlight:
++
+include::viewsheet:partial$selectChartData.adoc[]
 
+. Press the {buttonChartBrush} in the Chart mini-toolbar.
 
-Consider the following charts. (See xref:BasicChartingSteps.adoc[] for instructions on how to create a chart.)
+.Walkthrough: Chart Brushing
+****
+Consider the following two charts.
 
 image:brushing0.png[]
 
 Use brushing to answer the following questions. (Expand the sections to see the answers.)
 
-****
+
 .In what month did salesperson Sue Marston have peak sales?
 [%collapsible]
 ====
@@ -43,19 +49,20 @@ image:brushing3.png[]
 
 +
 image:brushing4.png[]
-
++
 It is clear that Texas had the majority of sales in August 2020.
 ====
 .A majority of Sue Marston’s sales are in New Jersey and New York. During which month were Sue’s combined sales in NJ and NY the greatest?
 [%collapsible]
 ====
-. In the first chart, hold the {buttonCtrl} and click to select Sue’s sales both in NJ and NY.
+. In the first chart, hold the {buttonCtrl} key and click to select Sue’s sales both in NJ and NY.
 +
 image:brushing5.png[]
 
 . Press the {buttonChartBrush} on the chart toolbar to highlight all of Sue’s sales corresponding to these states.
 +
 image:brushing6.png[]
++
 It is clear that Sue’s sales in NJ and NY reached a peak in June 2018.
 ====
 ****
@@ -88,7 +95,7 @@ In some cases,  you might find it easier to create the desired view by specifyin
 +
 include::viewsheet:partial$selectChartData.adoc[]
 
-Press the {buttonChartExclude} in the toolbar. This removes the selected data from the chart.
+. Press the {buttonChartExclude} in the toolbar. This removes the selected data from the chart.
 +
 image:ExcludeData.png[]
 
@@ -98,7 +105,8 @@ image:ExcludeData.png[]
 +
 image:ExcludeData2.png[]
 
-== Drilling Through a Chart
+[#DrillThroughChart]
+== Drill Through a Chart
 When a chart axis displays a date field or a cube dimension, the chart automatically provides the user with the ability to drill down to finer levels of resolution of the date or dimension.
 
 To drill down into a date or cube dimension on a chart axis, follow these steps:
@@ -120,9 +128,7 @@ image:DrillDown2.png[]
 image:DrillDown3.png[]
 
 . Press the {buttonDrillUp} to drill up to the higher level of the date or dimension hierarchy.
-
-
-
++
 [NOTE]
 ====
 When you drill down into a discretely grouped date axis (e.g., date grouping level set to ‘Quarter of Year’, ‘Month of Year’, etc.), this creates a facet chart by repeatedly adding the date field as an additional dimension with a finer grouping level.
@@ -136,16 +142,17 @@ image:DrillDown5.png[]
 The exception to this rule is the ‘Year’ level, which behaves as a discrete grouping and generates a facet chart upon drill down (as illustrated in the steps above).
 
 ====
-To disable the drilling feature for a particular chart, deselect the ‘Enable Drilling’ option in the *Advanced* tab of the ‘Chart Properties’ panel. To specify a custom drill hierarchy, including custom date levels, see xref:ChartProperties.adoc[].
 
+To disable the drilling feature for a particular chart, deselect the ‘Enable Drilling’ option in the *Advanced* tab of the ‘Chart Properties’ panel. To specify a custom drill hierarchy for any set of hierarchical fields, including custom date levels, use the *Hierarchy* tab. See xref:ChartProperties.adoc[] for more details.
 
+[#DrillThroughCrosstab]
 == Drill Through a Crosstab
 When a Crosstab header displays a date field or a cube dimension, the Crosstab automatically provides the user with the ability to drill down to finer levels of resolution of the date or dimension.
 
 To drill down into a date or cube dimension on a Crosstab header, follow these steps:
 
 
-. Hover the mouse over the Crosstab. For headers that represent date or cube dimension data, this will display an {buttonDrillDown} at the left side of the header.
+. Hover the mouse over the Crosstab. For headers that represent date or cube dimension data, this will display a {buttonDrillDown} at the left side of the header.
 +
 IMPORTANT: The {buttonDrillDown} is only visible when you hover over the Crosstab.
 +
@@ -171,75 +178,29 @@ image:expandHierarchy1.png[]
 +
 image:expandHierarchy2.png[]
 
-. To fully expand *_all_*   hierarchies in the entire crosstab, right-click the table title and select ‘Expand Hierarchy’. To collapse all hierarchies in an expanded table, select ‘Collapse Hierarchy’.
+. To fully expand *_all_*   hierarchies in the entire crosstab, right-click the table title and select ‘Expand Hierarchy’. To collapse *_all_* hierarchies in an expanded table, select ‘Collapse Hierarchy’.
 +
 image:expandHierarchy3.png[]
 
-To disable the drilling feature for a particular crosstab, deselect the ‘Enable Drilling’ option in the *Advanced* tab of the ‘Crosstab Properties’ dialog box. To specify a custom drill hierarchy, including custom date levels, see xref:CrosstabProperties.adoc[].
-
-== Drill to Crosstab Detail Data
-To drill-down into the data in a Crosstab table, follow the steps below:
-
-. Select the aggregated data into which you want to drill.
-+
-[TIP]
-====
-You can select data in a Crosstab in the following ways:
-
-* Click to select individual cells.
-* Hold down the {buttonShift} key and click to select a contiguous ranges of cells.
-* Hold down the {buttonCtrl} key and click to select discontiguous ranges of cells.
-====
-
-. Press the {buttonShowDetails} in the title bar.
-+
-image:CrosstabDetails.png[]
-+
-This displays the detail data in the *Data* panel.
-+
-image:CrosstabDetails3.png[]
-+
-You can continue to select different cells without clicking ‘Show Details’ again. (You may need to collapse the *Data* panel to resume making selections on the Crosstab.)
-
-. *_Optional:_* To format values in the data panel, press the {buttonFormat} in the column header that you want to format.
-+
-image:show Summary Format1.png[]
-+
-This opens the ‘Format’ dialog box, which allows you to set the format for the column. See xref:DataFormat.adoc[] for information about the available options.
-+
-image:Show Details Format Dialog_1.png[]
-+
-Formatting that you specify is saved with the Dashboard, and is automatically applied to the column whenever the ‘Show Details’ option is used, both in Visual Composer and the User Portal.
-
-. To apply a global table style, press the {buttonTableStyle}.
-+
-image:Show Details Format_2.png[]
-+
-This opens the ‘Table Style’ dialog box. Select a table style, and press btn:[OK].
-+
-image:Show Details Format_3.png[]
-
-. *_Optional:_* To export the data to Excel, press the {buttonExport} at the top left.
-+
-image:CrosstabDetails2.png[]
+To disable the drilling feature for a particular Crosstab, deselect the ‘Enable Drilling’ option in the *Advanced* tab of the ‘Crosstab Properties’ dialog box. To specify a custom drill hierarchy  for any set of hierarchical fields, including custom date levels, use the *Hierarchy* tab.  See xref:CrosstabProperties.adoc[] for more details.
 
 == Drill to Chart Detail Data
-To display the detail records corresponding to a chart’s summarized data, follow the steps below:
+To reveal the detail records corresponding to a Chart’s summarized data, follow the steps below:
 
-. Select the data to display by clicking the appropriate element(s) in the chart.
+. Select the data to display by clicking the appropriate element(s) in the Chart.
 +
 include::viewsheet:partial$selectChartData.adoc[]
 
 
-. Press the {buttonShowDetails} at the top-right of the chart.
+. Press the {buttonShowDetails} in the Chart mini-toolbar.
 +
 image:Chart Show Chart Details.png[]
 +
-This opens the *Data* panel.
+This opens the *Data* panel, which displays the detail data.
 +
 image:Chart Show Chart Details2.png[]
 
-. *_Optional:_* To format values in the data panel, press the {buttonFormat} in the column header that you want to format.
+. *_Optional:_* To format values in the *Data* panel, press the {buttonFormat} in the column header that you want to format.
 +
 image:show Summary Format1.png[]
 +
@@ -261,3 +222,322 @@ image:Show Details Format_3.png[]
 +
 image:Chart Show Chart Details Export.png[]
 
+. Press btn:[Close] to collapse the *Data* panel.
+
+== Drill to Crosstab Detail Data
+To reveal the detail records corresponding to the aggregates in  a Crosstab table, follow the steps below:
+
+. Select the aggregated data into which you want to drill.
++
+[TIP]
+====
+You can select data in a Crosstab in the following ways:
+
+* Click to select individual cells.
+* Hold down the {buttonShift} key and click to select a contiguous ranges of cells.
+* Hold down the {buttonCtrl} key and click to select discontiguous ranges of cells.
+====
+
+. Press the {buttonShowDetails} in the Crosstab mini-toolbar.
++
+image:CrosstabDetails.png[]
++
+This displays the detail data in the *Data* panel.
++
+image:CrosstabDetails3.png[]
++
+You can continue to select different cells without clicking ‘Show Details’ again. (You may need to collapse the *Data* panel to resume making selections on the Crosstab.)
+
+. *_Optional:_* To format values in the data panel, press the {buttonFormat} in the column header that you want to format.
++
+image:show Summary Format1.png[]
++
+This opens the ‘Format Type’ panel, which allows you to set the format for the column. See xref:DataFormat.adoc[] for information about the available options.
++
+image:Show Details Format Dialog_1.png[]
++
+Formatting that you specify is saved with the Dashboard, and is automatically applied to the column whenever the ‘Show Details’ option is used, both in Visual Composer and the User Portal.
+
+. To apply a global table style, press the {buttonTableStyle}.
++
+image:Show Details Format_2.png[]
++
+This opens the ‘Table Style’ dialog box. Select a table style, and press btn:[OK].
++
+image:Show Details Format_3.png[]
+
+. *_Optional:_* To export the data to Excel, press the {buttonExport} at the top left.
++
+image:CrosstabDetails2.png[]
+
+. Press btn:[Close] to exit the *Data* panel.
+
+
+== Drill with Chart Hyperlinks
+
+You can attach hyperlinks  to the Chart graphical elements (e.g., the bars in a bar chart). To create hyperlinks on a Chart, follow the steps below:
+
+.*Watch video…*
+[%collapsible]
+=====
+.Drill down with hyperlinks...
+video::306732112[vimeo,640,400]
+include::ROOT:partial$videoVersion.adoc[]
+=====
+
+. Right-click on a Chart element to add hyperlinks to the chart elements (e.g., bars), or right-click on a chart dimension label to add hyperlinks to the labels. {rightClickOptions}
+
+
+. Select ‘Hyperlink’ from the context menu. This opens the ‘Hyperlink’ dialog box.
++
+image:Hyperlink Chart.png[]
+
+. In the ‘Hyperlink’ dialog box, define the desired hyperlink. See the  sections below for examples of how to configure  hyperlinks for the desired target:
++
+* xref:#HyperlinkDashboardReport[]
+* xref:#HyperlinkWebPage[]
+
+. Add any desired visual formatting to the hyperlinks (e.g., underlining).  See xref:VisualFormat.adoc[] for more details.
++
+TIP: To display hyperlink underlining by default, set property `hyperlink.indicator=true`. {EMPropertyConfig}
+
+
+. Press the {buttonSave} button on the toolbar to save the Dashboard.
+
+When the user views this Dashboard in the User Portal, they will now see hyperlinks on the chart elements or labels.
+
+
+
+[#HyperlinkDashboardReport]
+=== Hyperlink to a Dashboard or Report
+
+This example shows how Chart hyperlinks can be used to drill to the sample ‘OrderList’ report (in the _classes/inetsoft/demos_ directory).
+
+ifdef::testdrive[]
+NOTE: This data source is not available in Test Drive.
+endif::[]
+
+. In the ‘Hyperlink’ dialog box, press the ‘Asset Link’ button.
+
+. Select ‘OrderList’ from the ‘Link’ menu.
++
+NOTE: The ‘OrderList’ report is designed to accept five parameters. The ‘customer’ parameter represents the company name of the customer. You will configure the hyperlinks that you add to the ‘Customer’ > ‘Company’ attribute in the Dashboard to pass the company name into the ‘customer’ parameter of the ‘OrderList’ report.
+
+. Optional: Enter a *tooltip* in the ‘Tooltip’ field.  (In the example we use “View company information” as the tooltip.)
++
+TIP: The tooltip is displayed when the end-user hovers the mouse over a hyperlink. If there are multiple hyperlinks for a given attribute (which may be due to auto-drills added at the model level or query level), the tooltip is displayed when the end-user hovers the mouse over the name of the hyperlink in the menu of hyperlink options.
+
+. Deselect the ‘Self’ option, and enter the name “ReportFrame” in the ‘Target Frame’ field.
++
+NOTE: The 'Self' setting is not applied during preview in Visual Composer, and is not available for hyperlinked Dashboards (i.e., Dashboards selected in the ‘Link’ menu). All hyperlinked Dashboards open in a separate browser tab.
++
+This will cause the hyperlinked report to open in a window called “ReportFrame” (i.e., this is the browser DOM ‘name’ attribute). If you want the report to open in the original Dashboard frame, replacing the Dashboard, leave the ‘Self’ checkbox selected.
++
+image:Hyperlink Dialog Example2.png[]
+
+. Press the btn:[Add] button in the bottom panel. This opens the ‘Parameter’ dialog box.
++
+TIP: To delete an existing parameter, select the parameter and press btn:[Remove]. To edit an existing parameter, press btn:[Edit].
+
+. Select the ‘customer’ parameter in the ‘Parameter Name’ menu. This is the name of the target parameter in the OrderList report.
+
+. Select the ‘Company’ field from the ‘Value for Parameter’ menu. This is the name of the table column whose value should be passed into the report parameter when the user clicks the hyperlink.
++
+image:Hyperlink Parameter Dialog.png[]
+
+. Press btn:[OK].
+
+. *_Optional:_* Repeat the above steps to add additional parameters.
+
+. *_Optional:_*  Enable ‘Send Dashboard parameters’ to pass all existing Dashboard parameters to the target report or Dashboard. The Dashboard parameter names must exactly match those defined in the target report or Dashboard. See xref:viewsheetscript:parameter.adoc[] in xref:viewsheetscript:AdvancedDashboardScripting.adoc[] for more information about Dashboard parameters.
+
+. *_Optional:_*  Select ‘Disable parameter prompt’ to suppress the parameter dialog box ordinarily produced by the drill-down report upon launch. (Prompting is automatically suppressed for parameters passed in the hyperlink itself.)
+
+. *_Optional:_*  Select ‘Send selections as parameters’ to send the values of any Dashboard Filter components (Selection Lists, Range Sliders, etc.) to the target report or Dashboard. These values are passed into parameters in the target report or Dashboard that have the same name as the Filter component, as shown below:
++
+.Send selections as parameters
+[example]
+====
+* A *Selection List* named “SelectionList1” passes selected values into an array called `SelectionList1`.
+* A *Selection Tree* named “SelectionTree1” passes the selected values into an array called `SelectionTree1`.
+* Selections at inner levels of a *tree hierarchy* are prepended with their parent labels and a caret (^) symbol, e.g., `Northeast\^Massachusetts^Boston`.
+* A *Calendar* named “Calendar1” passes a list of starting dates and ending dates into arrays `Calendar1_dateStart` and `Calendar1_dateEnd`.
+* A *Range Slider* named “RangeSlider1” passes the selected start date and end date into variables called `RangeSlider1_start` and `RangeSlider1_end`.
+====
+
+. Press btn:[OK] to complete the hyperlink configuration.
++
+image:Hyperlink Dialog Example.png[]
+
+For this example, clicking one of the hyperlinks will now launch the ‘OrderList’ report in a new browser window, and the ‘OrderList’ report will display _only_ the orders for the specific company the user clicked.
+
+[#HyperlinkWebPage]
+=== Hyperlink to a Web Page
+
+This example shows how you can use a hyperlink to target a URL, such as `www.google.com/search`.
+
+. In the ‘Hyperlink’ dialog box, press the ‘Web Link’ radio button.
+
+. In the ‘Link’ field, enter the URL of the hyperlink destination with parameters omitted. For example, if you want the hyperlink to pass a value as parameter to the Google search engine, the ‘Link’ field should specify `https://www.google.com/search`.
++
+TIP: You can also specify a *table column* to provide the URL links by selecting the desired column from the ‘Link’ menu.
+
+. Optional: Enter a *tooltip* in the ‘Tooltip’ field.  (In the example we use “View company information” as the tooltip.)
++
+TIP: The tooltip is displayed when the end-user hovers the mouse over a hyperlink. If there are multiple hyperlinks for a given attribute (which may be due to auto-drills added at the model level or query level), the tooltip is displayed when the end-user hovers the mouse over the name of the hyperlink in the menu of hyperlink options.
+
+. If you want the target web page to be displayed in a particular browser window, enter the name of the desired window in the ‘Target Frame’ field. (The specified name becomes the DOM ‘name’ attribute.) To open the target web page in the User Portal frame, select the ‘Self’ checkbox.
++
+NOTE: The 'Self' setting is not applied during preview in Visual Composer.
+
+. Press the btn:[Add] button. This opens the ‘Parameter’ dialog box.
+
+. Enter `q` in the ‘Parameter Name’ field. This name will be the parameter name used in the URL that is automatically constructed. (The parameter name `q` is the parameter name expected by the Google search engine, which is the target website specified in the ‘Link’ field for this example.)
+
+. Select ‘Company’ from the ‘Value for Parameter’ menu.
++
+image:Hyperlink Web 3.png[]
+
+. Press btn:[OK] to close the ‘Parameter’ dialog box.
+
+. Repeat the above steps to add additional parameters.
+
+. The final configuration of the ‘Hyperlink’ dialog box is shown below.
++
+image:Hyperlink Web 4.png[]
+
+. Press btn:[OK] to close the ‘Hyperlink’ dialog box.
+
+The hyperlinks constructed  will in general have the form
+
+ https://remotehost?param1=value1&param2=value2&param3=value3
+
+where `param1`, `param2`, `param3` are the parameter names specified in the ‘Hyperlink’ window, and `value1`, `value2`, `value3` are the values of the attributes selected in the ‘Value’ panel.
+
+== Drill  with a Flyover
+A _flyover view_ filters the information displayed in selected Dashboard components when the user moves the mouse over (or clicks on) particular regions of a chart, table, or crosstab. This effectively allows a Chart, Table, or Crosstab to behave as a selection element. Flyover is similar to a *data tip* (see xref:AddTipsToChart.adoc[]), except that the filtered components remain in their original positions (rather than following the mouse).
+
+For example, you may want the Table below to display sales only for the particular product(s) that the user selects on the Chart. A flyover view allows the user to hover the pointer over the Chart to filter the table as desired.
+
+image:Flyover Final.png[]
+
+The filtered flyover component and the component that triggers the flyover can be based on the same data block or on different data blocks. In the latter case, the flyover component is filtered based on any matching fields in the two data blocks.
+
+.Walkthrough: Flyover View
+****
+In this example, you will create a chart that displays quantity purchased by company. When the user hovers over (or clicks) a given company on the chart, this will automatically filter an associated Table and Gauge to display data for only that company.
+
+. Create a new Dashboard based on the ‘Sales Explore’ Data Worksheet.
+include::ROOT:partial$CreateNewWorksheetNote.adoc[]
++
+include::ROOT:partial$SalesExploreWorksheet.adoc[]
+
+. Drag a Gauge from the *Toolbox* panel into the Dashboard. Configure the Gauge to display the average quantity purchased. Follow these steps:
+
+.. From the ‘Sales’ data block (top of the *Toolbox* panel), drag the ‘Quantity Purchased’ field onto the Gauge. This binds the Gauge to the data block.
+
+.. Right-click the Gauge, and select ‘Properties’ from the context menu. {rightClickOptions} This opens the ‘Gauge Properties’ panel.
+
+.. Under the *General* tab, change the ‘Name’ property to “QuantityGauge”.
+
+.. Set the following limits: ‘Maximum’=200, ‘Minor Increment’=10, ‘Major Increment’=25.
+
+.. Under the *Data* tab, select ‘Count’ from  the ‘Aggregate’ menu. This will display the number of records (orders) for each company.
+
+.. Press btn:[OK] to close the ‘Gauge Properties’ panel.
+
+. Drag a Table component onto the Dashboard. Follow the steps below to configure the Table:
+
+.. In the ‘Sales’ data block (top of the *Toolbox* panel), select the following fields: ‘Category’, ‘Company’, ‘Name’.
+
+.. Drag the selected fields onto the Table component. This adds the three columns to the Table. Resize the Table as desired.
++
+image:Flyover Table Gauge.png[]
+
+.. Right-click the Table, and select ‘Properties’ from the context menu. {rightClickOptions} This opens the ‘Table Properties’ panel.
+
+.. Under the *General* tab, change the ‘Name’ property to “CompanyTable”.
+
+.. Under the *Advanced* tab, select ‘Shrink to Fit’. This automatically sizes the table to the number of records displayed.
+
+.. Press btn:[OK] to close the dialog box.
+
+. Drag a Chart element onto the Dashboard. Press the {buttonEdit} in the Chart mini-toolbar to open the Visualization Recommender. Press the {buttonFullEditor} at the top right of the Recommender to bypass the Recommender and open the Chart Editor.
+
+. Make the following selections:
+
+.. From the ‘Dimensions’ node, drag the ‘Company’ dimension to the ‘X’ region.
+
+.. From the ‘Measures’ node, drag the ‘Quantity Purchased’ measure to the ‘Y’ region. This creates a chart that displays quantity purchased for each company.
+
+.. Press the {buttonEditDimension}, and use the ‘Ranking’ option to display only the top 10 companies. Press the {buttonApply}.
++
+image:Chart Data Tip Top 10_2.png[]
+
+.. {finishEditing}
+
+.. Resize the chart as desired.
++
+image:Chart w Data Tip_2.png[]
+
+. Right-click the Chart, and select ‘Properties’ from the context menu. {rightClickOptions} This opens the ‘Chart Properties’ panel.
+
+.. Select the *General* tab.
+
+.. In the ‘Flyover’ panel, click to select the two available components: ‘CompanyTable’ and ‘QuantityGauge’.
++
+image:Flyover List.png[]
+
+.. *_Optional:_* Select ‘On Click Only’ if you want the filtered components (‘CompanyTable’ and ‘QuantityGauge’) to update only when the user clicks on the chart. Otherwise, the components will update whenever the user hovers the mouse over the chart.
+
+.. Press btn:[OK] to close the ‘Chart Properties’ panel.
++
+NOTE: Data tips are not active in the design view. Preview the Dashboard to see them.
+
+. Press the {buttonPreview} to preview the Dashboard, and hover the mouse (or click) over different companies (data or axis labels) in the Chart. Observe that both the Table and Gauge are filtered to display only the corresponding data.
++
+image:Flyover Final.png[]
+
+. To lock the selection to a particular company (or set of companies), click on the Chart to select the desired company (or hold the {buttonCtrl} key  and click to select a set of companies). This will lock the filter in place until the selection is removed.
+
+NOTE: You can use a single component in both a  data tip (see xref:AddTipsToChart.adoc[]) and a flyover view. If you designate a data tip component for flyover duty, the component always remains visible on the Dashboard.
+
+
+****
+
+
+.Explore More...
+****
+The sample xref:ROOT:attachment$Executive_Sales_Summary.zip[Executive Sales Summary] Dashboard provides an example of a flyover filter.
+
+image:viewsheet:galleryDataTip2.png[]
+
+To explore this sample Dashboard, download and import the  xref:ROOT:attachment$Executive_Sales_Summary.zip[Executive Sales Summary] Dashboard into your environment. (This requires access to Enterprise Manager.) See xref:administration:ImportExportAssets.adoc[] for instructions on how to import.
+****
+
+== Drill Down and Filter
+When a Chart or Crosstab displays data with a defined hierarchy in the *Hierarchy* tab (see xref:ChartProperties.adoc[] and xref:CrosstabProperties.adoc[]), you may want to simultaneously drill and filter the data. For example, if the Chart or Crosstab displays sales totals by product category, you may want to drill down into a particular category and view the totals for the individual products in that specific category.
+
+NOTE: This is different than the operations described in xref:#DrillThroughChart[] and xref:#DrillThroughCrosstab[] above, which drill to the next level of hierarchy but *do not* filter.
+
+If you have configured a ‘Category’ > ‘Product’ hierarchy for a Chart, then you can drill and filter by following the steps below:
+
+. Select the ‘Category’ group(s) on the chart that you want to drill and filter.
++
+include::viewsheet:partial$selectChartData.adoc[]
++
+image:DrillAndFilter1.png[]
+
+. Press the {buttonDrillDownFilter} in the Chart toolbar.
++
+image:DrillAndFilter2.png[]
++
+This drills to the ‘Product’ level and filters the Chart to display only the data in the selected ‘Category’. A drill icon indicates that a drill is in effect.
++
+image:DrillAndFilter3.png[]
++
+IMPORTANT: All other Dashboard components that display this dataset will also be filtered. In this respect, the {buttonDrillDownFilter} behaves like a Filter component (Selection List, etc.).
+
+. To reverse the drill and filter operation, select a group on the Chart, and then press the {buttonDrillUpFilter} in the Chart toolbar.
++
+image:DrillAndFilter4.png[]

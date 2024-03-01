@@ -61,9 +61,8 @@ image:wizard7.png[]
 +
 image:wizard5.png[]
 +
-include::ROOT:partial$dimensionTip.adoc[]
-+
-include::ROOT:partial$measureTip.adoc[]
+include::ROOT:partial$measureAndDimensionTip.adoc[]
+
 
 .. To change the formatting for a numerical-type field or a date-type field, press the {buttonFormatWizard} and select the desired format. (See xref:DataFormat.adoc[] for more information about the available format options.)
 +
@@ -88,9 +87,8 @@ image:wizard7.png[]
 +
 image:wizard5.png[]
 +
-include::ROOT:partial$dimensionTip.adoc[]
-+
-include::ROOT:partial$measureTip.adoc[]
+include::ROOT:partial$measureAndDimensionTip.adoc[]
+
 
 .. To change the formatting for a numerical-type field or a date-type field, press the {buttonFormatWizard} and select the desired format. (See xref:DataFormat.adoc[] for more information about the available format options.)
 +
@@ -113,9 +111,7 @@ NOTE: After you make modifications to the crosstab using the full Crosstab Edito
 +
 image:wizard10.png[]
 +
-include::ROOT:partial$dimensionTip.adoc[]
-+
-include::ROOT:partial$measureTip.adoc[]
+include::ROOT:partial$measureAndDimensionTip.adoc[]
 
 .. To change the formatting for a numerical-type field or a date-type field, press the {buttonFormatWizard} and select the desired format. (See xref:DataFormat.adoc[] for more information about the available format options.)
 +
@@ -160,9 +156,8 @@ image:wizard14.png[]
 +
 image:wizard15.png[]
 +
-include::ROOT:partial$dimensionTip.adoc[]
-+
-include::ROOT:partial$measureTip.adoc[]
+include::ROOT:partial$measureAndDimensionTip.adoc[]
+
 
 .. *_Optional:_* For a Slider-type filter, enter a ‘Description’. For the Selection List or Selection Tree-type filter, double-click the header to edit the label.
 

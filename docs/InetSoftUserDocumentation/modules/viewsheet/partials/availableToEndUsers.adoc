@@ -1,2 +1,2 @@
 [WARNING,caption=end user]
-This feature is available to both designers and end-users.
+These features are available to both designers and end-users.

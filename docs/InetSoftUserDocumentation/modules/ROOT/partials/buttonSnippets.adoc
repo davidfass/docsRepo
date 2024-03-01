@@ -136,8 +136,33 @@
 :buttonFormat: ‘Format’ button image:ROOT:buttons/format.svg[role=button]
 :buttonTableStyle: ‘Table Style’ button image:ROOT:buttons/color-fill.svg[role=button]
 :buttonExport: ‘Export’  button image:ROOT:buttons/export.svg[role=button]
-
-
+:buttonDrillDownFilter: ‘Drill Down Filter’ button image:ROOT:buttons/drill-down.svg[role=button]
+:buttonDrillUpFilter: ‘Drill Up Filter’ button image:ROOT:buttons/drill-up.svg[role=button]
+:buttonPreview: ‘Preview’ button image:ROOT:buttons/preview.svg[role=button]
+:buttonExpand: ‘Expand’ button image:ROOT:buttons/plus-box-outline.svg[role=button]
+:buttonSwitchToYearView: ‘Switch to Year View’ button image:ROOT:buttons/calendar-minus.svg[role=button]
+:buttonSwitchToMonthView: ‘Switch to Month View’ button image:ROOT:buttons/calendar-plus.svg[role=button]
+:buttonSwitchToSimpleView: ‘Switch to Simple View’ button image:ROOT:buttons/calendar.svg[role=button]
+:buttonSwitchToRange: ‘Switch to Range’ button image:ROOT:buttons/calendar-double.svg[role=button]
+:buttonClearCalendar: ‘Clear Calender’ button image:ROOT:buttons/eraser.svg[24,24,role=button]
+:buttonAddFilter: ‘Add Filter’ button image:ROOT:buttons/add.svg[role=button]
+:buttonShow: ‘Show’ button image:ROOT:buttons/downward.svg[role=button]
+:buttonHide: ‘Hide’ button image:ROOT:buttons/upward.svg[role=button]
+:buttonUnselectAll: ‘Unselect All’ button image:ROOT:buttons/eraser.svg[24,24,role=button]
+:buttonAddArrow: ‘Add’ button image:ROOT:buttons/forward.svg[role=button]
+:buttonSelectionListSelectedAuto: Included image:ROOT:buttons/selected-auto.svg[role=button]
+:buttonSelectionListSelected: Selected image:ROOT:buttons/selected.svg[role=button]
+:buttonSelectionListNotIncluded: Not included image:ROOT:buttons/selected-gray.svg[role=button]
+:buttonSelectionListEmpty: Unselected image:ROOT:buttons/select-empty.svg[role=button]
+:buttonSelectionListExcluded: Excluded image:ROOT:buttons/close.svg[role=button]
+:buttonChartShowEnlarged: ‘Show Enlarged’  button image:ROOT:buttons/expand.svg[role=button]
+:buttonChartShowActualSize: ‘Show Actual Size’ button image:ROOT:buttons/contract.svg[role=button]
+:buttonReverse: ‘Reverse’ button image:ROOT:buttons/selection-swap.svg[role=button]
+:buttonUnselect: ‘Unselect’ button image:ROOT:buttons/eraser.svg[24,24,role=button]
+:buttonLastYear: ‘Last Year’ image:ROOT:buttons/backward-fast.svg[role=button]
+:buttonNextYear: ‘Next Year’ image:ROOT:buttons/forward-fast.svg[role=button]
+:buttonLastMonth: ‘Last Month’ image:ROOT:buttons/backward.svg[role=button]
+:buttonNextMonth: ‘Next Month’ image:ROOT:buttons/forward.svg[role=button]
 
 
 // Macros
@@ -145,6 +170,7 @@
 :buttonEMAdd: btn:[Add]
 :buttonCtrl: kbd:[Ctrl]
 :buttonShift: kbd:[Shift]
+:buttonAlt: kbd:[Alt]
 
 // Short snippets
 :rightClickOptions:  Note: You can also access menu options from the {buttonMore} in the mini-toolbar.
@@ -158,6 +184,7 @@
 :addDimensionsUsingVisual: See xref:viewsheet:BasicChartingSteps.adoc[] for information on how to add dimensions using color, shape, or size representation.
 :addMeasuresUsingVisual: See xref:viewsheet:BasicChartingSteps.adoc[] for information on how to add measures using color, shape, or size representation.
 :dateCompareDetails: Hover the pointer over {buttonDateCompare} in the top left or right corner of the Chart or Crosstab to display the comparison details. Press the {buttonDateCompare} to reopen the ‘Date Comparison’ dialog box.
+:EMPropertyConfig: See xref:administration:AllProperties.adoc[] for information on how to set properties.
 
 
 

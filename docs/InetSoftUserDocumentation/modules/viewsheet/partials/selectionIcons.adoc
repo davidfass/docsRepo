@@ -1,0 +1,14 @@
+The  list below explains the five icons used in Selection Lists and Selection Trees:
+
+.Selection Icons
+****
+{buttonSelectionListSelected}:: *Data selected and included.* The user has explicitly selected this item, and the corresponding records are included in the returned data set.
+
+{buttonSelectionListNotIncluded}:: *Data selected but not included*. The user has explicitly selected this item, but more recent explicit selections in other Selection Lists have now made this selection incompatible. The corresponding data is therefore _not_ included in the returned data set.
+
+{buttonSelectionListSelectedAuto}:: *Data included but not selected.* The user has not explicitly selected this item, but has made other selections that _implicitly_ select this item as well. The corresponding records are included in the returned data set (as a result of those other selections).  To explicitly select all of the “included” items, right-click on the Selection List and choose ‘Select All’ from the context menu. {rightClickOptions}
+
+{buttonSelectionListEmpty}:: *Data compatible but not included*. The user has not explicitly selected this item, and the item remains _compatible_ with existing user selections. This item can therefore be selected to add additional records to the returned data set.
+
+{buttonSelectionListExcluded}:: *Data incompatible*. The user has not explicitly selected this item, and this item is _incompatible_ with existing selections. (It appears listed under ‘Others’). Selecting this _clears_ all other selections and starts fresh.
+****

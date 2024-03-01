@@ -95,6 +95,8 @@
 
 ** xref:viewsheet:FilterDashboard.adoc[]
 *** xref:viewsheet:AddFilterComponents.adoc[]
+*** xref:viewsheet:UseFilterComponents.adoc[]
+
 *** xref:viewsheet:AddConditions.adoc[]
 
 ** xref:viewsheet:SortData.adoc[]
@@ -108,6 +110,8 @@
 *** xref:viewsheet:ConditionalFormat.adoc[]
 *** xref:viewsheet:AddTextOrHTML.adoc[]
 *** xref:viewsheet:AddBackground.adoc[]
+*** xref:viewsheet:AddTipsToChart.adoc[]
+
 ** xref:viewsheet:DynamicallySetProperties.adoc[]
 
 ** xref:viewsheet:DashboardReference.adoc[]
@@ -122,6 +126,7 @@
 *** xref:viewsheet:ImageProperties.adoc[]
 *** xref:viewsheet:SelectionListProperties.adoc[]
 *** xref:viewsheet:SelectionTreeProperties.adoc[]
+*** xref:viewsheet:SelectionContainerProperties.adoc[]
 *** xref:viewsheet:RangeSliderProperties.adoc[]
 *** xref:viewsheet:TextProperties.adoc[]
 *** xref:viewsheet:CrosstabProperties.adoc[]
@@ -136,6 +141,7 @@
 
 
 ** xref:viewsheetscript:AdvancedDashboardScripting.adoc[]
+*** xref:viewsheetscript:parameter.adoc[]
 *** xref:viewsheetscript:RunQueryFromScript.adoc[]
 *** xref:viewsheetscript:ReferenceDataSourceData.adoc[]
 *** xref:viewsheetscript:ReferenceTableData.adoc[]
@@ -182,7 +188,7 @@
 *** xref:administration:ManageDriversPlugins.adoc[]
 ** xref:administration:MaterializedView.adoc[]
 *** xref:administration:IncrementalUpdate.adoc[]
-
+** xref:administration:AllProperties.adoc[]
 * xref:GeneralScriptFunctions:UserFunctions.adoc[]
 ** xref:GeneralScriptFunctions:CalcObjectFunctions.adoc[]
 
