@@ -155,9 +155,11 @@ include::ROOT:partial$filterOperators.adoc[]
 image:filtering4.png[]
 
 . Press btn:[Append] to add the condition.
-. *_Optional:_* To create a compound condition, repeat the above steps to specify another condition clause, select ‘and’ or ‘or’, and press btn:[Insert]. This adds the additional clause into the composite condition.
+. *_Optional:_* To create a compound condition, repeat the above steps to specify another condition clause, select ‘and’ or ‘or’, and press btn:[Insert]. This adds the additional clause into the composite condition.  See below.
 +
 image:filterAggregate2.png[]
+
+
 
 . *_Optional:_* Repeat the above steps to add additional clauses into the condition.
 . *_Optional:_* To specify the order of evaluation for a compound condition, use the btn:[Indent] and btn:[Unindent] buttons. To indent a set of clauses, select the ‘and’ or ‘or’ operator the condition box, and then press btn:[Indent]. Use btn:[Unindent] to reverse indentation.

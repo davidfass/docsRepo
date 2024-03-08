@@ -1,4 +1,4 @@
-= Add a Freehand Table
+= Create a Freehand Table
 %experimental%
 include::ROOT:partial$buttonSnippets.adoc[]
 

@@ -4,7 +4,11 @@ include::ROOT:partial$buttonSnippets.adoc[]
 
 Some Dashboards require a large number of elements, and would be complex to design using just a single Dashboard. In such cases, it is often easier to use a _modular_ design, and build the final Dashboard from a set of simpler Dashboards. Each of the simple Dashboards might contain just a few controls, and provide specific functionality to the composite Dashboard.
 
-Modular designs offer benefits in terms of reusability, and  simplify maintenance. When you use a Dashboard in multiple composite Dashboards, you can update all the composite Dashboards simultaneously by making changes centrally to the shared module.
+Modular designs offer several benefits:
+
+* *Simplification*: Small Dashboard modules are easier to build, and construction of different modules can be assigned to different developers. "`Keep it simple.`"
+* *Reusability*: Once you create a Dashboard module, you can use it within any number of larger Dashboards.  "`Build once, deploy many.`"
+* *Maintainability*. When you use a Dashboard module in multiple composite Dashboards, you can update all the  Dashboards simultaneously by making changes only to the shared module. "`Don't repeat yourself.`"
 
 To create a composite Dashboard, simply nest a set of simple Dashboards within a parent Dashboard. The following sections explain how to do this, and how to synchronize the nested Dashboards to work as a unified whole.
 
@@ -19,14 +23,15 @@ To embed or nest one Dashboard within another Dashboard, follow these steps:
 . Open the *Asset* panel on the left side of the Visual Composer to display the *Asset* tree.
 . Drag and drop the common Dashboard (saved in Step 2) from the Repository into the host Dashboard.
 
-The common Dashboard is now embedded within the host Dashboard, and all the components marked ‘Visible in External Dashboards’ within the common Dashboard are displayed. To synchronize selection and form components within two (or more) Dashboards, see below.
+The common Dashboard is now embedded within the host Dashboard, and all the components marked ‘Visible in External Dashboards’ within the common Dashboard are displayed. To synchronize selection and form components within two (or more) Dashboards, see xref:#SynchronizingDashboardFilters[] below.
 
 To open an embedded Dashboard for editing, move the mouse over the embedded area in the host Dashboard, and then click the Dashboard icon in the upper left corner of the area.
 
 image:viewsheet:Embedded Viewsheet Button.png[]
 
-This feature is also available to end-users who view the host Dashboard in the Portal if there is at least one hidden element in the embedded Dashboard. (See xref:viewsheet:GeneralTab.adoc[] for more information about hiding components.)
+NOTE: This feature is also available to end-users who view the host Dashboard in the Portal if there is at least one hidden element in the embedded Dashboard. (See xref:viewsheet:GeneralTab.adoc[] for more information about hiding components.)
 
+[#SynchronizingDashboardFilters]
 == Synchronizing Dashboard Filters
 You can _synchronize_ selection and form components within a Dashboard  or across multiple Dashboards so that a selection in one component is automatically propagated to other compatible components. This is called _sharing filters_. The following selection and form components can be synchronized as shared filters:
 

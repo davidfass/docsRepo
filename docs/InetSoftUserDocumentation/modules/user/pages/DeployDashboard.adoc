@@ -1,1 +1,117 @@
 = Deploy a Dashboard
+%experimental%
+include::ROOT:partial$buttonSnippets.adoc[]
+
+You can arrange the Portal Dashboards displayed by the {buttonDashboard} of the User Portal, and add your own Dashboards under this button.
+
+image:user:Opening Sample Viewsheet2.png[]
+
+== Deploy a New Dashboard
+
+To deploy a Dashboard, follow the steps below:
+
+. Press {buttonDashboard} the  in the User Portal.
+
+. Press the {buttonDashboardConfiguration}, and select the  {buttonAdd} option.
++
+image:user:Dashboard Button.png[]
++
+This opens the ‘New Dashboard’ dialog box.
++
+image:user:newDashboard.png[]
+
+. In the ‘Dashboard Name’ field, enter a name for the new Dashboard. This name will be displayed on the Dashboard’s tab in the Portal.
+
+. *_Optional:_*  Enter a description for the Dashboard in the ‘Description’ field. This description is only visible when the Dashboard is being edited.
+
+. Select a *single  Dashboard* from the Repository to be the Portal Dashboard, or compose the Portal Dashboard by combining *several  Dashboards*. Follow the  steps below:
++
+.Deploy a Single Dashboard
+****
+Follow the steps below:
+
+.. Choose the desired Dashboard from the ‘Select Dashboard’ list.
++
+image:Edit Dashboard User VS.png[]
+
+.. Press btn:[OK]. This deploys the Dashboard as a Portal Dashboard.
++
+image:user:My Viewsheet Dashboard.png[]
+****
++
+.Compose a  Portal Dashboard
+****
+Follow the steps below:
+
+
+
+.. Select the ‘Compose Dashboard’ option at the bottom of the ‘New Dashboard’ dialog box.
++
+image:user:Edit Dashboard User VS2.png[]
+
+.. Press btn:[OK]. This opens  Visual Composer.
++
+[WARNING,caption=see also]
+====
+xref:ModularizeDashboard.adoc[]  for  information on how to create  composite  Dashboards in Visual Composer.
+====
+
+.. Drag a Dashboard from the left panel into the right panel.
++
+image:user:Composite Dashboard.png[]
+
+.. Click and drag on the Dashboard’s “move” handle to position the Dashboard in the Portal Dashboard.
++
+image:user:Composite Dashboard2.png[]
+
+.. Repeat the above steps to add and position additional Dashboards in the Portal Dashboard.
+
+.. Press the {buttonSave} in the Visual Composer toolbar to save the Portal Dashboard.
+
+.. Close the Visual Composer tab in the browser.
+
+The new Portal Dashboard is now deployed as a tab in the Portal.
+
+image:user:Composite Dashboard3.png[]
+****
+
+== Edit a Portal Dashboard
+To edit an existing Portal Dashboard, follow the steps below:
+
+. Press  the {buttonDashboard} in the User Portal.
+
+. Open the desired Portal Dashboard by selecting the corresponding tab.
+
+. Press the {buttonDashboardConfiguration}, and select the {buttonEditAction} option.
++
+image:user:Edit Dashboard User.png[]
++
+This opens the ‘Edit Dashboard’ dialog box, which is the same as the ‘New Dashboard’ dialog box described above. Follow the instructions above to make the desired edits to the Dashboard name and description, or to select a new Dashboard to display.
+
+== Delete a Portal Dashboard
+To delete an existing Portal Dashboard, follow the steps below:
+
+. Press the {buttonDashboard} in the User Portal.
+
+. Open the desired Portal Dashboard by selecting the corresponding tab.
+
+. Press the {buttonDashboardConfiguration} , and select the {buttonDeleteAction} option.
++
+image:user:deleteDashboard.png[]
+
+== Reposition a Portal Dashboard
+To reposition an existing Portal Dashboard, follow the steps below:
+
+. Press the {buttonDashboard} in the User Portal.
+
+. Open the desired Portal Dashboard by selecting the corresponding tab.
+
+. Press the {buttonDashboardConfiguration}, and select the {buttonArrangeAction}  option. This opens the ‘Arrange Dashboards’ dialog box.
++
+image:user:arrangeDashboard.png[]
+
+. Press the ‘up’ or ‘down’ arrow in the ‘Arrange Order’ column to alter the Dashboard’s position in the sequence of Portal tabs. Uncheck the ‘Enable’ option to hide the Dashboard’s tab.
++
+image:user:arrangeDashboard2.png[]
+
+. Press btn:[OK] to close the dialog box.

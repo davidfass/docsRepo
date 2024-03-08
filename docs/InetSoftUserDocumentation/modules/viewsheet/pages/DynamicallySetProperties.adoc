@@ -2,93 +2,96 @@
 %experimetal%
 include::ROOT:partial$buttonSnippets.adoc[]
 
-Every component in a Dashboard has certain properties that can be made “dynamic,” or dependent on other components. These properties can be set either by an form component or by a logical expression. For example, you can use a radio button to specify the Y-axis field in a chart, or use an expression to add highlights to cells of a table.
+Every component in a Dashboard has certain properties that can be made *_dynamic_*, or dependent on other components. These properties can be set either by a Form component or by a scripted expression. For example, you can use a RadioButton to specify the Y-axis field in a Chart, or use a logical expression to specify the highlight (conditional format) on cells of a Table.
 
-The following sections explain how you can use form controls to parameterize component formatting and data presentation, as well as data filtering. By associating a form control such as a RadioButton or ComboBox with the property setting for a component, you allow the user to adjust that setting by manipulating the corresponding control.
+The following sections explain how you can use Form controls and expressions to parameterize component formatting and data presentation, as well as data filtering.
 
 == Control Properties with Form components
 To parametrize a component property using a Form component, follow these steps:
 
 . Create and configure the Form component. Follow the steps below:
-.. Add the desired form control (RadioButton, CheckBox, etc.) to the Dashboard.
-.. Right-click the form component, and select ‘Properties’ from the context menu. {rightClickOptions} This opens the ‘Properties’ panel for the Form component.
-.. Under the *General* tab, use the ‘Name’ field to assign the form component a meaningful name. This is the name used to refer to the component.
+.. Add the desired Form control (RadioButton, CheckBox, etc.) to the Dashboard.
+.. Right-click the Form component, and select ‘Properties’ from the context menu. {rightClickOptions} This opens the ‘Properties’ panel for the Form component.
+.. Under the *General* tab, use the ‘Name’ field to assign the Form component a meaningful name. This is the name that will be used to refer to the component.
 .. Specify the ‘List Values’ for the form component by manually entering ‘Embedded’ values or by specifying a ‘Query’ to provide the values. (See xref:SliderSpinnerProperties.adoc[] and xref:RadioCheckBoxComboProperties.adoc[] for further details.)
 .. Press btn:[OK] to close the ‘Properties’ dialog box.
-. Link the form control to the component property you want to manipulate. Follow the steps below:
+. Link the Form control to the component property you want to manipulate. Follow the steps below:
 .. Right-click the component you want to control, and select ‘Properties’ from the context menu. {rightClickOptions} This opens the ‘Properties’ panel for the controlled component.
 
-.. Locate the property that you wish to control, press the {buttonValueType} and select ‘Variable’.
+.. Locate the property that you wish to control, press the {buttonValueType}, and select ‘Variable’.
 +
 image:Variable Select Popup.png[]
 +
-NOTE: You can specify a form control for any property that offers the ‘Variable’ option.
+NOTE: You can specify a Form control for any property that offers the ‘Variable’ option.
 
-.. From the pop-up menu, select the form component that should control the property.
+.. From the pop-up menu, select the Form component that you want to control the property.
 +
 image:Variable Selection.png[]
 +
 [IMPORTANT]
 ====
-When you link a Form component with a component property, you should ensure that the form control evaluates to a permissible value for the particular property. There are three main cases.
+When you link a Form component with a component property, you should ensure that the Form control evaluates to a permissible value for the particular property. There are three main cases:
 
 * *Property Requires a Numerical Value*: If a property requires a numerical value, the Form component should provide an appropriate numerical value. For example, the ‘Ranking’ property in the Chart data binding (shown below) requires an integer value. An appropriate control for this property would therefore be a Spinner with ‘Increment’ property set to an integer value.
 +
 image:Ranking Variable.png[]
-* *Property Requires a Boolean Value*: If a property has a ‘True’ or ‘False’ setting, the Form component should provide a Boolean value. For example, the ‘Enabled’ property expects a Boolean value ‘true’ or ‘false’. An appropriate control for this property would therefore be a RadioButton with embedded list values {true, false}, and with ‘Data Type’ set to ‘Boolean’.
+* *Property Requires a Boolean Value*: If a property has a ‘True’ or ‘False’ setting, the Form component should provide a Boolean value. For example, the ‘Enabled’ property expects a Boolean value `true` or `false`. An appropriate control for this property would therefore be a RadioButton with embedded list values {`true`,`false`}, and with ‘Data Type’ set to ‘Boolean’.
 * *Property Requires a String Value*: If a property requires one of a fixed set of strings, the Form component should provide a string from the set. For example, the ‘Visible’ property requires one of the strings ‘Show’, ‘Hide’, or ‘Hide on Print and Export’. The Form component must therefore return one of these strings. An appropriate control for this property would therefore be a RadioButton with embedded list values {‘Show’, ‘Hide’, ‘Hide on Print and Export’}, and with ‘Data Type’ set to ‘String’.
 ====
 
 .. Press btn:[OK] to close the ‘Properties’ dialog box for the controlled component.
 
-The specified form control will now provide the value of the selected property.
+The specified Form control will now control the setting of the selected property.
 
-.Example: Using Form Component to Control a Property
+.Example: Use a RadioButton to Control a Property
 ****
-In this example, you will add a RadioButton that allows the user to set the Y-axis field of a chart to either ‘Quantity Purchased’ or ‘Total Revenue’.
+In this example, you will add a RadioButton that allows the user to set the Y-axis field of a Chart to either ‘Quantity Purchased’ or ‘Total Revenue’.
 
 . Create a new Dashboard based on the ‘ProductSales’ Data Worksheet.
 include::ROOT:partial$CreateNewWorksheetNote.adoc[]
 +
 include::ROOT:partial$ProductSalesWorksheet.adoc[]
 
-. Add a Radio Button to the Dashboard, with two embedded values (‘Quantity Purchased’ and ‘Total’).
-. Add a Chart to the Dashboard, and open the Chart Editor. (See xref:AddAChart.adoc[].) Add the ‘State’ field from the ‘SalesByDate’ data block to the X-axis and the ‘Quantity Purchased’ field as the Y-axis.
+. Add a RadioButton to the Dashboard, with two embedded values, ‘Quantity Purchased’ and ‘Total’. (See xref:RadioCheckBoxComboProperties.adoc[] for information on how to set the embedded list.)
+
+. Add a Chart to the Dashboard, and open the Chart Editor. (See xref:AddAChart.adoc[] for information on how to do this.) Add the ‘State’ field from the ‘SalesByDate’ data block to the X-axis and the ‘Quantity Purchased’ field to the Y-axis.
+
 . Press the {buttonValueType} next to ‘Quantity Purchased’, and choose the ‘Variable’ option. The menu displays the available variable names.
 +
 image:Crosstab Select Variable.png[]
 
 . From the list of variables, choose `$(RadioButton)`.
-. Now press the radio buttons. Note that the chart displays the Y-axis field that you choose using the radio button control.
+
+. Now press the radio buttons in the RadioButton component. Note that the Chart displays the Y-axis field that you choose using the RadioButton control.
 +
 image:Capture_006.png[]
 ****
 
-== Control Filter Conditions with Form Components
-Form components allow a user to manipulate a filter or highlight condition applied to a data view component (Chart, Table, Crosstab).
+== Control  Conditions with Form Components
+Form components allow a user to manipulate a filter or highlight Condition applied to a Data View component (Chart, Table, Crosstab).
 
 [IMPORTANT]
 ====
-It is important to understand the distinction between Form components and Filter components:
+Before you use a Form component to control filtering, you should  understand the distinction between Form components and Filter components:
 
 Form components (Combo Box, Radio Button, etc.)::
 * Allow the user to dynamically control properties of Dashboard components.
 * Allow the user to pass user input to an Embedded Table or Variable in an underlying Data Worksheet.
-Filter components (Selection List, Calendar, etc.):: Allow the user to dynamically restrict the data displayed in Charts, Tables, Text, and Gauges so that the user can visualize  the data in different ways.
+Filter components (Selection List, Calendar, etc.):: Allow the user to dynamically filter the data displayed in Charts, Tables, Text, and Gauges so that the user can visualize  the data in different ways.
 
-Although you can use a Form component to achieve dynamic filtering  in the Dashboard (as shown below) or in a Data Worksheet (see xref:dataworksheet:FilterData.adoc[] in xref:dataworksheet:PrepareYourData.adoc[]), in most cases you should perform filtering operations by using the available Filter components. See xref:FilterDashboard.adoc[] for more information.
+Although you can use a Form component to achieve dynamic filtering  in the Dashboard (as shown below) or in a Data Worksheet (see xref:dataworksheet:FilterData.adoc[] in xref:dataworksheet:PrepareYourData.adoc[]), *_in most cases_* you should perform filtering operations by using the available Filter components. See xref:FilterDashboard.adoc[] for more information.
 ====
 
-To control a condition using a Form component, follow these steps:
+To control a Condition using a Form component, follow these steps:
 
-. Create and configure the Form component, following the steps below:
+. Create and configure the Form component. Follow the steps below:
 .. Add the desired Form component (RadioButton, CheckBox, etc.) to the Dashboard.
 .. Right-click the Form component, and select ‘Properties’ from the context menu. {rightClickOptions} This opens the ‘Properties’ panel for the Form component.
 .. Under the *General* tab, use the ‘Name’ field to assign the Form component a meaningful name. This will be the name used to refer to the component.
 .. Specify the ‘List Values’ for the form component by manually entering ‘Embedded’ values or by specifying a ‘Query’ to provide the values. (See xref:SliderSpinnerProperties.adoc[] and xref:RadioCheckBoxComboProperties.adoc[] for further details.)
 .. Press btn:[OK] to close the Form component ‘Properties’ dialog box.
-. Link the Form component to the filter condition or highlight condition of the data view component that you want the user to manipulate. Follow the steps below:
-.. Right-click the data view component you wish to highlight or filter, and select ‘Highlight’ or ‘Condition’ (as desired) from the context menu. {rightClickOptions} This opens the ‘Highlight’ or ‘Condition’ panel for the component.
+. Link the Form component to the filter condition or highlight condition of the Data View component that you want the user to manipulate. Follow the steps below:
+.. Right-click the Data View component (Chart, Table, etc.) you wish to highlight or filter, and select ‘Highlight’ or ‘Condition’ (as desired) from the context menu. {rightClickOptions} This opens the ‘Highlight’ or ‘Condition’ panel for the component.
 .. Create the left side of the condition as described under xref:ConditionalFormat.adoc[] and xref:AddConditions.adoc[], e.g., `[State][is][one of]`.
 .. Press the {buttonValueType} and select ‘Variable’.
 +
@@ -100,7 +103,7 @@ image:Variable Selection Condition.png[]
 
 The specified Form component will now provide the value for the right side of the condition.
 
-.Example: Control Filter Conditions with Form Components
+.Example: Control a Condition with a CheckBox
 ****
 In this example, you will add a CheckBox that allows the user to highlight specified states within a table.
 
@@ -137,7 +140,7 @@ image:ParameterHighlightTableAndList.png[]
 image:ParameterHighlightDefine.png[]
 . In the ‘Conditions’ dialog box, create the left side of the condition by making the following menu selections: `[State][is][one of]`.
 . Press the {buttonValueType} and select ‘Variable’.
-. From the adjacent pop-up menu, select the “StateSelector” Form component.
+. From the adjacent pop-up menu, select the “StateSelector” CheckBox.
 +
 image:ParameterHighlightDefineVariable.png[]
 . Press btn:[Append] to add the condition, and press btn:[OK] to close the ‘Conditions’ dialog box.
@@ -148,10 +151,15 @@ On the Dashboard, make selections in the CheckBox component, and observe how thi
 image:ParameterHighlightFinal.png[]
 ****
 
-== Control Properties with Script
+== Control Properties with Expression
+
+[WARNING,caption=see also]
+====
+xref:viewsheetscript:AdvancedDashboardScripting.adoc[], for more information about how to add scripted logic to a Dashboard.
+====
 
 You can enter a script in any property field that provides the{buttonValueType}  with an ‘Expression’ option.
-+
+
 image:Expression Select Popup.png[]
 
 For example, to add a script to a component expression field, follow the steps below:
@@ -160,7 +168,7 @@ For example, to add a script to a component expression field, follow the steps b
 +
 image:Right Click Properties.png[]
 
-. In the ‘Properties’ panel, find the property you wish to dynamically change. (In the example, we use the ‘Visible’ property under the *General* tab.)
+. In the ‘Properties’ panel, find the property you want to dynamically change. (In the example, we use the ‘Visible’ property under the *General* tab.)
 . Press the {buttonValueType} next to the property you want to modify, and select ‘Expression’ from the menu. This enables the {buttonEditFormula}.
 +
 image:Expression Option.png[]
@@ -184,9 +192,9 @@ To automatically insert a function (such as `CALC.today()`), click the correspon
 +
 image:Formula Editor Function.png[]
 +
-Many expressions are similar to formulas that you might use in Microsoft Excel®.   See xref:viewsheetscript:DashboardObjectReference.adoc[] and xref:GeneralScriptFunctions:UserFunctions.adoc[] for a full description of available properties and functions.
+Many expressions are similar to formulas that you might use in Microsoft Excel^®^.   See xref:viewsheetscript:DashboardObjectReference.adoc[] and xref:GeneralScriptFunctions:UserFunctions.adoc[] for a full description of available properties and functions.
 +
-.See some common examples...
+.Expand to see some common examples...
 [%collapsible]
 ====
 include::ROOT:partial$ExcelScalarFormulas.adoc[]
@@ -194,7 +202,7 @@ include::ROOT:partial$ExcelScalarFormulas.adoc[]
 
 . Press btn:[OK] to close the Formula Editor, and press  btn:[OK] to close the ‘Properties’ dialog box.
 +
-NOTE: An expression script can reference properties of its hosting component without full qualification. For example, in a script placed on component Chart1, 'Chart1.selectedObject' and 'selectedObject' refer to the same property.
+NOTE: An expression script can reference properties of its hosting component without full qualification. For example, in a expression script placed on component named Chart1, `Chart1.yTitle.color` and `yTitle.color` refer to the same property.
 
 Expressions must always return permissible values for the corresponding property. For example, if a property requires an integer, an expression that sets that property must evaluate to an integer. If a property requires one of a fixed set of options, e.g., {‘Rows’, ‘Columns’}, then the expression that sets that property must evaluate identically to one of those strings (‘Rows’ or ‘Columns’).
 
@@ -202,6 +210,10 @@ Expressions must always return permissible values for the corresponding property
 To submit settings from all Form components in batch by using a Submit button, follow the steps below:
 
 . Add a Submit button to the Dashboard. (See  xref:SubmitButtonProperties.adoc[] for more information.)
-. Repeat the following for each Form component in the Dashboard: Right-click the component, and select ‘Properties’ from the context menu. In the ‘Properties’ dialog box, *_disable_* the ‘Submit on Change’ option located in the  *General* tab.
+
+. Repeat the following for each Form component in the Dashboard:
+
+.. Right-click the component, and select ‘Properties’ from the context menu. {rightClickOptions}
+.. In the ‘Properties’ dialog box, *_disable_* the ‘Submit on Change’ option located in the  *General* tab.
 
 The Submit button will now batch-submit all Form selections, as well as selections made in any Filter components that similarly have the ‘Submit on Change’ option disabled.

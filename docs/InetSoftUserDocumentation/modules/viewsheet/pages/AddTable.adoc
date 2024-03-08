@@ -1,4 +1,4 @@
-= Add a Table
+= Create a Table
 %experimental%
 include::ROOT:partial$buttonSnippets.adoc[]
 

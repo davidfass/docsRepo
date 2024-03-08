@@ -1,15 +1,21 @@
+// Connect to data
 * xref:user:ConnectToData.adoc[]
 ** xref:user:AddDataSecurity.adoc[]
+
+// Use the Portal
 * xref:user:UsePortal.adoc[]
 ** xref:user:LogIntoPortal.adoc[]
 ** xref:user:ConfigurePortal.adoc[]
 ** xref:user:UseDashboard.adoc[]
+** xref:user:BookmarkDashboard.adoc[]
+** xref:viewsheet:AddAnnotation.adoc[]
 ** xref:user:ProfileDashboard.adoc[]
 ** xref:user:ScheduleDashboard.adoc[]
 ** xref:user:UseRepository.adoc[]
 * xref:user:ConfigureSelfService.adoc[]
 ** xref:user:CreateDataModel.adoc[]
 
+// Data Worksheet
 * xref:dataworksheet:PrepareYourData.adoc[]
 ** xref:NeedDataModel.adoc[]
 ** xref:dataworksheet:CreateNewWorksheet.adoc[]
@@ -33,14 +39,18 @@
 ** xref:dataworksheet:PivotData.adoc[]
 ** xref:dataworksheet:SecureData.adoc[]
 ** xref:dataworksheet:DataBlockProperties.adoc[]
+
+// Dashboard
 * xref:viewsheet:VisualizeYourData.adoc[]
 ** xref:viewsheet:CreateNewDashboard.adoc[]
 ** xref:viewsheet:EditADashboard.adoc[]
 ** xref:viewsheet:AddComponentsToDashboard.adoc[]
+** xref:viewsheet:ArrangeComponents.adoc[]
 ** xref:viewsheet:AddAChart.adoc[]
 *** xref:viewsheet:BasicChartingSteps.adoc[]
 *** xref:viewsheet:GroupDataByDimension.adoc[]
 *** xref:viewsheet:TrendCompareData.adoc[]
+*** xref:viewsheet:EndUserChartControl.adoc[]
 *** xref:viewsheet:ChartTypes.adoc[]
 **** xref:viewsheet:AreaChart.adoc[]
 **** xref:viewsheet:BarChart.adoc[]
@@ -85,36 +95,62 @@
 **** xref:viewsheet:TrellisChartGrid.adoc[]
 **** xref:viewsheet:WaterfallChart.adoc[]
 **** xref:viewsheet:WordcloudChart.adoc[]
-*** xref:viewsheet:EndUserChartControl.adoc[]
-
 ** xref:viewsheet:AddTable.adoc[]
 ** xref:viewsheet:AddCrosstab.adoc[]
 ** xref:viewsheet:AddFreehandTable.adoc[]
 ** xref:viewsheet:CompareDataByDate.adoc[]
-*** xref:viewsheet:AddAKPI.adoc[]
-
+** xref:viewsheet:AddAKPI.adoc[]
+** xref:viewsheet:DrillDownIntoData.adoc[]
 ** xref:viewsheet:FilterDashboard.adoc[]
 *** xref:viewsheet:AddFilterComponents.adoc[]
 *** xref:viewsheet:UseFilterComponents.adoc[]
-
+*** xref:viewsheet:FilterAggregatedData.adoc[]
+*** xref:viewsheet:FilterTopBottomGroups.adoc[]
 *** xref:viewsheet:AddConditions.adoc[]
 
+
 ** xref:viewsheet:SortData.adoc[]
-** xref:viewsheet:DrillDownIntoData.adoc[]
+** xref:viewsheet:DynamicallySetProperties.adoc[]
 
 
 ** xref:viewsheet:ImprovePerformance.adoc[]
 ** xref:viewsheet:EnhanceVisualization.adoc[]
+
+
 *** xref:viewsheet:VisualFormat.adoc[]
 *** xref:viewsheet:DataFormat.adoc[]
 *** xref:viewsheet:ConditionalFormat.adoc[]
+
+
+*** xref:viewsheet:AddTipsToChart.adoc[]
 *** xref:viewsheet:AddTextOrHTML.adoc[]
 *** xref:viewsheet:AddBackground.adoc[]
-*** xref:viewsheet:AddTipsToChart.adoc[]
+*** xref:viewsheet:EmbedExternalContent.adoc[]
 
-** xref:viewsheet:DynamicallySetProperties.adoc[]
+// Publish dashboard
+* xref:viewsheet:PublishDashboard.adoc[]
+** xref:viewsheet:CreateDeviceLayout.adoc[]
+** xref:user:ModularizeDashboard.adoc[]
+** xref:viewsheet:LocalizeDashboard.adoc[]
+** xref:user:DeployDashboard.adoc[]
+** xref:viewsheet:ShareDashboard.adoc[]
+*** xref:viewsheet:SavePublicDashboard.adoc[]
+*** xref:viewsheet:ExportDashboard.adoc[]
 
-** xref:viewsheet:DashboardReference.adoc[]
+
+*** xref:viewsheet:ShareToSocialNetwork.adoc[]
+*** xref:viewsheet:BookmarkDashboard.adoc[]
+
+
+
+
+** xref:viewsheet:ScheduleDashboard.adoc[]
+
+
+
+
+// Dashboard reference
+* xref:viewsheet:DashboardReference.adoc[]
 *** xref:viewsheet:DashboardOptions.adoc[]
 
 *** xref:viewsheet:ChartProperties.adoc[]
@@ -130,9 +166,13 @@
 *** xref:viewsheet:RangeSliderProperties.adoc[]
 *** xref:viewsheet:TextProperties.adoc[]
 *** xref:viewsheet:CrosstabProperties.adoc[]
+*** xref:viewsheet:CalendarProperties.adoc[]
 
 *** xref:viewsheet:SliderSpinnerProperties.adoc[]
 *** xref:viewsheet:SubmitButtonProperties.adoc[]
+*** xref:viewsheet:TableProperties.adoc[]
+
+*** xref:viewsheet:TabbedInterfaceProperties.adoc[]
 *** xref:viewsheet:NestedDashboardProperties.adoc[]
 *** xref:viewsheet:CommonProperties.adoc[]
 **** xref:viewsheet:GeneralTab.adoc[]
@@ -146,13 +186,8 @@
 *** xref:viewsheetscript:ReferenceDataSourceData.adoc[]
 *** xref:viewsheetscript:ReferenceTableData.adoc[]
 *** xref:viewsheetscript:DashboardObjectReference.adoc[]
-* xref:viewsheet:PublishDashboard.adoc[]
-** xref:viewsheet:CreateDeviceLayout.adoc[]
-** xref:viewsheet:ShareDashboard.adoc[]
-*** xref:viewsheet:ShareToSocialNetwork.adoc[]
-*** xref:viewsheet:BookmarkDashboard.adoc[]
-** xref:user:DeployDashboard.adoc[]
-** xref:user:ModularizeDashboard.adoc[]
+
+
 
 * xref:administration:ManageServer.adoc[]
 ** xref:administration:SetJVMMemory.adoc[]
@@ -177,11 +212,19 @@
 ** xref:administration:AdvancedTopics.adoc[]
 *** xref:administration:CreateCustomMap.adoc[]
 *** xref:administration:ServerEnvironment.adoc[]
+**** xref:administration:Localization.adoc[]
+***** xref:administration:DefineCustomNumberFormats.adoc[]
+
 **** xref:administration:AdministerLicenseKeys.adoc[]
 **** xref:administration:ConfigureServerClustering.adoc[]
 *** xref:administration:Presentation.adoc[]
 **** xref:administration:GeneralFormat.adoc[]
 **** xref:administration:Themes.adoc[]
+
+**** xref:administration:StyleWithCSS.adoc[]
+***** xref:administration:CreateCSSDefinitionFile.adoc[]
+***** xref:administration:UploadCSSFile.adoc[]
+**** xref:administration:CSSDashboardRegions.adoc[]
 ** xref:administration:Storage.adoc[]
 *** xref:administration:ManageStoredAssets.adoc[]
 *** xref:administration:BackUpStoredAssets.adoc[]
@@ -191,4 +234,11 @@
 ** xref:administration:AllProperties.adoc[]
 * xref:GeneralScriptFunctions:UserFunctions.adoc[]
 ** xref:GeneralScriptFunctions:CalcObjectFunctions.adoc[]
+
+
+** xref:commonscript:DateFormatCodes.adoc[]
+
+*** xref:commonscript:GraphForm.adoc[]
+
+
 

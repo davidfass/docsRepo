@@ -163,6 +163,30 @@
 :buttonNextYear: ‘Next Year’ image:ROOT:buttons/forward-fast.svg[role=button]
 :buttonLastMonth: ‘Last Month’ image:ROOT:buttons/backward.svg[role=button]
 :buttonNextMonth: ‘Next Month’ image:ROOT:buttons/forward.svg[role=button]
+:buttonEditExpression: ‘Edit Expression’  button image:ROOT:buttons/formula-edit.svg[role=button]
+:buttonAscSortByValue: ascending-by-value arrow image:ROOT:buttons/sort-value-ascending.svg[role=button]
+:buttonDescSortByValue: descending-by-value arrow image:ROOT:buttons/sort-value-descending.svg[role=button]
+:buttonIncreaseDecimal: ‘Increase decimal’ button image:ROOT:buttons/decimal-increase.svg[role=button]
+:buttonDecreaseDecimal: ‘Decrease decimal’ button
+:buttonBrowseData: ‘Browse Data’ button image:ROOT:buttons/value-list.svg[role=button]
+:buttonShowAnnotation: ‘Show Annotations’  button image:ROOT:buttons/annotation.svg[role=button]
+:buttonHideAnnotation: ‘Hide Annotations’  button image:ROOT:buttons/annotation-no.svg[role=button]
+:buttonRepository: ‘Repository’  button image:ROOT:buttons/field-tree.svg[role=button]
+:buttonMaterializationIcon: materialization icon image:ROOT:buttons/materialized-viewsheet.svg[role=button]
+:buttonArrange: ‘Arrange’  button image:ROOT:buttons/align-top.svg[role=button]
+:buttonDistributeHorizontally: ‘Distribute Horizontally’ option  image:ROOT:buttons/distribute-H.svg[role=button]
+:buttonDistributeVertically: ‘Distribute Vertically’ option  image:ROOT:buttons/distribute-V.svg[role=button]
+:buttonDeleteX: ‘Delete’ button image:ROOT:buttons/close.svg[role=button]
+:buttonGuides: ‘Guides’ button image:ROOT:buttons/mobile.svg[role=button]
+:buttonEditContent: ‘Edit’ button image:ROOT:buttons/edit-print.svg[role=button]
+:buttonDashboard: ‘Dashboard’ button image:ROOT:buttons/viewsheet-book.svg[role=button]
+:buttonDashboardConfiguration: ‘Dashboard Configuration’  button image:ROOT:buttons/setting.svg[role=button]
+:buttonAdd: ‘Add’  image:ROOT:buttons/add.svg[role=button]
+:buttonEditAction: ‘Edit’  image:ROOT:buttons/edit.svg[role=button]
+:buttonDeleteAction: ‘Delete’   image:ROOT:buttons/trash.svg[role=button]
+:buttonArrangeAction: ‘Arrange’   image:ROOT:buttons/order-column.svg[role=button]
+:buttonSaveAs: ‘Save As’ button image:ROOT:buttons/save-as.svg[role=button]
+
 
 
 // Macros
@@ -174,7 +198,7 @@
 
 // Short snippets
 :rightClickOptions:  Note: You can also access menu options from the {buttonMore} in the mini-toolbar.
-:rightClickFormat: (Or right-click the component and select ‘Format’ from the menu.)
+:rightClickFormat: (Or right-click the component and select ‘Format’ from the context menu.)
 :dynamicProperties:  Properties that offer the {buttonValueType} can also be set by the user (‘Variable’) or by scripted logic (‘Expression’). See xref:viewsheet:DynamicallySetProperties.adoc[] for more information.
 :finishEditing: Press the  {buttonFinish} to close the Editor.
 :multipleMeasure: You can add additional measures to the Chart if desired. See xref:viewsheet:MultipleMeasureChart.adoc[] for more information about adding multiple measures to a chart axis.
@@ -185,6 +209,7 @@
 :addMeasuresUsingVisual: See xref:viewsheet:BasicChartingSteps.adoc[] for information on how to add measures using color, shape, or size representation.
 :dateCompareDetails: Hover the pointer over {buttonDateCompare} in the top left or right corner of the Chart or Crosstab to display the comparison details. Press the {buttonDateCompare} to reopen the ‘Date Comparison’ dialog box.
 :EMPropertyConfig: See xref:administration:AllProperties.adoc[] for information on how to set properties.
+:JavaTextMessageFormat: http://download.oracle.com/javase/8/docs/api/index.html?java/text/MessageFormat.html[java.text.MessageFormat]
 
 
 

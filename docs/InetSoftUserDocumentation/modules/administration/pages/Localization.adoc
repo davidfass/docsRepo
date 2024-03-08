@@ -1,0 +1,16 @@
+= Localization
+
+Localization is a feature that allows Style Intelligence to adapt to different language environments, and is implemented for three contexts:
+
+* User Portal interface
+* Reports
+* Dashboards
+
+When users log into the User Portal or administrators log into Enterprise Manager they can specify a *locale* (language-country combination), based on which the InetSoft server dynamically modifies the interface (Portal tabs, Enterprise Manager tabs, repository tree) as well as report and Dashboard elements (text elements, chart axis titles, table header columns, etc.).
+
+Two independent mapping files are required for localization:
+
+“srinter”:: A mapping file that controls localization for interface text in the User Portal and Enterprise Manager (tabs, tree nodes, dialog boxes, etc.).
+“SreeBundle”:: A mapping file that controls localization for report and Dashboard text (text in tables, charts, etc.) and data model/query names.
+
+The following sections discuss the contents of these two files, and explain how to register a new locale.

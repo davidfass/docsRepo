@@ -1,4 +1,4 @@
-= Add a  Crosstab
+= Create a  Crosstab
 %experimental%
 include::ROOT:partial$buttonSnippets.adoc[]
 
