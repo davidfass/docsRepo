@@ -12,7 +12,7 @@ image:Preferences Dialog.png[]
 
 The following preferences are available:
 
-Change Password:: Press the ‘Change Password’ link to open the ‘Change Password’ dialog box. Enter your current password and a new password and press ‘OK’.
+Change Password:: Press the ‘Change Password’ link to open the ‘Change Password’ dialog box. Enter your current password and a new password and press btn:[OK].
 +
 image:ChangePassword.png[]
 

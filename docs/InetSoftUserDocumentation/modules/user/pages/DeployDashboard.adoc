@@ -1,4 +1,4 @@
-= Deploy a Dashboard
+= Deploy a Portal Dashboard
 %experimental%
 include::ROOT:partial$buttonSnippets.adoc[]
 

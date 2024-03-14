@@ -2,7 +2,7 @@
 %experimental%
 include::ROOT:partial$buttonSnippets.adoc[]
 
-If the server is running, simply enter the server URL in any browser. Your administrator can provide this URL. (The default URL for User Portal on a local server is `http://localhost:8080/app/portal/`.)
+If the server is running, simply enter the server URL in any browser. Your administrator can provide this URL. (The default URL for the User Portal on a local server is `http://localhost:8080/app/portal/`.)
 
 If security is enabled on the server, you must log in before you can use the Portal. Enter your username and password in the provided ‘User’ and ‘Password’ fields. (Ask your system administrator if you don’t know your username and password.) If you are prompted to enter a ‘Locale’, select the correct option for your location.
 

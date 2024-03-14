@@ -218,7 +218,7 @@ This opens the ‘Table Style’ dialog box. Select a table style, and press btn
 +
 image:Show Details Format_3.png[]
 
-. *_Optional:_*  To export the data, press the {buttonExport} in the *Data* panel.
+. *_Optional:_*  To export the data, press the {buttonExport} in the *Data* panel.  See xref:ExportDashboard.adoc[] for more details about exporting.
 +
 image:Chart Show Chart Details Export.png[]
 
@@ -266,7 +266,7 @@ This opens the ‘Table Style’ dialog box. Select a table style, and press btn
 +
 image:Show Details Format_3.png[]
 
-. *_Optional:_* To export the data to Excel, press the {buttonExport} at the top left.
+. *_Optional:_* To export the data to Excel, press the {buttonExport} at the top left. See xref:ExportDashboard.adoc[] for more details about exporting.
 +
 image:CrosstabDetails2.png[]
 

@@ -1,17 +1,31 @@
 // Connect to data
 * xref:user:ConnectToData.adoc[]
+** xref:user:ViewAvailableDataSources.adoc[]
+** xref:user:ConnectToDataSource.adoc[]
+** xref:user:EditConnection.adoc[]
+** xref:user:AddAdditionalConnection.adoc[]
 ** xref:user:AddDataSecurity.adoc[]
+** xref:user:OrganizeDataSources.adoc[]
+
 
 // Use the Portal
 * xref:user:UsePortal.adoc[]
 ** xref:user:LogIntoPortal.adoc[]
 ** xref:user:ConfigurePortal.adoc[]
+** xref:user:ManageRepository.adoc[]
 ** xref:user:UseDashboard.adoc[]
+** xref:viewsheet:UseFilterComponents.adoc[]
 ** xref:user:BookmarkDashboard.adoc[]
 ** xref:viewsheet:AddAnnotation.adoc[]
 ** xref:user:ProfileDashboard.adoc[]
 ** xref:user:ScheduleDashboard.adoc[]
-** xref:user:UseRepository.adoc[]
+** xref:user:DeployDashboard.adoc[]
+** xref:viewsheet:ShareDashboard.adoc[]
+*** xref:viewsheet:SavePublicDashboard.adoc[]
+*** xref:viewsheet:ExportDashboard.adoc[]
+*** xref:viewsheet:EmailDashboard.adoc[]
+*** xref:viewsheet:ShareToSocialNetwork.adoc[]
+
 * xref:user:ConfigureSelfService.adoc[]
 ** xref:user:CreateDataModel.adoc[]
 
@@ -103,25 +117,16 @@
 ** xref:viewsheet:DrillDownIntoData.adoc[]
 ** xref:viewsheet:FilterDashboard.adoc[]
 *** xref:viewsheet:AddFilterComponents.adoc[]
-*** xref:viewsheet:UseFilterComponents.adoc[]
 *** xref:viewsheet:FilterAggregatedData.adoc[]
 *** xref:viewsheet:FilterTopBottomGroups.adoc[]
 *** xref:viewsheet:AddConditions.adoc[]
-
-
 ** xref:viewsheet:SortData.adoc[]
 ** xref:viewsheet:DynamicallySetProperties.adoc[]
-
-
 ** xref:viewsheet:ImprovePerformance.adoc[]
 ** xref:viewsheet:EnhanceVisualization.adoc[]
-
-
 *** xref:viewsheet:VisualFormat.adoc[]
 *** xref:viewsheet:DataFormat.adoc[]
 *** xref:viewsheet:ConditionalFormat.adoc[]
-
-
 *** xref:viewsheet:AddTipsToChart.adoc[]
 *** xref:viewsheet:AddTextOrHTML.adoc[]
 *** xref:viewsheet:AddBackground.adoc[]
@@ -132,55 +137,69 @@
 ** xref:viewsheet:CreateDeviceLayout.adoc[]
 ** xref:user:ModularizeDashboard.adoc[]
 ** xref:viewsheet:LocalizeDashboard.adoc[]
-** xref:user:DeployDashboard.adoc[]
-** xref:viewsheet:ShareDashboard.adoc[]
-*** xref:viewsheet:SavePublicDashboard.adoc[]
-*** xref:viewsheet:ExportDashboard.adoc[]
-
-
-*** xref:viewsheet:ShareToSocialNetwork.adoc[]
-*** xref:viewsheet:BookmarkDashboard.adoc[]
-
-
-
-
-** xref:viewsheet:ScheduleDashboard.adoc[]
-
-
 
 
 // Dashboard reference
 * xref:viewsheet:DashboardReference.adoc[]
 *** xref:viewsheet:DashboardOptions.adoc[]
-
-*** xref:viewsheet:ChartProperties.adoc[]
-**** xref:viewsheet:ChartMiniToolbar.adoc[]
-**** xref:viewsheet:AxisProperties.adoc[]
-**** xref:viewsheet:LegendProperties.adoc[]
-*** xref:viewsheet:RadioCheckBoxComboProperties.adoc[]
-*** xref:viewsheet:GaugeProperties.adoc[]
-*** xref:viewsheet:ImageProperties.adoc[]
-*** xref:viewsheet:SelectionListProperties.adoc[]
-*** xref:viewsheet:SelectionTreeProperties.adoc[]
-*** xref:viewsheet:SelectionContainerProperties.adoc[]
-*** xref:viewsheet:RangeSliderProperties.adoc[]
-*** xref:viewsheet:TextProperties.adoc[]
-*** xref:viewsheet:CrosstabProperties.adoc[]
-*** xref:viewsheet:CalendarProperties.adoc[]
-
-*** xref:viewsheet:SliderSpinnerProperties.adoc[]
-*** xref:viewsheet:SubmitButtonProperties.adoc[]
-*** xref:viewsheet:TableProperties.adoc[]
-
-*** xref:viewsheet:TabbedInterfaceProperties.adoc[]
-*** xref:viewsheet:NestedDashboardProperties.adoc[]
+*** xref:viewsheet:VisualComposerConsole.adoc[]
+*** xref:viewsheet:VisualComposerSearch.adoc[]
+*** xref:viewsheet:VisualComposerToolbar.adoc[]
+*** xref:viewsheet:KeyboardNavigation.adoc[]
 *** xref:viewsheet:CommonProperties.adoc[]
 **** xref:viewsheet:GeneralTab.adoc[]
+**** xref:viewsheet:DataTab.adoc[]
+**** xref:viewsheet:AdvancedTab.adoc[]
+**** xref:viewsheet:ScriptTab.adoc[]
+*** xref:viewsheet:NestedDashboardProperties.adoc[]
+*** xref:viewsheet:CalendarProperties.adoc[]
+*** xref:viewsheet:ChartProperties.adoc[]
+*** xref:viewsheet:LegendProperties.adoc[]
+*** xref:viewsheet:AxisProperties.adoc[]
+*** xref:viewsheet:AxisTitleProperties.adoc[]
+*** xref:viewsheet:ContainerProperties.adoc[]
+*** xref:viewsheet:CrosstabProperties.adoc[]
+*** xref:viewsheet:FreehandTableProperties.adoc[]
+*** xref:viewsheet:GaugeProperties.adoc[]
+*** xref:viewsheet:ImageProperties.adoc[]
+*** xref:viewsheet:RadioCheckBoxComboProperties.adoc[]
+*** xref:viewsheet:RangeSliderProperties.adoc[]
+*** xref:viewsheet:SelectionContainerProperties.adoc[]
+*** xref:viewsheet:SelectionListProperties.adoc[]
+*** xref:viewsheet:SelectionTreeProperties.adoc[]
+*** xref:viewsheet:ShapeProperties.adoc[]
+*** xref:viewsheet:SliderSpinnerProperties.adoc[]
+*** xref:viewsheet:SubmitButtonProperties.adoc[]
+*** xref:viewsheet:TabbedInterfaceProperties.adoc[]
+*** xref:viewsheet:TableProperties.adoc[]
+
+
+
+*** xref:viewsheet:TextProperties.adoc[]
+
+
+**** xref:viewsheet:ChartMiniToolbar.adoc[]
 
 
 
 
-** xref:viewsheetscript:AdvancedDashboardScripting.adoc[]
+
+
+
+
+
+
+
+
+
+* xref:viewsheetscript:AdvancedDashboardScripting.adoc[]
+** xref:viewsheetscript:AddScriptToDashboard.adoc[]
+*** xref:viewsheetscript:AddDashboardScript.adoc[]
+*** xref:viewsheetscript:ChangeImageWithScript.adoc[]
+** xref:viewsheetscript:WriteDataToDatabase.adoc[]
+** xref:viewsheetscript:ValidateUserInput.adoc[]
+
+
 *** xref:viewsheetscript:parameter.adoc[]
 *** xref:viewsheetscript:RunQueryFromScript.adoc[]
 *** xref:viewsheetscript:ReferenceDataSourceData.adoc[]
@@ -188,7 +207,7 @@
 *** xref:viewsheetscript:DashboardObjectReference.adoc[]
 
 
-
+// Administration
 * xref:administration:ManageServer.adoc[]
 ** xref:administration:SetJVMMemory.adoc[]
 ** xref:administration:GetStartedWithEnterpriseManager.adoc[]
@@ -225,6 +244,9 @@
 ***** xref:administration:CreateCSSDefinitionFile.adoc[]
 ***** xref:administration:UploadCSSFile.adoc[]
 **** xref:administration:CSSDashboardRegions.adoc[]
+**** xref:administration:Dashboards.adoc[]
+***** xref:administration:EnableServerSideUpdate.adoc[]
+
 ** xref:administration:Storage.adoc[]
 *** xref:administration:ManageStoredAssets.adoc[]
 *** xref:administration:BackUpStoredAssets.adoc[]
@@ -239,6 +261,9 @@
 ** xref:commonscript:DateFormatCodes.adoc[]
 
 *** xref:commonscript:GraphForm.adoc[]
+
+* xref:chartAPI:ChartScriptTutorial.adoc[]
+* xref:chartAPI:ChartScriptReference.adoc[]
 
 
 

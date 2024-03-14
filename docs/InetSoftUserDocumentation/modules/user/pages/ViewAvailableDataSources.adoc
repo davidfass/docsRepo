@@ -1,0 +1,19 @@
+= View Available Data Sources
+%experimental%
+include::ROOT:partial$buttonSnippets.adoc[]
+
+To view available data sources, press  the {buttonRepository} in the Portal, expand the ‘Administration’ folder, and load the ‘Data Dictionary’ Dashboard or ‘Data Dictionary’ report.
+
+image:DataDictionary.png[]
+
+You can search by asset/folder name or description, or both:
+
+* In the ‘Path Contains’ field, enter the complete or partial name of the data asset or folder for which to search.
+* In the ‘Description Contains’ field, enter a string for which to search the data asset descriptions.
+* In the ‘Type is’ field, optionally select the type of the data entity (query, data model attribute, etc.) for which you want to search.
+
+The Data Dictionary table lists all of the matching data assets, along with their types and descriptions.
+
+image:DataDictionary2.png[]
+
+To export the table from the Data Dictionary Dashboard, see Export a Dashboard. To export the table from the Data Dictionary report, see xref:viewsheet:ExportDashboard.adoc[].

@@ -18,7 +18,7 @@ image:securityActions.png[]
 The following actions are available:
 
 Ad Hoc Wizard:: Access to the {buttonReport} option under the {buttonCreate} button in the Portal. This allows users to create a new Ad Hoc report. The ability to perform ad hoc modifications to an existing report is controlled by the ‘Report Design’ action (below).
-Bookmark:: Access to the {buttonBookmarks} features in the  Dashboard toolbar. ‘Open Bookmark’ permission allows the user to view existing bookmarks, while ‘Open and Create Bookmark’ additionally allows the user to create new bookmarks. ‘Share Bookmark’ permission allows a user to share bookmarks to members of their own group(s), while ‘Share to All’ allows sharing to all users without exception.   (See xref:viewsheet:BookmarkDashboard.adoc[] for more information.)
+Bookmark:: Access to the {buttonBookmarks} features in the  Dashboard toolbar. ‘Open Bookmark’ permission allows the user to view existing bookmarks, while ‘Open and Create Bookmark’ additionally allows the user to create new bookmarks. ‘Share Bookmark’ permission allows a user to share bookmarks to members of their own group(s), while ‘Share to All’ allows sharing to all users without exception.   (See xref:user:BookmarkDashboard.adoc[] for more information.)
 Chart Types:: Access to different chart types in the Chart Editor.
 Dashboard Toolbar:: Access to various buttons on the Dashboard toolbar. (See xref:user:UseDashboard.adoc[] for more information.)
 Enterprise Manager:: Access to various pages in Enterprise Manager.
@@ -37,7 +37,7 @@ Free Form SQL:: Permission to create a data set by entering a SQL string in the 
 Materialize Assets:: Access to the ‘Materialize’ menu option for Dashboards in the Portal Repository tree, as well as for Enterprise Manager. (See xref:viewsheet:ImprovePerformance.adoc[] and xref:administration:MaterializedView.adoc[]  for more information.)
 My Reports:: Access to the ‘My Reports’ folder in the Portal Repository tree for storage of private assets.
 Physical Table:: Access to database tables via the ‘TABLE’ folder of the ‘Data Source’ tree in a Data Worksheet.
-Portal Repository Tree - Drag and Drop:: Permission to drag-and-drop assets in the Portal Repository tree. (See xref:user:UseRepository.adoc[] for more information.)
+Portal Repository Tree - Drag and Drop:: Permission to drag-and-drop assets in the Portal Repository tree. (See xref:user:ManageRepository.adoc[] for more information.)
 Profile:: Permission to profile the performance of a dashboard or report via the Portal {buttonProfile} action. (See xref:user:ProfileDashboard.adoc[] for more information.)
 Upload Drivers:: Permission to upload database drivers when creating a new data source using the {buttonDataSource} option under the Portal {buttonCreate} and on the *Drivers and Plugins* page in Enterprise Manager. (See xref:user:ConnectToData.adoc[] and xref:administration:ManageDriversPlugins.adoc[] for more information.)
 ====

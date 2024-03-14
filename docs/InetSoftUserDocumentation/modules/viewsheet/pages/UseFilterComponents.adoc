@@ -4,7 +4,7 @@ include::ROOT:partial$buttonSnippets.adoc[]
 
 include::viewsheet:partial$availableToEndUsers.adoc[]
 
-The following sections explain how to *use* filter components to dynamically explore your data.  See xref:AddFilterComponents.adoc[] for information on how to add these components into a Dashboard.
+The following sections explain how to *use* filter components to dynamically explore your data.  See xref:AddFilterComponents.adoc[] for information on how to design a Dashboard using these components.
 
 [#UseSelectionList]
 == Use a Selection List
