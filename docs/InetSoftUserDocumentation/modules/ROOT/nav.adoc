@@ -8,13 +8,14 @@
 ** xref:user:OrganizeDataSources.adoc[]
 
 
-// Use the Portal
+// USE THE PORTAL ---------------------------------------
 * xref:user:UsePortal.adoc[]
 ** xref:user:LogIntoPortal.adoc[]
 ** xref:user:ConfigurePortal.adoc[]
 ** xref:user:ManageRepository.adoc[]
 ** xref:user:UseDashboard.adoc[]
 ** xref:viewsheet:UseFilterComponents.adoc[]
+** xref:viewsheet:UseCharts.adoc[]
 ** xref:user:BookmarkDashboard.adoc[]
 ** xref:viewsheet:AddAnnotation.adoc[]
 ** xref:user:ProfileDashboard.adoc[]
@@ -26,10 +27,12 @@
 *** xref:viewsheet:EmailDashboard.adoc[]
 *** xref:viewsheet:ShareToSocialNetwork.adoc[]
 
+
+// SELF SERVICE ----------------------------------------
 * xref:user:ConfigureSelfService.adoc[]
 ** xref:user:CreateDataModel.adoc[]
 
-// Data Worksheet
+// DATA WORKSHEET --------------------------------------
 * xref:dataworksheet:PrepareYourData.adoc[]
 ** xref:NeedDataModel.adoc[]
 ** xref:dataworksheet:CreateNewWorksheet.adoc[]
@@ -54,7 +57,8 @@
 ** xref:dataworksheet:SecureData.adoc[]
 ** xref:dataworksheet:DataBlockProperties.adoc[]
 
-// Dashboard
+
+// DASHBOARD DESIGN ------------------------------------
 * xref:viewsheet:VisualizeYourData.adoc[]
 ** xref:viewsheet:CreateNewDashboard.adoc[]
 ** xref:viewsheet:EditADashboard.adoc[]
@@ -132,14 +136,14 @@
 *** xref:viewsheet:AddBackground.adoc[]
 *** xref:viewsheet:EmbedExternalContent.adoc[]
 
-// Publish dashboard
+// PUBLISH DASHBOARD ---------------------------------
 * xref:viewsheet:PublishDashboard.adoc[]
 ** xref:viewsheet:CreateDeviceLayout.adoc[]
 ** xref:user:ModularizeDashboard.adoc[]
 ** xref:viewsheet:LocalizeDashboard.adoc[]
 
 
-// Dashboard reference
+// DASHBOARD REFERENCE --------------------------------
 * xref:viewsheet:DashboardReference.adoc[]
 *** xref:viewsheet:DashboardOptions.adoc[]
 *** xref:viewsheet:VisualComposerConsole.adoc[]
@@ -172,28 +176,17 @@
 *** xref:viewsheet:SubmitButtonProperties.adoc[]
 *** xref:viewsheet:TabbedInterfaceProperties.adoc[]
 *** xref:viewsheet:TableProperties.adoc[]
-
-
-
 *** xref:viewsheet:TextProperties.adoc[]
-
-
-**** xref:viewsheet:ChartMiniToolbar.adoc[]
-
-
+*** xref:viewsheet:TextInputProperties.adoc[]
+*** xref:viewsheet:UploadProperties.adoc[]
 
 
 
 
-
-
-
-
-
-
-
+// DASHBOARD SCRIPTING ------------------------------
 * xref:viewsheetscript:AdvancedDashboardScripting.adoc[]
 ** xref:viewsheetscript:AddScriptToDashboard.adoc[]
+*** xref:viewsheetscript:AddPropertyScript.adoc[]
 *** xref:viewsheetscript:AddDashboardScript.adoc[]
 *** xref:viewsheetscript:ChangeImageWithScript.adoc[]
 ** xref:viewsheetscript:WriteDataToDatabase.adoc[]

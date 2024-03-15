@@ -59,6 +59,7 @@ include::viewsheet:partial$selectionContainer.adoc[]
 See xref:SelectionContainerProperties.adoc[] for information about additional Selection Container features.
 
 
+
 == Combine Multiple Components in a Tabbed Interface
 A Tabbed Interface allows you to stack components onto distinct pages that are accessed by tabs. Since only one tab is visible at a time, this allows you to comfortably display many components in the same space on the Dashboard.
 
@@ -76,7 +77,14 @@ Note that each component is placed at the top-left corner within its own tab. To
 
 To apply a unique style to the active (currently selected) tab, click on a tab to make it active, and then apply the desired styling from the *Format* panel. (See xref:TabbedInterfaceProperties.adoc[]   for additional information.)
 
+== Pop or Tip a Component
+In some cases, you may want display a component only when the user takes a specific action, and otherwise keep it hidden.  There are several ways to do this:
 
+* Switch component visibility on and off.  See xref:#AdaptComponentVisibility[] below.
+* Make the component a *Data Tip*.   A Data Tip displays the component (or group of components) only when the user hovers the mouse over another component, such as a Chart, and automatically filters the Data Tip component based on the hover region. The Data Tip component is displayed at the *hover location*, and  otherwise remains *hidden*. See xref:AddTipsToChart.adoc[] for more about how to use a Data Tip.
+* Make the component a *Pop Component*.  This displays the component (or group of components) when the user clicks on a Text component. The component is displayed at the *click location*, and  otherwise remains *hidden*. See xref:TextProperties.adoc[] for more information.
+
+[#AdaptComponentVisibility]
 == Adapt Component Visibility
 Use Form controls to allow the user to selectively hide and show various components on the Dashboard. For example, you can provide a Form component that lets the user choose whether to see data displayed in a Table or Chart (by dynamically controlling the 'Visible' property of a Table and Chart that occupy the same space on the Dashboard). See xref:DynamicallySetProperties.adoc[]  for more information.
 

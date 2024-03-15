@@ -1,9 +1,0 @@
-= Chart Mini-Toolbar
-%experimental%
-include::ROOT:partial$buttonSnippets.adoc[]
-
-include::viewsheet:partial$availableToEndUsers.adoc[]
-
-XXXXXXXXX
-
-TIP: If the Chart mini-toolbar obscures Chart data, press the {buttonHideMiniToolbar} to temporarily hide it.

@@ -6,6 +6,7 @@ include::viewsheet:partial$availableToEndUsers.adoc[]
 
 There are a variety of ways that you can drill down into your data. The following sections explain the basic different approaches.
 
+[#BrushChart]
 == Brush a Chart
 Brushing is a powerful tool that helps you to quickly detect and understand relationships your data. To brush a Chart, follow the steps below:
 
@@ -67,8 +68,9 @@ It is clear that Sue’s sales in NJ and NY reached a peak in June 2018.
 ====
 ****
 
+[#ZoomChart]
 == Zoom a Chart
-The Zoom feature allows you focus in on a selected set of groups by specifying the groups to include or exclude from the zoomed view.
+The Zoom feature allows you to focus in on a selected set of groups by specifying the groups to include or exclude from the zoomed view.
 
 === Select Groups to Include
 To zoom in by selecting the groups you want to view, follow the steps below:
@@ -87,6 +89,7 @@ image:Chart Zoom Basic.png[]
 . To return to the original chart view, press the {buttonChartClearZoom}.
 +
 image:Chart Zoom Clear.png[]
+
 
 === Select Groups to Exclude
 In some cases,  you might find it easier to create the desired view by specifying particular groups to _exclude_ from the zoomed view.
@@ -184,6 +187,7 @@ image:expandHierarchy3.png[]
 
 To disable the drilling feature for a particular Crosstab, deselect the ‘Enable Drilling’ option in the *Advanced* tab of the ‘Crosstab Properties’ dialog box. To specify a custom drill hierarchy  for any set of hierarchical fields, including custom date levels, use the *Hierarchy* tab.  See xref:CrosstabProperties.adoc[] for more details.
 
+[#DrillChartDetailData]
 == Drill to Chart Detail Data
 To reveal the detail records corresponding to a Chart’s summarized data, follow the steps below:
 
@@ -515,6 +519,7 @@ image:viewsheet:galleryDataTip2.png[]
 To explore this sample Dashboard, download and import the  xref:ROOT:attachment$Executive_Sales_Summary.zip[Executive Sales Summary] Dashboard into your environment. (This requires access to Enterprise Manager.) See xref:administration:ImportExportAssets.adoc[] for instructions on how to import.
 ****
 
+[#DrillDownFilter]
 == Drill Down and Filter
 When a Chart or Crosstab displays data with a defined hierarchy in the *Hierarchy* tab (see xref:ChartProperties.adoc[] and xref:CrosstabProperties.adoc[]), you may want to simultaneously drill and filter the data. For example, if the Chart or Crosstab displays sales totals by product category, you may want to drill down into a particular category and view the totals for the individual products in that specific category.
 

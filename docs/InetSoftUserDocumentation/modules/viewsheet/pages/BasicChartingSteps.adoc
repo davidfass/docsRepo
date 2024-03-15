@@ -2,6 +2,7 @@
 %experimental%
 include::ROOT:partial$CreateNewDashboardNote.adoc[]
 
+
 The following sections explain how to add a Chart to your Dashboard.
 
 .*Watch video…*

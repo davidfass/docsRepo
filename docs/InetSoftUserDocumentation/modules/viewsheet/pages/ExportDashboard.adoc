@@ -98,6 +98,7 @@ image:Table Export.png[]
 
 This will save the table data as an Excel file in the browser’s default download location.
 
+[#ExportChartData]
 == Export Chart Data
 [WARNING,caption=See Also]
 xref:DrillDownIntoData.adoc[], for information on viewing underlying detail records.
@@ -135,8 +136,8 @@ This opens the ‘Table Style’ dialog box. Select a table style, and press btn
 +
 image:Chart Show Chart Data Export.png[]
 
+[#ExportChartImage]
 == Export a Chart as  Image
-
 To save an individual Chart as an image, follow the steps below:
 
 . If you are editing the Dashboard in Visual Composer, press the {buttonPreview} in the toolbar to preview the Dashboard.

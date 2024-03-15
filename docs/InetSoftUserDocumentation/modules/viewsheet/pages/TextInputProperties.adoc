@@ -1,0 +1,28 @@
+= Text Input Properties
+%experimental%
+include::ROOT:partial$buttonSnippets.adoc[]
+
+[WARNING,caption=see also]
+====
+* xref:viewsheetscript:WriteDataToDatabase.adoc[] for information on how to write Form input to the database.
+* {commonProperties}
+====
+
+The Text Input component’s ‘Properties’ panel provides *General*, *Option*, and *Script* tabs. The next sections discuss the component-specific properties available under these tabs.
+
+== General Tab
+In addition to the common properties, the *General* tab in the ‘Text Input Properties’ panel provides the following properties.
+
+image:TextInput Properties Dialog.png[]
+
+Submit on Change::	When enabled (default), submits the entered value when user presses ‘Enter’ or clicks away. Otherwise, a separate ‘Submit’ button is required.
+Refresh Dashboard after Submit::	Force the dashboard to refresh when the user submits a value from the Form component.
+Default Text::	Specifies the text to appear within the TextInput field when it is first displayed. (This is often a hint to the user about what data should be entered). This default text is automatically removed when the user begins entering data.
+Inset Border Style::	Specifies a dimensional “inset” (rather than flat) appearance for the component border.
+Multiple Lines::	When enabled, allows the user to enter multiple lines of text into the text area.
+
+== Option Tab
+The *Option* tab in the ‘TextInput Properties’ panel allows you to select an *Input Editor* which specifies the control interface and validation for user input. See xref:viewsheetscript:ValidateUserInput.adoc[] for details on the available editors.
+
+== Script Tab
+{commonScript}
