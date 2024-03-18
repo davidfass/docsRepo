@@ -1,0 +1,50 @@
+= Actian Matrix
+%experimental%
+include::ROOT:partial$buttonSnippets.adoc[]
+
+IMPORTANT: {pluginDriverRequired}
+
+include::partial$dataSourceUserIntro.adoc[]
+
+. Select the ‘Actian Matrix’ data source, and press btn:[Create]. This opens the data source definition screen.
++
+image:dataSourceNewActianMatrix2.png[]
+
+. In the ‘Name’ field, enter a label for this database connection.
+
+. From the ‘Database Type’ menu, select ‘Custom’ (if not already selected).
+
+. Enter the name of the driver class in the ‘Driver Class’ field. The name of the driver class is usually provided by the driver vendor.
+
+. Enter the ‘JDBC URL’ that should be used to connect to the database, which has the following form. (You can obtain this from the database administrator.)
+
+ jdbc:paraccel://<host>[:<port>]/<databaseName>
+
+. Enter a ‘Connection Test Query’. This can be any valid database query, and generally should be as simple as possible. The default test query for JDBC 4-compliant databases is `Select 1`, which simply checks if the database can be contacted. Another possible test query is `Select * from Database_Table`, where `Database_Table` is a table in the database schema. This query would check that data can be retrieved from the database.
++
+include::user:partial$JDBCCommonWeb.adoc[]
++
+include::user:partial$testConnection.adoc[]
+
+. Enter the additional required connection information for your database, such as login credentials. You can obtain this information from your database administrator.
+
+
+
+
+
+
+
+
+. Press btn:[OK].
+
+. Verify that the data source you added is shown with a {buttonCheckIcon}, indicating that the connection was successful.
++
+image:dataSource42Matters3.png[]
++
+If the database is shown with an {buttonError}, this means that the connection was not successful.
++
+image:dataSource42Matters4.png[]
++
+In this case, check the settings to make sure they are correct for your database. See xref:EditConnection.adoc[] for information on how to change connection settings.
+
+After you have created a connection to the database, you can proceed to define a data set. See xref:dataworksheet:Query42Matters.adoc[].

@@ -219,6 +219,10 @@
 :buttonCopy: ‘Copy’ button image:ROOT:buttons/copy.svg[role=button]
 :buttonCopyFormat: ‘Copy Format’ button image:ROOT:buttons/format-painter.svg[role=button]
 :buttonSnapping: ‘Snapping’ button image:ROOT:buttons/snap-grid.svg[role=button]
+:buttonCheckIcon: “check” icon image:ROOT:buttons/submit.svg[role=button]
+:buttonError: ‘Error’ icon image:ROOT:buttons/alert-circle.svg[role=button]
+:buttonObject: ‘Add’ button image:ROOT:buttons/new-objects.svg[role=button]
+:button42MattersQuery: ‘42Matters Query’ image:ROOT:buttons/tabular-subquery.svg[role=button]
 
 
 // Macros
@@ -249,6 +253,10 @@
 :commonScript: See xref:ScriptTab.adoc[] for information about this common tab.
 :commonData: See xref:DataTab.adoc[] for information about this common tab.
 :commonGeneral: See xref:GeneralTab.adoc[] for information about this common tab.
+:multiTenantUser:  For a multi-tenant environment, assign any desired additional connections. See xref:user:AddAdditionalConnection.adoc[] for more information.
+:drivers: https://www.inetsoft.com/support/drivers.jsp[Support Center > Drivers]
+:pluginDriverRequired:  To connect to the data source, first verify that your administrator has installed the correct plugin or driver if the data source requires one. (Almost all relational databases require a driver. Other data sources, such as cloud data sources, may not require a driver.) Plugins and drivers can be obtained from {drivers}, and drivers can also be obtained from the database vendor. If you have the appropriate permission, you may be able to upload the driver by yourself. (See below.)
+
 
 
 

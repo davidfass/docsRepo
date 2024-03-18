@@ -2,6 +2,7 @@
 * xref:user:ConnectToData.adoc[]
 ** xref:user:ViewAvailableDataSources.adoc[]
 ** xref:user:ConnectToDataSource.adoc[]
+*** xref:user:42Matters.adoc[]
 ** xref:user:EditConnection.adoc[]
 ** xref:user:AddAdditionalConnection.adoc[]
 ** xref:user:AddDataSecurity.adoc[]
@@ -56,6 +57,7 @@
 ** xref:dataworksheet:PivotData.adoc[]
 ** xref:dataworksheet:SecureData.adoc[]
 ** xref:dataworksheet:DataBlockProperties.adoc[]
+** xref:dataworksheet:QuerySpecificDataSource.adoc[]
 
 
 // DASHBOARD DESIGN ------------------------------------

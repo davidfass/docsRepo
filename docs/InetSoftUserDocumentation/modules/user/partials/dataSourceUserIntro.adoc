@@ -1,0 +1,9 @@
+Follow the steps below to create a connection:
+
+. Press the top {buttonCreate} in the Portal, and select {buttonDataSource}.
++
+image:user:UploadDriver2.png[]
++
+This opens the data source listing. To locate a data source, select the data source category in the left panel, or enter the data source name in the search field.
++
+image:datasourceList1.png[]

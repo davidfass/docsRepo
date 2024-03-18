@@ -2,7 +2,7 @@
 include::ROOT:partial$buttonSnippets.adoc[]
 include::ROOT:partial$rightClickOptions.adoc[]
 
-To create a data set by defining a new query in the User Portal, follow the steps below:
+To create a data set by defining a new query in the User Portal, follow the steps below.  These instructions show how to do this for a generic relational database.  For other data sources, see xref:QuerySpecificDataSource.adoc[].
 
 . Log into the User Portal.
 . Press the {buttonCreate} at the top  of the User Portal, and select the {buttonWorksheet} option.
